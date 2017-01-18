@@ -33,6 +33,7 @@ course_amount: $3,490
 track_amount: $10,470
 stack: csharp
 google_tag_id: GTM-NGPHTVR
+syllabus: https://student.austincodingacademy.com/_book/dallas-intro.html
 
 # Build settings
 markdown: kramdown

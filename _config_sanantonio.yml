@@ -33,6 +33,7 @@ course_amount: $2,490
 track_amount: $8,970
 stack: csharp
 google_tag_id: GTM-KPK9R39
+syllabus: https://student.austincodingacademy.com/_book/sanantonio-intro.html
 
 # Build settings
 markdown: kramdown
