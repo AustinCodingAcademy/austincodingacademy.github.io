@@ -4,7 +4,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Austin Coding Academy
-header: Austin's Best Value in Coding Education 
+header: Austin's Best Value in Coding Education
 email: info@austincodingacademy.com
 description: >
   At Austin Coding Academy, our job is to bring students to job-ready
@@ -32,6 +32,7 @@ next_session: January 16th, 2017
 course_amount: $2,990
 track_amount: $8,970
 stack: javascript
+google_tag_id: GTM-TBH7GK
 
 # Build settings
 markdown: kramdown

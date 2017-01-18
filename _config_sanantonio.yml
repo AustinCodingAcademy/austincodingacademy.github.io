@@ -5,7 +5,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Austin Coding Academy
 email: info@austincodingacademy.com
-header: San Antonio's Best Value in Coding Education 
+header: San Antonio's Best Value in Coding Education
 description: >
   At San Antonio Coding Academy, our job is to bring students to job-ready
   proficiency. We offer three levels of classes for students: Intro,
@@ -32,6 +32,7 @@ next_session: January 24, 2017
 course_amount: $2,490
 track_amount: $8,970
 stack: csharp
+google_tag_id: GTM-KPK9R39
 
 # Build settings
 markdown: kramdown

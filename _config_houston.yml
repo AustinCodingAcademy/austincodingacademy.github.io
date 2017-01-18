@@ -4,7 +4,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Houston Coding Academy
-header: Houston's Best Value in Coding Education 
+header: Houston's Best Value in Coding Education
 email: info@houstontxcodingacademy.com
 description: >
   At Houston Coding Academy, our job is to bring students to job-ready
@@ -32,6 +32,7 @@ next_session: April 17, 2017
 course_amount: $3,490
 track_amount: $10,470
 stack: csharp
+google_tag_id: GTM-NWVBXXW
 
 # Build settings
 markdown: kramdown
