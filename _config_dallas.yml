@@ -45,3 +45,4 @@ exclude:
   - node_modules
   - package.json
   - vendor
+  - README.md
