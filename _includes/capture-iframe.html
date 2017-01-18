@@ -1,19 +1,19 @@
-<div class="iframe-wrapper">
+<div class="iframe-wrapper" id='iframe-wrapper-{{ include.id }}'>
   <div class="h_iframe">
     <div class="ratio" style="min-height: 340px"></div>
-    <iframe src="/capture.html" frameborder="0"></iframe>
+    <iframe src="/capture.html?id={{ include.id }}" frameborder="0"></iframe>
   </div>
 </div>
-<div id="thank-you" class="hidden">
+<div id="thank-you-{{ include.id }}" class="hidden">
   <div class="alert alert-success text-center" role="alert" >
     <h3 style="margin-top:10px">Thanks! We'll be in touch.</h3>
   </div>
 </div>
 <script>
   window.addEventListener("message", function(e) {
-    if (e.data === 'captured') {
-      document.querySelector('.iframe-wrapper').className = 'hidden';
-      document.querySelector('#thank-you').className = '';
+    if (e.data === 'captured-{{ include.id }}') {
+      document.getElementById('iframe-wrapper-{{ include.id }}').className = 'hidden';
+      document.getElementById('thank-you-{{ include.id }}').className = '';
     }
   });
 </script>
