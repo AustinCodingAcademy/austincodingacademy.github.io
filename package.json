@@ -9,6 +9,7 @@
     "images": "imagemin _images/* --out-dir=assets/images",
     "postinstall": "npm run sass && npm run js && npm run images",
     "build-austin": "bundle exec jekyll build --config _config_austin.yml && echo 'austincodingacademy.com' >> _site/CNAME",
+    "build-dallas": "bundle exec jekyll build --config _config_dallas.yml && echo 'dallascodingacademy.com' >> _site/CNAME",
     "build-houston": "bundle exec jekyll build --config _config_houston.yml && echo 'houstontxcodingacademy.com' >> _site/CNAME",
     "build-sanantonio": "bundle exec jekyll build --config _config_sanantonio.yml && echo 'sanantoniocodingacademy.com' >> _site/CNAME",
     "serve-austin": "bundle exec jekyll serve --config _config_austin.yml && echo 'austincodingacademy.com' >> _site/CNAME",
