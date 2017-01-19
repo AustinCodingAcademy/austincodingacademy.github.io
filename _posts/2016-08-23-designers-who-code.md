@@ -41,7 +41,7 @@ comments: []
 
 
 
-Here at Austin Coding Academy we think our Alumni are rock stars and we want the whole world to know it! They are diving in head first to become badass coders, and taking on the challenge to change their lives. Gizem Yilmaz, a recent ACA graduate, is no exception.
+Here at Austin Coding Academy we think our Alumni are rock stars and we want the whole world to know it! They are diving in head first to become badass coders, and taking on the challenge to change their lives. Gizem Yilmaz, a recent graduate, is no exception.
 
 Working at a Graphic Designer, Gizem was burnt out and struggling to reignite the spark she once had for her career. When she found herself unexpectedly laid off, she began searching for a new job but quickly realized she had lost her competitive edge. Gizem refused to give up; instead, she began focusing on her Web Design skills. She also added some basic coding into the mix. 'I spent every waking hour devouring tutorials, books and blogs about web design,' she explains.
 

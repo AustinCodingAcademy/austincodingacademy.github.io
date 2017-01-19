@@ -71,11 +71,11 @@ Between paying tuition and struggling to find and keep a job, schools have reali
 
 Part time courses can allow you to work a full-time job, run a business, care for your family and see your friends while still having time to learn. With so many courses out there, it's important to consider your choices - what are you passionate about, and what gives you the best opportunities to grow?
 
-Coding is a great skill to have - it opens doors in surprising places. Ever wanted to start your own business as a web developer? Better understand product development in your existing career? Become an UX aficionado? Being able to code doesn't just mean building pretty websites. It's an opportunity to maximise your chance for success.
+Coding is a great skill to have - it opens doors in surprising places. Ever wanted to start your own business as a web developer? Better understand product development in your existing career? Become an UX aficionado? Being able to code doesn't just mean building pretty websites. It's an opportunity to maximize your chance for success.
 
-With Austin Coding Academy's range of part time coding classes and flexible schedules, you can tailor your learning experience to mesh seamlessly with your existing commitments! In as little as six hours per week, ACA can help you to quickly learn coding languages starting with HTML, CSS, and Bootstrap. You'll learn to build apps with JavaScript and jQuery, advancing to full stack programming abilities.
+With our range of part time coding classes and flexible schedules, you can tailor your learning experience to mesh seamlessly with your existing commitments! In as little as six hours per week, we can help you to quickly learn coding languages starting with HTML, CSS, and Bootstrap. You'll learn to build apps with JavaScript and jQuery, advancing to full stack programming abilities.
 
-At ACA, you'll learn coding skills while experiencing a small class size, bi-weekly classes with an optional weekend lab for projects and questions. You'll have the ability to work one-on-one with teachers, and they're also available to support you online whenever you need it.
+With us, you'll learn coding skills while experiencing a small class size, bi-weekly classes with an optional weekend lab for projects and questions. You'll have the ability to work one-on-one with teachers, and they're also available to support you online whenever you need it.
 
 <span style="font-weight: 400;">Whether it's for a change of career, a new skill, or to further your existing knowledge,
 
