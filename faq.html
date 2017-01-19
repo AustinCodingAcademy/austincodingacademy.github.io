@@ -1,72 +1,56 @@
 ---
 layout: default
 permalink: /faq/
-scripts: |
-  <script>
-  $(function() {
-    $('.reviews').slick({
-      dots: true,
-      infinite: true,
-      speed: 300,
-      slidesToShow: 1,
-      autoplay: true,
-      autoplaySpeed: 10000
-    });
-    $('.reviews .review').removeClass('hidden');
-  });
-  </script>
 ---
-<div id="faq">
-  <section>
-    <div class="container">
-      {% include reviews.html %}
-    </div>
-  </section>
-  <section>
-    <div class="container">
-      <h1 class="text-center">FAQ</h1>
-      <br />
-      <div class="row text-center">
-        <div class="col-xs-12 col-md-6">
-          <div class="panel panel-primary">
-            <div class="panel-body">
-              <h4>
-                Below is a list of our most common questions about the program.
-                However, some people just want to speak to a human being and get
-                their questions answered.
-              </h4>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-12 col-md-6">
-          <div class="panel panel-primary">
-            <div class="panel-body">
-              <h2>
-                Have a specific question?
-              </h2>
-              <a class="btn btn-success btn-block">Speak with an advisor</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-        {% for faq in site.data.faqs[site.city] %}
-        <div class="panel panel-default">
-          <div class="panel-heading" role="tab" id="heading{{forloop.index}}">
-            <h4 class="panel-title">
-              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{{forloop.index}}" aria-expanded="true" aria-controls="collapse{{forloop.index}}">
-                {{forloop.index}}. {{faq.question}}
-              </a>
+<section class="bg-primary text-white">
+  <div class="container">
+    {% include reviews.html %}
+  </div>
+</section>
+<section>
+  <div class="container">
+    <h1 class="text-center">FAQ</h1>
+    <br />
+    <div class="row text-center">
+      <div class="col-xs-12 col-md-6">
+        <div class="panel panel-primary">
+          <div class="panel-body">
+            <h4>
+              Below is a list of our most common questions about the program.
+              However, some people just want to speak to a human being and get
+              their questions answered.
             </h4>
           </div>
-          <div id="collapse{{forloop.index}}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading{{forloop.index}}">
-            <div class="panel-body">
-              {{faq.answer}}
-            </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-6">
+        <div class="panel panel-primary">
+          <div class="panel-body">
+            <h2>
+              Have a specific question?
+            </h2>
+            <a href="#" data-toggle="modal" data-target="#contact-modal" class="btn btn-success btn-block">Speak with an advisor</a>
           </div>
         </div>
-        {% endfor %}
       </div>
     </div>
-  </section>
-</div>
+    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+      {% for faq in site.data.faqs[site.city] %}
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="heading{{forloop.index}}">
+          <h4 class="panel-title">
+            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{{forloop.index}}" aria-expanded="true" aria-controls="collapse{{forloop.index}}">
+              {{forloop.index}}. {{faq.question}}
+            </a>
+          </h4>
+        </div>
+        <div id="collapse{{forloop.index}}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading{{forloop.index}}">
+          <div class="panel-body">
+            {{faq.answer}}
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

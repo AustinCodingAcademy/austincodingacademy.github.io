@@ -1,12 +1,15 @@
 <div class="reviews">
   {% for review in site.data.reviews %}
-  <h3 class="hidden review">
-    <div class="pull-left" style="margin-right: 10px">
-      <img src="{{review.img}}" style="max-height: 140px;border-radius: 70px;">
+  <div class="review media hidden">
+    <div class="media-left">
+      <img class="media-object img-circle" src="{{review.img}}" alt="{{review.name}}" style="max-width: 150px; max-height: 150px;">
     </div>
-    {{ review.name }}
-    <br />
-    <small class="text-white">{{ review.review }}</small>
-  </h3>
+    <div class="media-body">
+      <h4 class="media-heading">{{review.name}}
+        <br />
+        <small class="text-white">{{ review.review }}</small>
+      </h4>
+    </div>
+  </div>
   {% endfor %}
 </div>

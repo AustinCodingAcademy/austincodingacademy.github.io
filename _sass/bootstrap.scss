@@ -7,7 +7,7 @@
   // '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/button-groups',
   '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/buttons',
   // '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/carousel',
-  // '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/close',
+  '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/close',
   '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/code',
   '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/component-animations',
   '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/dropdowns',
@@ -18,8 +18,8 @@
   // '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/jumbotron',
   // '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/labels',
   '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/list-group',
-  // '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/media'
-  // '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/modals',
+  '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/media',
+  '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/modals',
   '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/navs',
   '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/navbar',
   '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/normalize',
@@ -38,14 +38,5 @@
   // '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/tooltip',
   '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/type',
   // '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/utilities',
-  '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/wells';
-
-  @import '../node_modules/bootstrap-block-grid/src/bootstrap3-block-grid';
-
-  a.link-white {
-  color: #ffffff;
-  &:hover,
-  &:focus {
-    color: darken(#ffffff, 15%);
-  }
-}
+  '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/wells',
+  '../node_modules/bootstrap-block-grid/src/bootstrap3-block-grid';

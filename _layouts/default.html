@@ -4,6 +4,7 @@
   {% include google-tag-manager.html %}
   <title>{{ page.title }}</title>
   <link href="/assets/stylesheets/app.css" rel="stylesheet" type="text/css">
+  {{ page.styles }}
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{{ site.description }}">
 </head>
@@ -14,8 +15,25 @@
     {{ content }}
   </main>
   {% include footer.html %}
+  {% include contact-modal.html %}
   <script type="text/javascript" src="/assets/javascripts/app.js"></script>
   {{ page.scripts }}
   {% include livechat.html %}
+  <script>
+  $(function() {
+    $('.reviews').each(function() {
+      $(this).slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        autoplay: true,
+        autoplaySpeed: 10000,
+        initialSlide: Math.floor(Math.random() * {{site.data.reviews | size}})
+      });
+    });
+    $('.reviews .review').removeClass('hidden');
+  });
+  </script>
 </body>
 </html>

@@ -1,425 +1,373 @@
 ---
 layout: default
-scripts: |
-  <script>
-  $(function() {
-    $('.typed').each(function() {
-      $(this).typed({
-        typeSpeed: 10,
-        startDelay: 0,
-        backSpeed: 10,
-        backDelay: 3000,
-        loop: true,
-        showCursor: true,
-        cursor: "|",
-        stringsElement: $(this).find('.typed-strings')
-      });
-    });
-    var $cursor = $('.typed-cursor:nth-child(2)');
-    $cursor.prev().insertBefore($cursor);
-    $cursor.addClass('pull-right');
-
-    $('.reviews').slick({
-      dots: true,
-      infinite: true,
-      speed: 300,
-      slidesToShow: 3,
-      slidesToScroll: 3,
-      autoplay: true,
-      autoplaySpeed: 10000,
-      responsive: [
-        {
-          breakpoint: 992,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2,
-            infinite: true,
-            dots: true
-          }
-        },
-        {
-          breakpoint: 600,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
-          }
-        }
-      ]
-    });
-    $('.reviews .review').removeClass('hidden');
-  });
-  </script>
+styles: >
+  <style>
+  section:first-child {
+    background-image: url('/assets/images/Class-background-small-overlay.jpg');
+    padding: 50px 0;
+    background-size: cover;
+  }
+  </style>
 ---
-
-<div id="index">
-  <section>
-    <div class="container">
-      <div class="row text-center text-white">
-        <div class="col-xs-12">
-          <img src="/assets/images/ACA_standard_mark-small-1.png" />
-          <h1>{{site.header}}</h1>
-          <div class="row">
-            <div class="col-xs-12 col-md-6">
-              <a href="apply.html" class="btn btn-success btn-lg btn-block">Sign up now</a>
-            </div>
-            <div class="col-xs-12 col-md-6">
-              <a href="#" class="btn btn-success btn-lg btn-block">Talk with an Advisor</a>
-            </div>
+<section>
+  <div class="container">
+    <div class="row text-center text-white">
+      <div class="col-xs-12">
+        <img src="/assets/images/ACA_standard_mark-small-1.png" />
+        <h1>{{site.header}}</h1>
+        <div class="row">
+          <div class="col-xs-12 col-md-6">
+            <a href="/apply" class="btn btn-success btn-lg btn-block">Sign up now</a>
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <a href="#" data-toggle="modal" data-target="#contact-modal" class="btn btn-success btn-lg btn-block">Talk with an Advisor</a>
           </div>
         </div>
       </div>
     </div>
-  </section>
-  <section>
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <h2>
-            <span class="typed">
-              <div class="typed-strings hidden">
-                <p>Start as an account manager</p>
-                <p>Start as a bartender</p>
-                <p>Start as a graphic designer</p>
-                <p>Start as a marketer</p>
-                <p>Start as a support tech</p>
-                <p>Start as a pedicab driver</p>
-                <p>Start as a paralegal</p>
-                <p>Start as a teacher</p>
-                <p>Start as a physical trainer</p>
-                <p>Start as a general contractor</p>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h2>
+          <span class="typed">
+            <div class="typed-strings hidden">
+              <p>Start as an account manager</p>
+              <p>Start as a bartender</p>
+              <p>Start as a graphic designer</p>
+              <p>Start as a marketer</p>
+              <p>Start as a support tech</p>
+              <p>Start as a pedicab driver</p>
+              <p>Start as a paralegal</p>
+              <p>Start as a teacher</p>
+              <p>Start as a physical trainer</p>
+              <p>Start as a general contractor</p>
+            </div>
+          </span>
+          <span class="typed pull-right text-right">
+            <div class="typed-strings hidden">
+              <p>become a web developer.</p>
+              <p>become a UX/UI designer.</p>
+              <p>become an implementation engineer.</p>
+              <p>become a technical cofounder.</p>
+              <p>become a web designer.</p>
+              <p>become a software developer.</p>
+            </div>
+          </span>
+        </h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-md-8">
+        <ul class="list-unstyled">
+          <li>
+            <h3>
+              <div class="fa-stack fa-lg pull-left" style="margin-right: 10px">
+                <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
+                <i class="fa fa-stack-overflow fa-stack-1x fa-inverse" aria-hidden="true"></i>
               </div>
-            </span>
-            <span class="typed pull-right text-right">
-              <div class="typed-strings hidden">
-                <p>become a web developer.</p>
-                <p>become a UX/UI designer.</p>
-                <p>become an implementation engineer.</p>
-                <p>become a technical cofounder.</p>
-                <p>become a web designer.</p>
-                <p>become a software developer.</p>
+              Full Stack Education
+              <br />
+              <small>
+                Designed to bring you from complete beginner to job ready as a
+                full stack developer in 9 months.
+              </small>
+            </h3>
+          </li>
+          <li>
+            <h3>
+              <div class="fa-stack fa-lg pull-left" style="margin-right: 10px">
+                <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
+                <i class="fa fa-moon-o fa-stack-1x fa-inverse" aria-hidden="true"></i>
               </div>
-            </span>
-          </h2>
-        </div>
+              Evening Classes
+              <br />
+              <small>
+                Classes are held twice a week in the evenings so you don't have
+                to quit your job to jump into a new career.
+              </small>
+            </h3>
+          </li>
+          <li>
+            <h3>
+              <div class="fa-stack fa-lg pull-left" style="margin-right: 10px">
+                <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
+                <i class="fa fa-users fa-stack-1x fa-inverse" aria-hidden="true"></i>
+              </div>
+              Taught by Developers
+              <br />
+              <small>
+                Because our classes are in the evening, we hire the best
+                developers and put them through our industry leading training to turn them into amazing instructors.
+              </small>
+            </h3>
+          </li>
+        </ul>
+        <a href="/courses" class="btn btn-success btn-block">Learn more about our industry leading curriculum</a>
       </div>
-      <div class="row">
-        <div class="col-xs-12 col-md-8">
-          <ul class="list-unstyled">
-            <li>
-              <h3>
-                <div class="fa-stack fa-lg pull-left" style="margin-right: 10px">
-                  <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
-                  <i class="fa fa-stack-overflow fa-stack-1x fa-inverse" aria-hidden="true"></i>
-                </div>
-                Full Stack Education
-                <br />
-                <small>
-                  Designed to bring you from complete beginner to job ready as a
-                  full stack developer in 9 months.
-                </small>
-              </h3>
-            </li>
-            <li>
-              <h3>
-                <div class="fa-stack fa-lg pull-left" style="margin-right: 10px">
-                  <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
-                  <i class="fa fa-moon-o fa-stack-1x fa-inverse" aria-hidden="true"></i>
-                </div>
-                Evening Classes
-                <br />
-                <small>
-                  Classes are held twice a week in the evenings so you don't have
-                  to quit your job to jump into a new career.
-                </small>
-              </h3>
-            </li>
-            <li>
-              <h3>
-                <div class="fa-stack fa-lg pull-left" style="margin-right: 10px">
-                  <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
-                  <i class="fa fa-users fa-stack-1x fa-inverse" aria-hidden="true"></i>
-                </div>
-                Taught by Developers
-                <br />
-                <small>
-                  Because our classes are in the evening, we hire the best
-                  developers and put them through our industry leading training to turn them into amazing instructors.
-                </small>
-              </h3>
-            </li>
-          </ul>
-          <a href="courses.html" class="btn btn-success btn-block">Learn more about our industry leading curriculum</a>
-        </div>
-        <div class="col-xs-12 col-md-4">
-          <div class="panel panel-primary">
-            <div class="panel-heading">
-              <h4 class="text-center">Want to talk to a human?</h4>
-            </div>
-            <div class="panel-body">
-              <h5 class="text-center">If you're short on time or have questions you want answered, fill this out and we'll be in touch.</h5>
-              {% include capture-iframe.html id=1 %}
-            </div>
+      <div class="col-xs-12 col-md-4">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h4 class="text-center">Want to talk to a human?</h4>
+          </div>
+          <div class="panel-body">
+            <h5 class="text-center">If you're short on time or have questions you want answered, fill this out and we'll be in touch.</h5>
+            {% include capture-iframe.html id=1 %}
           </div>
         </div>
       </div>
     </div>
-  </section>
-  <section>
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-md-6">
-          <div class="row">
-            <div class="col-xs-6 text-center">
-              <h2>
-                9
-              </h2>
-              <span>months</span>
-            </div>
-            <div class="col-xs-6">
-              <p>
-                Our classes are broken up into 3 levels that run in 10 week sprints.
-                By this time next year you could be working as a developer.
-              </p>
-            </div>
+  </div>
+</section>
+<section class="bg-primary text-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-6">
+        <div class="row">
+          <div class="col-xs-6 text-center">
+            <h2>
+              9
+            </h2>
+            <span>months</span>
           </div>
-          <hr />
-          <div class="row">
-            <div class="col-xs-6 text-center">
-              <h2>
-                15
-              </h2>
-              <span>hours per week</span>
-            </div>
-            <div class="col-xs-6">
-              <p>
-                Our classes are rigorous but are designed to work around an average
-                schedule, needing about 15 hours a week between class time, homework
-                and studying.
-              </p>
-            </div>
-          </div>
-          <hr />
-          <div class="row">
-            <div class="col-xs-6 text-center">
-              <h2>
-                $64,000
-              </h2>
-              <span>average starting salary</span>
-            </div>
-            <div class="col-xs-6">
-              <p>
-                Our graduates go on to amazing jobs, working for companies all over
-                {{site.city}} and most students are hired within 6 months of graduating,
-                often times much earlier than that.
-              </p>
-            </div>
+          <div class="col-xs-6">
+            <p>
+              Our classes are broken up into 3 levels that run in 10 week sprints.
+              By this time next year you could be working as a developer.
+            </p>
           </div>
         </div>
-        <div class="col-xs-12 col-md-6 text-center">
-          <center>
-            <img src="assets/images/akshaya-teaching.jpeg" class="img-responsive thumbnail" />
-          </center>
+        <hr />
+        <div class="row">
+          <div class="col-xs-6 text-center">
+            <h2>
+              15
+            </h2>
+            <span>hours per week</span>
+          </div>
+          <div class="col-xs-6">
+            <p>
+              Our classes are rigorous but are designed to work around an average
+              schedule, needing about 15 hours a week between class time, homework
+              and studying.
+            </p>
+          </div>
         </div>
-      </div>
-    </div>
-  </section>
-  <section>
-    <div class="container">
-      <div class="row">
-        <div class="xs-col-12 col-md-offset-1 col-md-10 text-center">
-          <h2>Our students work at companies like...</h2>
-          <br />
-          <div class="block-grid-xs-3 block-grid-sm-4">
-            {% for company in site.data.companies %}
-            <div><img class="img-responsive" src="{{ company.logo }}" /></div>
-            {% endfor %}
+        <hr />
+        <div class="row">
+          <div class="col-xs-6 text-center">
+            <h2>
+              $64,000
+            </h2>
+            <span>average starting salary</span>
+          </div>
+          <div class="col-xs-6">
+            <p>
+              Our graduates go on to amazing jobs, working for companies all over
+              {{site.city}} and most students are hired within 6 months of graduating,
+              often times much earlier than that.
+            </p>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <section>
-    <div class="container">
-      <h3 class="text-center">
-        Classes designed for exactly where you are
-      </h3>
-      <h5 class="text-center">
-        At {{site.title}}, our job is to bring students to job-ready
-        proficiency. We offer three levels of classes for students: Intro,
-        Intermediate and Advanced. Each course is ten weeks and by the end of
-        the three courses students will be ready for a full-time developer
-        position.
-      </h5>
-      <div class="row text-center">
-        <div class="col-xs-12 col-md-4">
-          <img src="assets/images/classroom1.jpg" class="img-responsive thumbnail"/>
-          <h3>Intro</h3>
-          The perfect starting point for people jumping into the coding
-          industry. This course will build coding fundamentals and by the end of
-          it, you'll be building professional level websites.
-          <br />
-          <a href="#">Learn more about the Intro Class</a>
-        </div>
-        <div class="col-xs-12 col-md-4">
-          <img src="assets/images/classroom2.jpg" class="img-responsive thumbnail"/>
-          <h3>Intermediate</h3>
-          For those that are already fluent in HTML/CSS and ready to start
-          building applications. In this course students learn object-oriented
-          programming and build a new app every week.
-          <br />
-          <a href="#">Learn more about the Intermediate Class</a>
-        </div>
-        <div class="col-xs-12 col-md-4">
-          <img src="assets/images/classroom3.jpg" class="img-responsive thumbnail"/>
-          <h3>Advanced</h3>
-          The final stage of the ACA curriculum where we put it all together.
-          Students add to their portfolio and build full-stack, professional
-          grade apps that are hosted on Heroku.
-          <br />
-          <a href="#">Learn more about the Advanced Class</a>
-        </div>
+      <div class="col-xs-12 col-md-6 text-center">
+        <center>
+          <img src="assets/images/akshaya-teaching.jpeg" class="img-responsive thumbnail" />
+        </center>
       </div>
     </div>
-  </section>
-  <section>
-    <div class="container">
-      <h2 class="text-center">
-        The Application Process
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="xs-col-12 col-md-offset-1 col-md-10 text-center">
+        <h2>Our students work at companies like...</h2>
         <br />
-        <small>
-          Interested in knowing what the application process looks like? We select
-          students based off of work ethic and desire to learn, so our application
-          process focuses on finding these things.
-        </small>
-      </h2>
-      <div class="row text-center">
-        <div class="col-xs-12 col-md-3">
-          <h3>
-            <div class="fa-stack fa-lg">
-              <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
-              <i class="fa fa-paper-plane-o fa-stack-1x fa-inverse" aria-hidden="true"></i>
-            </div>
-            <br />
-            <br />
-            Submit your application
-            <br />
-            <small>
-              A quick questionnaire for us to get an understanding of your
-              current skill level and goals for taking class. Get started
-              with the form below.
-            </small>
-          </h3>
-        </div>
-        <div class="col-xs-12 col-md-3">
-          <h3>
-            <div class="fa-stack fa-lg">
-              <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
-              <i class="fa fa-phone-square fa-stack-1x fa-inverse" aria-hidden="true"></i>
-            </div>
-            <br />
-            <br />
-            Phone Interview
-            <br />
-            <small>
-              Once we get your application, we'll schedule a phone interview
-              with you. This is for us to get to know you better and also to
-              answer any questions.
-            </small>
-          </h3>
-        </div>
-        <div class="col-xs-12 col-md-3">
-          <h3>
-            <div class="fa-stack fa-lg">
-              <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
-              <i class="fa fa-check fa-stack-1x fa-inverse" aria-hidden="true"></i>
-            </div>
-            <br />
-            <br />
-            Enrollment
-            <br />
-            <small>
-              Classes fill up fast and we want to make sure students can get
-              started on their pre-work as quickly as possible. You'll
-              receive an acceptance decision at the end of your phone
-              interview and will be ready to enroll.
-            </small>
-          </h3>
-        </div>
-        <div class="col-xs-12 col-md-3">
-          <h3>
-            <div class="fa-stack fa-lg">
-              <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
-              <i class="fa fa-code fa-stack-1x fa-inverse" aria-hidden="true"></i>
-            </div>
-            <br />
-            <br />
-            Pre-work
-            <br />
-            <small>
-              Once you're enrolled in class, you'll have some pre-work to
-              complete before the start of term. This helps make sure
-              everyone comes in at the same level.
-            </small>
-          </h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12 col-md-6">
-          <img src="assets/images/graduation.jpg" class="img-responsive thumbnail" />
-        </div>
-        <div class="col-xs-12 col-md-6">
-          <div class="panel panel-primary">
-            <div class="panel-heading">
-              <h4 class="text-center">Ready to begin?</h4>
-            </div>
-            <div class="panel-body">
-              <h5 class="text-center">Fill out this form to start your application</h5>
-              {% include capture-iframe.html id=2 %}
-            </div>
-          </div>
+        <div class="block-grid-xs-3 block-grid-sm-4">
+          {% for company in site.data.companies %}
+          <div><img class="img-responsive" src="{{ company.logo }}" /></div>
+          {% endfor %}
         </div>
       </div>
     </div>
-  </section>
-  <section>
-    <div class="container">
-      <div class="row text-center">
-        <div class="col-xs-12">
-          <h2>What our students are saying</h2>
+  </div>
+</section>
+<section class="bg-warning text-white">
+  <div class="container">
+    <h3 class="text-center">
+      Classes designed for exactly where you are
+    </h3>
+    <h5 class="text-center">
+      At {{site.title}}, our job is to bring students to job-ready
+      proficiency. We offer three levels of classes for students: Intro,
+      Intermediate and Advanced. Each course is ten weeks and by the end of
+      the three courses students will be ready for a full-time developer
+      position.
+    </h5>
+    <div class="row text-center">
+      <div class="col-xs-12 col-md-4">
+        <img src="assets/images/classroom1.jpg" class="img-responsive thumbnail"/>
+        <h3>Intro</h3>
+        The perfect starting point for people jumping into the coding
+        industry. This course will build coding fundamentals and by the end of
+        it, you'll be building professional level websites.
+        <br />
+        <a href="/courses/intro">Learn more about the Intro Class</a>
+      </div>
+      <div class="col-xs-12 col-md-4">
+        <img src="assets/images/classroom2.jpg" class="img-responsive thumbnail"/>
+        <h3>Intermediate</h3>
+        For those that are already fluent in HTML/CSS and ready to start
+        building applications. In this course students learn object-oriented
+        programming and build a new app every week.
+        <br />
+        <a href="/courses/intermediate">Learn more about the Intermediate Class</a>
+      </div>
+      <div class="col-xs-12 col-md-4">
+        <img src="assets/images/classroom3.jpg" class="img-responsive thumbnail"/>
+        <h3>Advanced</h3>
+        The final stage of the ACA curriculum where we put it all together.
+        Students add to their portfolio and build full-stack, professional
+        grade apps that are hosted on Heroku.
+        <br />
+        <a href="/courses/advanced">Learn more about the Advanced Class</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="bg-gray-lighter text-warning">
+  <div class="container">
+    <h2 class="text-center">
+      The Application Process
+      <br />
+      <small>
+        Interested in knowing what the application process looks like? We select
+        students based off of work ethic and desire to learn, so our application
+        process focuses on finding these things.
+      </small>
+    </h2>
+    <div class="row text-center">
+      <div class="col-xs-12 col-md-3">
+        <h3>
+          <div class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
+            <i class="fa fa-paper-plane-o fa-stack-1x fa-inverse" aria-hidden="true"></i>
+          </div>
           <br />
-          <div class="reviews">
-            {% for review in site.data.reviews %}
-            <div class="hidden review">
-              <center>
-                <img src="{{ review.img }}" />
-              </center>
-              <h4>{{ review.name }}</h4>
-              <p>{{ review.review }}</p>
-            </div>
-            {% endfor %}
+          <br />
+          Submit your application
+          <br />
+          <small>
+            A quick questionnaire for us to get an understanding of your
+            current skill level and goals for taking class. Get started
+            with the form below.
+          </small>
+        </h3>
+      </div>
+      <div class="col-xs-12 col-md-3">
+        <h3>
+          <div class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
+            <i class="fa fa-phone-square fa-stack-1x fa-inverse" aria-hidden="true"></i>
+          </div>
+          <br />
+          <br />
+          Phone Interview
+          <br />
+          <small>
+            Once we get your application, we'll schedule a phone interview
+            with you. This is for us to get to know you better and also to
+            answer any questions.
+          </small>
+        </h3>
+      </div>
+      <div class="col-xs-12 col-md-3">
+        <h3>
+          <div class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
+            <i class="fa fa-check fa-stack-1x fa-inverse" aria-hidden="true"></i>
+          </div>
+          <br />
+          <br />
+          Enrollment
+          <br />
+          <small>
+            Classes fill up fast and we want to make sure students can get
+            started on their pre-work as quickly as possible. You'll
+            receive an acceptance decision at the end of your phone
+            interview and will be ready to enroll.
+          </small>
+        </h3>
+      </div>
+      <div class="col-xs-12 col-md-3">
+        <h3>
+          <div class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
+            <i class="fa fa-code fa-stack-1x fa-inverse" aria-hidden="true"></i>
+          </div>
+          <br />
+          <br />
+          Pre-work
+          <br />
+          <small>
+            Once you're enrolled in class, you'll have some pre-work to
+            complete before the start of term. This helps make sure
+            everyone comes in at the same level.
+          </small>
+        </h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-md-6">
+        <img src="assets/images/graduation.jpg" class="img-responsive thumbnail" />
+      </div>
+      <div class="col-xs-12 col-md-6">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h4 class="text-center">Ready to begin?</h4>
+          </div>
+          <div class="panel-body">
+            <h5 class="text-center">Fill out this form to start your application</h5>
+            {% include capture-iframe.html id=2 %}
           </div>
         </div>
       </div>
     </div>
-  </section>
-  <section>
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 text-center">
-          <h2>So what's next?</h2>
-          <div class="row">
-            <div class="col-xs-12 col-md-4">
-              <a href="/faq.html" class="btn btn-success btn-lg btn-block">Frequent Asked Questions</a>
-            </div>
-            <div class="col-xs-12 col-md-4">
-              <a href="/apply.html" class="btn btn-success btn-lg btn-block">Apply Now</a>
-            </div>
-            <div class="col-xs-12 col-md-4">
-              <a href="#" class="btn btn-success btn-lg btn-block">Talk with an Advisor</a>
-            </div>
+  </div>
+</section>
+<section class="bg-primary text-white">
+  <div class="container">
+    <h2 class="text-center">What our students are saying</h2>
+    <br />
+    {% include reviews.html %}
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 text-center">
+        <h2>So what's next?</h2>
+        <div class="row">
+          <div class="col-xs-12 col-md-4">
+            <a href="/faq" class="btn btn-success btn-lg btn-block">
+              Frequent Asked Questions
+            </a>
+          </div>
+          <div class="col-xs-12 col-md-4">
+            <a href="/apply" class="btn btn-success btn-lg btn-block">
+              Apply Now
+            </a>
+          </div>
+          <div class="col-xs-12 col-md-4">
+            <a href="#" data-toggle="modal" data-target="#contact-modal" class="btn btn-success btn-lg btn-block">
+              Talk with an Advisor
+            </a>
           </div>
         </div>
       </div>
     </div>
-  </section>
-</div>
+  </div>
+</section>

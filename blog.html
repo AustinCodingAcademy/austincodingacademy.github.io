@@ -2,27 +2,25 @@
 layout: default
 permalink: /blog/
 ---
-<div id="blog">
-  <section>
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-md-10 col-md-offset-1">
-          <ul>
-            <div class="list-group">
-              {% for post in site.posts %}
-              <a href="{{ post.url }}" class="list-group-item">
-                <h2 class="list-group-item-heading">
-                  {{ post.title }}
-                  <br />
-                  <small>{{ post.date | date: "%a, %b %d, %Y"  }}</small>
-                </h2>
-                <p class="list-group-item-text">{{ post.excerpt }}</p>
-              </a>
-              {% endfor %}
-            </div>
-          </ul>
-        </div>
+<section class="bg-gray-lighter">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-10 col-md-offset-1">
+        <ul>
+          <div class="list-group">
+            {% for post in site.posts %}
+            <a href="{{ post.url }}" class="list-group-item">
+              <h2 class="list-group-item-heading">
+                {{ post.title }}
+                <br />
+                <small>{{ post.date | date: "%a, %b %d, %Y"  }}</small>
+              </h2>
+              <p class="list-group-item-text">{{ post.excerpt }}</p>
+            </a>
+            {% endfor %}
+          </div>
+        </ul>
       </div>
     </div>
-  </section>
-</div>
+  </div>
+</section>

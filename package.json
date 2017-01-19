@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\"",
     "sass": "node-sass --output-style compressed -o assets/stylesheets/ _sass/app.scss --source-map=true",
-    "js": "mkdir -p assets/javascripts && browserify _javascripts/app.js | uglifyjs -c > assets/javascripts/app.js",
+    "js": "mkdir -p assets/javascripts && browserify -g uglifyify _javascripts/app.js --debug | exorcist assets/javascripts/app.js.map > assets/javascripts/app.js",
     "images": "imagemin _images/* --out-dir=assets/images",
     "postinstall": "npm run sass && npm run js && npm run images",
     "build-austin": "bundle exec jekyll build --config _config_austin.yml && echo 'austincodingacademy.com' >> _site/CNAME",
@@ -58,22 +58,30 @@
     "bootstrap-block-grid": "^1.1.7",
     "bootstrap-sass": "^3.3.7",
     "browserify": "^13.3.0",
+    "exorcist": "^0.4.0",
     "font-awesome": "^4.7.0",
     "imagemin-cli": "^3.0.0",
     "jquery": "^3.1.1",
-    "jquery-form": "^3.50.0",
     "node-sass": "^4.3.0",
     "pygments-rouge-css": "^0.1.0",
     "slick-carousel": "^1.6.0",
     "typed.js": "^1.1.1",
+    "uglifyify": "^3.0.4",
     "uglifyjs": "^2.4.10"
   },
   "browser": {
+    "bootstrap.affix": "./node_modules/bootstrap-sass/assets/javascripts/bootstrap/affix.js",
+    "bootstrap.alert": "./node_modules/bootstrap-sass/assets/javascripts/bootstrap/alert.js",
     "bootstrap.button": "./node_modules/bootstrap-sass/assets/javascripts/bootstrap/button.js",
+    "bootstrap.carousel": "./node_modules/bootstrap-sass/assets/javascripts/bootstrap/carousel.js",
     "bootstrap.collapse": "./node_modules/bootstrap-sass/assets/javascripts/bootstrap/collapse.js",
     "bootstrap.dropdown": "./node_modules/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js",
-    "bootstrap.transition": "./node_modules/bootstrap-sass/assets/javascripts/bootstrap/transition.js",
-    "jquery-form": "./node_modules/jquery-form/jquery.form.js"
+    "bootstrap.modal": "./node_modules/bootstrap-sass/assets/javascripts/bootstrap/modal.js",
+    "bootstrap.popover": "./node_modules/bootstrap-sass/assets/javascripts/bootstrap/popover.js",
+    "bootstrap.scrollspy": "./node_modules/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js",
+    "bootstrap.tab": "./node_modules/bootstrap-sass/assets/javascripts/bootstrap/tab.js",
+    "bootstrap.tooltip": "./node_modules/bootstrap-sass/assets/javascripts/bootstrap/tooltip.js",
+    "bootstrap.transition": "./node_modules/bootstrap-sass/assets/javascripts/bootstrap/transition.js"
   },
   "devDependencies": {
     "gh-pages": "^0.12.0",

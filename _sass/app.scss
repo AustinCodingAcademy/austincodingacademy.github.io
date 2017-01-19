@@ -17,15 +17,7 @@ $slick-loader-path: "/assets/images/" !default;
   'variables',
   'bootstrap',
   'header',
-  'footer',
-  'index',
-  'enterprise',
-  'hire',
-  'faq',
-  'about',
-  'post',
-  'blog',
-  'courses';
+  'footer';
 
 // (Your custom CSS Here)
 
@@ -105,8 +97,15 @@ section {
   background-color: $gray-lighter;
 }
 
-html,body {
-  height:100%;
+a.link-white {
+  color: #ffffff;
+  &:hover, &:focus {
+    color: darken(#ffffff, 15%);
+  }
+}
+
+html, body {
+  height: 100%;
 }
 
 .iframe-wrapper {
@@ -128,4 +127,9 @@ html,body {
     width: 100%;
     height: 100%;
   }
+}
+
+.size-thumbnail {
+  max-width: 250px;
+  max-hight: 250px;
 }
