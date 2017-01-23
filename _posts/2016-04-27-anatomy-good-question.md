@@ -1,12 +1,12 @@
 ---
 layout: post
 title: The Anatomy Of A Good Question
-date: '2016-04-27 20:29:05 -0500'
+date: '2016-04-27'
 categories:
   - Uncategorized
   - Blog Post
 tags: []
-comments: []
+
 ---
 Whether you're an Austin Coding Academy student or a professional systems engineer hacking on the [Linux kernel](https://www.kernel.org/), there will always come a time when you, as a programmer, need to ask someone for help. While the saying "There's no such thing as a dumb question" is certainly something I believe, I also believe some questions are constructed better than others. Well constructed questions allows those answering to respond quickly and directly. Enter the anatomy of a good question.
 
@@ -47,7 +47,7 @@ Here are some good programming questions to serve as a reference
 
 
 
-<http://stackoverflow.com/questions/25750594/python-for-loop-with-non-desired-results>
-<http://stackoverflow.com/questions/25754023/python-list-index-out-of-range-error>
-<http://stackoverflow.com/questions/25753339/why-is-this-function-not-giving-consistent-output>
-<http://stackoverflow.com/questions/25752294/xml-parsing-specific-values-python>
+[http://stackoverflow.com/questions/25750594/python-for-loop-with-non-desired-results](http://stackoverflow.com/questions/25750594/python-for-loop-with-non-desired-results)    
+[http://stackoverflow.com/questions/25754023/python-list-index-out-of-range-error](http://stackoverflow.com/questions/25754023/python-list-index-out-of-range-error)  
+[http://stackoverflow.com/questions/25753339/why-is-this-function-not-giving-consistent-output](http://stackoverflow.com/questions/25753339/why-is-this-function-not-giving-consistent-output)  
+[http://stackoverflow.com/questions/25752294/xml-parsing-specific-values-python](http://stackoverflow.com/questions/25752294/xml-parsing-specific-values-python)

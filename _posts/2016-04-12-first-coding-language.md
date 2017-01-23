@@ -1,13 +1,14 @@
 ---
 layout: post
 title: What Coding Language Should I Learn First
+date: '2016-04-12'
 categories:
   - Blog Post
   - Learn to Code
 tags:
   - coding language
   - learn to code
-comments: []
+
 ---
 
 Inevitably when making the decision to learn how to code, one of the big questions that pops up is, "Which coding language should I learn first?" There are literally hundreds to choose from and understanding the differences between them can be tricky.

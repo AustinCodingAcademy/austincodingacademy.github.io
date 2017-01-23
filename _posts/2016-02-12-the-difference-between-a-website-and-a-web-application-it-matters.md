@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Difference Between Websites And Web Applications
-date: 2016-02-12 19:19:02 -0600'
+date: 2016-02-12
 categories:
   - Blog Post
   - Industry Insights
@@ -9,19 +9,19 @@ tags:
   - application
   - web application
   - web site
-comments: []
+
 ---
 
 It is important to understand the differences between websites and web applications. A website is any online digital presence. A web application is any online digital presence driven by an online data source (CMS or other database). Ten years ago, roughly 10% of all websites were data driven web applications. Today, roughly 90% of all websites are data driven applications. Thanks in large part to
 
 
-  <a href="https://wordpress.com/create/" target="_blank">Wordpress</a>
+  [Wordpress](https://wordpress.com/create/){:target="_blank"}
 
 
  and
 
 
-  <a href="https://www.drupal.org/" target="_blank">Drupal</a>
+  [Drupal](https://www.drupal.org/){:target="_blank"}
 
 
 .
@@ -32,7 +32,7 @@ By John Steinmetz, Product Manager at W2O Digital. See original posting [here](h
 
 
 
-# Websites
+# WEBSITES
 
 
 
@@ -91,7 +91,7 @@ Facebook authentication enables developers' applications to interact with the Gr
 **Social plugins (LIKE, ACTIVITY, SHARE, ETC)**
 Social plugins – including the Like Button, Sharing, Recommendations, and Activity Feed – enable developers to provide social experiences to their users with just a few lines of HTML. All social plugins are extensions of Facebook and are specifically designed so no user data is shared with the sites on which they appear. Source: Wikipedia
 
-**Open Graph protocol**
+**Open Graph Protocol**
 The Open Graph protocol enables developers to integrate their pages into the social graph. These pages gain the functionality of other graph objects including profile links and stream updates for connected users. While currently Google still attracts more traffic than any other website, Facebook is a close second. Even without a good internal search engine, Facebook already drives more traffic for some searches, specifically social searches, than Google itself. And in attempting to link Facebook with the rest of the web, the Open Graph is creating Facebook's own extensive and highly interactive version of a search engine. Web pages are turned into Open Graph Objects by adding metadata. As an example, the following is the Open Graph protocol markup for ie Keyboard on Software Master Center: Source: Wikipedia
 
 

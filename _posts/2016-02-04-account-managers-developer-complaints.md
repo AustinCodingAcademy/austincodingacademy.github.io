@@ -1,18 +1,7 @@
 ---
 layout: post
-
-
 title: 'Account Managers Developer Complaints: Solved'
-author:
-  display_name: austincode
-
-  email: luke@austincodingacademy.com
-  url: ''
-
-author_email: luke@austincodingacademy.com
-excerpt: 'In addition to the 5 items every account manager should know, it is important to know how developers see certain situations. There are some misconceptions on how account managers may see developers.'
-date: '2016-02-04 19:35:48 -0600'
-date_gmt: '2016-02-04 19:35:48 -0600'
+date: '2016-02-04'
 categories:
   - Blog Post
   - Industry Insights
@@ -21,7 +10,6 @@ tags:
   - developer
   - software developer
   - web developer
-comments: []
 ---
 
 In addition to the 5 items every account manager should know, it is important to know how developers see certain situations. There are some misconceptions on how account managers may see developers.
@@ -108,28 +96,18 @@ We can shorten the first trip to a city named Brenham, that is about halfway in 
 
 Depending on the project, this is usually never the answer. More resources is the answer to handle additional projects but not completing a single project. In most cases, this is a moot question. We want to exceed expectations in all projects so we will allocate people necessary to complete requests based on project plans and estimates. We don't have the luxury of having a lot of developers sitting around waiting for additional out of scope requests. When we allocate more developers than were assigned, usually they have to be taken off other projects which causes issues in itself.
 
-<div class="sqs-block html-block sqs-block-html" data-block-type="2">
-  <div class="sqs-block-content">
-  <p><strong>Friend or Foe</strong></p>
-
-</div>
-
-</div>
+  **Friend or Foe**
 
 
+If you let it, it can feel adversarial. There is an interesting opportunity for every team member to establish a working relationship with each other. The touchpoints are usually always at an ask or a problem. You should make a point to touch base with dev team members outside of those cases. They will definitely respond better to asks if you do. Also, developers really like to educate non-technical users so engage in questions on how things work. That is a great way to establish trust. Word of caution, don't ever engage in questions immediately following an issue. On the flip side, offer insight into what your job entails. Developers really do not know how difficult your job is. Find a way to make them feel we are all on the same team with a common goal.
 
-<div class="sqs-block html-block sqs-block-html" data-block-type="2"><div class="sqs-block-content">
-  <p>If you let it, it can feel adversarial. There is an interesting opportunity for every team member to establish a working relationship with each other. The touchpoints are usually always at an ask or a problem. You should make a point to touch base with dev team members outside of those cases. They will definitely respond better to asks if you do. Also, developers really like to educate non-technical users so engage in questions on how things work. That is a great way to establish trust. Word of caution, don't ever engage in questions immediately following an issue. On the flip side, offer insight into what your job entails. Developers really do not know how difficult your job is. Find a way to make them feel we are all on the same team with a common goal.</p>
-  <h3><em>Account Manager Developer Complaint 4: </em><em>“I thought they work for us, feels like they work for the client.”</em></h3>
+## _Account Manager Developer Complaint 4: “I thought they work for us, feels like they work for the client.”_
 
-  <p>Developers will ask this question when account / project managers don't take time to understand how the ask will affect the current progress of the project. They do not understand that it is your job to ask those questions and that you are caught in the crossfire between development execution and client wants. Each developer is unique and you should figure out how each responds to certain ways of handling things.</p>
-  <p>Align yourself with people you can trust. If a developer is combative, its a good thing. That usually means that they see something that can affect expectations. It is never good to not have that voice telling you the reality of the situation. Ideally, we would have a complete process with no holes. That is a Utopia that all of us hope for but is not achievable. Avoid the “Know It All” guys and align with the “Educator” types. It will serve you well.</p>
+Developers will ask this question when account / project managers don't take time to understand how the ask will affect the current progress of the project. They do not understand that it is your job to ask those questions and that you are caught in the crossfire between development execution and client wants. Each developer is unique and you should figure out how each responds to certain ways of handling things.
 
-</div>
-If you want to run some of these concepts by developers here in Austin, Texas, feel free to head to a developer meetup like
-  <a href="http://www.refreshaustin.org/" target="_blank">Refresh Austin</a>
+Align yourself with people you can trust. If a developer is combative, its a good thing. That usually means that they see something that can affect expectations. It is never good to not have that voice telling you the reality of the situation. Ideally, we would have a complete process with no holes. That is a Utopia that all of us hope for but is not achievable. Avoid the “Know It All” guys and align with the “Educator” types. It will serve you well.
+
+If you want to run some of these concepts by developers here in Austin, Texas, feel free to head to a developer meetup like               [Refresh Austin](http://www.refreshaustin.org/){:target="_blank"}
 , or
-  <a href="https://www.meetup.com/bleeding-edge-web/" target="_blank">Bleeding Edge Web</a>
- and strike up a conversation.<p>
-</p><p>
-</p></div>
+[Bleeding Edge Web](https://www.meetup.com/bleeding-edge-web/){:target="_blank"}
+ and strike up a conversation.

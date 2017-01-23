@@ -7,7 +7,7 @@ categories:
 tags:
   - Venture Deals
   - Brad Feld
-comments: []
+
 ---
 
 Book Review of [Venture Deals](http://www.askthevc.com/) by Brad Feld and Jason Mendelson (Short Version)
@@ -26,11 +26,7 @@ They also don't waste any time. On page two they boil the term sheet down to tho
 
 The book also isn't just a long vocabulary lesson; it's packed with relevant information. For example, you want to make sure that your lawyer agrees to a modest fee cap before hiring her for an early round of fundraising.
 
-# "There are two main things startup founders need to pay attention to
-
-
-
-# when negotiating with investors: economics and control."
+# "There are two main things startup founders need to pay attention to when negotiating with investors: economics and control."
 
 
 Along with law and finance advice, they dive into a specific mindset and formula to use when going about raising money. The authors explain that when they meet people who say they are "trying to raise money," "testing the waters," or "exploring different options," they are instantly turned off and smell uncertainty. Besides being completely decided on your choice to go with funding, you need to determine how much you are going to raise. The authors explain that while complex financial models are good to have, they much prefer you, as a founder, focused on a length of time you want to fund your company to get to the next meaning milestone. If you are brand new, how long will it take to get your first product shipped? How long until a specific number of users, or a specific amount of revenue?

@@ -5,7 +5,7 @@ layout: post
 title: Top Resources for Learning Programming and Coding News
 author:
   display_name: austincode
-  
+
   email: luke@austincodingacademy.com
   url: ''
 
@@ -20,7 +20,7 @@ comments: []
 
 
 
-# **WHY SHOULD I EVEN READ PROGRAMMING NEWS?**
+#### **WHY SHOULD I EVEN READ PROGRAMMING NEWS?**
 
 
 New libraries, paradigms, projects, and opinions are introduced into the programming world on a daily basis. Discovering these exciting, new contributions can be time consuming without knowing where to look. We've compiled a list of resources for programming news so you can stay current and stay informed!
