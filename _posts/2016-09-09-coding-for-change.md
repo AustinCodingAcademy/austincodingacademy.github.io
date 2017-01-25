@@ -1,23 +1,12 @@
 ---
 layout: post
-
-
 title: 'Austin Coding Academy Alumni Spotlight: Eddie Garcia'
-author:
-  display_name: Rachel Forster
-  login: seeraewrite
-  email: racheljmforster@gmail.com
-  url: ''
-author_login: seeraewrite
-author_email: racheljmforster@gmail.com
-date: '2016-09-09 18:25:26 -0500'
-date_gmt: '2016-09-09 18:25:26 -0500'
+date: '2016-09-09'
 categories:
   - Blog Post
   - Learn to Code
   - Industry Insights
 tags: []
-comments: []
 ---
 
 
@@ -25,13 +14,7 @@ comments: []
 # **Helping the world by learning how to code**
 
 
-
-
-
-
-
-
-<span style="font-weight: 400;">Bartender turned Web Developer, Eddie Garcia is changing the Austin techscape. A part time mixologist and full time entrepreneur, he graduated Austin Coding Academy with flying colors!
+Bartender turned Web Developer, Eddie Garcia is changing the Austin techscape. A part time mixologist and full time entrepreneur, he graduated Austin Coding Academy with flying colors!
 
 Born and raised here in Austin, Eddie is a family-centric guy, and passionate entrepreneur. Along with his girlfriend and best friends, he's a founder of web design and strategy company Moonlight Grammar Interactive. He's also one of the instructors at ACA, and he's enthusiastic about helping his students to learn in an encouraging, supportive environment.
 

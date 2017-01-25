@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Top 5 Beginner HTML Questions
-date: '2016-11-29 20:09:09 -0600'
+date: '2016-11-29'
 ---
 #### Below are a list of the top 5 Intro to HTML/CSS questions we get at Austin Coding Academy
 Answers provided by Joe McCullough

@@ -1,22 +1,11 @@
 ---
 layout: post
-
-
 title: 5 Tips to Master Programming Faster
-author:
-  display_name: austincode
-
-  email: luke@austincodingacademy.com
-  url: ''
-
-author_email: luke@austincodingacademy.com
-date: '2016-06-13 20:56:33 -0500'
-date_gmt: '2016-06-13 20:56:33 -0500'
+date: '2016-06-13'
 categories:
   - Blog Post
   - Learn to Code
 tags: []
-comments: []
 ---
 
 Think it takes years to master programming? Well, think again! There are things you can do in your spare time daily to master programming faster. Check out our five tips below.

@@ -3,21 +3,14 @@ layout: post
 
 
 title: 'Austin Coding Academy Alumni Spotlight: Christa Clark'
-author:
-  display_name: Rachel Forster
-  login: seeraewrite
-  email: racheljmforster@gmail.com
-  url: ''
-author_login: seeraewrite
-author_email: racheljmforster@gmail.com
-date: '2016-08-24 15:18:03 -0500'
-date_gmt: '2016-08-24 15:18:03 -0500'
+date: '2016-08-24'
 categories:
   - Blog Post
   - Learn to Code
   - Industry Insights
 tags: []
-comments: []
+published:
+  - false
 ---
 
 
@@ -25,13 +18,7 @@ comments: []
 # **Cracking the code to building a career in tech** without a college degree
 
 
-
-
-
-
-
-
-<span style="font-weight: 400;">Are you wondering what you'll do with your newfound coding abilities after you graduate? Here at Austin Coding Academy, we're very proud of our alumni.
+Are you wondering what you'll do with your newfound coding abilities after you graduate? Here at Austin Coding Academy, we're very proud of our alumni.
 
 Recent graduate Christa Clark is a native Austinite, who is using her skills to tackle enterprise-level products for what she happily calls a 'badass agency with a brilliant group of engineers and designers'.
 A natural born traveller who's explored the world, she's not a nine-to-fiver. For her, learning to code was a way to embrace her nomadic nature. 'The idea of working from anywhere and building digital products was really romantic to me,' says Christa.
@@ -42,19 +29,7 @@ She's a coffee-shop worker who contracts, sometimes going into the office. Colle
 
 When asked about her hobbies, she laughs and asks 'does coding count?'. She's fit - obsessed with finding the perfect diet and exercise plan, currently focussing on paleo and ketogenics. She throws herself into her interests with intensity, applying the same, consuming passion to coding, joking that she's thankful for choosing it because 'that's now something I have a career in'.
 
-# "For a few thousand dollars,
-
-
-
-# I got something more valuable
-
-
-
-# than I could have ever asked
-
-
-
-# from a bachelor's degree."
+# "For a few thousand dollars, I got something more valuable than I could have ever asked from a bachelor's degree."
 
 
 
@@ -77,7 +52,7 @@ I asked her what coding did to her life. 'Transformed it!', she responded passio
 
 --------------------------------------------------------------------------------
 
-## There is a lot to gain from learning how to code. [→ Check out our courses today!](http://www.austincodingacadmey.com/courses)
+## There is a lot to gain from learning how to code. [→ Check out our courses today!](http://www.austincodingacadmey.com/courses) <!-- DEAD LINK -->
 
 
 

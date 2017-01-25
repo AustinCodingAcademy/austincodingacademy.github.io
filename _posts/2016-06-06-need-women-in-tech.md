@@ -1,23 +1,11 @@
 ---
 layout: post
-
-
 title: Do We Need More Women in Tech?
-author:
-  display_name: austincode
-
-  email: luke@austincodingacademy.com
-  url: ''
-
-author_email: luke@austincodingacademy.com
-
-date: '2016-06-06 17:18:36 -0500'
-date_gmt: '2016-06-06 17:18:36 -0500'
+date: '2016-06-06'
 categories:
   - Blog Post
   - Industry Insights
 tags: []
-comments: []
 ---
 
 There's a well-documented deficiency of women in tech fields, one that is long lasting and becoming more pronounced as we move towards a more digital society.
@@ -37,7 +25,7 @@ So what if young girls just aren't as interested in coding and computer science 
 
 It's a valid point; aspects of childhood simply condition gendered occupations, but in this case, there's a small problem with that line of thinking:
 
-## Girls _Are_ Interested in Computers at a Young Age
+# Girls _Are_ Interested in Computers at a Young Age
 
 
 A group that promotes female participation in tech fields reports that [74 percent](http://techcrunch.com/2016/05/10/the-lack-of-women-in-tech-is-more-than-a-pipeline-problem/) of young girls show an interest in STEM fields like computer science, yet a much smaller portion actually pursue them in higher education. Many of the women that do enter the tech industry, don't do it to train as software developers, but rather in positions that one source calls ["tech-adjacent"](https://www.themuse.com/advice/why-we-need-to-rethink-women-in-tech).
@@ -67,5 +55,3 @@ More than simply being efficient with investments, diversity is a positive aspec
 The computer science industry is a lucrative combination of fast-growing and high paying, and an increase in women in tech is just the shot in the arm that the sector needs to sustain quality as it grows.
 
 Luckily, there are options for girls to learn to code, now more than ever. Specialized schools like the [Austin Coding Academy](//www.austincodingacademy.com/what-we-stand-for/) are popping up all over the country, providing affordable and multi-faceted options for girls and women to enter a traditionally male-dominated field.
-
-##

@@ -1,24 +1,13 @@
 ---
 layout: post
-
-
 title: Who is Austin Coding Academy
-author:
-  display_name: Rachel Forster
-  login: seeraewrite
-  email: racheljmforster@gmail.com
-  url: ''
-author_login: seeraewrite
-author_email: racheljmforster@gmail.com
-date: '2016-08-23 19:19:12 -0500'
-date_gmt: '2016-08-23 19:19:12 -0500'
+date: '2016-08-23'
 categories:
   - Uncategorized
 tags: []
-comments: []
 ---
 
-<span style="font-weight: 400;">Founders of Austin Coding Academy Luke Filipos and Chris Sica met during college, and have been practically inseparable ever since.
+Founders of Austin Coding Academy Luke Filipos and Chris Sica met during college, and have been practically inseparable ever since.
 
 Luke hails from Portland, Maine. A child of entrepreneurs, he always wanted to run his own company. He's a traveller, with thirty-two countries under his belt. He's a great cook, happily entertaining large groups of people, and working off his overindulgences with Brazilian Jiu Jitsu.
 
@@ -58,7 +47,7 @@ The curriculum was written by developer friends who agreed to teach part-time. A
 
 The first class is designed for beginners, teaching them the infrastructure of the web while building websites in HTML, CSS, Bootstrap, jQuery, and a bit of JavaScript. Soon after completing the first semester, they realized their students were hooked, and the intermediate and advanced classes were soon introduced.
 
-This extended program provides an opportunities to jump into a development career. The part-time classes are a perfect fit for students with busy lives, full time jobs, families and other commitments. After two years, ACA has built an excellent curriculum and a personalised approach to teaching.
+This extended program provides an opportunities to jump into a development career. The part-time classes are a perfect fit for students with busy lives, full time jobs, families and other commitments. After two years, ACA has built an excellent curriculum and a personalized approach to teaching.
 
 Luke explains this methodology. 'Our classes are designed to be very practical, and we've cut a lot of the fat from traditional educational institutions. Students are building projects and learning skills that are directly applicable to a wide area of jobs in the tech industry. We're very much "teaching a man to fish" so to speak, by giving students the tools to build powerful web programs and sites; things that are valuable and useable.'
 
