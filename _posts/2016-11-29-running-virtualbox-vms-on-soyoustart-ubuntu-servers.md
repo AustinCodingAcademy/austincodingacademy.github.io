@@ -1,32 +1,23 @@
 ---
 layout: post
-
-
 title: Running Virtualbox VMS On Soyoustart Ubuntu Servers
-author:
-  display_name: austincode
-
-  email: luke@austincodingacademy.com
-  url: ''
-
-author_email: luke@austincodingacademy.com
-date: '2016-11-29 19:45:28 -0600'
-date_gmt: '2016-11-29 19:45:28 -0600'
+date: '2016-11-29'
 categories:
   - Learn to Code
   - Advanced
 tags: []
-comments: []
 ---
 
 By Joe McCullough
 
 After installing Ubuntu on my [SoYouStart](https://www.soyoustart.com/us/) machine (amazing machines for the price by the way), the first thing I did was attempt to install [Vagrant](https://www.vagrantup.com/) and [VirtualBox](https://www.virtualbox.org/wiki/Downloads).
 
-After attempting to run vagrant up, I was greeted with the following error:[/cs_text][/cs_column][/cs_row][cs_row inner_container="true" marginless_columns="false" style="margin: 0px auto;padding: 0px;"][cs_column fade="false" fade_animation="in" fade_animation_offset="45px" fade_duration="750" type="1/1" style="padding: 0px;"][x_code]~/vms/server$ vagrant up
+After attempting to run vagrant up, I was greeted with the following error:
 VirtualBox is complaining that the installation is incomplete. Please
 run `VBoxManage --version` to see the error message which should contain
-instructions on how to fix this error.[/x_code][/cs_column][/cs_row][cs_row inner_container="true" marginless_columns="false" style="margin: 0px auto;padding: 0px;"][cs_column fade="false" fade_animation="in" fade_animation_offset="45px" fade_duration="750" type="1/1" style="padding: 0px;"][cs_text]THE PROBLEM ORIGIN
+instructions on how to fix this error.
+
+THE PROBLEM ORIGIN
 The origin of the problem is likely that the server was built on a custom kernel. You can verify this by executing the following command:
 
 `$ uname -r`

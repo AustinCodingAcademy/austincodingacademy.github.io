@@ -1,21 +1,10 @@
 ---
 layout: post
-
-
 title: 5 Free Coding Websites for Beginners - Learn How to Code without the Cost
-author:
-  display_name: austincode
-  
-  email: luke@austincodingacademy.com
-  url: ''
-
-author_email: luke@austincodingacademy.com
-date: '2016-11-29 20:05:11 -0600'
-date_gmt: '2016-11-29 20:05:11 -0600'
+date: '2016-11-29'
 categories:
   - Learn to Code
 tags: []
-comments: []
 ---
 
 This article will cover some great coding websites for beginners and where to find them.
@@ -33,37 +22,37 @@ The next step from there was to look for a more structured learning model, but I
 
 Whether you are looking to advance your career, supplement your skill set, or just love to learn, these five websites below offer instant and interactive courses to teach you programming languages… for free. Trust me, I'm not only a sponsor (not really), I'm also a member (really)...
 
-# [**CODECADEMY**](https://www.codecademy.com/)
+### [CODECADEMY](https://www.codecademy.com/)
 
 
 
 By far the most well-known of the coding websites for beginners on this list, Codecademy.com offers well-structured, interactive courses covering the basics in Web Fundamentals, JavaScript, JQuery, Python, PHP, Ruby and APIs.  
 
- 
 
-Inside each course, you are given simple-to-understand instructions, helpful tips, and a user-friendly console to test out if your code is acceptable. If you make mistakes, you are given an error message and hints for completing each lesson. It's like having an instructor looking over your shoulder the entire time. 
+
+Inside each course, you are given simple-to-understand instructions, helpful tips, and a user-friendly console to test out if your code is acceptable. If you make mistakes, you are given an error message and hints for completing each lesson. It's like having an instructor looking over your shoulder the entire time.
 
 The greatest part of Codecademy is that all the courses are free to use, but they do offer premium account level for additional projects and advanced tutorials. The site is great for a beginner looking for the structure of traditional coursework.
 
-# [**CODE AVENGERS**](https://www.codeavengers.com/)
+### [CODE AVENGERS](https://www.codeavengers.com/)
 
 
 
 Code Avengers specifically designs their courses to appeal to all ages, so you know that they are going to be fun to work through. When you start a new course, you are asked a few simple questions to better tailor the tutorial to your learning environment, and you can choose whether to use video or text tutorials.
 
- 
 
-Right now, they only offer HTML5, CSS3, JavaScript, and Python, but they offer courses specifically designed to teach you how to build web pages, apps, or games as the outcome. 
+
+Right now, they only offer HTML5, CSS3, JavaScript, and Python, but they offer courses specifically designed to teach you how to build web pages, apps, or games as the outcome.
 
 This site is great for beginners who want to be entertained as they learn. Honestly, who doesn't?
 
-# [CODE SCHOOL](https://www.codeschool.com/)
+### [CODE SCHOOL](https://www.codeschool.com/)
 
 
 
 Once you've worked through Codecademy or Code Avengers, I recommend checking out Code School. They offer more in-depth coursework that provides a clear path and more masterful grasp on each language. Definitely one of our best coding websites for beginners.
 
- 
+
 
 Right now, you can choose one of four paths for becoming an expert:
 
@@ -77,17 +66,17 @@ Right now, you can choose one of four paths for becoming an expert:
 
 Nearly all the courses are packed full of well-written screencasts and polished design. The challenges that follow each lesson aren't for the weak-willed, so consider yourself warned. Luckily there are hints to help you along the way. While most courses are free, some will prompted you to upgrade to a premium account in order to finish the entire course. For a small subscription fee, you get access to all the courses across the entire site.
 
-# [TREEHOUSE](https://teamtreehouse.com/)
+### [TREEHOUSE](https://teamtreehouse.com/)
 
 
 
 If you like to master big concepts by building real projects, such as a responsive website, WordPress theme or application, Treehouse is a great place to learn programming with a purpose. You can build a foundation of knowledge in their vast offering of courses with a video + quiz format, each broken out into stages or modules.
 
- 
+
 
 Once you get past the first stage, however, you will be prompted to upgrade to a premium account for a small subscription fee. If you are serious about your coding chops at this point, this is a good investment as you get access to all 650+ videos.
 
-# [LYNDA.COM](http://www.lynda.com/)
+### [LYNDA.COM](http://www.lynda.com/)
 
 
 
@@ -95,20 +84,18 @@ Okay, so I lied to you… Lynda.com might be the most well-known site on this li
 
 As you know or will soon find out, learning a programming language is like getting a tattoo, once you get one, you want to be covered in ink from head to toe by the end of the month… but it never happens. If you want to fall down an endless well of programming languages on Lynda.com, it CAN happen.
 
- 
 
-Lynda.com offers over 121 programming languages, 400 different courses and nearly 18,000 video tutorials for their Web Developer track alone. 
 
-Holy shenanigans, Batman, all that for free?! Well, not exactly. You can try it out with a free 10-day trial and get unlimited access to their coursework and featured experts. If you want to make a small investment in continuous learning, check out Lynda.com as an option. 
+Lynda.com offers over 121 programming languages, 400 different courses and nearly 18,000 video tutorials for their Web Developer track alone.
 
-You can't get a tattoo on there, but you can permanently "ink" some serious language knowledge in your brain. While this is definitely one of the better coding websites for beginners, this route is definitely for someone who has a developed a little chops and looking to take their coding game to 11. 
+Holy shenanigans, Batman, all that for free?! Well, not exactly. You can try it out with a free 10-day trial and get unlimited access to their coursework and featured experts. If you want to make a small investment in continuous learning, check out Lynda.com as an option.
 
-## **LEARN HOW TO CODE TODAY, SAVE THE UNIVERSE TOMORROW**
+You can't get a tattoo on there, but you can permanently "ink" some serious language knowledge in your brain. While this is definitely one of the better coding websites for beginners, this route is definitely for someone who has a developed a little chops and looking to take their coding game to 11.
+
+#### **LEARN HOW TO CODE TODAY, SAVE THE UNIVERSE TOMORROW**
 
 
 
 Whether you are looking to advance your career, supplement your skill set, or just love to learn, these five coding websites for beginners offer instant and interactive courses to teach you programming languages like HTML5, CSS3, JavaScript, Python, PHP, and Ruby. From videos, screencasts and tutorials, you will be taught best practices by industry professionals and programmers.
 
 Who knows, it could be your first step toward mastering a programming language, changing your entire life, meeting the person of your dreams, raising a few unicorns, and possibly saving the entire "frakking" universe...
-
-

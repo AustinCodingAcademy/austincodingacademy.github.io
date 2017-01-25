@@ -1,26 +1,15 @@
 ---
 layout: post
-
-
 title: Applying Part 2
-author:
-  display_name: Kristen Cabrera
-  login: kmcabrera22
-  email: kmcabrera22@gmail.com
-  url: ''
-author_login: kmcabrera22
-author_email: kmcabrera22@gmail.com
-date: '2016-11-19 04:11:05 -0600'
-date_gmt: '2016-11-19 04:11:05 -0600'
+date: '2016-11-19'
 categories:
   - Uncategorized
 tags: []
-comments: []
 ---
 
 
 
-# **THE ASSIGNMENT**
+### The Assignment
 
 
 I chose one of the two prompts and began to ponder. "What is an important truth you believe that very few people agree with you on?" It took me a while to digest this and mull it over. Were there any real truths about myself? What is a substantial truth, really? I like corndogs. That's a truth. They're not substantial, but are delicious.
@@ -31,7 +20,7 @@ I chose one of the two prompts and began to ponder. "What is an important truth 
 
 
 
-<div>Keeping the prompt open,  I scrolled through Facebook rolling my eyes when I came across a post with a long arguing comment section. I scrolled past and scoffed at the share of a very biased political piece that was in one direction and laughed that under it was another shared biased piece of the opposite persuasion. Immediately over-it, I was relieved by the copious amount of dog and baby pictures because Facebook knows I literally like those the most often.</div>
+Keeping the prompt open,  I scrolled through Facebook rolling my eyes when I came across a post with a long arguing comment section. I scrolled past and scoffed at the share of a very biased political piece that was in one direction and laughed that under it was another shared biased piece of the opposite persuasion. Immediately over-it, I was relieved by the copious amount of dog and baby pictures because Facebook knows I literally like those the most often.
 
 
 Then DING! I had my fished out idea for the essay. I worked on it for about 3 hours then took another hour to edit it (looking at it now I've seen some things I missed). You can read it here in the accompanying blog post called "An example of an ACA Application Essay."
@@ -44,10 +33,10 @@ Once I finished the essay I dug into the python code. ACA recommended we use any
 
 All and all the assignment took about five-ish hours. Now all I had to do was wait and I didn't have to wait long.
 
-# **GETTING ACCEPTED**
+### Getting Accepted  
 
 
-As you've probably guess I got accepted into Austin Coding Academy. I was worried about dealing with such a quick acceptance/turnaround time. But they got back to me the next day in the afternoon and It was official.
+As you've probably guess I got accepted into Austin Coding Academy. I was worried about dealing with such a quick acceptance/turnaround time. But they got back to me the next day in the afternoon and it was official.
 
 
 

@@ -1,18 +1,7 @@
 ---
 layout: post
-
-
 title: What are Website or Browser Cookies?
-author:
-  display_name: austincode
-
-  email: luke@austincodingacademy.com
-  url: ''
-
-author_email: luke@austincodingacademy.com
-
-date: '2016-05-10 18:25:37 -0500'
-date_gmt: '2016-05-10 18:25:37 -0500'
+date: '2016-05-10'
 categories:
   - Blog Post
   - Industry Insights
@@ -21,13 +10,12 @@ tags:
   - cookies
   - internet cookies
   - tracking cookies
-comments: []
 ---
 
 Internet browsing has come a long way and it's gotten smarter and more user friendly. Browsers have improved your user experience by remembering when you visit pages, what your language preference is, they can even tailor advertisements you see online to be more relevant to your specific interests. If you've ever wondered how this is possible, the answer is simply cookies. The internet is full of them, like a bottomless jar of gooey chocolate deliciousness.
 Before you start craving your laptop, let's explore what cookies are.
 
-# What Are Cookies?
+### **What Are Cookies?**
 
 
 First of all, they are not edible, but I'm sure you've already figured that out!
@@ -36,7 +24,7 @@ They are mainly used to anonymously collect information about you such as age, l
 
 
 
-# Types of Cookies
+### **Types of Cookies**
 
 
 Not all cookies are created equal, therefore they don't all perform the same functions.
@@ -74,7 +62,7 @@ Not all cookies are created equal, therefore they don't all perform the same fun
 
 
 
-# How To Manage Them
+### **How To Manage Them**
 
 
 Cookies have made browsing the internet simpler and more complicated simultaneously.
@@ -88,10 +76,9 @@ One way to find out who is adding cookies is using the [free Ghostery Browser Ex
 Another way to manage cookies is with the Settings option in your browser.
 Follow these links for instructions on how to adjust the privacy settings in your browser:
 
-**Chrome:** <https://support.google.com/chrome/answer/95647?hl=en>
-**Firefox:** <https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences>
-**Internet Explorer:** <http://windows.microsoft.com/en-us/internet-explorer/delete-manage-cookies#ie=ie-11>
-**Safari:**
-**Safari 6/7:** <https://support.apple.com/kb/PH17191?locale=en_US>
-**Safari 8:** <https://support.apple.com/kb/PH19214?locale=en_US>
-**Ipad & Iphone:** <https://support.apple.com/en-il/HT201265>
+- **Chrome:** [www.austincodingacademy.com/wp-content/uploads/2016/04/rgb.jpg](https://support.google.com/chrome/answer/95647?hl=en)
+- **Firefox:** [https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences](https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences)
+- **Internet Explorer:** [http://windows.microsoft.com/en-us/internet-explorer/delete-manage-cookies#ie=ie-11](http://windows.microsoft.com/en-us/internet-explorer/delete-manage-cookies#ie=ie-11)
+- **Safari 6/7:** [https://support.apple.com/kb/PH17191?locale=en_US](https://support.apple.com/kb/PH17191?locale=en_US)
+- **Safari 8:** [https://support.apple.com/kb/PH19214?locale=en_US](https://support.apple.com/kb/PH19214?locale=en_US)
+- **Ipad & Iphone:** [https://support.apple.com/en-il/HT201265](https://support.apple.com/en-il/HT201265)

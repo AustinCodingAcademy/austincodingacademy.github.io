@@ -1,37 +1,20 @@
 ---
 layout: post
-
-
 title: 'Austin Coding Academy Alumni Spotlight: Eddie Garcia'
-author:
-  display_name: Rachel Forster
-  login: seeraewrite
-  email: racheljmforster@gmail.com
-  url: ''
-author_login: seeraewrite
-author_email: racheljmforster@gmail.com
-date: '2016-09-09 18:25:26 -0500'
-date_gmt: '2016-09-09 18:25:26 -0500'
+date: '2016-09-09'
 categories:
   - Blog Post
   - Learn to Code
   - Industry Insights
 tags: []
-comments: []
 ---
 
 
 
-# **Helping the world by learning how to code**
+### **Helping the world by learning how to code**
 
 
-
-
-
-
-
-
-<span style="font-weight: 400;">Bartender turned Web Developer, Eddie Garcia is changing the Austin techscape. A part time mixologist and full time entrepreneur, he graduated Austin Coding Academy with flying colors!
+Bartender turned Web Developer, Eddie Garcia is changing the Austin techscape. A part time mixologist and full time entrepreneur, he graduated Austin Coding Academy with flying colors!
 
 Born and raised here in Austin, Eddie is a family-centric guy, and passionate entrepreneur. Along with his girlfriend and best friends, he's a founder of web design and strategy company Moonlight Grammar Interactive. He's also one of the instructors at ACA, and he's enthusiastic about helping his students to learn in an encouraging, supportive environment.
 
@@ -39,7 +22,7 @@ Eddie is continually learning and exploring - he loves creating in the kitchen, 
 
 
 
-## **How it all began: a desire for growth**
+### **How it all began: a desire for growth**
 
 
 After working at a loading dock after high school, he very quickly realized he needed to continue his education. 'I realized a small school was for me', he explains. Attending Sul Ross State in Alpine for three years, ('Go Lobos!, he adds enthusiastically), he was unable to graduate when a family emergency unexpectedly brought him back to Austin - something he still regrets.
@@ -50,7 +33,7 @@ He waited tables through school, and worked in a bar upon his return. 'I got goo
 
 
 
-## **Changing the game: Learn to Code To Become An Entrepreneur.**
+### **Changing the game: Learn to Code To Become An Entrepreneur.**
 
 
 After ten years in the bar scene, cogs started ticking and - always eager to expand his repertoire - Eddie caught the startup bug. 'I'd learned so much about drinks, and people, and business. My girlfriend and I began a bar and beverage consulting business, and then another lightbulb went off. I needed more revenue and, since I was burned out on bartending for the moment, I needed more education'.
@@ -65,7 +48,7 @@ He enrolled in the introductory class and quickly became hooked. 'I've never bee
 
 
 
-## **Helping others: coding for change**
+### **Helping others: coding for change**
 
 
 Coding is not just another outlet for creativity for Eddie Garcia. Always the philanthropist, he explains how coding has helped him change not only his life, but the lives of local entrepreneurs. 'Getting a call from a local business owner who wants to thank me for helping them see possibilities, or reinvigorating them with new ideas, is one of the best feelings there is'.
@@ -82,7 +65,7 @@ For Eddie, learn how to code has opened up another avenue for him to help others
 
 --------------------------------------------------------------------------------
 
-### There is a lot to gain when you learn how to code. [→ Check out our courses today!](//www.austincodingacademy.com/courses/)
+#### **There is a lot to gain when you learn how to code.** [→ Check out our courses today!](//www.austincodingacademy.com/courses/)
 
 
 

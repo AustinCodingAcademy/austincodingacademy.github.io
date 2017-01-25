@@ -19,7 +19,7 @@ description: >
                 <br />
                 <small>{{ post.date | date: "%a, %b %d, %Y"  }}</small>
               </h2>
-              <p class="list-group-item-text">{{ post.excerpt }}</p>
+              <p class="list-group-item-text">{{ post.excerpt | replace_regex: '<a.*>', '' | remove: '</a>' | remove: '<p>' | remove: '</p>'}}</p>
             </a>
             {% endfor %}
           </div>

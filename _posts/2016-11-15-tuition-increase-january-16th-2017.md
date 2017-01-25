@@ -1,21 +1,10 @@
 ---
 layout: post
-
-
 title: Tuition Increase For New Students
-author:
-  display_name: austincode
-  
-  email: luke@austincodingacademy.com
-  url: ''
-
-author_email: luke@austincodingacademy.com
-date: '2016-11-15 22:22:58 -0600'
-date_gmt: '2016-11-15 22:22:58 -0600'
+date: '2016-11-15'
 categories:
   - Uncategorized
 tags: []
-comments: []
 ---
 
 Happy Merry Chrismakwanzika! At ACA we're getting ready to put a close to 2016, with our 8th session graduating in December, and spark up what is looking to be an absolutely incredible 2017. With the turning of the year, we have a couple important announcements to make.
@@ -31,17 +20,10 @@ In order to continue this mission and bring it to new levels we have a few impor
   - More dedicated space for students
   - Overall improvement of technical resources
 
-  
+
 
 - How was this price determined?
 
   - We strive to have the most affordable classes possible and have kept prices the same for almost two years. While it is impossible to keep the same price forever, we want to make sure that this increase doesn't exclude people who would currently be able to attend otherwise. With that in mind we have elected to peg our tuition at 6% of the mean household income for the city of Austin.
   - According to the [Bureau of Labor Statistics](http://www.bls.gov/oes/current/oes_12420.htm#00-0000) the Austin area annual mean wage is $49, 560.
   - We will revisit this figure at the end of each year to establish tuition prices for the following year. We hope this will be seen as a healthy way to allow tuition to grow with the economy, while still maintaining affordability for students.
-
-  
-
-
-
-
-

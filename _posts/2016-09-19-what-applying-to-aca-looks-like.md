@@ -1,21 +1,10 @@
 ---
 layout: post
-
-
 title: What applying to ACA was like for me
-author:
-  display_name: Kristen Cabrera
-  login: kmcabrera22
-  email: kmcabrera22@gmail.com
-  url: ''
-author_login: kmcabrera22
-author_email: kmcabrera22@gmail.com
-date: '2016-09-19 16:18:22 -0500'
-date_gmt: '2016-09-19 21:18:22 -0500'
+date: '2016-09-19'
 categories:
   - Uncategorized
 tags: []
-comments: []
 ---
 
 I must admit, applying to Austin Coding Academy after stumbling across it, was kind of exciting. You see, I had already suffered the sticker shock of various coding bootcamps and schools. And, might I add, my google skills are on point. But ACA's google search presence wasn't there when I searched four months ago.
@@ -24,7 +13,7 @@ After entering my wants and needs of a coding school into a "Find My Bootcamp" w
 
 
 
-# **Here are my priorities, whittled down to three important deal breakers:**
+### **Here are my priorities, whittled down to three important deal breakers:**
 
 
 
@@ -48,7 +37,7 @@ What really was I to expect? Not just in the class but afterward? What is the fu
 
 All the questions for all the feels. I slept on it for about a week, which was both good and bad. Timing after all is a bitch.
 
-# **Applying for ACA**
+### Applying for ACA
 
 
 
@@ -63,7 +52,7 @@ Mine?
 <iframe src="https://giphy.com/gifs/inyqrgp9o3NUA/html5" width="500" height="300" frameborder="0">
 </iframe>
 
-# **What to expect after clicking submit**
+### What to expect after clicking submit
 
 
 
@@ -77,10 +66,10 @@ Dear handy email,
 
 > _"So, I just got finished scheduling my phone interview. I received the "How to prepare for your ACA phone interview" email and once I read it, I realized it would take a lot longer to get accepted than I thought._
 
-> _I wanted to attend the session starting July 25th. Is it possible after completing the requirements in a timely manner, to get accepted in time for this session? I did not see a "deadline to apply" date for this session on the website, so I'm hoping to get in on time. _"__
+> _I wanted to attend the session starting July 25th. Is it possible after completing the requirements in a timely manner, to get accepted in time for this session? I did not see a "deadline to apply" date for this session on the website, so I'm hoping to get in on time. "_
 
-_
-(_ Notice my "subtle" passive aggressive tone of you-didn't-put-a-deadline-how-was-I-to-know type of panic in the sentence, yet still trying come off as not annoyed.) I hit send. To my surprise I got a quick reply.
+
+_(Notice my "subtle" passive aggressive tone of you-didn't-put-a-deadline-how-was-I-to-know type of panic in the sentence, yet still trying come off as not annoyed.)_ I hit send. To my surprise I got a quick reply.
 
 
 
@@ -94,7 +83,7 @@ OK. I feel better now, I thought. I moved my phone interview to the next day and
 
 
 
-# **The Interview**
+### The Interview
 
 
 
@@ -116,14 +105,8 @@ He also set my expectations for the class (the Intro class for me):
 
 
 - **Time commitment:** "_It would be about 5 hours of in class time a week, plus time spent on homework, projects and practice outside the classroom, about 9-10 hours a week."_ To me this wasn't unreasonable. Any new practice takes time and dedication in order to level up in life.
-- **Instructor engagement:** "_Don't be shy, use your time with the instructors. They are there to help and teach so speaking up and asking questions is important."_ This one for me I understood but have never had any problems with. I'm that nerd at the front of the class constantly raising their hand (though staying on topic with questions relevant to the whole class). But I understand it's an issue when the class mirrors the "Voodoo Economics" Scene from Ferris Bueller.
-  [embed width="500" height="456"]<https://www.youtube.com/watch?v=uhiCFdWeQfA[/embed>]
 
-
-
-
-
-
+- **Instructor engagement:** "_Don't be shy, use your time with the instructors. They are there to help and teach so speaking up and asking questions is important."_ This one for me I understood but have never had any problems with. I'm that nerd at the front of the class constantly raising their hand (though staying on topic with questions relevant to the whole class). But I understand it's an issue when the class mirrors the "Voodoo Economics" Scene from [Ferris Bueller](https://www.youtube.com/watch?v=uhiCFdWeQfA).
 
 
 - **Open Communication:** "_Let them know when you are having trouble with something. Whether it be a topic you're struggling with, not really getting the instructor's style of teaching, etc. The door is open for feedback."_ Ah, I can see myself struggling with this one. When it comes to not grasping something I will definitely raise and ask again in class. But especially outside of class, I like to sit and problem solve and try to work it out on my own, sans-help. But I've made a mental note to readjust and adapt.
@@ -134,7 +117,7 @@ I just got finished talking to someone about how important it is to set expectat
 
 
 
-# **The next step**
+### The next step
 
 
 
@@ -147,5 +130,3 @@ The assignment contained in the email was to write an essay from a prompt they p
 Normally, my interviewer said it takes prospective students a week to complete. So with my limited time line, I really only had two days to get this done before the weekend and Day 1 of class.
 
 Though overall the assignments were not the most taxing, being assigned something pushed me into a "school-like" head space I hadn't been in a while. Which prepared me for the days to come.
-
-##

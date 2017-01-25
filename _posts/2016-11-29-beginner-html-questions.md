@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Top 5 Beginner HTML Questions
-date: '2016-11-29 20:09:09 -0600'
+date: '2016-11-29'
 ---
-#### Below are a list of the top 5 Intro to HTML/CSS questions we get at Austin Coding Academy
+### Below are a list of the top 5 Intro to HTML/CSS questions we get at Austin Coding Academy
 Answers provided by Joe McCullough
 
 **Question: WHAT IS THE POINT OF NON-VISIBLE TAGS, SUCH AS `<head>`?**
@@ -47,7 +47,7 @@ A tag is a line break. As stated in the official HTML5 specification,
 This means you should not use the tag to force a line within a paragraph. If you wish to force a line within a paragraph, you probably just need to close your current paragraph and open another one.
 
 Citations:
-* [W3 `p` element](http://www.w3.org/TR/html5/grouping-content.html#the-p-element)
+* [W3 p element](http://www.w3.org/TR/html5/grouping-content.html#the-p-element)
 * [w3 br element spec](http://www.w3.org/TR/html5/text-level-semantics.html#the-br-element)
 
 **Q: WHAT'S THE DIFFERENCE BETWEEN ARTICLES AND SECTIONS?**

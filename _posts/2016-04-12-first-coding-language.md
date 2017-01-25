@@ -1,13 +1,14 @@
 ---
 layout: post
 title: What Coding Language Should I Learn First
+date: '2016-04-12'
 categories:
   - Blog Post
   - Learn to Code
 tags:
   - coding language
   - learn to code
-comments: []
+
 ---
 
 Inevitably when making the decision to learn how to code, one of the big questions that pops up is, "Which coding language should I learn first?" There are literally hundreds to choose from and understanding the differences between them can be tricky.
@@ -16,7 +17,7 @@ Below are some guidelines for choosing the right language, but here's the easy a
 
 For a more nuanced answer, though, if you're just starting out, learn whichever language is most enjoyable to you. Just like exercising, learning to play an instrument, or developing any other new skill, the biggest factor in sticking with it – and ultimately being successful – is how much you enjoy it, so pick something that has some appeal in its usefulness for you. We'll get more into that in a minute. First things first.
 
-# WHY ARE YOU LEARNING TO CODE?
+### WHY ARE YOU LEARNING TO CODE?
 
 
 With every year, the ability to code becomes a skill with higher and higher value. As Adam Enbar said, "we're entering a world where every job if not already, will be technical. "
@@ -33,13 +34,13 @@ If you are interested in back-end or learning a language that is more about comp
 
 Want to become a developer? C is widely used by developers across many industries but has a steep learning curve. C is considered a "[machine level](https://en.wikipedia.org/wiki/Low-level_programming_language)" language, which means your programs will be interacting with the hardware of the computer directly – allocating memory and processing power for storage and use. If you learn C, you'll be trained to write efficient code and most other languages will seem easy to pick up by comparison. Similarly, Java is a very practical language for app development – particularly mobile apps – and while it doesn't have machine level access like C, it is widely used for development.
 
-## "I equate coding to reading and writing and basic literacy"
+### **"I equate coding to reading and writing and basic literacy"**
 
 
 
 _-- Adam Enbar, founder of New York's Flatiron School_
 
-# WHAT'S THE BEST WAY TO LEARN TO CODE?
+### WHAT'S THE BEST WAY TO LEARN TO CODE?
 
 
 The best way to learn any skill is whatever way keeps you engaged and enjoying the learning process. Contrary to common conception, it doesn't take any special talent to learn to code; if you can read, write and do basic math, you can code.

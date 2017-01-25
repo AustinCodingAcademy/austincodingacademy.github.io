@@ -1,26 +1,15 @@
 ---
 layout: post
-
-
 title: Finding Open Source Projects to Contribute To
-author:
-  display_name: austincode
-  
-  email: luke@austincodingacademy.com
-  url: ''
-
-author_email: luke@austincodingacademy.com
-date: '2016-11-29 19:29:57 -0600'
-date_gmt: '2016-11-29 19:29:57 -0600'
+date: '2016-11-29'
 categories:
   - Uncategorized
 tags: []
-comments: []
 ---
 
 
 
-# How To Boost Your Credibility As a New Developer: Contribute to Open Source Projects
+### **How To Boost Your Credibility As a New Developer: Contribute to Open Source Projects**
 
 
 By Joe McCullough
@@ -33,7 +22,7 @@ A common barrier to entry for developers wishing to participate in the open sour
 
 Here is an extremely quick tip for finding a plethora of projects both worthy of your time and likely to incorporate your pull requests.
 
-# Finding a Project
+### Finding a Project
 
 
 We're going to use [Github's Search](https://github.com/search) to help us find an open source project to contribute to. We want the search to meet the following criteria:

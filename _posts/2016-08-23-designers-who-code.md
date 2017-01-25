@@ -1,36 +1,26 @@
 ---
 layout: post
-
-
 title: 'Austin Coding Academy Alumni Spotlight: Gizem Yilmaz'
-author:
-  display_name: Rachel Forster
-  login: seeraewrite
-  email: racheljmforster@gmail.com
-  url: ''
-author_login: seeraewrite
-author_email: racheljmforster@gmail.com
-date: '2016-08-23 19:35:54 -0500'
-date_gmt: '2016-08-23 19:35:54 -0500'
+date: '2016-08-23'
 categories:
   - Blog Post
   - Learn to Code
   - Industry Insights
 tags: []
-comments: []
+published: false
 ---
 
 
 
-# Pretty Isn't Functional
+<!-- # Pretty Isn't Functional -->
+<!-- The above line doesn't have any content so not sure if it this heading supposed to be diplayed -->
 
 
 
 
 
 
-
-# Why All Designers Should Learn To Code
+### Why All Designers Should Learn To Code
 
 
 
@@ -51,21 +41,13 @@ As her new job required more coding, she felt out of her depth. 'I was breaking 
 
 
 
-##
-
-
-
-## 'It took me a long time to understand that
-
-
-
-## just because I am self-taught doesn't mean I have to learn alone.'
 
 
 
 
+### 'It took me a long time to understand that just because I am self-taught doesn't mean I have to learn alone.'
 
-##
+
 
 
 Searching for a coding school, Gizem considered everything from online programs to full-time courses. Unfortunately, none seemed like the right fit. 'With the former, I was reluctant to spend my money on any online source no matter how good the reviews were. With the latter, I realized that I wasn't willing to completely abandon my design career to be a developer, especially when I wasn't sure if I would love coding or even be good at it!' she laughs.
@@ -80,7 +62,7 @@ Speaking from experience, she believes many designers with limited or no coding 
 
 
 
-## The worst thing a designer can do is 'become stagnant and replaceable'.
+### The worst thing a designer can do is 'become stagnant and replaceable'.
 
 
 
@@ -90,7 +72,7 @@ It's an ongoing debate – should designers have coding skills? 'Design is such 
 
 Gizem is now working as a platform UX/UI designer at [Continuum Analytics](https://www.continuum.io/). She is loving the challenges and rewards of her new role. She credits her newfound coding skills.
 
-<span style="font-weight: 400;">
+
 
 
 
@@ -100,7 +82,7 @@ Gizem is now working as a platform UX/UI designer at [Continuum Analytics](https
 
 --------------------------------------------------------------------------------
 
-### There is a lot to gain from learning how to code. [→ Check out our courses today!](//www.austincodingacademy.com/courses)
+#### **There is a lot to gain from learning how to code.** [→ Check out our courses today!](//www.austincodingacademy.com/courses)
 
 
 
