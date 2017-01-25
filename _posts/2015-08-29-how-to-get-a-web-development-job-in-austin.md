@@ -11,7 +11,7 @@ So you want to get a web development job in Austin. Earlier this week, I sat dow
 
 Just for some perspective, my mentor - who will remain anonymous - was a founding Senior Developer for one of the most successful startups in Austin for the last 10 years, and has recently left and launched his own startup. Naturally, the discussion turned into some much-needed wisdom and advice.
 
-# 1. GO TO THESE TWO CAREER FAIRS
+### 1. GO TO THESE TWO CAREER FAIRS
 
 Yes, people still go to career fairs and still get jobs. Yes, even in the tech industry, and especially at these two career fairs.
 
@@ -34,17 +34,17 @@ Yes, people still go to career fairs and still get jobs. Yes, even in the tech i
 **Location: [Austin Convention Center](http://www.austinconventioncenter.com/){:target="_blank"}
 , Exhibit Hall 1**
 
-**Brief Overview:** No badge required. This event is free and open to the public. It's during and right in the middle of SXSWi. Enough said.
+**Brief Overview:** No badge required. This event is free and open to the public. It's during and right in the middle of SXSW. Enough said.
   ["Get your ass to Mars!"](https://www.youtube.com/watch?v=91dW9pUA1BI){:target="_blank"}
 
 
-# 2. SEARCH ON THESE ONLINE JOB BOARDS FOR WEB DEVELOPMENT JOBS IN AUSTIN
+### 2. SEARCH ON THESE ONLINE JOB BOARDS FOR WEB DEVELOPMENT JOBS IN AUSTIN
 
 
 
 You can certainly type in "web development job in Austin" with Monster, LinkedIn, Glassdoor, Craigslist and other popular job sites, but they won't have the refined focus of these job boards. If you are looking for a job in web design and development, here are the best job boards for you:
 
-## FOR WEB DESIGNERS AND DEVELOPERS
+#### FOR WEB DESIGNERS AND DEVELOPERS
 
 
 
@@ -59,7 +59,7 @@ You can certainly type in "web development job in Austin" with Monster, LinkedIn
 
 
 
-## FOR WEB DEVELOPERS
+#### FOR WEB DEVELOPERS
 
 
 
@@ -71,7 +71,7 @@ You can certainly type in "web development job in Austin" with Monster, LinkedIn
 
 
 
-## FOR WEB DESIGNERS
+#### FOR WEB DESIGNERS
 
 
 
@@ -82,7 +82,7 @@ You can certainly type in "web development job in Austin" with Monster, LinkedIn
 
 
 
-# 3. BUILD OUT YOUR PROFESSIONAL NETWORK - BOTH ONLINE AND IN-PERSON
+### 3. BUILD OUT YOUR PROFESSIONAL NETWORK - BOTH ONLINE AND IN-PERSON
 
 
 
@@ -98,7 +98,7 @@ I landed two of my last three jobs through my network. "It's not what you know b
 
 
 
-# 4. FIND A MENTOR IN THE INDUSTRY
+### 4. FIND A MENTOR IN THE INDUSTRY
 
 
 Now that you're rubbing elbows in Austin's development community, and your LinkedIn network is growing rapidly, it's time to find a mentor in the tech industry. Try approaching someone whom you've built rapport with at a meetup, or someone you know from another life circle.
@@ -107,7 +107,7 @@ Now that you're rubbing elbows in Austin's development community, and your Linke
 
 It doesn't have to be formal or involve any type of deliverables or agenda, just someone to meet with regularly - say over a coffee or a pint - to casually discuss your job search, your skill set, and provide insight. Their experience alone is going to give you an inside track, especially in the interviewing process. In fact, this relationship could give you the perfect opportunity to...
 
-# 5. PRACTICE MOCK INTERVIEWS & QUESTIONS
+### 5. PRACTICE MOCK INTERVIEWS & QUESTIONS
 
 
 Once you have a mentor and have some good rapport, practice a mock interview with them. Most likely, you will stumble a few times and eat some humble pie, but this practice is going to pay enormous dividends, my friend.
@@ -116,14 +116,14 @@ Once you have a mentor and have some good rapport, practice a mock interview wit
 
 GitHub has a great resource of [front-end developer interview questions](http://h5bp.github.io/Front-end-Developer-Interview-Questions/) for interviewers and interviewees. The internet is swimming with example questions and answers, so don't be shy with your googlin' skills.
 
-# BONUS: PAID INTERNSHIPS
+#### BONUS: PAID INTERNSHIPS
 
 
 If you are still struggling to get your foot in the door, and are willing and able to put in another three months of "on-the-job" training, there are plenty of startups and tech companies (re: uShip, IBM, Dell) that offer decent paid web development internships somewhere in the $25-$28 range. These companies use their internship pools for new hires, and most entry-level jobs are filled precisely this way.
 
 
 
-# THE BUMS ALWAYS LOSE, LEBOWSKI!
+#### THE BUMS ALWAYS LOSE, LEBOWSKI!
 
 
 

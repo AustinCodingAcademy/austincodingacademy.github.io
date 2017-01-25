@@ -1,26 +1,15 @@
 ---
 layout: post
-
-
 title: Top Resources for Learning Programming and Coding News
-author:
-  display_name: austincode
-
-  email: luke@austincodingacademy.com
-  url: ''
-
-author_email: luke@austincodingacademy.com
-date: '2016-11-29 19:10:36 -0600'
-date_gmt: '2016-11-29 19:10:36 -0600'
+date: '2016-11-29'
 categories:
   - Uncategorized
 tags: []
-comments: []
 ---
 
 
 
-#### **WHY SHOULD I EVEN READ PROGRAMMING NEWS?**
+### Why Should I Even Read Programming News?
 
 
 New libraries, paradigms, projects, and opinions are introduced into the programming world on a daily basis. Discovering these exciting, new contributions can be time consuming without knowing where to look. We've compiled a list of resources for programming news so you can stay current and stay informed!
@@ -50,22 +39,22 @@ For example, before many of the current front end frameworks became mainstream, 
 
 Reading the journeys of other programmers can inspire you to keep your head up while on your own path. While some people started coding at an absurdly young age, you'll find a substantial portion of the community entered the world of programming at a much later point in their lives. Knowing you're in good company in this universe of "but that just worked yesterday!" and "I can't believe that little typo broke everything!" can motivate us to keep at it when things seem complicated.
 
-## **PROGRAMMING NEWS RESOURCES**
+### Programming News Resources
 
 
 
-### **DISCUSSION BOARDS**
+#### DISCUSSION BOARDS
 
 
 
 - [Hacker News](https://news.ycombinator.com/)
-- [/r/programming](https://www.reddit.com/r/programming/)
-- [/r/webdev](https://www.reddit.com/r/webdev/)
+- [Reddit Programming](https://www.reddit.com/r/programming/)<!-- I think this text looks better than [/r/programming]-->
+- [Reddit Webdev](https://www.reddit.com/r/webdev/) <!-- This was also [/r/webdev]-->
 
 
 
 
-### Twitter for Programming News
+#### Twitter for Programming News
 
 
 Twitter is a surprisingly good place to catch up on programming news! Just do a hashtag search for programming related concepts, and you'll see tons of links to articles written by other programmers.
@@ -74,7 +63,7 @@ Twitter is a surprisingly good place to catch up on programming news! Just do a 
 
 Here are the twitter search results for the [#Python](https://twitter.com/search?f=realtime&q=%23python) hashtag.
 
-### PROGRAMMING BLOGS
+#### PROGRAMMING BLOGS
 
 
 Here is a great [list of programming blogs](https://www.quora.com/What-are-the-best-programming-blogs) curated by Quora

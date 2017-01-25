@@ -1,25 +1,24 @@
 ---
 layout: post
 title: "Critical Tips For Content Strategy: Don't Let Them Decide Now!"
-date: '2016-11-29 17:50:11 -0600'
+date: '2016-11-29'
 categories:
   - Uncategorized
 tags: []
-comments: []
 ---
 
 By John Steinmeitz
 
 An ongoing debate in the world of content strategy, design, experience and development is that of how much is too much. I have been around the development world for a while now and have seen many philosophies implemented. The basic question is "Do you want to let the audience make a decision about you, your product or your service just by reading your information?"
 
-# History of Content Marketing
+### History of Content Marketing
 
 
 In the 90's and early 2000's, the thought was to shove as much information on a website or application. Back then, the average user would sit at the computer and actually read it. There was no social media, and the attention spans were longer. An analysis of web stats saw the avg time spent on pages in the 5-7 min range (for sites with good content). You also saw that you could lead a user through your site and have "deep linking" that was sometimes 8-10 levels deep.
 
 
 
-# Current State of Content Marketing
+### Current State of Content Marketing
 
 
 Today, attention spans are much shorter. The max time on page has shrunk to less than 2 minutes. And that is for really engaging content like blogs not for marketing sites. Social media has not just updated how we communicate with each other, but also the method in which we distribute content via sharing and hashtag trending. Most companies are starting to change the way they think of content distribution and how it fits into social media.

@@ -1,7 +1,5 @@
 ---
 layout: post
-
-
 title: 'Austin Coding Academy Alumni Spotlight: Christa Clark'
 date: '2016-08-24'
 categories:
@@ -9,13 +7,12 @@ categories:
   - Learn to Code
   - Industry Insights
 tags: []
-published:
-  - false
+published: false
 ---
 
 
 
-# **Cracking the code to building a career in tech** without a college degree
+### **Cracking the code to building a career in tech** without a college degree
 
 
 Are you wondering what you'll do with your newfound coding abilities after you graduate? Here at Austin Coding Academy, we're very proud of our alumni.
@@ -29,7 +26,7 @@ She's a coffee-shop worker who contracts, sometimes going into the office. Colle
 
 When asked about her hobbies, she laughs and asks 'does coding count?'. She's fit - obsessed with finding the perfect diet and exercise plan, currently focussing on paleo and ketogenics. She throws herself into her interests with intensity, applying the same, consuming passion to coding, joking that she's thankful for choosing it because 'that's now something I have a career in'.
 
-# "For a few thousand dollars, I got something more valuable than I could have ever asked from a bachelor's degree."
+### "For a few thousand dollars, I got something more valuable than I could have ever asked from a bachelor's degree."
 
 
 
@@ -52,7 +49,7 @@ I asked her what coding did to her life. 'Transformed it!', she responded passio
 
 --------------------------------------------------------------------------------
 
-## There is a lot to gain from learning how to code. [→ Check out our courses today!](http://www.austincodingacadmey.com/courses) <!-- DEAD LINK -->
+#### **There is a lot to gain from learning how to code.** [→ Check out our courses today!](http://www.austincodingacadmey.com/courses) <!-- DEAD LINK -->
 
 
 

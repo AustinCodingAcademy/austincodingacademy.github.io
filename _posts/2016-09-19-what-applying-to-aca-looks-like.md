@@ -13,7 +13,7 @@ After entering my wants and needs of a coding school into a "Find My Bootcamp" w
 
 
 
-# **Here are my priorities, whittled down to three important deal breakers:**
+### **Here are my priorities, whittled down to three important deal breakers:**
 
 
 
@@ -37,7 +37,7 @@ What really was I to expect? Not just in the class but afterward? What is the fu
 
 All the questions for all the feels. I slept on it for about a week, which was both good and bad. Timing after all is a bitch.
 
-# **Applying for ACA**
+### Applying for ACA
 
 
 
@@ -52,7 +52,7 @@ Mine?
 <iframe src="https://giphy.com/gifs/inyqrgp9o3NUA/html5" width="500" height="300" frameborder="0">
 </iframe>
 
-# **What to expect after clicking submit**
+### What to expect after clicking submit
 
 
 
@@ -83,7 +83,7 @@ OK. I feel better now, I thought. I moved my phone interview to the next day and
 
 
 
-# **The Interview**
+### The Interview
 
 
 
@@ -117,7 +117,7 @@ I just got finished talking to someone about how important it is to set expectat
 
 
 
-# **The next step**
+### The next step
 
 
 

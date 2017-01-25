@@ -9,7 +9,7 @@ tags: []
 
 
 
-# **THE ASSIGNMENT**
+### The Assignment
 
 
 I chose one of the two prompts and began to ponder. "What is an important truth you believe that very few people agree with you on?" It took me a while to digest this and mull it over. Were there any real truths about myself? What is a substantial truth, really? I like corndogs. That's a truth. They're not substantial, but are delicious.
@@ -33,7 +33,7 @@ Once I finished the essay I dug into the python code. ACA recommended we use any
 
 All and all the assignment took about five-ish hours. Now all I had to do was wait and I didn't have to wait long.
 
-# **GETTING ACCEPTED**
+### Getting Accepted  
 
 
 As you've probably guess I got accepted into Austin Coding Academy. I was worried about dealing with such a quick acceptance/turnaround time. But they got back to me the next day in the afternoon and it was official.

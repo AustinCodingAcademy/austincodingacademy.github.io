@@ -19,7 +19,7 @@ Coding is becoming increasingly important, especially in the field of web design
 
 Here are ten reasons why every designer should learn to code:
 
-## 1. Save SO Much Time!
+### **1. Save SO Much Time!**
 
 
 
@@ -32,7 +32,7 @@ Once you, the designer, have the basic templates, branding and have created your
 
 You can make global changes to content and any other design elements easily and with greater accuracy. Not having to communicate with a web developer to achieve your vision will definitely save you both time and frustration.
 
-## 2. Retain Creative Control of Your Designs
+### **2. Retain Creative Control of Your Designs**
 
 
 
@@ -42,7 +42,7 @@ When you do the coding yourself, you can execute the designs just the way you wa
 
 The process of coding your own work might take a bit longer but the final product will be more efficient.
 
-## 3. Become a Versatility Ninja
+### **3. Become a Versatility Ninja**
 
 
 
@@ -53,7 +53,7 @@ Creating in code is considerably different than creating in Photoshop. When a de
 
 
 
-## 4.  Become a Master Communicator
+### **4.  Become a Master Communicator**
 
 
 
@@ -66,7 +66,7 @@ Learning code and knowing how to write it efficiently is an indispensable skill 
 
 Understanding basic coding concepts like bootstrap, pixels, line height and divs can help you work with the development team in a company where you are not the one coding your work. As you can see, having even the most primitive understanding of how to write and talk in coding language can give you an edge and make your work more enjoyable and productive.
 
-## 5.  Better Adapt to New Technology
+### **5.  Better Adapt to New Technology**
 
 
 
@@ -79,7 +79,7 @@ Technology is always developing, improving and being invented. A few years ago t
 
 Modern technology and advancement in programming techniques now allow designers to create interactive and flexible websites. As a designer, you now need to be able to explain how a website behaves rather than merely show the design. Knowing coding concepts can help you arrange content and code dynamic layouts which are easy to use and visually appealing.
 
-## 6.  Achieve More with Less Effort
+### **6.  Achieve More with Less Effort**
 
 
 
@@ -92,7 +92,7 @@ Unlike other professions where someone performs best when they stick to doing on
 
 Coding might seem like a herculean task at first, but you'll be surprised how easy, predictable and rewarding it is. Start with learning how to read and write basic code, and investing time to practice, you'll be surprised how quickly you will become an expert.
 
-## 7. Get Way More Opportunities
+### **7. Get Way More Opportunities**
 
 
 
@@ -103,7 +103,7 @@ Coding is a highly marketable skill in the modern world, and gives you a competi
 
 
 
-## 8.  Become a Masterful Visionary
+### **8.  Become a Masterful Visionary**
 
 
 
@@ -114,7 +114,7 @@ Dream big and create something perfect, but understand that creativity has its r
 
 
 
-## 9.  Unleash Your Creativity
+### **9.  Unleash Your Creativity**
 
 
 
@@ -129,7 +129,7 @@ Technology has proven over and over that both creativity _and_ knowledge are req
 
 Creating such beguiling, complex and beautiful things requires more than creativity alone. Musicians may know how to play their instruments, but without a knowledge of music theory, composition and harmonisation, orchestral compositions wouldn't be possible. Web designers would definitely benefit by borrowing a leaf from other creative professions!
 
-## 10.  Become the Designer You Were Born to Be!
+### **10.  Become the Designer You Were Born to Be!**
 
 
 
@@ -142,7 +142,7 @@ By learning to code, you will be designing with coding in mind. This will make y
 
 The way content creators and consumers interact with a website is just as important as the way it looks. Knowing how to code allows you to blend beauty with function, and create a site that's as enjoyable and intuitive to use as it is attractive.
 
-### There is a lot to gain from learning how to code as a designer.
+#### **There is a lot to gain from learning how to code as a designer.**
 
 
 

@@ -1,26 +1,16 @@
 ---
 layout: post
-
-
 title: What Is JSON and What Is JSON Used For?
-author:
-  display_name: austincode
-  
-  email: luke@austincodingacademy.com
-  url: ''
-
-author_email: luke@austincodingacademy.com
-date: '2016-11-29 17:53:26 -0600'
-date_gmt: '2016-11-29 17:53:26 -0600'
+date: '2016-11-29'
 categories:
   - Uncategorized
 tags: []
-comments: []
+published: false
 ---
 
 
-
-# What is JSON and What is it used for?
+<!-- Heading repeated -->
+<!-- # What is JSON and What is it used for? -->
 
 
 By Joseph McCullough
@@ -41,69 +31,73 @@ price
 number in stock
 Data for a few example products are listed below:
 
-2 Liter Dr. Pepper
-Price: $1.99
-Quantity in stock: 10
+- 2 Liter Dr. Pepper
+  Price: $1.99
+  Quantity in stock: 10
 
-Snickers
-Price: $0.99
-Quantity in stock: 5
+- Snickers
+  Price: $0.99
+  Quantity in stock: 5
 
-Bottled Water
-Price: $1.49
-Quantity in stock: 8
+- Bottled Water
+  Price: $1.49
+  Quantity in stock: 8
 
-Here's how that data would look represented as JSON[/cs_text][/cs_column][/cs_row][cs_row inner_container="true" marginless_columns="false" style="margin: 0px auto;padding: 0px;"][cs_column fade="false" fade_animation="in" fade_animation_offset="45px" fade_duration="750" type="1/1" style="padding: 0px;"][x_code]{
-"inventory": {
-"products": [
+Here's how that data would look represented as JSON
+```json
 {
-"name": "Dr. Pepper 2 Liter",
-"price": 1.99,
-"quantity": 10
-},
-{
-"name": "Snickers",
-"price": 0.99,
-"quantity": 5
-},
-{
-"name": "Bottled Water",
-"price": 1.49,
-"quantity": 8
+  "inventory": {
+    "products": [
+      {
+        "name": "Dr. Pepper 2 Liter",
+        "price": 1.99,
+        "quantity": 10
+      },
+      {
+        "name": "Snickers",
+        "price": 0.99,
+        "quantity": 5
+      },
+      {
+        "name": "Bottled Water",
+        "price": 1.49,
+        "quantity": 8
+      }
+    ]
+  }
 }
-]
-}
-}[/x_code][/cs_column][/cs_row][cs_row inner_container="true" marginless_columns="false" style="margin: 0px auto;padding: 0px;"][cs_column fade="false" fade_animation="in" fade_animation_offset="45px" fade_duration="750" type="1/1" style="padding: 0px;"][cs_text]
+```
 
-# WHY IS JSON USEFUL?
+### WHY IS JSON USEFUL?
 
 
-JSON is language-agnostic. Even though JSON stands for JavaScript Object Notation, many languages beyond JavaScript understand JSON. There are numerous languages that contain libraries for not only representing data in the JSON format (known as JSON encoding), but also for taking JSON and converting the JSON into data within the program (known as JSON decoding). Some languages with JSON support (either natively or through libraries) that come to mind include
+JSON is language-agnostic. Even though JSON stands for JavaScript Object Notation, many languages beyond JavaScript understand JSON. There are numerous languages that contain libraries for not only representing data in the JSON format (known as JSON encoding), but also for taking JSON and converting the JSON into data within the program (known as JSON decoding). Some languages with JSON support (either natively or through libraries) that come to mind include:
 
 
 
-JavaScript
-Python
-Ruby
-Go
-C/C++
-Java
-And wayyyyyyyy more!
+- JavaScript
+- Python
+- Ruby
+- Go
+- C/C++
+- Java
+- And wayyyyyyyy more!
 
 Consequently, it's easy to have programs written in different languages communicate with each other. If a server written in Python wants to send data to a server written in Java, the Python server just has to JSON encode any data it wants to send. Then the Java Server, upon receiving the JSON, only has to JSON decode the string in order to have access to the data items within the JSON. Generally, the encoding and decoding processes are extremely simple.
 
-In Python, for example, the process for converting a JSON string into its associated data takes only a couple of lines of code![/cs_text][/cs_column][/cs_row][cs_row inner_container="true" marginless_columns="false" style="margin: 0px auto;padding: 0px;"][cs_column fade="false" fade_animation="in" fade_animation_offset="45px" fade_duration="750" type="1/1" style="padding: 0px;"][x_code]>>> import json
+In Python, for example, the process for converting a JSON string into its associated data takes only a couple of lines of code!
+
+```json
 >>> json_str = '{"x": 15,"y": 30}'
 >>> data = json.loads(json_str)
 >>> data['x'] + data['y']
 45
-
+```
 **Here's the same operation in PHP**
 
-<!-- ?php $json_str = '{"x": 15,"y": 30}'; $data = json_decode($json_str); echo $data->x + $data->y;<br ? --> // 45
-?>[/x_code][/cs_column][/cs_row][cs_row inner_container="true" marginless_columns="false" style="margin: 0px auto;padding: 0px;"][cs_column fade="false" fade_animation="in" fade_animation_offset="45px" fade_duration="750" type="1/1" style="padding: 0px;"][cs_text]
+<!-- ?php $json_str = '{"x": 15,"y": 30}'; $data = json_decode($json_str); echo $data->x + $data->y;<br ? -->
 
-# WHERE IS JSON USED?
+### WHERE IS JSON USED?
 
 
 JSON can be used in nearly any scenario where two services are communicating with each other. All that's required is that
@@ -111,7 +105,7 @@ JSON can be used in nearly any scenario where two services are communicating wit
 
 
 the service sending the data can represent the data in the JSON format
-the service recieving the data can convert data represented at JSON into data usable throughout the application.
+the service receiving the data can convert data represented at JSON into data usable throughout the application.
 In web development, JSON is used to facilitate communication to both internal and external services.
 
 **Internal communication**
@@ -124,20 +118,20 @@ Although X in Ajax stands for XML, JSON is used more than XML nowadays because o
 
 **External communication**
 
-Many REST APIs, which provide awesome functionality to web applications, use JSON as the primary means of communication. Take [Stripe](https://stripe.com) for example. Stripe uses JSON as the way to send responses to application developers about the status of credit card transactions. In the [Stripe documentation](https://stripe.com/docs/api/curl#charge_object), stripe provides an example credit card charge response so developers can predict the JSON structure their applications will recieve.
+Many REST APIs, which provide awesome functionality to web applications, use JSON as the primary means of communication. Take [Stripe](https://stripe.com) for example. Stripe uses JSON as the way to send responses to application developers about the status of credit card transactions. In the [Stripe documentation](https://stripe.com/docs/api/curl#charge_object), stripe provides an example credit card charge response so developers can predict the JSON structure their applications will receive.
 
 As another example, [Twilio](https://www.twilio.com/) is an SMS gateway provider that provides a simple REST API so developers can make their applications send text messages or make phone calls. In the [Twilio documentation](https://www.twilio.com/docs/api/rest/sending-messages#example-1), you can see an example JSON response developers can expect once they've requested that Twilio send a text message to a phone.
 
-Thus the combination of REST APIs and JSON means you don't have to know how the financial sector works in order to make your application accept credit cards, nor do you need insight into the intricacies of the Telecom industry to make your application send text messages to users - you just have to understand how to send JSON and receieve JSON!
+Thus the combination of REST APIs and JSON means you don't have to know how the financial sector works in order to make your application accept credit cards, nor do you need insight into the intricacies of the Telecom industry to make your application send text messages to users - you just have to understand how to send JSON and receive JSON!
 
 **JSON REST API directory**
 
 The folks over at ProgrammableWeb have curated a list of REST APIs that communicate via JSON. Check out [their directory](http://www.programmableweb.com/category/all/apis?data_format=21173) to see the functionality you can add to your application just by sending and receiving JSON!
 
-# ARE THERE ALTERNATIVES TO JSON?
+### ARE THERE ALTERNATIVES TO JSON?
 
 
-XML is an alternative mechanism for describing data. XML was the previously technology of choice for sending data through web services. As JSON's simplicity caused its popularity to rise, many developers realized XML's capabilities were overkill for the task of simply sending and recieving small amounts of data.
+XML is an alternative mechanism for describing data. XML was the previously technology of choice for sending data through web services. As JSON's simplicity caused its popularity to rise, many developers realized XML's capabilities were overkill for the task of simply sending and receiving small amounts of data.
 
 
 

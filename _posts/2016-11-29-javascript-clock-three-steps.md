@@ -1,23 +1,13 @@
 ---
 layout: post
-
-
 title: How To Create a Digital JavaScript Clock In Three Easy Steps
-author:
-  display_name: austincode
-
-  email: luke@austincodingacademy.com
-  url: ''
-
-author_email: luke@austincodingacademy.com
-date: '2016-11-29 21:43:09 -0600'
-date_gmt: '2016-11-29 21:43:09 -0600'
+date: '2016-11-29'
 categories:
   - Uncategorized
 tags: []
-comments: []
+published: false
 ---
-
+<!-- JS code needs to be organized -->
 In this intermediate tutorial, you will learn how to create a digital JavaScript clock for your web page in three easy steps.
 
 Many, many moons ago in a state of mind far, far away from my current, I was introduced to the Back to the Future movies, and boy did it leave an impression on my young, bizarre mind.
@@ -34,23 +24,26 @@ One of the main recurring themes in the Back to the Future trilogy looks at how 
 
 We use JavaScript to manipulate a web page in real-time, listening to events that trigger a change in an HTML element or provide interactive elements on a page, like a working digital clock. This intermediate-level tutorial on JavaScript shows you how to do just that. And if my calculations are correct, once this code is properly set up on your webpage, you are going to see some seriously cool stuff.
 
-[/cs_text][x_custom_headline level="h2" looks_like="h3" accent="false"]STEP 1: HOW TO GET THE CURRENT TIME
-[/x_custom_headline][cs_text]The first step we need to do is retrieve the current time. We can do this by using JavaScript's Date class. First, create a new Date object with no parameters, which gives us a Date object containing the current date and time on the web visitor's computer:
+
+The first step we need to do is retrieve the current time. We can do this by using JavaScript's Date class. First, create a new Date object with no parameters, which gives us a Date object containing the current date and time on the web visitor's computer:
 
 `var currentTime = new Date();`
 
 Next, we extract the hours, minutes, and seconds components of the current time from our Date object.
 `var currentHours = currentTime.getHours();
 var currentMinutes = currentTime.getMinutes();
-var currentSeconds = currentTime.getSeconds();`[/cs_text][x_custom_headline level="h2" looks_like="h3" accent="false"]STEP 2: HOW TO FORMAT THE TIME
-[/x_custom_headline][cs_text]We now have the three main values of time, so let's format them into a string for our web page. For this tutorial, we will format for a 12-hour clock, using "HH:MM:SS XX", where XX is either "AM" or "PM".
+var currentSeconds = currentTime.getSeconds();`
+
+STEP 2: HOW TO FORMAT THE TIME
+
+We now have the three main values of time, so let's format them into a string for our web page. For this tutorial, we will format for a 12-hour clock, using "HH:MM:SS XX", where XX is either "AM" or "PM".
 
 First, we'll add a leading zero to the minutes and seconds, if required:
 
 `currentMinutes = ( currentMinutes < 10 ? "0" : "" ) + currentMinutes;
 currentSeconds = ( currentSeconds < 10 ? "0" : "" ) + currentSeconds;`
 
-The ? and : symbols used above comprise the ternary operator, a special operator that returns the value before the colon if the condition before the query (?) is true, or the value after the colon if the condition is false. It's a great way to write a shorthand "if" block if you nneed to return a single value.
+The ? and : symbols used above comprise the ternary operator, a special operator that returns the value before the colon if the condition before the query (?) is true, or the value after the colon if the condition is false. It's a great way to write a shorthand "if" block if you need to return a single value.
 
 Next, let's set a new variable, timeOfDay, to "AM" or "PM", and subtract 12 from the hours component in order to convert it to a 12-hour format. We will also want the hours component to show "12" instead of "0", so we need to add a check for this as well:
 
@@ -69,7 +62,7 @@ Now that we have our time string ready for all the world to see, we need to add 
 `<span id="clock">&amp;nsbsp;&gt;span&gt;`
 
 
-I know what you're thinking, "Why the @#$% did you put the $nsbsp; in there?!". By placing the inside the span element, we created a child text node for the span in the DOM. Place this span on your page where you would like the JavaScript clock to appear.
+I know what you're thinking, "Why the hell did you put the $nsbsp; in there?!". By placing the inside the span element, we created a child text node for the span in the DOM. Place this span on your page where you would like the JavaScript clock to appear.
 
 We can then populate the span container with the time string by retrieving this node and then setting its NodeValue property. Check it out:
 
@@ -77,11 +70,13 @@ We can then populate the span container with the time string by retrieving this 
 
 **"YOU BUILT A TIME MACHINE... OUT OF A DELOREAN?!"**
 Now that we've finished our JavaScript code, we need to wrap it in a JavaScript function, updateClock() and place it in the head element of our web page:
+<!-- don't know how to organize this part below -->
 
-`<script type="text/javascript"><br />
+```json
+<script type="text/javascript"><br />
 <!--</code></p>
 <p><code>function updateClock ( )<br />
-{<br />
+{<br />    
  var currentTime = new Date ( );</p>
 <p> var currentHours = currentTime.getHours ( );<br />
  var currentMinutes = currentTime.getMinutes ( );<br />
@@ -102,10 +97,11 @@ currentSeconds = ( currentSeconds < 10 ? "0" : "" ) + currentSeconds;</p>
 }</p>
 <p>// --><br />
 </script>`
+```
 
 In order to make our JavaScript clock update every second, we need to use the Window.setInterval() method from within the page's body tag to call our updateClock() function once per second. We also need to call updateClock() the moment the page loads, so that clock appears immediately. Simply drop this code into your body tag, like this:
 
-``
+
 
 The only thing left for you to do is add your own CSS to the clock container to make it look the way you want and you are done. Well done, friend. I think you earned tomorrow's hangover.
 

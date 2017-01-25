@@ -7,19 +7,20 @@ categories:
   - Learn to Code
   - Industry Insights
 tags: []
+published: false
 ---
 
 
 
 <!-- # Pretty Isn't Functional -->
-<!-- The above line doesn't have any content so it's commented out -->
+<!-- The above line doesn't have any content so not sure if it this heading supposed to be diplayed -->
 
 
 
 
 
 
-# Why All Designers Should Learn To Code
+### Why All Designers Should Learn To Code
 
 
 
@@ -44,7 +45,7 @@ As her new job required more coding, she felt out of her depth. 'I was breaking 
 
 
 
-## 'It took me a long time to understand that just because I am self-taught doesn't mean I have to learn alone.'
+### 'It took me a long time to understand that just because I am self-taught doesn't mean I have to learn alone.'
 
 
 
@@ -61,7 +62,7 @@ Speaking from experience, she believes many designers with limited or no coding 
 
 
 
-## The worst thing a designer can do is 'become stagnant and replaceable'.
+### The worst thing a designer can do is 'become stagnant and replaceable'.
 
 
 
@@ -81,7 +82,7 @@ Gizem is now working as a platform UX/UI designer at [Continuum Analytics](https
 
 --------------------------------------------------------------------------------
 
-### There is a lot to gain from learning how to code. [→ Check out our courses today!](//www.austincodingacademy.com/courses)
+#### **There is a lot to gain from learning how to code.** [→ Check out our courses today!](//www.austincodingacademy.com/courses)
 
 
 
