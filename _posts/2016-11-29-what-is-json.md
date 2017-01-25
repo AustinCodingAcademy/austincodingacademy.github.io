@@ -5,7 +5,6 @@ date: '2016-11-29'
 categories:
   - Uncategorized
 tags: []
-published: false
 ---
 
 
@@ -44,6 +43,7 @@ Data for a few example products are listed below:
   Quantity in stock: 8
 
 Here's how that data would look represented as JSON
+
 ```json
 {
   "inventory": {
@@ -87,11 +87,11 @@ Consequently, it's easy to have programs written in different languages communic
 
 In Python, for example, the process for converting a JSON string into its associated data takes only a couple of lines of code!
 
-```json
->>> json_str = '{"x": 15,"y": 30}'
->>> data = json.loads(json_str)
->>> data['x'] + data['y']
-45
+```js
+var json_str = '{"x": 15,"y": 30}'
+var data = json.loads(json_str)
+var data['x'] + data['y']
+//=> 45
 ```
 **Here's the same operation in PHP**
 

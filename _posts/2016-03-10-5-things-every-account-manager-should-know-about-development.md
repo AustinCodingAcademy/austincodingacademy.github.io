@@ -8,7 +8,6 @@ categories:
 tags:
   - account manager
   - developer
-published: false
 ---
 
 There are 5 things every account manager should know about development if they are going to be successful at communicating with a development team. Being an account manager with a technical team can be challenging, especially when balancing relationships between clients and your devs. This list will help manage this balance. For another interesting perspective on account managers and developers, check out ["Why Account Managers Shouldn't Prevent Designers From Speaking To Clients,"](https://www.smashingmagazine.com/2012/06/why-account-managers-shouldnt-prevent-designers-from-speaking-to-clients/) by Smashing Magazine.
@@ -54,7 +53,7 @@ The secondary objective is to start early requirements gathering. Learn what ext
 ### 3. "SMALL" CHANGES ARE NOT ALWAYS SMALL CHANGES.
 
 
-A lot of profitability can go out of the window if account teams do not understand this fundamental development issue. A change that may seem small can impact things like User Experience (UX), responsive capabilities <!-- The link needs a text -->[http://bit.ly/1fgnCp0](http://bit.ly/1fgnCp0) or other timeline issues. Even the smallest text change can have implications that you might not understand. Be mindful of that and check with development before making what seem to be quick fixes.
+A lot of profitability can go out of the window if account teams do not understand this fundamental development issue. A change that may seem small can impact things like User Experience (UX), [responsive capabilities](https://web.archive.org/web/20150416062954/http://johnsteinmetz.net/responsive-design-alternative-content-is-important/#close) or other timeline issues. Even the smallest text change can have implications that you might not understand. Be mindful of that and check with development before making what seem to be quick fixes.
 
 ### 4. THERE ARE A NUMBER OF DIFFERENT WAYS TO MANAGE A PROJECT.
 
