@@ -3,7 +3,7 @@
 # you will see them accessed via {{ site.school }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-school: Austin Coding Academy
+school: San Anonio Coding Academy
 email: info@austincodingacademy.com
 header: San Antonio's Best Value in Coding Education
 baseurl: "" # the subpath of your site, e.g. /blog
