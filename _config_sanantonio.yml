@@ -4,7 +4,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 school: San Anonio Coding Academy
-email: info@austincodingacademy.com
+email: info@sanantoniocodingacademy.com
 header: San Antonio's Best Value in Coding Education
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://austincodingacademy.com # the base hostname & protocol for your site, e.g. http://example.com
