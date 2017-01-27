@@ -5,9 +5,11 @@ date: '2016-11-29'
 categories:
   - Uncategorized
 tags: []
-published: false
+image: 'html5.jpg'
+<!-- published: false -->
 ---
 <!-- This page has lots of missing info -->
+
 
 This is the first week in Austin Coding Academy's spring session, and a slew of new students began down the road to learning front-end web development over the next 10 weeks. That journey starts with an introduction to the basics: HTML and CSS.
 
@@ -133,9 +135,10 @@ Paragraphs use the
 
 tag, and in this example, we are giving the paragraph tags a **title attribute**.
 
+```html
 <p title="about austin="" coding="" academy"="">
 </p title="about>
-
+```
 If you hover over the paragraph with your cursor, the title will display as a tooltip.
 
 HTML links are defined with the **[]()**

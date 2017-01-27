@@ -7,7 +7,8 @@ categories:
   - Learn to Code
   - Industry Insights
 tags: []
-published: false
+image: 'lukestennis.jpg'
+<!-- published: false -->
 ---
 <!-- Are these two heading missing info or supposed to be separate headings? -->
 

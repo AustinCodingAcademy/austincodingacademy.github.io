@@ -5,6 +5,7 @@ date: '2016-11-15'
 categories:
   - Uncategorized
 tags: []
+image: ''
 ---
 
 Happy Merry Chrismakwanzika! At ACA we're getting ready to put a close to 2016, with our 8th session graduating in December, and spark up what is looking to be an absolutely incredible 2017. With the turning of the year, we have a couple important announcements to make.

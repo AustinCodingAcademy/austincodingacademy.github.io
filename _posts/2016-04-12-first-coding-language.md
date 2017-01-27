@@ -8,7 +8,7 @@ categories:
 tags:
   - coding language
   - learn to code
-
+image: 'code.jpg'
 ---
 
 Inevitably when making the decision to learn how to code, one of the big questions that pops up is, "Which coding language should I learn first?" There are literally hundreds to choose from and understanding the differences between them can be tricky.

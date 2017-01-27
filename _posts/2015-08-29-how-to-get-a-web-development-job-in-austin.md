@@ -5,7 +5,7 @@ date: '2015-08-29'
 categories:
   - Uncategorized
 tags: []
-
+image: 'development-job.jpeg'
 ---
 So you want to get a web development job in Austin. Earlier this week, I sat down with my mentor for some coffee to discuss one of my biggest goals for 2016: get a job in Austin's tech industry as a newly-minted Web Developer. By mid-April, I will have finished Austin Coding Academy's Full Stack track and be "job ready". That means I need to start the process now.
 

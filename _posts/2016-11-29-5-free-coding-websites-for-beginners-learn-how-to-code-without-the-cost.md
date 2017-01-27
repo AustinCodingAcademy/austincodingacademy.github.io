@@ -5,6 +5,7 @@ date: '2016-11-29'
 categories:
   - Learn to Code
 tags: []
+image: 'bean-bag-working.jpg'
 ---
 
 This article will cover some great coding websites for beginners and where to find them.

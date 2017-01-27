@@ -7,7 +7,8 @@ categories:
   - Learn to Code
   - Industry Insights
 tags: []
-published: false
+image: 'christa-small.jpg'
+<!-- published: false -->
 ---
 
 

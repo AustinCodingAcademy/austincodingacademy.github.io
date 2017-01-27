@@ -5,6 +5,7 @@ date: '2016-11-21'
 categories:
   - Blog Post
 tags: []
+image: 'Dr-Strangelove.jpg'
 ---
 
 ### How We Learned to Stop Worrying and Love the Texas Workforce Commission

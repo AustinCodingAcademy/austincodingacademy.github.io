@@ -7,6 +7,7 @@ categories:
   - Learn to Code
   - Industry Insights
 tags: []
+image: 'designer.jpeg'
 ---
 
 What goes through your mind when you hear the word _code_?

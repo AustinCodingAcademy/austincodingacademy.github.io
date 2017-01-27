@@ -6,7 +6,8 @@ categories:
   - Learn to Code
 tags:
   - url
-published: false
+image: 'urlimage.jpg'
+<!-- published: false -->
 ---
 
 If you've ever been on the Internet then you've undoubtedly used a URL before, you most likely have even heard the term.

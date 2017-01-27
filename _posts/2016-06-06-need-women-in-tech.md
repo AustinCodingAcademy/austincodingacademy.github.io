@@ -6,6 +6,7 @@ categories:
   - Blog Post
   - Industry Insights
 tags: []
+image: 'virtual-reality.jpg'
 ---
 
 There's a well-documented deficiency of women in tech fields, one that is long lasting and becoming more pronounced as we move towards a more digital society.

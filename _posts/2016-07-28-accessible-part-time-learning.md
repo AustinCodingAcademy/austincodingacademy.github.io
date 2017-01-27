@@ -6,7 +6,8 @@ categories:
   - Blog Post
   - Learn to Code
 tags: []
-published: false
+image: 'successparttime.jpg'
+<!-- published: false -->
 ---
 
 Are you ready to learn something new? Tired of your job? Yearning for a change? Bored or unsatisfied? You're not alone. According to a 2014 report by New-York based research group The Conference Board, 52.3% of Americans are unhappy at work.  Austin Coding Academy believes these things can be solved with Part Time Classes offered in the evenings.

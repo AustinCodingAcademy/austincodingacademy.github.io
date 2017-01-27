@@ -2,7 +2,10 @@
 layout: post
 title: Top 5 Beginner HTML Questions
 date: '2016-11-29'
+tags: []
+image: 'html_css.jpg'
 ---
+
 ### Below are a list of the top 5 Intro to HTML/CSS questions we get at Austin Coding Academy
 Answers provided by Joe McCullough
 
@@ -40,7 +43,7 @@ Example:
 </p>
 ```
 
-A tag is a line break. As stated in the official HTML5 specification,
+A `<br>` tag is a line break. As stated in the official HTML5 specification,
 
 >"`br` elements must be used only for line breaks that are actually part of the content, as in poems or addresses."
 

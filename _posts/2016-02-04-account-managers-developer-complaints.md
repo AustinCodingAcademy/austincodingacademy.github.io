@@ -10,6 +10,7 @@ tags:
   - developer
   - software developer
   - web developer
+image: 'team.jpg'
 ---
 
 In addition to the 5 items every account manager should know, it is important to know how developers see certain situations. There are some misconceptions on how account managers may see developers.
