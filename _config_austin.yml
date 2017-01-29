@@ -4,6 +4,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 school: Austin Coding Academy
+key: austin
 header: Austin's Best Value in Coding Education
 email: info@austincodingacademy.com
 baseurl: "" # the subpath of your site, e.g. /blog
