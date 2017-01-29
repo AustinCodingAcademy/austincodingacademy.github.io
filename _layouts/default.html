@@ -4,7 +4,9 @@
   {% include google-tag-manager.html %}
   <title>{{ page.title | liquify }}</title>
   <link rel="canonical" href="https://austincodingacademy.com{{page.permalink}}">
-  <link href="/assets/stylesheets/{{site.key}}.css" rel="stylesheet" type="text/css">
+  <style>
+  {% include stylesheets/{{site.key}}.css %}
+  </style>
   {{ page.styles }}
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">

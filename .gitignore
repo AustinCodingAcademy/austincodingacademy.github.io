@@ -4,5 +4,5 @@ _site
 node_modules
 assets/images
 assets/javascripts
-assets/stylesheets
+_includes/stylesheets
 *.log
