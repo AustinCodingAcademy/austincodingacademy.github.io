@@ -8,6 +8,7 @@ tags: []
 image: 'bean-bag-working.jpg'
 ---
 
+
 This article will cover some great coding websites for beginners and where to find them.
 
 Everyone has turning points in their lives, and many times we don't realize we've made them until we are well down the road. Other times, we face a tough decision knowing full well that it could take us down two distinctly different paths, altering our lives all together and sending significant ripples through the space-time continuum, opening new dimensions that expose humanity to an otherwise oblivious and belligerent alien race, who in turn decide our planet is perfect for a new galactic freeway-side diner… and you're on the menu! No pressure, homie.

@@ -9,6 +9,7 @@ tags: []
 image: 'virtual-reality.jpg'
 ---
 
+
 There's a well-documented deficiency of women in tech fields, one that is long lasting and becoming more pronounced as we move towards a more digital society.
 
 As we examine the pipeline that places people into the tech fields, we look at the demographics of children and adolescents who decide to learn to code, and ask ourselves, "do we need more women in tech?".

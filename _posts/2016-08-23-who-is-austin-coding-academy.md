@@ -8,6 +8,7 @@ tags: []
 image: 'IMG_6268.jpg'
 ---
 
+
 Founders of Austin Coding Academy Luke Filipos and Chris Sica met during college, and have been practically inseparable ever since.
 
 Luke hails from Portland, Maine. A child of entrepreneurs, he always wanted to run his own company. He's a traveller, with thirty-two countries under his belt. He's a great cook, happily entertaining large groups of people, and working off his overindulgences with Brazilian Jiu Jitsu.

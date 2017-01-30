@@ -7,8 +7,10 @@ categories:
 tags: []
 image: ''
 ---
+<!--
 
 Happy Merry Chrismakwanzika! At ACA we're getting ready to put a close to 2016, with our 8th session graduating in December, and spark up what is looking to be an absolutely incredible 2017. With the turning of the year, we have a couple important announcements to make.
+<!--excerpt-->
 
 Our goal at ACA is and has always been to provide accessible, affordable coding education. We don't think you need to quit your job to learn to code. We don't think you need to put your whole life on hold and cram an education into three months. We believe in a sustainable, healthy learning process that produces solid fundamentals, strong technical understanding, the ability to work in a team, and how to learn other languages and frameworks efficiently. At ACA we don't just teach people how to code, we teach people how to build themselves into productive members of the tech community.
 

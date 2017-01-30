@@ -10,6 +10,7 @@ tags:
 image: 'venturedeals.jpg'
 ---
 
+
 Book Review of [Venture Deals](http://www.askthevc.com/) by Brad Feld and Jason Mendelson (Short Version)
 
 When negotiating with investors for your startup, there are two main things you need to pay attention to: economics (the amount of money an investor will make from the sale of your company or in an IPO) and control (the investor's ability to veto certain decisions).

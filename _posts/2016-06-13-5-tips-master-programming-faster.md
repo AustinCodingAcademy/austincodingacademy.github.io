@@ -9,6 +9,7 @@ tags: []
 image: 'living-room-workstation.jpg'
 ---
 
+
 Think it takes years to master programming? Well, think again! There are things you can do in your spare time daily to master programming faster. Check out our five tips below.
 
 

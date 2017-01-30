@@ -11,6 +11,7 @@ tags:
 image: 'code.jpg'
 ---
 
+
 Inevitably when making the decision to learn how to code, one of the big questions that pops up is, "Which coding language should I learn first?" There are literally hundreds to choose from and understanding the differences between them can be tricky.
 
 Below are some guidelines for choosing the right language, but here's the easy answer up front: Python and Ruby are considered the easiest to pick up for beginners, while [C](https://en.wikipedia.org/wiki/C_(programming_language)) and [Java](https://www.java.com/en/) are bit more complicated but more versatile.

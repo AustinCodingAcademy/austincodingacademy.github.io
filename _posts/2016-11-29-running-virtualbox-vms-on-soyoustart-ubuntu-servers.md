@@ -9,6 +9,7 @@ tags: []
 image: 'ubuntupic.jpg'
 ---
 
+
 By Joe McCullough
 
 After installing Ubuntu on my [SoYouStart](https://www.soyoustart.com/us/) machine (amazing machines for the price by the way), the first thing I did was attempt to install [Vagrant](https://www.vagrantup.com/) and [VirtualBox](https://www.virtualbox.org/wiki/Downloads).

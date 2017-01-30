@@ -10,6 +10,7 @@ image: 'tipimage.jpg'
 
 
 
+
 ### Why Should I Even Read Programming News?
 
 

@@ -8,7 +8,6 @@ tags: []
 image: 'htmlimage.jpg'
 ---
 
-
 <!-- Heading repeated therefore it's commented out-->
 <!-- # What is JSON and What is it used for? -->
 

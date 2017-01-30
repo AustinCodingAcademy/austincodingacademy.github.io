@@ -11,8 +11,9 @@ tags:
   - javascript
   - website
 image: 'How-Websites-Work-Image.jpg'
-<!-- published: false -->
+published: false
 ---
+
 
 At Austin Coding Academy, we find that often the most important part of learning a new subject is having a context for how everything fits together. This infographic should give you an idea as to how all of the pieces of code that developers write fit together.
 <!-- Dead Link -->

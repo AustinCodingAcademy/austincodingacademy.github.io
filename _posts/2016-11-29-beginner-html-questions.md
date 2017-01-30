@@ -6,6 +6,7 @@ tags: []
 image: 'html_css.jpg'
 ---
 
+
 ### Below are a list of the top 5 Intro to HTML/CSS questions we get at Austin Coding Academy
 Answers provided by Joe McCullough
 

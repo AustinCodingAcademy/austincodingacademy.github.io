@@ -8,6 +8,7 @@ tags: []
 image: 'Dr-Strangelove.jpg'
 ---
 
+
 ### How We Learned to Stop Worrying and Love the Texas Workforce Commission
 
 For any of our fans, or anybody that's tried visiting our site over the last two months, you might have noticed the visionary UX/UI design greeting you on the front page. It's been a little while but Austin Coding Academy is officially back. As you can see, our website is full-featured and healthy again, as are our social media and other public facing accounts. Now that we're back and fully in gear, we wanted to give a little explanation into what happened, what it means and how it affects you. We've also made some updates and improvements to the school that we'd like to share, so we'll include those as well. And in the case that you're in a hurry and won't make it past this paragraph, yours is simply, we're back, better than ever, and would love to have you by the shop to check everything out.

@@ -26,12 +26,12 @@ description: >
                 <div class="media">
                   <div class="media-left">
                     <a href="#">
-                      <img class="media-object" src="{{post.image}}" alt="...">
+                      <img class="media-object" src="/assets/images/{{post.image}}" style="max-width:200px">
                     </a>
                   </div>
                   <div class="media-body">
                     <h4 class="media-heading"><a href="{{ post.url }}">{{ post.title }}</a></h4>
-                    {{ post.excerpt | replace_regex: '<a.*>', '' | remove: '</a>' | remove: '<p>' | remove: '</p>'}}
+                    {{ post.excerpt | replace_regex: 'h3', 'p' | replace_regex: '<img.*>', '' | replace_regex: '<a.*>', '' | remove: '</a>' | remove: '<p>' | remove: '</p>'}}
                   </div>
                 </div>
               </div>

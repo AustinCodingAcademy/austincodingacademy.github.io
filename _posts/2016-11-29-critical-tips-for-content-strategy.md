@@ -8,6 +8,7 @@ tags: []
 image: 'lady.jpg'
 ---
 
+
 By John Steinmeitz
 
 An ongoing debate in the world of content strategy, design, experience and development is that of how much is too much. I have been around the development world for a while now and have seen many philosophies implemented. The basic question is "Do you want to let the audience make a decision about you, your product or your service just by reading your information?"

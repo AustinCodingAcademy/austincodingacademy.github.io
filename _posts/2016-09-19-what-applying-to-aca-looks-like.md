@@ -8,6 +8,7 @@ tags: []
 image: 'technology.jpg'
 ---
 
+
 I must admit, applying to Austin Coding Academy after stumbling across it, was kind of exciting. You see, I had already suffered the sticker shock of various coding bootcamps and schools. And, might I add, my google skills are on point. But ACA's google search presence wasn't there when I searched four months ago.
 
 After entering my wants and needs of a coding school into a "Find My Bootcamp" website I stumble upon, ACA popped up at the top of the list.

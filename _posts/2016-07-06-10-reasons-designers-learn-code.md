@@ -10,6 +10,7 @@ tags: []
 image: 'designer.jpeg'
 ---
 
+
 What goes through your mind when you hear the word _code_?
 
 Long and complicated concepts that only geeks at MIT or Google can fathom, most likely. This fear of the unknown is what hinders many web designers from learning to code.
