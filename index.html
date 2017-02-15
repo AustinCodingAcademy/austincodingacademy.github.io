@@ -2,10 +2,9 @@
 layout: default
 title: Coding Bootcamp | Learn How To Code | {{site.school}}
 description: >
-  Learn how to write code and become a web developer at {{site.school}}, the best
-  coding bootcamp in {{site.city}}
+  Learn highly relevant job skills from professional developers at {{site.school}}. {{site.city}}'s first choice for a coding education
 permalink: /
-styles: >
+head: >
   <style>
   section:first-child {
     background-image: url('/assets/images/Class-background-small-overlay.jpg');
@@ -13,6 +12,7 @@ styles: >
     background-size: cover;
   }
   </style>
+  <!-- <meta name="keywords" content="{{ site.data.keywords | join: ', ' }}"> -->
 ---
 <section>
   <div class="container">
@@ -23,7 +23,7 @@ styles: >
           <br />
           <br />
           <center>
-            <img src="/assets/images/{{site.key}}.svg" class="img-responsive" style="max-width:230px"/>
+            <img src="/assets/images/{{site.key}}.svg" alt="Austin Coding Academy logo" class="img-responsive" style="max-width:230px"/>
           </center>
           <br />
           <small class="text-white">{{site.header}}</small>
@@ -187,7 +187,7 @@ styles: >
       </div>
       <div class="col-xs-12 col-md-6 text-center">
         <center>
-          <img src="assets/images/akshaya-teaching.jpeg" class="img-responsive thumbnail" />
+          <img src="assets/images/akshaya-teaching.jpeg" alt="ACA student teaching another" class="img-responsive thumbnail" />
         </center>
       </div>
     </div>
@@ -201,7 +201,7 @@ styles: >
         <br />
         <div class="block-grid-xs-3 block-grid-sm-4">
           {% for company in site.data.companies %}
-          <div><img class="img-responsive" src="{{ company.logo }}" /></div>
+          <div><img class="img-responsive" src="{{ company.logo }}" alt="Austin Coding Academy logo" /></div>
           {% endfor %}
         </div>
       </div>
@@ -223,7 +223,7 @@ styles: >
     <div class="row text-center">
       <div class="col-xs-12 col-md-4">
         <center>
-          <img src="assets/images/classroom1.jpg" class="img-responsive thumbnail"/>
+          <img src="assets/images/classroom1.jpg" alt="ACA classroom" class="img-responsive thumbnail"/>
         </center>
         <h3>Intro</h3>
         The perfect starting point for people jumping into the coding
@@ -234,7 +234,7 @@ styles: >
       </div>
       <div class="col-xs-12 col-md-4">
         <center>
-          <img src="assets/images/classroom2.jpg" class="img-responsive thumbnail"/>
+          <img src="assets/images/classroom2.jpg" alt="ACA classroom" class="img-responsive thumbnail"/>
         </center>
         <h3>Intermediate</h3>
         For those that are already fluent in HTML/CSS and ready to start
@@ -245,7 +245,7 @@ styles: >
       </div>
       <div class="col-xs-12 col-md-4">
         <center>
-          <img src="assets/images/classroom3.jpg" class="img-responsive thumbnail"/>
+          <img src="assets/images/classroom3.jpg" alt="ACA classroom" class="img-responsive thumbnail"/>
         </center>
         <h3>Advanced</h3>
         The final stage of the ACA curriculum where we put it all together.
@@ -342,7 +342,7 @@ styles: >
     <div class="row">
       <div class="col-xs-12 col-md-6">
         <center>
-          <img src="assets/images/graduation.jpg" class="img-responsive thumbnail" />
+          <img src="assets/images/graduation.jpg" alt="ACA graduation" class="img-responsive thumbnail" />
         </center>
       </div>
       <div class="col-xs-12 col-md-6">
