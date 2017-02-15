@@ -20,7 +20,7 @@
     "serve-houston": "bundle exec jekyll serve --config _config_houston.yml && echo 'houstontxcodingacademy.com' >> _site/CNAME",
     "serve-sanantonio": "bundle exec jekyll serve --config _config_sanantonio.yml && echo 'sanantoniocodingacademy.com' >> _site/CNAME",
     "serve-dallas": "bundle exec jekyll serve --config _config_dallas.yml && echo 'dallascodingacademy.com' >> _site/CNAME",
-    "sitemap-generator": "sitemap-generator http://127.0.0.1:8080 > _site/sitemap.xml",
+    "sitemap-generator": "(http-server _site &) && (sitemap-generator http://127.0.0.1:8080 > _site/sitemap.xml)",
     "sitemap-austin":  "npm run sitemap-generator && sed -i 's|http://127.0.0.1:8080|https://austincodingacademy.com|g' _site/sitemap.xml",
     "sitemap-sanantonio": "npm run sitemap-generator && sed -i 's|http://127.0.0.1:8080|https://sanantoniocodingacademy.com|g' _site/sitemap.xml",
     "sitemap-houston": "npm run sitemap-generator && sed -i 's|http://127.0.0.1:8080|https://houstontxcodingacademy.com|g' _site/sitemap.xml",
