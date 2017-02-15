@@ -3,9 +3,9 @@ layout: default
 permalink: /hire/
 title: Coding Bootcamp | Learn How To Code | {{site.school}}
 description: >
-  Learn how to write code and become a web developer at {{site.school}}, the best
-  coding bootcamp in Austin
-styles: >
+  Join a team of students committed to cultivating in demand tech skills at {{site.school}}, the most accessible
+  coding bootcamp in {{site.city}}
+head: >
   <style>
   section:first-child {
     background-image: url('/assets/images/christa-bg.jpg');
@@ -58,7 +58,7 @@ styles: >
         <br />
         <div class="block-grid-xs-3 block-grid-sm-4">
           {% for company in site.data.companies %}
-          <div><img class="img-responsive" src="{{ company.logo }}" /></div>
+          <div><img class="img-responsive" src="{{ company.logo }}" alt="Austin Coding Academy logo" /></div>
           {% endfor %}
         </div>
       </div>
