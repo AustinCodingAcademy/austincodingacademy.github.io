@@ -11,7 +11,7 @@ deployment:
     commands:
       - git config --global user.email "kevin@austincodingacademy.com"
       - git config --global user.name "Kevin Colten"
-      - npm run build-austin && npm run sitemap-austin && npm run deploy-austin
+      - npm run build-austin && npm run sass-cdn && npm run sitemap-austin && npm run deploy-austin
       - rm -rf node_modules/gh-pages/.cache
       - npm run build-houston && npm run sitemap-houston && npm run deploy-houston
       - rm -rf node_modules/gh-pages/.cache
