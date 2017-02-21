@@ -9,6 +9,7 @@
     "sass": "npm run sass-austin && npm run sass-sanantonio && npm run sass-dallas && npm run sass-houston",
     "postinstall": "npm run sass && npm run js && npm run images",
     "sass-austin": "node-sass --output-style compressed -o _includes/stylesheets/ _sass/austin.scss",
+    "sass-cdn": "node-sass --output-style compressed -o assets/stylesheets/ _sass/austin.scss,
     "sass-sanantonio": "node-sass --output-style compressed -o _includes/stylesheets/ _sass/sanantonio.scss",
     "sass-dallas": "node-sass --output-style compressed -o _includes/stylesheets/ _sass/dallas.scss",
     "sass-houston": "node-sass --output-style compressed -o _includes/stylesheets/ _sass/houston.scss",
