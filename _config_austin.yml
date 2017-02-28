@@ -31,6 +31,7 @@ track_amount: $8,970
 stack: javascript
 google_tag_id: GTM-TBH7GK
 syllabus: https://student.austincodingacademy.com/_book/austin-intro.html
+color: '#f8b232'
 
 # Build settings
 markdown: kramdown

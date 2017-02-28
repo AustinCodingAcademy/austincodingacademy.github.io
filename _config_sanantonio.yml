@@ -31,6 +31,7 @@ track_amount: $8,970
 stack: csharp
 google_tag_id: GTM-KPK9R39
 syllabus: https://student.austincodingacademy.com/_book/sanantonio-intro.html
+color: '#80c99b'
 
 # Build settings
 markdown: kramdown

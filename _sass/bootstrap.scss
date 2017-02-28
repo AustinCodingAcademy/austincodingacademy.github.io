@@ -40,3 +40,16 @@
   // '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/utilities',
   '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/wells',
   '../node_modules/bootstrap-block-grid/src/bootstrap3-block-grid';
+
+.list-inline > li {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.panel-inverse {
+  border: 0;
+  border-left: 5px solid $brand-success;
+  background-color: $brand-primary;
+  color: $gray-lighter;
+  padding: 5px 10px;
+}

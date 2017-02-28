@@ -3,15 +3,13 @@
 <head>
   {% include google-tag-manager.html %}
   <title>{{ page.title | liquify }}</title>
-  <style>
-  {% include stylesheets/{{site.key}}.css %}
-  </style>
   {% include favicon.html %}
   {{ page.head }}
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{{ page.description | liquify }}">
   <meta name="keywords" content="">
+  <link rel="stylesheet" href="/assets/stylesheets/{{ site.key | liquify }}.css">
 </head>
 <body>
   {% include google-tag-manager-noscript.html %}

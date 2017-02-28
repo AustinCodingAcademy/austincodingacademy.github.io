@@ -6,6 +6,7 @@ require('bootstrap.modal');
 require('bootstrap.transition');
 require('slick-carousel');
 require('typed.js');
+require('jquery-match-height');
 
 $(function() {
   if ($('.typed').length) {
@@ -25,4 +26,6 @@ $(function() {
     $cursor.prev().insertBefore($cursor);
     $cursor.addClass('pull-right');
   }
+
+  $('.equalizer').children().matchHeight();
 });

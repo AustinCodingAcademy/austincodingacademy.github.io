@@ -13,7 +13,7 @@
 // $gray-dark:              lighten($gray-base, 20%) !default;   // #333
 // $gray:                   lighten($gray-base, 33.5%) !default; // #555
 // $gray-light:             lighten($gray-base, 46.7%) !default; // #777
-// $gray-lighter:           lighten($gray-base, 93.5%) !default; // #eee
+$gray-lighter:           #f7f7f7 !default; // #eee
 
 $brand-primary:         #004566 !default;
 // $brand-success:         #f8b232 !default;
@@ -395,12 +395,12 @@ $grid-float-breakpoint:     $screen-md-min !default;
 
 //=== Inverted navbar
 // Reset inverted navbar basics
-// $navbar-inverse-color:                      lighten($gray-light, 15%) !default;
-// $navbar-inverse-bg:                         #222 !default;
+$navbar-inverse-color:                      lighten(#ffffff, 15%) !default;
+$navbar-inverse-bg:                         $brand-primary !default;
 // $navbar-inverse-border:                     darken($navbar-inverse-bg, 10%) !default;
 
 // Inverted navbar links
-// $navbar-inverse-link-color:                 lighten($gray-light, 15%) !default;
+$navbar-inverse-link-color:                 lighten($navbar-inverse-color, 15%) !default;
 // $navbar-inverse-link-hover-color:           #fff !default;
 // $navbar-inverse-link-hover-bg:              transparent !default;
 // $navbar-inverse-link-active-color:          $navbar-inverse-link-hover-color !default;

@@ -1,11 +1,22 @@
 <header>
-  <nav class="navbar navbar-default navbar-static-top">
-    <div class="well well-sm text-right">
+  <nav class="navbar navbar-default navbar-static-top navbar-inverse">
+    <div class="well well-sm bg-success text-white border-0">
       <div class="container">
-        <a href="{{ site.location_url }}" class="link-white" target="_blank"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;{{ site.location }}</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="{{ site.syllabus }}" class="link-white" target="_blank"><i class="fa fa-file-text-o"></i>&nbsp;&nbsp;View Syllabus</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="mailto:{{ site.email }}" class="link-white" target="_blank"><i class="fa fa-envelope-o"></i>&nbsp;&nbsp;Email</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="tel:{{site.phone}}" class="link-white"><i class="fa fa-phone"></i>&nbsp;&nbsp;{{ site.phone }}</a>
+        <ul class="list-inline margin-0 justify-content-space-between align-items-center">
+          <li><a href="{{site.googleplus}}" alt="Google Plus" class="link-white"><i class="fa fa-google-plus-official fa-lg"></i></a></li>
+          <li><a href="{{site.twitter}}"  alt="Twitter" class="link-white"><i class="fa fa-twitter fa-lg"></i></a></li>
+          <li><a href="{{site.facebook}}" alt="Facebook" class="link-white"><i class="fa fa-facebook-official fa-lg"></i></a></li>
+          <li><a href="{{site.linkedin}}" alt="LinkedIn" class="link-white"><i class="fa fa-linkedin fa-lg"></i></a></li>
+          <li><a href="{{site.instagram}}" alt="Instagram" class="link-white"><i class="fa fa-instagram fa-lg"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="well well-sm text-right border-0 bg-gray-lighter">
+      <div class="container">
+        <a href="{{ site.location_url }}" target="_blank" class="link-primary"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;{{ site.location }}</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="{{ site.syllabus }}" target="_blank" class="link-primary"><i class="fa fa-file-text-o"></i>&nbsp;&nbsp;View Syllabus</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="mailto:{{ site.email }}" target="_blank" class="link-primary"><i class="fa fa-envelope-o"></i>&nbsp;&nbsp;Email</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="tel:{{site.phone}}" class="link-primary"><i class="fa fa-phone"></i>&nbsp;&nbsp;{{ site.phone }}</a>
       </div>
     </div>
     <div class="container">
@@ -17,7 +28,7 @@
           <span class="icon-bar"></span>
         </button>
         <a class="navbar-brand" href="/" style="display:flex;align-items:center">
-          <img src="/assets/images/{{site.key}}.svg" alt="Austin Coding Academy logo" style="max-width:50px"/>
+          <img src="/assets/images/{{site.key}}-logo-white.svg" alt="{{site.city}} Coding Academy Logo" style="max-width:50px"/>
         </a>
       </div>
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">

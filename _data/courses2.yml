@@ -1,0 +1,31 @@
+'Full Stack 101':
+  description: >
+    Use HTML, CSS, Javascript, jQuery, Git, Terminal, Atom, the DevTool, to create 14 sites and a Portfolio to house them.
+
+'JS Full Stack 211':
+  description: >
+    After the core 101 class, students begin creating small apps using Javascript, jQuery, Node, NPM, API's, and Terminal.
+
+'JS Full Stack 311':
+  description: >
+    Create web apps using MongoDB, Express.js, React.js, and Node. Think Facebook, Twitter, and Reddit.
+
+'C# & .NET Full Stack 221':
+  description: >
+    After the core 101 class, students begin creating small apps using C#, SQL, and object oriented programming.
+
+'C# & .NET Full Stack 321':
+  description: >
+    Students construct 2 full apps using Visual Studio, Razor, and SQL
+
+'Web Design 231':
+  description: >
+    Students learn how to freelance, write copy, Photoshop basics, and an introduction to digital marketing.
+
+'Web Design 331':
+  description: >
+    Students iterate through their portfolios, optimizing and learning User Experience and User Interface.
+
+'Coming Soon':
+  description: >
+    In the coming year, we'll be teaching Web Virtual Reality VR 411 | React Native RN 412
