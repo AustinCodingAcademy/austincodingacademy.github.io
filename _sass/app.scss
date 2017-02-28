@@ -85,6 +85,10 @@ section {
   color: $brand-primary !important;
 }
 
+.text-gray-light {
+  color: $gray-light !important;
+}
+
 .bg-primary {
   background-color: $brand-primary !important;
 }
@@ -105,6 +109,13 @@ a.link-white {
   color: #ffffff !important;
   &:hover, &:focus {
     color: darken(#ffffff, 15%) !important;
+  }
+}
+
+a.link-gray-light {
+  color: $gray-light !important;
+  &:hover, &:focus {
+    color: darken($gray-light, 15%) !important;
   }
 }
 
@@ -170,4 +181,8 @@ html, body {
 
 .flex-wrap {
   flex-wrap: wrap;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }

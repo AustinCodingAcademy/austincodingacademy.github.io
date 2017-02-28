@@ -5,9 +5,10 @@
       <img class="media-object img-circle" src="{{review.img}}" alt="{{review.name}}" style="max-width: 150px; max-height: 150px;">
     </div>
     <div class="media-body">
-      <h4 class="media-heading">{{review.name}}
+      <h4 class="media-heading">
+        {{review.review}}
         <br />
-        <small class="text-white">{{ review.review }}</small>
+        <small>- <span class="text-success">{{ review.name }}, </span> <em>student</em></small>
       </h4>
     </div>
   </div>

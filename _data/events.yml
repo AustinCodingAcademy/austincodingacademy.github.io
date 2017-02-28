@@ -1,0 +1,31 @@
+austin: []
+
+sanantonio: []
+
+dallas: []
+
+houston:
+  - name: Info Session
+    description: Attend an Info Session to see our classrooms, learn more about the curriculum, and meet one of our Instructors and students.
+    img: ''
+    date: March 2, 2017
+    location:
+      name: Station Houston
+      href: '#'
+    href: '#'
+  - name: Learn to Code
+    description: Come to a Learn to Code event to create your own small website with the languages and tech the pros use.
+    img: ''
+    date: March 4, 2017
+    location:
+      name: Station Houston
+      href: '#'
+    href: '#'
+  - name: Prep for Success
+    description: Setup your computer with professional software. Create a Visual Vocabulary with terms, shortcuts, cheatsheets, and workflows.
+    img: ''
+    date: March 16, 2017
+    location:
+      name: Station Houston
+      href: '#'
+    href: '#'
