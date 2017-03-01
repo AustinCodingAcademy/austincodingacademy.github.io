@@ -1,0 +1,237 @@
+---
+layout: default
+permalink: /tuition/
+title: Tuition | {{ site.school }}
+description: >
+  {{ site.school }} is a web development and coding school with locations in
+  {{ city }}. Visit us to learn more about our story.
+talking_points:
+  - icon: scissors
+    title: Job Security
+    body: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias non null
+  - icon: pencil
+    title: Accessibility
+    body: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias non null
+  - icon: wrench
+    title: Relevant Content
+    body: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias non null
+  - icon: object-group
+    title: Job Readiness
+    body: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias non null
+  - icon: mobile
+    title: Reviews
+    body: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias non null
+  - icon: lightbulb-o
+    title: Testimonials
+    body: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias non null
+
+lenders:
+  - title: WeFinance
+    body: >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore impedit
+      quae repellendus provident dolor iure poss imusven am aliquam. Officiis
+      totam ea laborum deser unt vonsess. iure poss imusven am aliquam
+  - title: Climb
+    body: >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore impedit
+      quae repellendus provident dolor iure poss imusven am aliquam. Officiis
+      totam ea laborum deser unt vonsess. iure poss imusven am aliquam
+  - title: Upstart
+    body: >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore impedit
+      quae repellendus provident dolor iure poss imusven am aliquam. Officiis
+      totam ea laborum deser unt vonsess. iure poss imusven am aliquam
+  - title: Pave
+    body: >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore impedit
+      quae repellendus provident dolor iure poss imusven am aliquam. Officiis
+      totam ea laborum deser unt vonsess. iure poss imusven am aliquam
+  - title: A +
+    body: >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore impedit
+      quae repellendus provident dolor iure poss imusven am aliquam. Officiis
+      totam ea laborum deser unt vonsess. iure poss imusven am aliquam
+---
+<section>
+  <div class="container">
+    <h1>
+      Tuition and Financing
+      <br><br>
+      <small>
+        We want our students to experience coding with as little stress as
+        possible, so please check with your Admissions Advisor about programs
+        you might be eligible for
+      </small>
+    </h1>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-6">
+        <h2>
+          <small class="lead">TUITION AND FINANCING</small>
+          <br>
+          THE HIGHEST RETURN ON INVESTMENT AT {{site.acronym}}
+          <br>
+          <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
+        </h2>
+        <h3>
+          Lorem ipsum dolor sit amet soluta saepe odit error, maxime praesentium sunt udiandae!
+          <br>
+          <small>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore
+            atque officiis maxime suscipit expedita obcaecati nulla in ducimus
+            iure quos quam recusandae dolor quas et perspiciatis voluptatum
+            accusantium delectus nisi reprehenderit, eveniet fuga modi pariatur,
+            eius vero. Ea vitae maiores.
+          </small>
+        </h3>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="bg-primary">
+  <div class="container">
+    {% include reviews.html %}
+  </div>
+</section>
+<section class="bg-gray-lighter">
+  <div class="container">
+    <h2>
+      OUR <span class="text-success">TALKING POINTS</span>
+      <br>
+      <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
+    </h2>
+    <div class="row">
+      {% for talking_point in page.talking_points %}
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="media row-eq">
+              <div class="media-left">
+                <div class="panel panel-inverse margin-0 equalizer align-items-center">
+                  <div class="panel-body" style="padding: 5px;">
+                    <i class="fa fa-{{talking_point.icon}} fa-3x fa-fw"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="media-body">
+                <h3 class="media-heading equalizer">
+                  {{talking_point.title}}
+                  <br>
+                  <small>{{talking_point.body}}</small>
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<section class="bg-primary text-white">
+  <div class="container">
+    <h2>
+      AVAILABLE <span class="text-success">SCHOLARSHIPS</span>
+      <br>
+      <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
+    </h2>
+    <div class="row text-center">
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <i class="text-success fa fa-smile-o fa-3x"></i>
+        <h3>PROJECT QUEST</h3>
+        <p>Contact Ruby Siddle to see if you qualify</p>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <i class="text-success fa fa-file-text-o fa-3x"></i>
+        <h3>CODE 2040</h3>
+        <p>For diversity and economic growth within your family</p>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <i class="text-success fa fa-users fa-3x"></i>
+        <h3>DIVERSITY SCHOLARSHIP</h3>
+        <p>{{site.acronym}} proudly offers diversity scholarships</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  {% include learn.html %}
+</section>
+<section class="bg-primary text-white">
+  <div class="container">
+    <h2>
+      AVAILABLE <span class="text-success">FUNDING</span>
+      <br>
+      <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
+    </h2>
+    <div class="row text-center">
+      <div class="col-xs-12 col-sm-6">
+        <i class="text-success fa fa-smile-o fa-3x"></i>
+        <h3>GOFUNDME</h3>
+        <p>
+          Friends and family are important to every one of us and many of them
+          might be willing to support, and assist, if given an accessible,
+          online resource. Some of our students have had success starting a
+          GoFundMe page.
+        </p>
+      </div>
+      <div class="col-xs-12 col-sm-6">
+        <i class="text-success fa fa-file-text-o fa-3x"></i>
+        <h3>CORPORATE FUNDING</h3>
+        <p>
+          Funding from current employers is quickly becoming the fastest-growing
+          source of financing for code school students.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-6">
+        {% include upcoming-events.html %}
+      </div>
+      <div class="col-xs-12 col-md-6">
+        <h2>
+          Lending <span class="text-success">Agencies</span>
+          <br>
+          <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
+          <small>
+            Remember, you are free to obtain a loan from any lender, not just
+            those listed below. Loans must be repaid with interest, and taking
+            out a loan is a big decision, so consider it carefully. If you
+            choose to pursue financing, we encourage you to explore all your
+            options fully before working with any particular lender. While these
+            loan programs may be available to you, there is no agreement in
+            place between {{site.school}} and these organizations.
+          </small>
+        </h2>
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+          {% for lender in page.lenders %}
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="heading{{forloop.index}}">
+              <h4 class="panel-title">
+                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{{forloop.index}}" aria-expanded="false" aria-controls="collapse{{forloop.index}}">
+                  {{lender.title}}
+                </a>
+              </h4>
+            </div>
+            <div id="collapse{{forloop.index}}" class="panel-collapse collapse {% if forloop.index == 1 %} in {% endif %}" role="tabpanel" aria-labelledby="heading{{forloop.index}}">
+              <div class="panel-body">
+                {{lender.body}}
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="bg-gray-lighter">
+  {% include companies.html %}
+</section>

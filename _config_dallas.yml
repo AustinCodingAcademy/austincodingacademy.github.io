@@ -4,6 +4,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 school: Dallas Coding Academy
+acronym: DCA
 key: dallas
 header: Dallas' Best Value in Coding Education
 email: info@dallascodingacademy.com

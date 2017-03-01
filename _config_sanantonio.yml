@@ -4,6 +4,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 school: San Antonio Coding Academy
+acronym: SACA
 key: sanantonio
 email: info@sanantoniocodingacademy.com
 header: San Antonio's Best Value in Coding Education

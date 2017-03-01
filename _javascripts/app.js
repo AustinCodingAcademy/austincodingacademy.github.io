@@ -5,27 +5,29 @@ require('bootstrap.dropdown');
 require('bootstrap.modal');
 require('bootstrap.transition');
 require('slick-carousel');
-require('typed.js');
 require('jquery-match-height');
 
 $(function() {
-  if ($('.typed').length) {
-    $('.typed').each(function() {
-      $(this).typed({
-        typeSpeed: 10,
-        startDelay: 0,
-        backSpeed: 10,
-        backDelay: 3000,
-        loop: true,
-        showCursor: true,
-        cursor: "|",
-        stringsElement: $(this).find('.typed-strings')
+  if ($('.slick-carousel').length) {
+    $('.slick-carousel').each(function() {
+      $(this).slick({
+        dots: $(this).data('dots') !== undefined ? $(this).data('dots') : true,
+        arrows: $(this).data('arrows') !== undefined ? $(this).data('arrows') : true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: $(this).data('slides') || 1,
+        autoplay: true,
+        autoplaySpeed: $(this).data('autoplay-speed') || 10000,
+        initialSlide: Math.floor(Math.random() * $(this).children().length),
+        lazyLoad: 'ondemand'
       });
     });
-    var $cursor = $('.typed-cursor:nth-child(2)');
-    $cursor.prev().insertBefore($cursor);
-    $cursor.addClass('pull-right');
+    $('.slick-carousel .hidden, .slick-carousel.hidden').removeClass('hidden');
   }
 
-  $('.equalizer').children().matchHeight();
+  if ($('.equalizer').length) {
+    $('.row-eq').each(function() {
+      $(this).find('.equalizer').matchHeight();
+    });
+  }
 });

@@ -16,33 +16,9 @@ $slick-loader-path: "/assets/images/" !default;
   '../node_modules/pygments-rouge-css/github',
   'variables',
   'bootstrap',
-  'header',
-  'footer';
+  'header';
 
 // (Your custom CSS Here)
-
-.typed-cursor{
-  opacity: 1;
-  -webkit-animation: blink 0.7s infinite;
-  -moz-animation: blink 0.7s infinite;
-  animation: blink 0.7s infinite;
-}
-@keyframes blink{
-  0% { opacity:1; }
-  50% { opacity:0; }
-  100% { opacity:1; }
-}
-@-webkit-keyframes blink{
-  0% { opacity:1; }
-  50% { opacity:0; }
-  100% { opacity:1; }
-}
-@-moz-keyframes blink{
-  0% { opacity:1; }
-  50% { opacity:0; }
-  100% { opacity:1; }
-}
-
 .margin-0 {
   margin: 0 !important;
 }
@@ -112,6 +88,17 @@ a.link-white {
   }
 }
 
+a.link-clear-dark {
+  border: 1px solid darken(#ffffff, 15%) !important;
+  color: darken(#ffffff, 15%) !important;
+  border-radius: 12px;
+  padding: 3px 3px;
+  &:hover, &:focus {
+    border: 1px solid #ffffff !important;
+    color: #ffffff !important;
+  }
+}
+
 a.link-gray-light {
   color: $gray-light !important;
   &:hover, &:focus {
@@ -157,18 +144,23 @@ html, body {
 }
 
 .justify-content-space-between {
-  display: flex;
-  justify-content: space-between;
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+.justify-content-center {
+  display: flex !important;
+  justify-content: center !important;
 }
 
 .align-items-center {
-  display: flex;
-  align-items: center;
+  display: flex !important;
+  align-items: center !important;
 }
 
 .align-items-flex-end {
   display: flex;
-  align-items: flex-end;;
+  align-items: flex-end;
 }
 
 .display-inline {

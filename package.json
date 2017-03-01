@@ -80,9 +80,7 @@
     "jquery-match-height": "^0.7.2",
     "node-sass": "^4.3.0",
     "pygments-rouge-css": "^0.1.0",
-    "slick-carousel": "^1.6.0",
-    "typed.js": "^1.1.1",
-    "uglifyify": "^3.0.4"
+    "slick-carousel": "^1.6.0"
   },
   "browser": {
     "bootstrap.affix": "./node_modules/bootstrap-sass/assets/javascripts/bootstrap/affix.js",

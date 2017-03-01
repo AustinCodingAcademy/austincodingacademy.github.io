@@ -22,21 +22,5 @@
   <script type="text/javascript" src="/assets/javascripts/app.js"></script>
   {{ page.scripts }}
   {% include livechat.html %}
-  <script>
-  $(function() {
-    $('.reviews').each(function() {
-      $(this).slick({
-        dots: true,
-        infinite: true,
-        speed: 300,
-        slidesToShow: 1,
-        autoplay: true,
-        autoplaySpeed: 10000,
-        initialSlide: Math.floor(Math.random() * {{site.data.reviews | size}})
-      });
-    });
-    $('.reviews .review').removeClass('hidden');
-  });
-  </script>
 </body>
 </html>

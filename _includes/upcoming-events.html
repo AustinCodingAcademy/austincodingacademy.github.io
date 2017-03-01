@@ -1,0 +1,32 @@
+<h2>
+  <i class="fa fa-calendar"></i> UPCOMING<span class="text-success"> EVENTS</span>
+  <br>
+  <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
+</h2>
+{% for event in site.data.events[site.key] %}
+<div class="media">
+  <div class="media-left">
+    <a href="{{event.href}}">
+      <img class="media-object" src="{{event.img}}" alt="event image">
+    </a>
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading">
+      <a href="{{event.href}}">{{event.name}}</a>
+      <br>
+      <small>
+        <a href="{{event.href}}" class="link-gray-light">
+          <i class="fa fa-calendar"></i> {{event.date}}
+        </a>
+        |
+        <a href="{{event.location.href}}" class="link-gray-light">
+          <i class="fa fa-map-marker"></i> {{event.location.name}}
+        </a>
+      </small>
+    </h4>
+    {{event.description}}
+    <br>
+    <a href="{{event.url}}">Read More</a>
+  </div>
+</div>
+{% endfor %}
