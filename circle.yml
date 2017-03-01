@@ -11,10 +11,10 @@ deployment:
     commands:
       - git config --global user.email "kevin@austincodingacademy.com"
       - git config --global user.name "Kevin Colten"
-      - npm run build-austin && npm run sitemap-austin && npm run deploy-austin
+      - npm run favicon-austin && npm run build-austin && npm run sitemap-austin && npm run deploy-austin
       - rm -rf node_modules/gh-pages/.cache
-      - npm run build-houston && npm run sitemap-houston && npm run deploy-houston
+      - npm run favicon-houston && npm run build-houston && npm run sitemap-houston && npm run deploy-houston
       - rm -rf node_modules/gh-pages/.cache
-      - npm run build-sanantonio && npm run sitemap-sanantonio && npm run deploy-sanantonio
+      - npm run favicon-sanantonio && npm run build-sanantonio && npm run sitemap-sanantonio && npm run deploy-sanantonio
       - rm -rf node_modules/gh-pages/.cache
-      - npm run build-dallas && npm run sitemap-dallas && npm run deploy-dallas
+      - npm run favicon-dallas && npm run build-dallas && npm run sitemap-dallas && npm run deploy-dallas

@@ -7,5 +7,6 @@ assets/javascripts
 assets/stylesheets
 assets/favicons
 _includes/stylesheets
+_includes/favicon.html
 faviconData.json
 *.log

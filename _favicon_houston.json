@@ -1,6 +1,6 @@
 {
 	"masterPicture": "_images/houston-logo-white-bg-square.png",
-	"iconsPath": "_site/assets/favicons/",
+	"iconsPath": "/assets/favicons/",
 	"design": {
 		"ios": {
 			"pictureAspect": "noChange",
