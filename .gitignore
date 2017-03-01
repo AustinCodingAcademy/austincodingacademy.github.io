@@ -5,5 +5,7 @@ node_modules
 assets/images
 assets/javascripts
 assets/stylesheets
+assets/favicons
 _includes/stylesheets
+faviconData.json
 *.log

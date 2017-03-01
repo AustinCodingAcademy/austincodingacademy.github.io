@@ -46,3 +46,4 @@ exclude:
   - vendor
   - README.md
   - circle.yml
+  - faviconData.json
