@@ -28,8 +28,8 @@
           <h4 class="text-white">Courses</h4>
           <br>
           <ul class="list-unstyled" style="margin-left: 10px">
-            {% for course in site.data.courses2 %}
-              <li style="border-bottom: 1px dashed #777"><h5><a href="{course.href}" class="link-white">{{course[0]}}</a></h5></li>
+            {% for course in site.data.courses %}
+              <li style="border-bottom: 1px dashed #777"><h5><a href="{course.href}" class="link-white">{{course[1].name}}</a></h5></li>
             {% endfor %}
           </ul>
         </div>

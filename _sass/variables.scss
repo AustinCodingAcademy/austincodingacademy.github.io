@@ -3,25 +3,6 @@
 // Variables
 // --------------------------------------------------
 
-
-//== Colors
-//
-//## Gray and brand colors for use across Bootstrap.
-
-// $gray-base:              #000 !default;
-// $gray-darker:            lighten($gray-base, 13.5%) !default; // #222
-// $gray-dark:              lighten($gray-base, 20%) !default;   // #333
-// $gray:                   lighten($gray-base, 33.5%) !default; // #555
-// $gray-light:             lighten($gray-base, 46.7%) !default; // #777
-$gray-lighter:           #f7f7f7 !default; // #eee
-
-$brand-primary:         #004566 !default;
-// $brand-success:         #f8b232 !default;
-$brand-info:            #4ebdec !default;
-$brand-warning:         #006da3 !default;
-// $brand-danger:          #d9534f !default;
-
-
 //== Scaffolding
 //
 //## Settings for some of the most global styles.
@@ -431,13 +412,13 @@ $navbar-inverse-link-color:                 lighten($navbar-inverse-color, 15%) 
 // $nav-disabled-link-hover-color:             $gray-light !default;
 
 //== Tabs
-// $nav-tabs-border-color:                     #ddd !default;
+$nav-tabs-border-color:                     none !default;
 
-// $nav-tabs-link-hover-border-color:          $gray-lighter !default;
+$nav-tabs-link-hover-border-color:          none !default;
 
-// $nav-tabs-active-link-hover-bg:             $body-bg !default;
-// $nav-tabs-active-link-hover-color:          $gray !default;
-// $nav-tabs-active-link-hover-border-color:   #ddd !default;
+$nav-tabs-active-link-hover-bg:             $brand-primary !default;
+$nav-tabs-active-link-hover-color:          #fff !default;
+$nav-tabs-active-link-hover-border-color:   $brand-primary !default;
 
 // $nav-tabs-justified-link-border-color:            #ddd !default;
 // $nav-tabs-justified-active-link-border-color:     $body-bg !default;

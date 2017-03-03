@@ -1,0 +1,64 @@
+//== Colors
+//
+//## Gray and brand colors for use across Bootstrap.
+
+$gray-base:              #000 !default;
+$gray-darker:            lighten($gray-base, 13.5%) !default; // #222
+$gray-dark:              lighten($gray-base, 20%) !default;   // #333
+$gray:                   lighten($gray-base, 33.5%) !default; // #555
+$gray-light:             lighten($gray-base, 46.7%) !default; // #777
+$gray-lighter:           #f7f7f7 !default; // #eee
+$white:                 #ffffff;
+$brand-primary:         #004566 !default;
+// $brand-success:         different for each city
+$brand-info:            #d9edf7 !default;
+$brand-warning:         #006da3 !default;
+$brand-danger:          #d9534f !default;
+
+$colors:
+  'gray-base'
+  'gray-darker'
+  'gray-dark'
+  'gray'
+  'gray-light'
+  'gray-lighter'
+  'white'
+  'primary'
+  'success'
+  'info'
+  'warning'
+  'danger';
+
+$color_vars:
+  $gray-base
+  $gray-darker
+  $gray-dark
+  $gray
+  $gray-light
+  $gray-lighter
+  $white
+  $brand-primary
+  $brand-success
+  $brand-info
+  $brand-warning
+  $brand-danger;
+
+@for $i from 1 through length($colors) {
+  $color: nth($colors, $i);
+  $color_var: nth($color_vars, $i);
+
+  .text-#{$color} {
+    color: $color_var !important;
+  }
+
+  .bg-#{$color} {
+    background-color: $color_var !important;
+  }
+
+  a.link-#{$color} {
+    color: $color_var !important;
+    &:hover, &:focus {
+      color: darken($color_var, 15%) !important;
+    }
+  }
+}

@@ -11,7 +11,7 @@
     "sass-austin": "node-sass --output-style compressed -o assets/stylesheets/ _sass/austin.scss",
     "sass-sanantonio": "node-sass --output-style compressed -o assets/stylesheets/ _sass/sanantonio.scss",
     "sass-dallas": "node-sass --output-style compressed -o assets/stylesheets/ _sass/dallas.scss",
-    "sass-houston": "node-sass --output-style compressed -o assets/stylesheets/ _sass/houston.scss",
+    "sass-houston": "node-sass --output-style compressed --source-map true -o assets/stylesheets/ _sass/houston.scss",
     "build-austin": "bundle exec jekyll build --config _config_austin.yml && echo 'austincodingacademy.com' >> _site/CNAME",
     "build-dallas": "bundle exec jekyll build --config _config_dallas.yml && echo 'dallascodingacademy.com' >> _site/CNAME",
     "build-houston": "bundle exec jekyll build --config _config_houston.yml && echo 'houstontxcodingacademy.com' >> _site/CNAME",

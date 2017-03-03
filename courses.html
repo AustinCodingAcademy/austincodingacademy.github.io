@@ -6,229 +6,157 @@ description: >
   Are you interested in taking computer coding classes and becoming a web
   developer? Join {{ site.school }} for one of our many HTML, CSS,
   JavaScript, and C Sharp trainings
-head: >
-  <style>
-  section:nth-child(2) {
-    background-image: url('/assets/images/manny-gia-overlay.jpg');
-    background-size: cover;
-  }
-  </style>
+skills:
+  - icon: scissors
+    title: Critical Thinking
+    body: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias non null
+  - icon: pencil
+    title: Technological Sophistication
+    body: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias non null
+  - icon: wrench
+    title: Special ShortCode
+    body: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias non null
+  - icon: object-group
+    title: W3 validation
+    body: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias non null
+  - icon: mobile
+    title: Responsive
+    body: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias non null
+  - icon: lightbulb-o
+    title: Retina Ready
+    body: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias non null
+financing_options:
+  - img: ''
+    title: Scholarships
+    body: >
+      Many of our friends and family would be willing to support us if given an
+      easy, transparent way to ....
+    href: ''
+  - img: ''
+    title: GoFundMe
+    body: >
+      We are partnered with many scholarships and give one out ourselves
+    href: ''
+  - img: ''
+    title: Scholarships
+    body: >
+      Remember, you are free to obtain a loan from any lender, not just those
+      listed below. Loans must be repaid with interest, and taking out a loan is
+      a big decision, so consider it carefully.
+    href: ''
 ---
-<section>
+<section class="bg-gray-darker text-white">
   <div class="container">
-    <h1 class="text-center">
-      The Strongest Curriculum in Texas
-      <br />
-      <small>
-        Written by Developers with Employment In Mind
+    <h1>
+      Courses at {{site.school}}
+      <br>
+      <small class="text-white">
+        Full Stack - 3 sessions, 10 weeks per session, part-time
+        <br>
+        Become a Full Stack developer, UI/UX Designer, Database Manager, and more
       </small>
     </h1>
-    <div class="row text-center">
-      <div class="col-xs-12 col-md-4">
-        <h3>
-          <div class="fa-stack fa-lg text-success">
-            <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
-            <i class="fa fa-code fa-stack-1x fa-inverse" aria-hidden="true"></i>
-          </div>
-          <br />
-          Intro
-          <br />
-          <small>
-            In this class you will learn how the internet works and build your
-            own web pages. You will delve into HTML and CSS, and by the end of
-            the class you will be proficient in responsive web design. You
-            will create your own web pages that look good on desktops,
-            tablets, and mobile phones and will be capable of building
-            professional quality websites.
-            <br />
-            <a href="/courses/intro">Learn more about the Intro Class</a>
-          </small>
-        </h3>
-      </div>
-      <div class="col-xs-12 col-md-4">
-        <h3>
-          <div class="fa-stack fa-lg text-success">
-            <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
-            <i class="fa fa-code-fork fa-stack-1x fa-inverse" aria-hidden="true"></i>
-          </div>
-          <br />
-          Intermediate
-          <br />
-          <small>
-            In this class you will be diving into the world of object oriented
-            programming. You'll be building a new app every week and learning
-            how to build and maintain the technology that powers modern day
-            applications. Depending on your campus, you'll be learning in
-            either JavaScript or C# and will be building a new app every week.
-            <br />
-            <a href="/courses/intermediate">Learn more about the Intermediate Class</a>
-          </small>
-        </h3>
-      </div>
-      <div class="col-xs-12 col-md-4">
-        <h3>
-          <div class="fa-stack fa-lg text-success">
-            <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
-            <i class="fa fa-cloud fa-stack-1x fa-inverse" aria-hidden="true"></i>
-          </div>
-          <br />
-          Advanced
-          <br />
-          <small>
-            In this class, you will put all that you've learned together to
-            become a full stack programmer. You will use front end and back
-            end frameworks like React and Node.js or .NET. You will create a
-            restful API, learn authentication, and perform API consumption.
-            You will leave this class with your own app uploaded to Heroku.
-            <br />
-            <a href="/courses/advanced">Learn more about the Advanced Class</a>
-          </small>
-        </h3>
-      </div>
-    </div>
-    <img src="/assets/images/web-dev-graphic.png" class="img-responsive" alt="Web Developer Infographic">
-    <div class="row">
-      <div class="col-xs-12 text-center">
-        <h2>Have some questions? We have answers!</h2>
-        <div class="row">
-          <div class="col-xs-12 col-md-6">
-            <a href="#" data-toggle="modal" data-target="#contact-modal" class="btn btn-success btn-lg btn-block">Chat with an Advisor now</a>
-          </div>
-          <div class="col-xs-12 col-md-6">
-            <a href="#" data-toggle="modal" data-target="#contact-modal" class="btn btn-success btn-lg btn-block">Schedule call with an Advisor</a>
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
 </section>
-<section class="text-white">
-  <div class="container text-center">
-    <h2>Upcoming Classes</h2>
-    <div class="row">
-      <div class="col-xs-12 col-md-6">
-        <h3>Next Session Begins
-          <br />
-          <span class="text-success">{{site.next_session}}</span>
-        </h3>
-        <img src="/assets/images/manny-gia.jpeg" class="img-responsive thumbnail" alt="Students learning">
-      </div>
-      <div class="col-xs-12 col-md-6 text-primary">
-        <div class="panel panel-primary">
-          <div class="panel-heading">
-            <h4 class="text-center">Ready to Begin?</h4>
-          </div>
-          <div class="panel-body">
-            <h5 class="text-center">Fill out this form to start your application.</h5>
-            {% include capture-iframe.html id=1%}
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<section>
-  <div class="container text-center">
-    <h2>Time Commitment</h2>
-    <div class="row">
-      <div class="col-xs-12 col-md-4">
-        <h3>
-          <div class="fa-stack fa-lg">
-            <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
-            <i class="fa fa-users fa-stack-1x fa-inverse" aria-hidden="true"></i>
-          </div>
-          <br />
-          Class Time
-          <br />
-          <small>
-            You will be in class two nights a week, either M/W or T/TH from
-            6:30-9:00pm. Our classes are light on lecture, and heavy on
-            building in small groups or with paired programming.
-          </small>
-        </h3>
-        <h4 class="text-primary">About 5 Hours Week</h4>
-      </div>
-      <div class="col-xs-12 col-md-4">
-        <h3>
-          <div class="fa-stack fa-lg text-warning">
-            <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
-            <i class="fa fa-keyboard-o fa-stack-1x fa-inverse" aria-hidden="true"></i>
-          </div>
-          <br />
-          Homework and Projects
-          <br />
-          <small>
-            To get the best experience possible, students put in a little more
-            than an hour a day outside of class working on projects that will
-            be hosted on your Github account (your future resume).
-          </small>
-        </h3>
-        <h4 class="text-warning">About 10 Hours Week</h4>
-      </div>
-      <div class="col-xs-12 col-md-4">
-        <h3>
-          <div class="fa-stack fa-lg text-success">
-            <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
-            <i class="fa fa-suitcase fa-stack-1x fa-inverse" aria-hidden="true"></i>
-          </div>
-          <br />
-          Job Readiness
-          <br />
-          <small>
-            One of our five key areas is job readiness. Most of our students
-            are either looking for a career switch or advancement. We can’t
-            just learn to code and then wing the interview. It takes prep and
-            practice.
-          </small>
-        </h3>
-        <h4 class="text-success">About 2 Hours Week</h4>
-      </div>
-    </div>
-    <div class="progress">
-      <div class="progress-bar progress-bar-primary" style="width: 29%">
-        <span class="sr-only">29%</span>
-      </div>
-      <div class="progress-bar progress-bar-warning" style="width: 60%">
-        <span class="sr-only">60%</span>
-      </div>
-      <div class="progress-bar progress-bar-success" style="width: 11%">
-        <span class="sr-only">11%</span>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="bg-warning text-white text-center">
+<section class="bg-gray-lighter">
   <div class="container">
     <h2>
-      Tuition
-      <br />
-      <small class="text-white">
-        After our student outcomes, our low tuition is a point of pride for us.
-        How do we keep prices so low? We partner with co-working spaces that
-        have conference rooms that go unused in the evenings and we work with
-        teachers who are developers focused on giving back to the future
-        generation of developers. Keeping tuition low is a major part of
-        accessibility.
-      </small>
+      OUR <span class="text-success">SKILLS AND TOOLS</span>
+      <br>
+      <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
     </h2>
-    <div class="row">
-      <div class="col-xs-12 col-md-6">
-        <h3>
-          <small class="text-white">per level</small>
-          <br />
-          {{site.course_amount}}
-          <br />
-          <small class="text-white">10 weeks</small>
-        </h3>
+    <div class="row row-eq">
+      {% for skill in page.skills %}
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="media">
+              <div class="media-left">
+                <div class="panel panel-inverse margin-0 equalizer align-items-center">
+                  <div class="panel-body" style="padding: 5px;">
+                    <i class="fa fa-{{skill.icon}} fa-3x fa-fw"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading equalizer">
+                  {{skill.title}}
+                  <br>
+                  <small>{{skill.body}}</small>
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="col-xs-12 col-md-6">
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<section class="bg-primary text-white">
+  <div class="container">
+    <h2>
+      <small class="text-white">Happy Student</small>
+      <br>
+      TESTIMONIALS<span class="text-success">.</span>
+      <br>
+      <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
+    </h2>
+    <br />
+    {% include reviews.html %}
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-3">
         <h3>
-          <small class="text-white">all three levels</small>
-          <br />
-          {{site.track_amount}}
-          <br />
-          <small class="text-white">9 months</small>
+          STUDENT <span class="text-success">RESOURCES</span>
+          <br>
+          <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
+          <br>
+          <small>
+            We care for students, coach them while they learn to build web apps,
+            and prepare them for the next step in their career.
+          </small>
         </h3>
+        <p>
+          Lorem ipsum dolor sit ametes redum, consectetur adipisicing elites.
+          Istees recusandae laboriosam, voluptatibus culpa quas sint, deleniti
+          delectus tempora. adipisicing elites. Istees recusandae laboriosam
+        </p>
+      </div>
+      <div class="col-xs-12 col-md-3">
+        <h3>
+          STUDENT SUCCESS ADVOCATE
+          <br>
+          <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
+        </h3>
+        <p>
+          Each campus has an SSA who listens to students and helps them overcome challenges.
+        </p>
+      </div>
+      <div class="col-xs-12 col-md-3">
+        <h3>
+          INSTRUCTORS AND TA'S
+          <br>
+          <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
+        </h3>
+        <p>
+          Every Instructor and TA is a professional developer.
+          They help students learn relevant content and practices.
+        </p>
+      </div>
+      <div class="col-xs-12 col-md-3">
+        <h3>
+          CAMPUS MANAGER
+          <br>
+          <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
+        </h3>
+        <p>
+          Campus Manager, a Learning Management System, has many features -
+          messaging platform, class recordings, Q&amp;A forum, ...
+        </p>
       </div>
     </div>
   </div>
@@ -236,24 +164,129 @@ head: >
 <section>
   <div class="container">
     <div class="row">
-      <div class="col-xs-12 col-md-8 col-md-offset-2">
-        <div class="panel panel-primary">
-          <div class="panel-heading">
-            <h4 class="text-center">Ready to Begin?</h4>
+      <div class="col-xs-12 col-md-4">
+        <h3>
+          Courses <span class="text-success">List</span>
+          <br>
+          <hr style="width: 40px; text-align:left; margin-left:0; border-color:#777">
+        </h3>
+        <ul class="nav nav-tabs nav-stacked" role="tablist">
+          {% for course in site.data.courses %}
+          <li role="presentation" class="{% if forloop.index == 1 %} active {% endif %}">
+            <a href="#{{course[0]}}-img" aria-controls="home" data-target="#{{course[0]}}-img, #{{course[0]}}-details, #{{course[0]}}-description" role="tab" data-toggle="tab">
+              {{course[1].name}}
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="col-xs-12 col-md-8">
+        <div class="tab-content">
+          {% for course in site.data.courses %}
+          <div role="tabpanel" class="tab-pane {% if forloop.index == 1 %} active {% endif %}" id="{{course[0]}}-img">
+            <img src="{{course[1].img}}" alt="{{course[1].name}}">
           </div>
-          <div class="panel-body">
-            <h5 class="text-center">Fill out this form to start your application.</h5>
-            {% include capture-iframe.html id=2 %}
-          </div>
+          {% endfor %}
         </div>
       </div>
     </div>
     <div class="row">
+      <div class="col-xs-12 col-md-4">
+        <div class="tab-content">
+          <h3>
+            Course <span class="text-success">Details</span>
+            <br>
+            <hr style="width: 40px; text-align:left; margin-left:0; border-color:#777">
+          </h3>
+          {% for course in site.data.courses %}
+          <div role="tabpanel" class="tab-pane {% if forloop.index == 1 %} active {% endif %}" id="{{course[0]}}-details">
+            <ul class="list-unstyled">
+              <li><h4><span class="text-success">Price :</span> {{site.course_amount}}</h4></li>
+            </ul>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-8">
+        <div class="tab-content">
+          {% for course in site.data.courses %}
+          <div role="tabpanel" class="tab-pane {% if forloop.index == 1 %} active {% endif %}" id="{{course[0]}}-description">
+            <h2>
+              {{course[1].name}}
+              <hr style="width:40px; text-align:left; margin-left:0; border-color:{{site.color}};">
+            </h2>
+            {{course[1].description}}
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="bg-primary">
+  {% include syllabus-capture.html %}
+</section>
+<section class="bg-info">
+  {% include important-dates.html %}
+</section>
+<section>
+  <div class="container">
+    <div class="row">
       <div class="col-xs-12 col-md-6">
-        <a href="#" data-toggle="modal" data-target="#contact-modal" class="btn btn-success btn-lg btn-block">Get in Touch</a>
+        <h2>
+          <span class="fa-stack">
+            <i class="fa fa-circle-thin fa-stack-2x"></i>
+            <i class="fa fa fa-usd fa-stack-1x"></i>
+          </span>
+          FINANCING<span class="text-success"> OPTIONS</span>
+          <br>
+          <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
+        </h2>
+        {% for option in page.financing_options %}
+        <div class="media">
+          <div class="media-left">
+            <a href="{{option.href}}">
+              <img class="media-object" src="{{option.img}}" alt="event image">
+            </a>
+          </div>
+          <div class="media-body">
+            <h4 class="media-heading">
+              <a href="{{option.href}}">{{option.title}}</a>
+            </h4>
+            {{option.body}}
+            <br>
+            <a href="{{option.href}}">Read More</a>
+          </div>
+        </div>
+        {% endfor %}
       </div>
       <div class="col-xs-12 col-md-6">
-        <a href="#" data-toggle="modal" data-target="#contact-modal" class="btn btn-success btn-lg btn-block">Schedule a Visit</a>
+        <h2>
+          Answers <span class="text-success">from {{site.school}}</span>
+          <br>
+          <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
+          <small>
+            We are here to help you learn. Here are some common answers to questions we're asked.
+          </small>
+        </h2>
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+          {% for faq in site.data.faqs.course %}
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="heading{{forloop.index}}">
+              <h4 class="panel-title">
+                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{{forloop.index}}" aria-expanded="false" aria-controls="collapse{{forloop.index}}">
+                  {{faq.question}}
+                </a>
+              </h4>
+            </div>
+            <div id="collapse{{forloop.index}}" class="panel-collapse collapse {% if forloop.index == 1 %} in {% endif %}" role="tabpanel" aria-labelledby="heading{{forloop.index}}">
+              <div class="panel-body">
+                {{faq.answer}}
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
       </div>
     </div>
   </div>

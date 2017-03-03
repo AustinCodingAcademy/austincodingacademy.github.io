@@ -4,7 +4,7 @@
   {% include google-tag-manager.html %}
   <title>{{ page.title | liquify }}</title>
   {% include favicon.html %}
-  {{ page.head }}
+  {{ page.head | liquify }}
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{{ page.description | liquify }}">
@@ -20,7 +20,7 @@
   {% include footer.html %}
   {% include contact-modal.html %}
   <script type="text/javascript" src="/assets/javascripts/app.js"></script>
-  {{ page.scripts }}
+  {{ page.scripts | liquify }}
   {% include livechat.html %}
 </body>
 </html>

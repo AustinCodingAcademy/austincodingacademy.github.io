@@ -1,8 +1,11 @@
 window.$ = window.jQuery = require('jquery');
+require('bootstrap.affix');
 require('bootstrap.button');
 require('bootstrap.collapse');
 require('bootstrap.dropdown');
 require('bootstrap.modal');
+require('bootstrap.scrollspy');
+require('bootstrap.tab');
 require('bootstrap.transition');
 require('slick-carousel');
 require('jquery-match-height');
@@ -22,7 +25,7 @@ $(function() {
         lazyLoad: 'ondemand'
       });
     });
-    $('.slick-carousel .hidden, .slick-carousel.hidden').removeClass('hidden');
+    $('.slick-carousel .hidden').removeClass('hidden');
   }
 
   if ($('.equalizer').length) {

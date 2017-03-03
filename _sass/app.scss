@@ -14,6 +14,7 @@ $slick-loader-path: "/assets/images/" !default;
   '../node_modules/slick-carousel/slick/slick.scss',
   '../node_modules/slick-carousel/slick/slick-theme.scss',
   '../node_modules/pygments-rouge-css/github',
+  'colors',
   'variables',
   'bootstrap',
   'header';
@@ -27,12 +28,12 @@ $slick-loader-path: "/assets/images/" !default;
   border: 0;
 }
 
-.text-white {
-  color: #ffffff !important;
-}
-
 .hidden {
   display: none !important;
+}
+
+.invisible {
+  visibility: hidden;
 }
 
 [class^="col-"] {
@@ -49,45 +50,6 @@ section {
   color: #ffffff;
 }
 
-.text-success {
-  color: $brand-success !important;
-}
-
-.text-warning {
-  color: $brand-warning !important;
-}
-
-.text-primary {
-  color: $brand-primary !important;
-}
-
-.text-gray-light {
-  color: $gray-light !important;
-}
-
-.bg-primary {
-  background-color: $brand-primary !important;
-}
-
-.bg-warning  {
-  background-color: $brand-warning !important;
-}
-
-.bg-success {
-  background-color: $brand-success !important;
-}
-
-.bg-gray-lighter {
-  background-color: $gray-lighter !important;
-}
-
-a.link-white {
-  color: #ffffff !important;
-  &:hover, &:focus {
-    color: darken(#ffffff, 15%) !important;
-  }
-}
-
 a.link-clear-dark {
   border: 1px solid darken(#ffffff, 15%) !important;
   color: darken(#ffffff, 15%) !important;
@@ -99,22 +61,9 @@ a.link-clear-dark {
   }
 }
 
-a.link-gray-light {
-  color: $gray-light !important;
-  &:hover, &:focus {
-    color: darken($gray-light, 15%) !important;
-  }
-}
-
-a.link-primary {
-  color: $brand-primary !important;
-  &:hover, &:focus {
-    color: darken($brand-primary, 15%) !important;
-  }
-}
-
 html, body {
   height: 100%;
+  position: relative;
 }
 
 .iframe-wrapper {

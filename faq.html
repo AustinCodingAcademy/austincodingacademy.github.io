@@ -5,56 +5,48 @@ title: Frequently Asked Questions | {{ site.school }}
 description: >
   Do you have questions about our programming classes and courses? Check out our
   frequently asked questions for more information on {{ site.school }}
+scripts: >
+  <script type="text/javascript">
+    $('body').scrollspy({ target: '#scrollspy' });
+    $('.nav-wrapper').height($('#affixed').height());
+    $('#affixed').affix({
+      offset: {
+
+      }
+    });
+    $('#affixed').show();
+  </script>
 ---
-<section class="bg-primary text-white">
+<section class="bg-gray-darker">
   <div class="container">
-    {% include reviews.html %}
+    <h1 class="text-white">
+      FAQ
+      <br>
+      <small class="text-white">
+        Many students are looking for answers to hard questions. Here they are.
+      </small>
+    </h1>
   </div>
 </section>
 <section>
-  <div class="container">
-    <h1 class="text-center">FAQ</h1>
-    <br />
-    <div class="row text-center">
-      <div class="col-xs-12 col-md-6">
-        <div class="panel panel-primary">
-          <div class="panel-body">
-            <h4>
-              Below is a list of our most common questions about the program.
-              However, some people just want to speak to a human being and get
-              their questions answered.
-            </h4>
-          </div>
+  <div class="container" id="scrollspy">
+    <div class="row">
+      <div class="col-xs-12 col-md-3">
+        <div class="nav-wrapper">
+          <ul class="col-xs-12 col-md-3 nav nav-pills nav-stacked" id="affixed" style="display: none">
+            {% for faq in site.data.faqs.school %}
+            <li><a href="#{{faq.question | replace_regex: ' ', '' | replace_regex: '\?', ''}}" class="list-group-item">{{faq.question}}</a></li>
+            {% endfor %}
+          </ul>
         </div>
       </div>
-      <div class="col-xs-12 col-md-6">
-        <div class="panel panel-primary">
-          <div class="panel-body">
-            <h2>
-              Have a specific question?
-            </h2>
-            <a href="#" data-toggle="modal" data-target="#contact-modal" class="btn btn-success btn-block">Speak with an advisor</a>
-          </div>
-        </div>
+      <div class="col-xs-12 col-md-9">
+        {% for faq in site.data.faqs.school %}
+        <h3 id="{{faq.question | replace_regex: ' ', '' | replace_regex: '\?', ''}}">{{faq.question}}</h3>
+        <hr style="border-color: {{site.color}}; text-align:left; margin-left:0">
+        <p>{{faq.answer}}</p>
+        {% endfor %}
       </div>
-    </div>
-    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-      {% for faq in site.data.faqs[site.city] %}
-      <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="heading{{forloop.index}}">
-          <h4 class="panel-title">
-            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{{forloop.index}}" aria-expanded="true" aria-controls="collapse{{forloop.index}}">
-              {{forloop.index}}. {{faq.question}}
-            </a>
-          </h4>
-        </div>
-        <div id="collapse{{forloop.index}}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading{{forloop.index}}">
-          <div class="panel-body">
-            {{faq.answer}}
-          </div>
-        </div>
-      </div>
-      {% endfor %}
     </div>
   </div>
 </section>

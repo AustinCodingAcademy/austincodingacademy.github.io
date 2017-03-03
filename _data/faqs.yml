@@ -1,4 +1,16 @@
-Austin:
+course:
+  - question: Is this course relevant to me?
+    answer: ''
+  - question: How does HCA ensure student success in school?
+    answer: ''
+  - question: What does HCA offer that others don't?
+    answer: ''
+  - question: Who will I be sitting next to in class?
+    answer: ''
+  - question: Is there anything I should do before class starts?
+    answer: ''
+
+school:
   - question: Will I be ready for a job after this?
     answer: >
       Absolutely! A lot of students want to get their feet wet first before
@@ -9,10 +21,9 @@ Austin:
 
   - question: How much is tuition?
     answer: >
-      Tuition for each 10-week course is $2,990. If you take the full track
-      of Intro, Intermediate and Advanced, the total tuition is $8,970. Outside of
-      this tuition there are no other books, software, etc. that you need to pay
-      for, however you must bring your own computer. We keep our tuition costs low
+      To view the tuition, please see our <a href="/tuition">Tuition</a> page. Outside of
+      this tuition there may be other books, software, prep tests, etc. that you need to pay
+      for, and you must bring your own computer. We keep our tuition costs low
       and pass the saving on to you. Our goal is to provide the most affordable
       effective tech curriculum in Texas. We work with co-working spaces to keep
       classroom space costs down and developers who want to give back to keep
