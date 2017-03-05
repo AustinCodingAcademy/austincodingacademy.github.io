@@ -5,6 +5,7 @@ general:
   branches:
     only:
       - master
+      - preview
 deployment:
   master:
     branch: master
