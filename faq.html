@@ -8,14 +8,20 @@ description: >
 scripts: >
   <script type="text/javascript">
     $('body').scrollspy({ target: '#scrollspy' });
-    $('.nav-wrapper').height($('#affixed').height());
-    $('#affixed').affix({
-      offset: {
-
-      }
-    });
-    $('#affixed').show();
+    $('.nav-wrapper').height($('[data-spy="affix"]').height());
   </script>
+head: >
+  <style media="screen">
+    [data-spy="affix"] {
+      top: 10px;
+    }
+    .affix-bottom {
+      position: relative;
+    }
+    .list-group-item {
+      margin-bottom: -3px !important;
+    }
+  </style>
 ---
 <section class="bg-gray-darker">
   <div class="container">
@@ -31,9 +37,9 @@ scripts: >
 <section>
   <div class="container" id="scrollspy">
     <div class="row">
-      <div class="col-xs-12 col-md-3">
+      <div class="hidden-sm hidden-xs col-md-3">
         <div class="nav-wrapper">
-          <ul class="col-xs-12 col-md-3 nav nav-pills nav-stacked" id="affixed" style="display: none">
+          <ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="300" data-offset-bottom="600" style="max-width: 212px;">
             {% for faq in site.data.faqs.school %}
             <li><a href="#{{faq.question | replace_regex: ' ', '' | replace_regex: '\?', ''}}" class="list-group-item">{{faq.question}}</a></li>
             {% endfor %}
@@ -48,5 +54,17 @@ scripts: >
         {% endfor %}
       </div>
     </div>
+  </div>
+</section>
+<section class="bg-gray-lighter">
+  <div class="container">
+    <h2 class="text-center">
+      <small>
+        Didn't find an answer to your question?
+      </small>
+      <br>
+      <br>
+      Just call <a href="tel:{{site.phone}}">{{site.phone}}</a> to speak to an Advisor
+    </h2>
   </div>
 </section>

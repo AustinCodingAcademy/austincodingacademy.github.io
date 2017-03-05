@@ -32,6 +32,7 @@
     - Web Designer
     - UX/UI Designer
     - Junior Web Developer
+  syllabus: 'https://student.austincodingacademy.com/_book/austin-intro.html'
 
 211:
   name: '221 JavaScript Full Stack'
@@ -68,6 +69,7 @@
     - JavaScript Developer
     - Front End Developer
     - Junior Web Developer
+  syllabus: 'https://student.austincodingacademy.com/_book/austin-intermediate.html'
 
 311:
   name: '311 JavaScript Full Stack'
@@ -107,6 +109,7 @@
     - JavaScript Developer
     - Full Stack Developer
     - Junior Web Developer
+  syllabus: 'https://student.austincodingacademy.com/_book/austin-advanced.html'
 
 221:
   name: '221 C# & .NET Full Stack'
@@ -141,6 +144,7 @@
     - 'C# Developer'
     - Front End Developer
     - Junior Web Dev
+  syllabus: 'https://student.austincodingacademy.com/_book/sanantonio-intermediate.html'
 
 321:
   name: '321 C# & .NET Full Stack'
@@ -178,6 +182,7 @@
     - 'C#/.NET Developer'
     - Full Stack Developer
     - Junior Web Developer
+  syllabus: 'https://student.austincodingacademy.com/_book/sanantonio-advanced.html'
 
 231:
   name: '231 Web Design'
@@ -189,6 +194,7 @@
   skills: []
   projects: []
   jobs: []
+  syllabus: ''
 
 331:
   name: '331 Web Design'
@@ -200,6 +206,7 @@
   skills: []
   projects: []
   jobs: []
+  syllabus: ''
 
 'Coming Soon':
   name: 'Coming Soon'
@@ -210,3 +217,4 @@
   skills: []
   projects: []
   jobs: []
+  syllabus: ''

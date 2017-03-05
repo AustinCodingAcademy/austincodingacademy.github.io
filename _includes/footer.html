@@ -37,31 +37,18 @@
           <h4 class="text-white">Pages</h4>
           <br>
           <ul class="list-unstyled" style="margin-left: 10px">
-            <li style="border-bottom: 1px dashed #777"><h5><a href="#" class="link-white">Instructor Application</a></h5></li>
+            <!-- <li style="border-bottom: 1px dashed #777"><h5><a href="#" class="link-white">Instructor Application</a></h5></li> -->
             <li style="border-bottom: 1px dashed #777"><h5><a href="#" class="link-white">Why {{site.acronym}}</a></h5></li>
             <li style="border-bottom: 1px dashed #777"><h5><a href="#" class="link-white">Courses</a></h5></li>
             <li style="border-bottom: 1px dashed #777"><h5><a href="#" class="link-white">Tuition</a></h5></li>
-            <li style="border-bottom: 1px dashed #777"><h5><a href="#" class="link-white">Calendar</a></h5></li>
+            <!-- <li style="border-bottom: 1px dashed #777"><h5><a href="#" class="link-white">Calendar</a></h5></li> -->
             <li style="border-bottom: 1px dashed #777"><h5><a href="#" class="link-white">FAQ</a></h5></li>
             <li style="border-bottom: 1px dashed #777"><h5><a href="#" class="link-white">Contact</a></h5></li>
           </ul>
         </div>
         <div class="col-xs-12 col-md-3">
           <h4 class="text-white">Quick Contact</h4>
-          <br>
-          <form>
-            <div class="row">
-              <div class="col-xs-6">
-                <input type="text" class="form-control bg-primary" id="first-name" required placeholder="First Name">
-              </div>
-              <div class="col-xs-6">
-                <input type="text" class="form-control bg-primary" id="last-name" required placeholder="Last Name">
-              </div>
-            </div>
-            <input type="email" class="form-control bg-primary" id="email" required placeholder="Email" style="margin-bottom:10px">
-            <textarea class="form-control bg-primary" id="message" placeholder="Enter Message" style="margin-bottom:10px"></textarea>
-            <button type="submit" class="btn btn-primary btn-sm">Submit</button>
-          </form>
+          {% include capture-iframe.html form="capture-footer.html" id="quick-contact" %}
         </div>
       </div>
     </div>

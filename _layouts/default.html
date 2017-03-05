@@ -18,9 +18,8 @@
     {{ content }}
   </main>
   {% include footer.html %}
-  {% include contact-modal.html %}
   <script type="text/javascript" src="/assets/javascripts/app.js"></script>
   {{ page.scripts | liquify }}
-  {% include livechat.html %}
+  {% comment %} {% include livechat.html %} {% endcomment %}
 </body>
 </html>

@@ -1,0 +1,19 @@
+</div>
+<script>
+  window.addEventListener("message", function(e) {
+    if (typeof e.data === 'string' && e.data.indexOf('captured-{{ include.id }}') > -1) {
+      document.getElementById('iframe-wrapper-{{ include.id }}').className = 'hidden';
+      document.getElementById('thank-you-{{ include.id }}').className = '';
+      document.getElementById('thank-you-{{ include.id }}').scrollIntoView();
+    }
+
+    if (typeof e.data === 'string' && e.data.indexOf('resized-{{ include.id }}') > -1) {
+      document.getElementById('ratio-{{ include.id }}').setAttribute('style', 'min-height: ' + e.data.split('-')[e.data.split('-').length - 1] + 'px');
+    }
+
+    if (typeof e.data === 'string' && e.data.indexOf('redirect-{{ include.id }}') > -1) {
+      var win = window.open(e.data.split(':split:')[e.data.split(':split:').length - 1], '_blank');
+      win.focus();
+    }
+  });
+</script>

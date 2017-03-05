@@ -1,0 +1,40 @@
+---
+layout: form
+---
+<div class="bg-primary text-white">
+  <form name="insightly_web_to_lead" action="https://googleapps.insight.ly/WebToLead/Create" method="post">
+    <input type="hidden" name="formId" value="P26VnYXCPMyqu/336CA7sA==" />
+    <input type="hidden" id="insightly_ResponsibleUser" name="ResponsibleUser" value="1270111"/>
+    <input type="hidden" id="insightly_LeadSource" name="LeadSource" value="1522626"/>
+    <input type="hidden" id="insightly_AddressCity" name="AddressCity" type="text" value="{{site.city}}" />
+    <div class="row row-eq">
+      <div class="col-xs-12 col-sm-3 margin-0 equalizer">
+        <div class="form-group">
+          <label for="insightly_lastName">Name: </label>
+          <input id="insightly_lastName" class="form-control" name="LastName" type="text" required />
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-3 margin-0 equalizer">
+        <div class="form-group">
+          <label for="email">Email: </label>
+          <input id="insightly_Email" class="form-control" name="email" type="text" required />
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-3 margin-0 equalizer">
+        <div class="form-group">
+          <label for="course">Course</label>
+          <select class="form-control" id="syllabus-href">
+            {% for course in site.data.courses %}
+            {% if course[1].syllabus != '' %}
+            <option value="{{course[1].syllabus}}">{{course[1].name}}</option>
+            {% endif %}
+            {% endfor %}
+          </select>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-3 margin-0 equalizer">
+        <input type="submit" value="Submit" class="btn btn-success btn-block" style="margin-top:24px;">
+      </div>
+    </div>
+  </form>
+</div>

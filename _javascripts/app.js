@@ -8,6 +8,7 @@ require('bootstrap.scrollspy');
 require('bootstrap.tab');
 require('bootstrap.transition');
 require('slick-carousel');
+require('jquery.resize.js');
 require('jquery-match-height');
 
 $(function() {
@@ -24,8 +25,8 @@ $(function() {
         initialSlide: Math.floor(Math.random() * $(this).children().length),
         lazyLoad: 'ondemand'
       });
+      $(this).find('.hidden').removeClass('hidden');
     });
-    $('.slick-carousel .hidden').removeClass('hidden');
   }
 
   if ($('.equalizer').length) {
