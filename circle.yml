@@ -19,15 +19,15 @@ deployment:
       - npm run favicon-sanantonio && npm run build-sanantonio && npm run sitemap-sanantonio && npm run deploy-sanantonio
       - rm -rf node_modules/gh-pages/.cache
       - npm run favicon-dallas && npm run build-dallas && npm run sitemap-dallas && npm run deploy-dallas
-    preview:
-      branch: preview
-      commands:
-        - git config --global user.email "kevin@austincodingacademy.com"
-        - git config --global user.name "Kevin Colten"
-        - npm run favicon-austin && npm run build-austin && npm run sitemap-austin && npm run deploy-austin-preview
-        - rm -rf node_modules/gh-pages/.cache
-        - npm run favicon-houston && npm run build-houston && npm run sitemap-houston && npm run deploy-houston-preview
-        - rm -rf node_modules/gh-pages/.cache
-        - npm run favicon-sanantonio && npm run build-sanantonio && npm run sitemap-sanantonio && npm run deploy-sanantonio-preview
-        - rm -rf node_modules/gh-pages/.cache
-        - npm run favicon-dallas && npm run build-dallas && npm run sitemap-dallas && npm run deploy-dallas-preview
+  preview:
+    branch: preview
+    commands:
+      - git config --global user.email "kevin@austincodingacademy.com"
+      - git config --global user.name "Kevin Colten"
+      - npm run favicon-austin && npm run build-austin && npm run sitemap-austin && npm run deploy-austin-preview
+      - rm -rf node_modules/gh-pages/.cache
+      - npm run favicon-houston && npm run build-houston && npm run sitemap-houston && npm run deploy-houston-preview
+      - rm -rf node_modules/gh-pages/.cache
+      - npm run favicon-sanantonio && npm run build-sanantonio && npm run sitemap-sanantonio && npm run deploy-sanantonio-preview
+      - rm -rf node_modules/gh-pages/.cache
+      - npm run favicon-dallas && npm run build-dallas && npm run sitemap-dallas && npm run deploy-dallas-preview
