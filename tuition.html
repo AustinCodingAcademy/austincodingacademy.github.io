@@ -5,6 +5,18 @@ title: Tuition | {{ site.school }}
 description: >
   {{ site.school }} is a web development and coding school with locations in
   {{ city }}. Visit us to learn more about our story.
+head: >
+  <style media="screen">
+    section:first-child {
+      background-image: url('/assets/images/coffeeshop.jpg');
+      padding: 50px 0;
+      background-size: cover;
+      background-position: center top;
+    }
+    section:first-child h1 {
+      text-shadow: black 1px 1px 5px;
+    }
+  </style>
 talking_points:
   - icon: scissors
     title: Job Security
@@ -53,11 +65,11 @@ lenders:
       totam ea laborum deser unt vonsess. iure poss imusven am aliquam
 ---
 <section>
-  <div class="container">
-    <h1>
+  <div class="container-fluid">
+    <h1 class="text-white">
       Tuition and Financing
-      <br><br>
-      <small>
+      <br>
+      <small class="text-white">
         We want our students to experience coding with as little stress as
         possible, so please check with your Admissions Advisor about programs
         you might be eligible for
@@ -120,11 +132,11 @@ lenders:
                 </div>
               </div>
               <div class="media-body">
-                <h3 class="media-heading equalizer">
+                <h4 class="media-heading equalizer">
                   {{talking_point.title}}
                   <br>
                   <small>{{talking_point.body}}</small>
-                </h3>
+                </h4>
               </div>
             </div>
           </div>
