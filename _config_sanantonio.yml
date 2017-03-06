@@ -12,9 +12,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: https://austincodingacademy.com # the base hostname & protocol for your site, e.g. http://example.com
 twitter: https://twitter.com/AustinCoding
 github:  https://github.com/AustinCodingAcademy
-facebook: https://www.facebook.com/AustinCodingAcademy
-instagram: https://www.instagram.com/austincodingacademy
-googleplus: https://plus.google.com/+AustinCodingAcademy
+facebook: https://www.facebook.com/SanAntonioCodingAcademy/
+instagram: https://www.instagram.com/sanantoniocodingacademy/
+googleplus: https://plus.google.com/114897680856172944100
 linkedin: https://www.linkedin.com/company/austin-coding-academy
 google:
 yelp:
