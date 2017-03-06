@@ -82,7 +82,7 @@ lenders:
     href: https://aplusfcu.org/
 ---
 <section>
-  <div class="container-fluid">
+  <div class="container">
     <h1 class="text-white">
       Tuition and Financing
       <br>
@@ -134,12 +134,12 @@ lenders:
       <br>
       <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
     </h2>
-    <div class="row">
+    <div class="row row-eq">
       {% for talking_point in page.talking_points %}
       <div class="col-xs-12 col-sm-6 col-md-4">
         <div class="panel panel-default">
           <div class="panel-body">
-            <div class="media row-eq">
+            <div class="media">
               <div class="media-left">
                 <div class="panel panel-inverse margin-0 equalizer align-items-center">
                   <div class="panel-body" style="padding: 5px;">
@@ -164,7 +164,7 @@ lenders:
 </section>
 <section class="bg-primary text-white">
   <div class="container">
-    <h2>
+    <h2 id="scholarships">
       AVAILABLE <span class="text-success">SCHOLARSHIPS</span>
       <br>
       <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
@@ -236,12 +236,12 @@ lenders:
         <div id="upcoming-events"></div>
       </div>
       <div class="col-xs-12 col-md-6">
-        <h2>
+        <h2 id="lending">
           Lending <span class="text-success">Agencies</span>
           <br>
           <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
         </h2>
-        <h4>
+        <p>
           Remember, you are free to obtain a loan from any lender, not just
           those listed below. Loans must be repaid with interest, and taking
           out a loan is a big decision, so consider it carefully. If you
@@ -249,7 +249,7 @@ lenders:
           options fully before working with any particular lender. While these
           loan programs may be available to you, there is no agreement in
           place between {{site.school}} and these organizations.
-        </h4>
+        </p>
         <ul class="list-unstyled">
           {% for lender in page.lenders %}
           <li><h4><a href="{{lender.href}}">{{lender.name}}</a></h4></li>
