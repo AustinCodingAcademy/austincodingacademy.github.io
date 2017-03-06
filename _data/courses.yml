@@ -208,7 +208,7 @@
 
 'Coming Soon':
   name: 'Coming Soon'
-  description: >
+  summary: >
     In the coming year, we'll be teaching Web Virtual Reality VR 411 | React Native RN 412
   img: ''
   description: ''
