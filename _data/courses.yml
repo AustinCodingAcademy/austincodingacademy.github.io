@@ -4,6 +4,7 @@
     Use HTML, CSS, Javascript, jQuery, Git, Terminal, Atom, the DevTool, to
     create 14 sites and a Portfolio to house them.
   img: /assets/images/intro-js.png
+  thumbnail: /assets/images/table-shot.jpg
   description: >
     <p>
       This is our Intro course, designed to take true beginners to a level
@@ -40,6 +41,7 @@
     After the core 101 class, students begin creating small apps using
     Javascript, jQuery, Node, NPM, API's, and Terminal.
   img: /assets/images/intermediate-js.png
+  thumbnail: /assets/images/looking-up.jpg
   description: >
     <p>
       For Intermediate, you have already developed your chops with HTML and
@@ -74,6 +76,7 @@
 311:
   name: '311 JavaScript Full Stack'
   img: /assets/images/advanced-js.png
+  thumbnail: /assets/images/looking-at-laptop.jpg
   summary: >
     Create web apps using MongoDB, Express.js, React.js, and Node. Think
     Facebook, Twitter, and Reddit.
@@ -117,6 +120,7 @@
     After the core 101 class, students begin creating small apps using C#, SQL,
     and object oriented programming.
   img: /assets/images/intermediate-csharp.png
+  thumbnail: /assets/images/girl-pointing.jpg
   description: >
     <p>
       Either you have developed a proficiency for HTML and CSS and mobile web
@@ -151,6 +155,7 @@
   summary: >
     Students construct 2 full apps using Visual Studio, Razor, and SQL
   img: /assets/images/advanced-csharp.png
+  thumbnail: /assets/images/student.jpg
   description: >
     <p>
       Welcome to the Advanced class, where our intermediate students or
@@ -190,6 +195,7 @@
     Students learn how to freelance, write copy, Photoshop basics, and an
     introduction to digital marketing.
   img: ''
+  thumbnail: /assets/images/looking-glasses.jpg
   description: ''
   skills: []
   projects: []
@@ -202,6 +208,7 @@
     Students iterate through their portfolios, optimizing and learning
     User Experience and User Interface.
   img: ''
+  thumbnail: /assets/images/around-table.jpg
   description: ''
   skills: []
   projects: []
@@ -213,6 +220,7 @@
   description: >
     In the coming year, we'll be teaching Web Virtual Reality VR 411 | React Native RN 412
   img: ''
+  thumbnail: /assets/images/classroom-table.jpg
   description: ''
   skills: []
   projects: []
