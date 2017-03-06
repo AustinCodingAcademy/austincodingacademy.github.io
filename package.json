@@ -38,6 +38,7 @@
     "deploy-houston-preview": "echo 'preview.houstontxcodingacademy.com' >> _site/CNAME && gh-pages --repo 'git@github.com:AustinCodingAcademy/preview.houstontxcodingacademy.com.git' -d ./_site",
     "deploy-sanantonio-preview": "echo 'preview.sanantoniocodingacademy.com' >> _site/CNAME && gh-pages --repo 'git@github.com:AustinCodingAcademy/preview.sanantoniocodingacademy.com.git' -d ./_site",
     "deploy-dallas-preview": "echo 'preview.dallascodingacademy.com' >> _site/CNAME && gh-pages --repo 'git@github.com:AustinCodingAcademy/preview.dallascodingacademy.com.git' -d ./_site",
+    "no-robots": "touch robots.txt && echo 'User-agent: *' >> robots.txt && echo 'Disallow: /' > robots.txt",
     "watch": "npm-watch"
   },
   "watch": {
