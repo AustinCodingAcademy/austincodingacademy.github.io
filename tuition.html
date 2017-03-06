@@ -70,31 +70,16 @@ talking_points:
     body: You'll have Learning Teams, Instructors, TA's, Mentors, and a Student Success Advocate to help you achieve positive learning outcomes.
 
 lenders:
-  - title: WeFinance
-    body: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore impedit
-      quae repellendus provident dolor iure poss imusven am aliquam. Officiis
-      totam ea laborum deser unt vonsess. iure poss imusven am aliquam
-  - title: Climb
-    body: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore impedit
-      quae repellendus provident dolor iure poss imusven am aliquam. Officiis
-      totam ea laborum deser unt vonsess. iure poss imusven am aliquam
-  - title: Upstart
-    body: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore impedit
-      quae repellendus provident dolor iure poss imusven am aliquam. Officiis
-      totam ea laborum deser unt vonsess. iure poss imusven am aliquam
-  - title: Pave
-    body: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore impedit
-      quae repellendus provident dolor iure poss imusven am aliquam. Officiis
-      totam ea laborum deser unt vonsess. iure poss imusven am aliquam
-  - title: A +
-    body: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore impedit
-      quae repellendus provident dolor iure poss imusven am aliquam. Officiis
-      totam ea laborum deser unt vonsess. iure poss imusven am aliquam
+  - name: WeFinance
+    href: https://www.wefinance.co/
+  - name: Climb
+    href: https://climbcredit.com/
+  - name: Upstart
+    href: https://www.upstart.com/
+  - name: Pave
+    href: https://www.pave.com/
+  - name: A+ Credit Union
+    href: https://aplusfcu.org/
 ---
 <section>
   <div class="container-fluid">
@@ -265,24 +250,11 @@ lenders:
           loan programs may be available to you, there is no agreement in
           place between {{site.school}} and these organizations.
         </h4>
-        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+        <ul class="list-unstyled">
           {% for lender in page.lenders %}
-          <div class="panel panel-default">
-            <div class="panel-heading" role="tab" id="heading{{forloop.index}}">
-              <h4 class="panel-title">
-                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{{forloop.index}}" aria-expanded="false" aria-controls="collapse{{forloop.index}}">
-                  {{lender.title}}
-                </a>
-              </h4>
-            </div>
-            <div id="collapse{{forloop.index}}" class="panel-collapse collapse {% if forloop.index == 1 %} in {% endif %}" role="tabpanel" aria-labelledby="heading{{forloop.index}}">
-              <div class="panel-body">
-                {{lender.body}}
-              </div>
-            </div>
-          </div>
+          <li><h4><a href="{{lender.href}}">{{lender.name}}</a></h4></li>
           {% endfor %}
-        </div>
+        </ul>
       </div>
     </div>
   </div>

@@ -17,7 +17,7 @@ scripts: >
   <script type="text/javascript">
     $.ajax('https://campus.austincodingacademy.com/api/terms/dates/56f368f58085ad1100f2ad77', {
       success: function(dates) {
-        $('.start-date').text(moment.utc(dates['{{site.key}}']).format('ddd, MMM Do, YYYY'));
+        $('.start-date').text(moment.utc(dates['{{site.city}}']).format('ddd, MMM Do, YYYY'));
       }
     });
     $.ajax('https://www.eventbriteapi.com/v3/organizers/{{site.eventbrite_organizer_id}}/events/?token=EFX5TSXYKK76RPDJSNBW&only_public=true&order_by=start_asc&start_date.range_start=' + moment.utc().format(), {
@@ -85,13 +85,6 @@ scripts: >
           <br>
           <br>
           Classes are taught by professional developers, two nights a week from 630pm - 900pm, allowing full time employment while you learn and prepare for your next career opportunity.
-          <!-- <small>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore
-            atque officiis maxime suscipit expedita obcaecati nulla in ducimus
-            iure quos quam recusandae dolor quas et perspiciatis voluptatum
-            accusantium delectus nisi reprehenderit, eveniet fuga modi pariatur,
-            eius vero. Ea vitae maiores.
-          </small> -->
         </h4>
       </div>
       <div class="col-xs-12 col-md-6">
