@@ -192,8 +192,7 @@
 231:
   name: '231 Web Design'
   summary: >
-    Students learn how to freelance, write copy, Photoshop basics, and an
-    introduction to digital marketing.
+    Learn how to freelance, receive an introduction to writing copy and graphic design, static web page generation and templating.
   img: ''
   thumbnail: /assets/images/looking-glasses.jpg
   description: ''
@@ -205,8 +204,7 @@
 331:
   name: '331 Web Design'
   summary: >
-    Students iterate through their portfolios, optimizing and learning
-    User Experience and User Interface.
+    Optimize your portfolio for User Experience and User Interface. Manage your projects with the Agile framework, build marketing plans and contracts.
   img: ''
   thumbnail: /assets/images/around-table.jpg
   description: ''
@@ -217,7 +215,7 @@
 
 'Coming Soon':
   name: 'Coming Soon'
-  description: >
+  summary: >
     In the coming year, we'll be teaching Web Virtual Reality VR 411 | React Native RN 412
   img: ''
   thumbnail: /assets/images/classroom-table.jpg

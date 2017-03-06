@@ -1,14 +1,19 @@
 course:
   - question: Is this course relevant to me?
-    answer: ''
+    answer: >
+      There's never been a better time to start a career as a web developer. From startups to Fortune 100 companies, there is a consistent demand for developers who both write high-quality code and experienced problem solvers who can design creative solutions.
   - question: How does HCA ensure student success in school?
-    answer: ''
+    answer: >
+      We use every tool in the adult learning arsenal - teamwork, project-based learning modules, accountability partners, mentors, paired programming, and design thinking.
   - question: What does HCA offer that others don't?
-    answer: ''
+    answer: >
+      Build static sites and dynamic web apps using API's and MVC architecture. Launch your sites using Heroku cloud service, collaborate within a team using an agile development workflow and widely-accepted collaboration practices using Git.
   - question: Who will I be sitting next to in class?
-    answer: ''
+    answer: >
+      Our students are engineers, artists, writers, entrepreneurs, financial analysts, and folks fresh from college. People who are looking to start a new career and web development, and are just as passionate about web development as you are.
   - question: Is there anything I should do before class starts?
-    answer: ''
+    answer: >
+      Attend one of our Prep for Success workshops. You'll learn how to use your computer like an extension of yourself. Additionally, you'll get insights into how you learn best, building your vocabulary quickly, and how to focus your efforts on process and consistency to achieve success.
 
 school:
   - question: Will I be ready for a job after this?
