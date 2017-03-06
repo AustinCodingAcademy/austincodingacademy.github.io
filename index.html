@@ -20,6 +20,35 @@ scripts: >
         $('.start-date').text(moment.utc(dates['{{site.key}}']).format('ddd, MMM Do, YYYY'));
       }
     });
+    $.ajax('https://www.eventbriteapi.com/v3/organizers/{{site.eventbrite_organizer_id}}/events/?token=EFX5TSXYKK76RPDJSNBW&only_public=true&order_by=start_asc&start_date.range_start=' + moment.utc().format(), {
+      success: function(response) {
+        var $upcomingEvents = $('<div></div>');
+        response.events.slice(0, 3).forEach(function(event) {
+          $upcomingEvents.append(`
+            <div class="media">
+              <div class="media-left">
+                <a href="${event.url}" target="_blank">
+                  <img class="media-object" src="${event.logo.url}" alt="event image" style="max-width: 80px;">
+                </a>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">
+                  <a href="${event.url}" target="_blank">${event.name.html}</a>
+                  <br>
+                  <small>
+                    <i class="fa fa-calendar"></i> ${moment.utc(event.start.local).format('ddd, MMM Do, YYYY h:mma')} - ${moment.utc(event.end.local).format('h:mma')}
+                  </small>
+                </h4>
+                ${event.description.text.slice(0, 200)}...
+                <br>
+                <a href="${event.url}" target="_blank">Read More</a>
+              </div>
+            </div>
+          `)
+        });
+        $('#upcoming-events').html($upcomingEvents);
+      }
+    });
   </script>
 ---
 <section style="border-bottom: 10px solid {{site.color}}">
@@ -131,7 +160,12 @@ scripts: >
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-md-6">
-        {% include upcoming-events.html %}
+        <h2>
+          <i class="fa fa-calendar"></i> UPCOMING<span class="text-success"> EVENTS</span>
+          <br>
+          <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
+        </h2>
+        <div id="upcoming-events"></div>
       </div>
       <div class="col-xs-12 col-md-6">
         {% include faqs.html %}

@@ -15,7 +15,7 @@
             </small>
           </h4>
           <br>
-          <ul class="list-inline">
+          <ul class="list-inline justify-content-space-between">
             <li><a href="{{site.googleplus}}" alt="Google Plus" class="link-clear-dark"><i class="fa fa-google-plus fa-fw"></i></a></li>
             <li><a href="{{site.twitter}}"  alt="Twitter" class="link-clear-dark"><i class="fa fa-twitter fa-fw"></i></a></li>
             <li><a href="{{site.facebook}}" alt="Facebook" class="link-clear-dark"><i class="fa fa-facebook fa-fw"></i></a></li>
@@ -28,21 +28,21 @@
           <br>
           <ul class="list-unstyled" style="margin-left: 10px">
             {% for course in site.data.courses %}
-              <li style="border-bottom: 1px dashed #777"><h5><a href="{course.href}" class="link-white">{{course[1].name}}</a></h5></li>
+              <li style="border-bottom: 1px dashed #777"><h5><a href="{{course.href}}" class="link-white">{{course[1].name}}</a></h5></li>
             {% endfor %}
           </ul>
         </div>
         <div class="col-xs-12 col-md-3">
           <h4 class="text-white">Pages</h4>
           <br>
-          <ul class="list-unstyled justify-content-space-between" style="margin-left: 10px">
+          <ul class="list-unstyled" style="margin-left: 10px">
             <!-- <li style="border-bottom: 1px dashed #777"><h5><a href="#" class="link-white">Instructor Application</a></h5></li> -->
-            <li style="border-bottom: 1px dashed #777"><h5><a href="#" class="link-white">Why {{site.acronym}}</a></h5></li>
-            <li style="border-bottom: 1px dashed #777"><h5><a href="#" class="link-white">Courses</a></h5></li>
-            <li style="border-bottom: 1px dashed #777"><h5><a href="#" class="link-white">Tuition</a></h5></li>
+            <li style="border-bottom: 1px dashed #777"><h5><a href="/why" class="link-white">Why {{site.acronym}}</a></h5></li>
+            <li style="border-bottom: 1px dashed #777"><h5><a href="/courses" class="link-white">Courses</a></h5></li>
+            <li style="border-bottom: 1px dashed #777"><h5><a href="/tuition" class="link-white">Tuition</a></h5></li>
             <!-- <li style="border-bottom: 1px dashed #777"><h5><a href="#" class="link-white">Calendar</a></h5></li> -->
-            <li style="border-bottom: 1px dashed #777"><h5><a href="#" class="link-white">FAQ</a></h5></li>
-            <li style="border-bottom: 1px dashed #777"><h5><a href="#" class="link-white">Contact</a></h5></li>
+            <li style="border-bottom: 1px dashed #777"><h5><a href="/faq" class="link-white">FAQ</a></h5></li>
+            <li style="border-bottom: 1px dashed #777"><h5><a href="/contact" class="link-white">Contact</a></h5></li>
           </ul>
         </div>
         <div class="col-xs-12 col-md-3">
