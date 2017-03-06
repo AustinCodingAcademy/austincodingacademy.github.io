@@ -13,23 +13,6 @@ head: >
     background-position: center top;
   }
   </style>
-value_props:
-  - title: Value Prop 1
-    body: >
-      Body
-  - title: Value Prop 2
-    body: >
-      Body
-  - title: Value Prop 3
-    body: >
-      Body
-  - title: Value Prop 4
-    body: >
-      Body
-  - title: Value Prop 5
-    body: >
-      Body
-
 ---
 <section style="border-bottom: 10px solid {{site.color}}">
   <div class="container">
@@ -143,32 +126,7 @@ value_props:
         {% include upcoming-events.html %}
       </div>
       <div class="col-xs-12 col-md-6">
-        <h2>
-          Why <span class="text-success">Choose {{site.school}}?</span>
-          <br>
-          <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
-          <small>
-            Follow in the steps of our alumni and go from "novice" to "new hire" in nine months.
-          </small>
-        </h2>
-        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-          {% for value_prop in page.value_props %}
-          <div class="panel panel-default">
-            <div class="panel-heading" role="tab" id="heading{{forloop.index}}">
-              <h4 class="panel-title">
-                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{{forloop.index}}" aria-expanded="false" aria-controls="collapse{{forloop.index}}">
-                  {{value_prop.title}}
-                </a>
-              </h4>
-            </div>
-            <div id="collapse{{forloop.index}}" class="panel-collapse collapse {% if forloop.index == 1 %} in {% endif %}" role="tabpanel" aria-labelledby="heading{{forloop.index}}">
-              <div class="panel-body">
-                {{value_prop.body}}
-              </div>
-            </div>
-          </div>
-          {% endfor %}
-        </div>
+        {% include faqs.html %}
       </div>
     </div>
   </div>
