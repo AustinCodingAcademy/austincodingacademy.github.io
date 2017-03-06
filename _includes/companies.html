@@ -1,0 +1,13 @@
+<div class="container">
+  <h3 class="text-center">Hiring <span class="text-success">+</span> Strategic Partners</h3>
+  <br>
+  <div class="slick-carousel" data-slides="2" data-dots="false" data-arrows="false" data-autoplay-speed="3000">
+    {% for company in site.data.companies %}
+    <div>
+      <div class="justify-content-center hidden">
+        <img class="img-responsive" src="{{company.logo}}" alt="{{company.name}}" style="max-height: 100px;">
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

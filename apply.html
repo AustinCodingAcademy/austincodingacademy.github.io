@@ -6,15 +6,10 @@ description: >
   Explore innovative courses in web development at {{site.school}}, the industry-leading
   coding bootcamp in {{site.city}}
 ---
-<section class="bg-primary text-white">
-  <div class="container">
-    {% include reviews.html %}
-  </div>
-</section>
 <section>
   <div class="container text-center">
     <div class="row">
-      <div class="col-xs-12 col-md-6">
+      <div class="col-xs-12">
         <h1>
           Ready to apply?
           <br />
@@ -25,16 +20,7 @@ description: >
           </small>
         </h1>
       </div>
-      <div class="col-xs-12 col-md-6">
-        <h2>Have some more questions?</h2>
-        <a href="#" data-toggle="modal" data-target="#contact-modal" class="btn btn-success btn-block">Talk with an advisor</a>
-      </div>
     </div>
-  </div>
-  {% include application-iframe.html %}
-</section>
-<section class="bg-primary text-white">
-  <div class="container">
-    {% include reviews.html %}
+    {% include application-iframe.html form="application.html" id="application" %}
   </div>
 </section>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="/assets/stylesheets/{{ site.key | liquify }}.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    {{ content }}
+    <script type="text/javascript" src="/assets/javascripts/app.js"></script>
+    <script>
+      parent.postMessage('resized-' + window.location.search.slice(4) + '-' + $('form').height(), '*');
+      $('form').resize(function() {
+        parent.postMessage('resized-' + window.location.search.slice(4) + '-' + $(this).height(), '*');
+      });
+      $('form').submit(function() {
+        parent.postMessage('captured-' + window.location.search.slice(4), '*');
+        if ($('#syllabus-href').val()) {
+          parent.postMessage('redirect-' + window.location.search.slice(4) + ':split:' + $('#syllabus-href').val(), '*');
+        }
+      });
+    </script>
+  </body>
+</html>

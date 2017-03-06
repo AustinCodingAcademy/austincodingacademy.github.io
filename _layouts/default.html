@@ -3,15 +3,13 @@
 <head>
   {% include google-tag-manager.html %}
   <title>{{ page.title | liquify }}</title>
-  <style>
-  {% include stylesheets/{{site.key}}.css %}
-  </style>
   {% include favicon.html %}
-  {{ page.head }}
+  {{ page.head | liquify }}
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{{ page.description | liquify }}">
   <meta name="keywords" content="">
+  <link rel="stylesheet" href="/assets/stylesheets/{{ site.key | liquify }}.css">
 </head>
 <body>
   {% include google-tag-manager-noscript.html %}
@@ -20,25 +18,8 @@
     {{ content }}
   </main>
   {% include footer.html %}
-  {% include contact-modal.html %}
   <script type="text/javascript" src="/assets/javascripts/app.js"></script>
-  {{ page.scripts }}
+  {{ page.scripts | liquify }}
   {% include livechat.html %}
-  <script>
-  $(function() {
-    $('.reviews').each(function() {
-      $(this).slick({
-        dots: true,
-        infinite: true,
-        speed: 300,
-        slidesToShow: 1,
-        autoplay: true,
-        autoplaySpeed: 10000,
-        initialSlide: Math.floor(Math.random() * {{site.data.reviews | size}})
-      });
-    });
-    $('.reviews .review').removeClass('hidden');
-  });
-  </script>
 </body>
 </html>

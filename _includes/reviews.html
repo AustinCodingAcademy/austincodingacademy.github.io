@@ -1,13 +1,14 @@
-<div class="reviews">
+<div class="slick-carousel">
   {% for review in site.data.reviews %}
-  <div class="review media hidden">
-    <div class="media-left">
+  <div class="review media align-items-center hidden">
+    <div class="media-left media-middle">
       <img class="media-object img-circle" src="{{review.img}}" alt="{{review.name}}" style="max-width: 150px; max-height: 150px;">
     </div>
     <div class="media-body">
-      <h4 class="media-heading">{{review.name}}
+      <h4 class="media-heading">
+        {{review.review}}
         <br />
-        <small class="text-white">{{ review.review }}</small>
+        <small>- <span class="text-success">{{ review.name }}, </span> <em>student</em></small>
       </h4>
     </div>
   </div>

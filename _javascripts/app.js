@@ -1,28 +1,38 @@
 window.$ = window.jQuery = require('jquery');
+require('bootstrap.affix');
 require('bootstrap.button');
 require('bootstrap.collapse');
 require('bootstrap.dropdown');
 require('bootstrap.modal');
+require('bootstrap.scrollspy');
+require('bootstrap.tab');
 require('bootstrap.transition');
 require('slick-carousel');
-require('typed.js');
+require('jquery.resize.js');
+require('jquery-match-height');
+window.moment = require('moment');
 
 $(function() {
-  if ($('.typed').length) {
-    $('.typed').each(function() {
-      $(this).typed({
-        typeSpeed: 10,
-        startDelay: 0,
-        backSpeed: 10,
-        backDelay: 3000,
-        loop: true,
-        showCursor: true,
-        cursor: "|",
-        stringsElement: $(this).find('.typed-strings')
+  if ($('.slick-carousel').length) {
+    $('.slick-carousel').each(function() {
+      $(this).slick({
+        dots: $(this).data('dots') !== undefined ? $(this).data('dots') : true,
+        arrows: $(this).data('arrows') !== undefined ? $(this).data('arrows') : true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: $(this).data('slides') || 1,
+        autoplay: true,
+        autoplaySpeed: $(this).data('autoplay-speed') || 10000,
+        initialSlide: Math.floor(Math.random() * $(this).children().length),
+        lazyLoad: 'ondemand'
       });
+      $(this).find('.hidden').removeClass('hidden');
     });
-    var $cursor = $('.typed-cursor:nth-child(2)');
-    $cursor.prev().insertBefore($cursor);
-    $cursor.addClass('pull-right');
+  }
+
+  if ($('.equalizer').length) {
+    $('.row-eq').each(function() {
+      $(this).find('.equalizer').matchHeight();
+    });
   }
 });

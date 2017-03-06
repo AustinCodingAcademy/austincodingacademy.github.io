@@ -1,196 +1,226 @@
-javascript:
-  intro:
-    title: 'Intro Course: HTML, CSS, and Design'
-    image: /assets/images/intro-js.png
-    description: >
-      <p>
-        This is our Intro course, designed to take true beginners to a level
-        of fluency with HTML and CSS that will allow them to build
-        professional, well designed, responsive websites. You can use these
-        skills to begin freelancing or to get started as a web designer.
-      </p>
-      <p>
-        This class is designed for someone who is brand new to writing code
-        or has dabbled with a few online tutorials like Codecademy and have
-        found they are ready to really solidify their knowledge base in
-        website development.
-      </p>
-    skills:
-      - HTML 5
-      - CSS 3
-      - GitHub
-      - Responsive Web Design
-      - Problem Solving
-      - Developer Tools
-    projects:
-      - Mobile Ready Websites
-      - Beginner's Portfolio
-      - Github Profile
-    jobs:
-      - Web Designer
-      - UX/UI Designer
-      - Junior Web Developer
-  intermediate:
-    title: 'Intermediate Course: Learn JavaScript, jQuery, and Application Development'
-    image: /assets/images/intermediate-js.png
-    description: >
-      <p>
-        For Intermediate, you have already developed your chops with HTML and
-        CSS and can build beautiful, responsive websites that any freelancer
-        would drool over. Now it's time to start building applications to give
-        those pages some life.
-      </p>
-      <p>
-         In the intermediate class, you will attend class two nights a week,
-         and outside of class, do approximately 2 hours a day of homework.
-         You will learn Object Oriented Programming, server calls, API
-         integration, and build multiple web applications all in 10 weeks.
-      </p>
-    skills:
-      - JavaScript
-      - Node.js
-      - AJAX
-      - Application Development
-      - Object Oriented Programming
-      - Debugging
-      - Testing
-    projects:
-      - 6 JavaScript Apps
-      - 4 jQuery Apps
-      - Intermediate Level Portfolio
-    jobs:
-      - JavaScript Developer
-      - Front End Developer
-      - Junior Web Developer
-  advanced:
-    title: 'Advanced Course: Learn Node.js/Express.js, React, and Full Stack Web Development'
-    image: /assets/images/advanced-js.png
-    description: >
-      <p>
-        This is our Advanced course, designed to take our Intermediate
-        students to a level of fluency with Node.js and React.js that will
-        allow them to build professional, well designed web applications.
-        You can use these skills to become an entry level developer, a
-        JavaScript developer a senior technical project manager, a full stack
-        developer, or use your ability to learn new languages to switch into a
-        career with Python, Ruby, or one of the many other in-demand languages
-        in Texas.
-      </p>
-      <p>
-        This class is designed for someone who has a strong command of front
-        end development, including HTML, CSS, and JavaScript, and who is
-        interested in formalizing their back end development skill set to
-        become full stack.
-      </p>
-    skills:
-      - JavaScript
-      - Node.js
-      - React.js
-      - MongoDB
-      - Application Deployment
-      - REST APIs
-      - Authentication
-    projects:
-      - 2+ Full Stack Apps
-      - Advanced Level Portfolio
-    jobs:
-      - JavaScript Developer
-      - Full Stack Developer
-      - Junior Web Developer
+101:
+  name: '101 Web'
+  summary: >
+    Use HTML, CSS, Javascript, jQuery, Git, Terminal, Atom, the DevTool, to
+    create 14 sites and a Portfolio to house them.
+  img: /assets/images/intro-js.png
+  thumbnail: /assets/images/table-shot.jpg
+  description: >
+    <p>
+      This is our Intro course, designed to take true beginners to a level
+      of fluency with HTML and CSS that will allow them to build
+      professional, well designed, responsive websites. You can use these
+      skills to begin freelancing or to get started as a web designer.
+    </p>
+    <p>
+      This class is designed for someone who is brand new to writing code
+      or has dabbled with a few online tutorials like Codecademy and have
+      found they are ready to really solidify their knowledge base in
+      website development.
+    </p>
+  skills:
+    - HTML 5
+    - CSS 3
+    - GitHub
+    - Responsive Web Design
+    - Problem Solving
+    - Developer Tools
+  projects:
+    - Mobile Ready Websites
+    - Beginner's Portfolio
+    - Github Profile
+  jobs:
+    - Web Designer
+    - UX/UI Designer
+    - Junior Web Developer
+  syllabus: 'https://student.austincodingacademy.com/_book/austin-intro.html'
 
-csharp:
-  intro:
-    title: 'Intro Course: HTML, CSS, and Design'
-    image: /assets/images/intro-js.png
-    description: >
-      <p>
-        Welcome to our intro web dev class, crafted to take you from beginner to
-        proficient in HTML, CSS, and web design. You can use these skills to
-        start building beautiful, responsive websites for freelance clients or
-        to take over as web designer for your company.
-      </p>
-      <p>
-        We built this class for the true beginner, who has either never written
-        a line of code, or who has done a few Codecademy or Lynda tutorials. If
-        you are looking to go from seeing coding and copy pasting to
-        understanding and writing, this is for you.
-      </p>
-    skills:
-      - HTML 5
-      - CSS 3
-      - GitHub
-      - Responsive Web Design
-      - Problem Solving
-      - Developer Tools
-    projects:
-      - Mobile Ready Websites
-      - Beginner’s Portfolio
-      - Github Profile
-    jobs:
-      - Web Designer
-      - UX/UI Designer
-      - Junior Web Developer
-  intermediate:
-    title: 'Intermediate Class: Learn C#, SQL and Web App Development'
-    image: /assets/images/intermediate-csharp.png
-    description: >
-      <p>
-        Either you have developed a proficiency for HTML and CSS and mobile web
-        design through our Intro class or on your own. In the intermediate
-        class, we take you to the next level, from websites to web applications.
-        You will be in class two nights a week and do roughly an hour and a half
-        of homework every day outside of class. You will begin your journey down
-        Object Oriented Programming, server calls, API consumption and
-        integration, and build a myriad of web applications over a 10 week
-        period.
-      </p>
-    skills:
-      - 'C#'
-      - SQL
-      - AJAX
-      - Web App Development
-      - Object Oriented Programming
-      - Debugging
-      - Testing
-    projects:
-      - 6 C# Apps
-      - Corresponding SQL Databases
-      - Intermediate Level Portfolio
-    jobs:
-      - 'C# Developer'
-      - Front End Developer
-      - Junior Web Dev
-  advanced:
-    title: 'Advanced Class: Learn .NET and Full Stack Web Dev'
-    image: /assets/images/advanced-csharp.png
-    description: >
-      <p>
-        Welcome to the Advanced class, where our intermediate students or
-        students already familiar with HTML, CSS and C# deep dive into the .NET
-        framework. The advanced class is focused specifically on .NET due to
-        it’s incredibly high job demand in San Antonio. You can do a quick
-        search for .NET developers on one of the many job aggregator sites and
-        see an ever present shortage of .NET and C# developers here in San
-        Antonio.
-      </p>
-      <p>
-        This course is designed for someone who has great fluency with front end
-        development and who is ready to become proficient in one of the most
-        widely used web app development frameworks to be able to create full
-        stack web applications.
-      </p>
-    skills:
-      - .NET
-      - Visual Basic
-      - MySQL
-      - APIs
-      - Application Deployment
-      - Authentication
-      - APIs
-    projects:
-      - 2 Full Stack Apps
-      - Advanced Level Portfolio
-    jobs:
-      - 'C#/.NET Developer'
-      - Full Stack Developer
-      - Junior Web Developer
+211:
+  name: '221 JavaScript Full Stack'
+  summary: >
+    After the core 101 class, students begin creating small apps using
+    Javascript, jQuery, Node, NPM, API's, and Terminal.
+  img: /assets/images/intermediate-js.png
+  thumbnail: /assets/images/looking-up.jpg
+  description: >
+    <p>
+      For Intermediate, you have already developed your chops with HTML and
+      CSS and can build beautiful, responsive websites that any freelancer
+      would drool over. Now it's time to start building applications to give
+      those pages some life.
+    </p>
+    <p>
+       In the intermediate class, you will attend class two nights a week,
+       and outside of class, do approximately 2 hours a day of homework.
+       You will learn Object Oriented Programming, server calls, API
+       integration, and build multiple web applications all in 10 weeks.
+    </p>
+  skills:
+    - JavaScript
+    - Node.js
+    - AJAX
+    - Application Development
+    - Object Oriented Programming
+    - Debugging
+    - Testing
+  projects:
+    - 6 JavaScript Apps
+    - 4 jQuery Apps
+    - Intermediate Level Portfolio
+  jobs:
+    - JavaScript Developer
+    - Front End Developer
+    - Junior Web Developer
+  syllabus: 'https://student.austincodingacademy.com/_book/austin-intermediate.html'
+
+311:
+  name: '311 JavaScript Full Stack'
+  img: /assets/images/advanced-js.png
+  thumbnail: /assets/images/looking-at-laptop.jpg
+  summary: >
+    Create web apps using MongoDB, Express.js, React.js, and Node. Think
+    Facebook, Twitter, and Reddit.
+  description: >
+    <p>
+      This is our Advanced course, designed to take our Intermediate
+      students to a level of fluency with Node.js and React.js that will
+      allow them to build professional, well designed web applications.
+      You can use these skills to become an entry level developer, a
+      JavaScript developer a senior technical project manager, a full stack
+      developer, or use your ability to learn new languages to switch into a
+      career with Python, Ruby, or one of the many other in-demand languages
+      in Texas.
+    </p>
+    <p>
+      This class is designed for someone who has a strong command of front
+      end development, including HTML, CSS, and JavaScript, and who is
+      interested in formalizing their back end development skill set to
+      become full stack.
+    </p>
+  skills:
+    - JavaScript
+    - Node.js
+    - React.js
+    - MongoDB
+    - Application Deployment
+    - REST APIs
+    - Authentication
+  projects:
+    - 2+ Full Stack Apps
+    - Advanced Level Portfolio
+  jobs:
+    - JavaScript Developer
+    - Full Stack Developer
+    - Junior Web Developer
+  syllabus: 'https://student.austincodingacademy.com/_book/austin-advanced.html'
+
+221:
+  name: '221 C# & .NET Full Stack'
+  summary: >
+    After the core 101 class, students begin creating small apps using C#, SQL,
+    and object oriented programming.
+  img: /assets/images/intermediate-csharp.png
+  thumbnail: /assets/images/girl-pointing.jpg
+  description: >
+    <p>
+      Either you have developed a proficiency for HTML and CSS and mobile web
+      design through our Intro class or on your own. In the intermediate
+      class, we take you to the next level, from websites to web applications.
+      You will be in class two nights a week and do roughly an hour and a half
+      of homework every day outside of class. You will begin your journey down
+      Object Oriented Programming, server calls, API consumption and
+      integration, and build a myriad of web applications over a 10 week
+      period.
+    </p>
+  skills:
+    - 'C#'
+    - SQL
+    - AJAX
+    - Web App Development
+    - Object Oriented Programming
+    - Debugging
+    - Testing
+  projects:
+    - 6 C# Apps
+    - Corresponding SQL Databases
+    - Intermediate Level Portfolio
+  jobs:
+    - 'C# Developer'
+    - Front End Developer
+    - Junior Web Dev
+  syllabus: 'https://student.austincodingacademy.com/_book/sanantonio-intermediate.html'
+
+321:
+  name: '321 C# & .NET Full Stack'
+  summary: >
+    Students construct 2 full apps using Visual Studio, Razor, and SQL
+  img: /assets/images/advanced-csharp.png
+  thumbnail: /assets/images/student.jpg
+  description: >
+    <p>
+      Welcome to the Advanced class, where our intermediate students or
+      students already familiar with HTML, CSS and C# deep dive into the .NET
+      framework. The advanced class is focused specifically on .NET due to
+      it’s incredibly high job demand in San Antonio. You can do a quick
+      search for .NET developers on one of the many job aggregator sites and
+      see an ever present shortage of .NET and C# developers here in San
+      Antonio.
+    </p>
+    <p>
+      This course is designed for someone who has great fluency with front end
+      development and who is ready to become proficient in one of the most
+      widely used web app development frameworks to be able to create full
+      stack web applications.
+    </p>
+  skills:
+    - .NET
+    - Visual Basic
+    - MySQL
+    - APIs
+    - Application Deployment
+    - Authentication
+    - APIs
+  projects:
+    - 2 Full Stack Apps
+    - Advanced Level Portfolio
+  jobs:
+    - 'C#/.NET Developer'
+    - Full Stack Developer
+    - Junior Web Developer
+  syllabus: 'https://student.austincodingacademy.com/_book/sanantonio-advanced.html'
+
+# 231:
+#   name: '231 Web Design'
+#   summary: >
+#     Learn how to freelance, receive an introduction to writing copy and graphic design, static web page generation and templating.
+#   img: ''
+#   thumbnail: /assets/images/looking-glasses.jpg
+#   description: ''
+#   skills: []
+#   projects: []
+#   jobs: []
+#   syllabus: ''
+#
+# 331:
+#   name: '331 Web Design'
+#   summary: >
+#     Optimize your portfolio for User Experience and User Interface. Manage your projects with the Agile framework, build marketing plans and contracts.
+#   img: ''
+#   thumbnail: /assets/images/around-table.jpg
+#   description: ''
+#   skills: []
+#   projects: []
+#   jobs: []
+#   syllabus: ''
+#
+# 'Coming Soon':
+#   name: 'Coming Soon'
+#   summary: >
+#     In the coming year, we'll be teaching Web Virtual Reality VR 411 | React Native RN 412
+#   img: ''
+#   thumbnail: /assets/images/classroom-table.jpg
+#   description: ''
+#   skills: []
+#   projects: []
+#   jobs: []
+#   syllabus: ''
