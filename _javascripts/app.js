@@ -10,6 +10,7 @@ require('bootstrap.transition');
 require('slick-carousel');
 require('jquery.resize.js');
 require('jquery-match-height');
+window.moment = require('moment');
 
 $(function() {
   if ($('.slick-carousel').length) {

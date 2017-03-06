@@ -6,13 +6,21 @@ description: >
 permalink: /
 head: >
   <style>
-  section:first-child {
-    background-image: url('/assets/images/Hero_Image_pana.jpg');
-    padding: 50px 0;
-    background-size: cover;
-    background-position: center top;
-  }
+    section:first-child {
+      background-image: url('/assets/images/Hero_Image_pana.jpg');
+      padding: 50px 0;
+      background-size: cover;
+      background-position: center top;
+    }
   </style>
+scripts: >
+  <script type="text/javascript">
+    $.ajax('https://campus.austincodingacademy.com/api/terms/dates/56f368f58085ad1100f2ad77', {
+      success: function(dates) {
+        $('.start-date').text(moment.utc(dates['{{site.key}}']).format('ddd, MMM Do, YYYY'));
+      }
+    });
+  </script>
 ---
 <section style="border-bottom: 10px solid {{site.color}}">
   <div class="container">
@@ -83,7 +91,7 @@ head: >
       <div class="col-xs-12 col-md-6 col-lg-4">
         <div class="panel panel-default equalizer">
           <div class="panel-body">
-            <img src="{course.thumbnail}" class="img-responsive" alt="">
+            <img src="{{course[1].thumbnail}}" class="img-responsive" alt="{{course[1].name}}">
             <h4>
               {{course[1].name}}
               <br>
