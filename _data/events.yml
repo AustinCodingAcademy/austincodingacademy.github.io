@@ -5,10 +5,10 @@ sanantonio: []
 dallas: []
 
 houston:
-  - name: Info Session
-    description: Attend an Info Session to see our classrooms, learn more about the curriculum, and meet one of our Instructors and students.
+  - name: Prep for Success
+    description: Setup your computer with professional software. Create a Visual Vocabulary with terms, shortcuts, cheatsheets, and workflows.
     img: ''
-    date: March 2, 2017
+    date: March 16, 2017
     location:
       name: Station Houston
       href: 'https://goo.gl/maps/5xm2UbBuNYU2'
@@ -21,10 +21,10 @@ houston:
       name: Station Houston
       href: 'https://goo.gl/maps/5xm2UbBuNYU2'
     href: '#'
-  - name: Prep for Success
-    description: Setup your computer with professional software. Create a Visual Vocabulary with terms, shortcuts, cheatsheets, and workflows.
+  - name: Info Session
+    description: Attend an Info Session to see our classrooms, learn more about the curriculum, and meet one of our Instructors and students.
     img: ''
-    date: March 16, 2017
+    date: March 2, 2017
     location:
       name: Station Houston
       href: 'https://goo.gl/maps/5xm2UbBuNYU2'
