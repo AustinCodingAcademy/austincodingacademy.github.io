@@ -10,11 +10,11 @@ header: Houston's Best Value in Coding Education
 email: info@houstontxcodingacademy.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://houstontxcodingacademy.com # the base hostname & protocol for your site, e.g. http://example.com
-twitter: https://twitter.com/AustinCoding
+twitter: https://twitter.com/HoustonCoding
 github:  https://github.com/AustinCodingAcademy
-facebook: https://www.facebook.com/AustinCodingAcademy
+facebook: https://www.facebook.com/HoustonCodingAcademy/
 instagram: https://www.instagram.com/austincodingacademy
-googleplus: https://plus.google.com/+AustinCodingAcademy
+googleplus: https://plus.google.com/113074611848232627735
 linkedin: https://www.linkedin.com/company/austin-coding-academy
 google:
 yelp:
@@ -34,6 +34,8 @@ google_tag_id: GTM-NWVBXXW
 syllabus: https://student.austincodingacademy.com/_book/houston-intro.html
 color: '#f0492e'
 map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3463.833356252052!2d-95.36796008489169!3d29.753535681989103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640bf3c5af3482b%3A0x7e30e47d069b453b!2s1301+Fannin+St+%232440%2C+Houston%2C+TX+77002!5e0!3m2!1sen!2sus!4v1488738108230
+eventbrite_organizer_id: 13010327216
+eventbrite: https://www.eventbrite.com/o/houston-coding-academy-13010327216
 
 # Build settings
 markdown: kramdown

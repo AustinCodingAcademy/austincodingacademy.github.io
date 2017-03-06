@@ -6,13 +6,50 @@ description: >
 permalink: /
 head: >
   <style>
-  section:first-child {
-    background-image: url('/assets/images/Hero_Image_pana.jpg');
-    padding: 50px 0;
-    background-size: cover;
-    background-position: center top;
-  }
+    section:first-child {
+      background-image: url('/assets/images/Hero_Image_pana.jpg');
+      padding: 50px 0;
+      background-size: cover;
+      background-position: center top;
+    }
   </style>
+scripts: >
+  <script type="text/javascript">
+    $.ajax('https://campus.austincodingacademy.com/api/terms/dates/56f368f58085ad1100f2ad77', {
+      success: function(dates) {
+        $('.start-date').text(moment.utc(dates['{{site.city}}']).format('ddd, MMM Do, YYYY'));
+      }
+    });
+    $.ajax('https://www.eventbriteapi.com/v3/organizers/{{site.eventbrite_organizer_id}}/events/?token=EFX5TSXYKK76RPDJSNBW&only_public=true&order_by=start_asc&start_date.range_start=' + moment.utc().format(), {
+      success: function(response) {
+        var $upcomingEvents = $('<div></div>');
+        response.events.slice(0, 3).forEach(function(event) {
+          $upcomingEvents.append(`
+            <div class="media">
+              <div class="media-left">
+                <a href="${event.url}" target="_blank">
+                  <img class="media-object" src="${event.logo.url}" alt="event image" style="max-width: 80px;">
+                </a>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">
+                  <a href="${event.url}" target="_blank">${event.name.html}</a>
+                  <br>
+                  <small>
+                    <i class="fa fa-calendar"></i> ${moment.utc(event.start.local).format('ddd, MMM Do, YYYY h:mma')} - ${moment.utc(event.end.local).format('h:mma')}
+                  </small>
+                </h4>
+                ${event.description.text.slice(0, 200)}...
+                <br>
+                <a href="${event.url}" target="_blank">Read More</a>
+              </div>
+            </div>
+          `)
+        });
+        $('#upcoming-events').html($upcomingEvents);
+      }
+    });
+  </script>
 ---
 <section style="border-bottom: 10px solid {{site.color}}">
   <div class="container">
@@ -48,13 +85,6 @@ head: >
           <br>
           <br>
           Classes are taught by professional developers, two nights a week from 630pm - 900pm, allowing full time employment while you learn and prepare for your next career opportunity.
-          <!-- <small>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore
-            atque officiis maxime suscipit expedita obcaecati nulla in ducimus
-            iure quos quam recusandae dolor quas et perspiciatis voluptatum
-            accusantium delectus nisi reprehenderit, eveniet fuga modi pariatur,
-            eius vero. Ea vitae maiores.
-          </small> -->
         </h4>
       </div>
       <div class="col-xs-12 col-md-6">
@@ -83,7 +113,7 @@ head: >
       <div class="col-xs-12 col-md-6 col-lg-3">
         <div class="panel panel-default equalizer">
           <div class="panel-body">
-            <img src="http://placehold.it/400x300" class="img-responsive" alt="">
+            <img src="{{course[1].thumbnail}}" class="img-responsive" alt="{{course[1].name}}">
             <h4>
               {{course[1].name}}
               <br>
@@ -92,7 +122,7 @@ head: >
                 {{course[1].summary}}
               </small>
             </h4>
-            <a href="/apply" class="btn btn-success">View Details</a>
+            <a href="/courses" class="btn btn-success">View Details</a>
           </div>
         </div>
       </div>
@@ -123,7 +153,12 @@ head: >
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-md-6">
-        {% include upcoming-events.html %}
+        <h2>
+          <i class="fa fa-calendar"></i> UPCOMING<span class="text-success"> EVENTS</span>
+          <br>
+          <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
+        </h2>
+        <div id="upcoming-events"></div>
       </div>
       <div class="col-xs-12 col-md-6">
         {% include faqs.html %}

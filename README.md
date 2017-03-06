@@ -15,16 +15,28 @@
   1. `bundle install`
   1. `npm install`
 
-## Developing Website
-1. Every time you change anything in:
-  * `_javascripts/` you must run `npm run js`
-  * `_sass/` you must run `npm run sass`
-  * `_images/` you must run `npm run images`
-  * All three `npm run postinstall`
-1. Serve individual sites
+## Development
+1. To build and rebuild assets on any change, keep this running in a terminal
+window:
+  * `npm run watch`
+1. To serve individual sites and update on a change, keep any one of these running
+in its own terminal window
   * Austin `npm run serve-austin`
   * San Antonio `npm run serve-sanantonio`
   * Dallas `npm run serve-dallas`
   * Houston `npm run serve-houston`
-1. Navigate to [http://127.0.0.1:4000/](http://127.0.0.1:4000/)
+1. Navigate to http://127.0.0.1:4000
   * Every change you make will regenerate the site
+
+## Deploying
+1. Every change to the _preview_ branch will be deployed to
+  * https://preview.austincodingacademy.com
+  * https://preview.sanantoniocodingacademy.com
+  * https://preview.dallascodingacademy.com
+  * https://preview.houstontxcodingacademy.com
+
+1. Every change to the _master_ branch will be deployed to
+  * https://austincodingacademy.com
+  * https://sanantoniocodingacademy.com
+  * https://dallascodingacademy.com
+  * https://houstontxcodingacademy.com

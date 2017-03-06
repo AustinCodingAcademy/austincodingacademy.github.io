@@ -21,6 +21,16 @@ head: >
     .list-group-item {
       margin-bottom: -3px !important;
     }
+
+    section:first-child {
+      background-image: url('/assets/images/laptop-tablet.jpg');
+      padding: 50px 0;
+      background-size: cover;
+      background-position: center top;
+    }
+    section:first-child h1 {
+      text-shadow: black 1px 1px 5px;
+    }
   </style>
 ---
 <section class="bg-gray-darker">
@@ -64,7 +74,7 @@ head: >
       </small>
       <br>
       <br>
-      Just call <a href="tel:{{site.phone}}">{{site.phone}}</a> to speak to an Advisor
+      Call <a href="tel:{{site.phone}}">{{site.phone}}</a> to speak to an Advisor
     </h2>
   </div>
 </section>
