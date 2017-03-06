@@ -1,11 +1,22 @@
 - logo: /assets/images/apple.png
+  name: Apple Inc.
 - logo: /assets/images/hp.png
+  name: Hewlett Packard
 - logo: /assets/images/evernote.png
+  name: Evernote
 - logo: /assets/images/att.png
+  name: AT&amp;T
 - logo: /assets/images/retailmenot.png
+  name: RetailMeNot
 - logo: /assets/images/samsung.png
+  name: Samsung
 - logo: /assets/images/uship.png
+  name: UShip
 - logo: /assets/images/invodo.png
+  name: Invodo
 - logo: /assets/images/dell.png
+  name: Dell
 - logo: /assets/images/continuum.png
+  name: Continuum Analytics
 - logo: /assets/images/ibm.png
+  name: IBM

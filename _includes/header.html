@@ -1,11 +1,21 @@
 <header>
-  <nav class="navbar navbar-default navbar-static-top">
-    <div class="well well-sm text-right">
+  <nav class="navbar navbar-default navbar-static-top navbar-inverse">
+    <div class="well well-sm bg-success text-white border-0">
       <div class="container">
-        <a href="{{ site.location_url }}" class="link-white" target="_blank"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;{{ site.location }}</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="{{ site.syllabus }}" class="link-white" target="_blank"><i class="fa fa-file-text-o"></i>&nbsp;&nbsp;View Syllabus</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="mailto:{{ site.email }}" class="link-white" target="_blank"><i class="fa fa-envelope-o"></i>&nbsp;&nbsp;Email</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="tel:{{site.phone}}" class="link-white"><i class="fa fa-phone"></i>&nbsp;&nbsp;{{ site.phone }}</a>
+        <ul class="list-inline margin-0 justify-content-space-between align-items-center">
+          <li><a href="{{site.googleplus}}" alt="Google Plus" class="link-white"><i class="fa fa-google-plus fa-lg"></i></a></li>
+          <li><a href="{{site.twitter}}"  alt="Twitter" class="link-white"><i class="fa fa-twitter fa-lg"></i></a></li>
+          <li><a href="{{site.facebook}}" alt="Facebook" class="link-white"><i class="fa fa-facebook fa-lg"></i></a></li>
+          <li><a href="{{site.linkedin}}" alt="LinkedIn" class="link-white"><i class="fa fa-linkedin fa-lg"></i></a></li>
+          <li><a href="{{site.instagram}}" alt="Instagram" class="link-white"><i class="fa fa-instagram fa-lg"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="well well-sm text-right border-0 bg-gray-lighter">
+      <div class="container">
+        <a href="{{ site.location_url }}" target="_blank" class="link-primary"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;{{ site.location }}</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="mailto:{{ site.email }}" target="_blank" class="link-primary"><i class="fa fa-envelope-o"></i>&nbsp;&nbsp;Email</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="tel:{{site.phone}}" class="link-primary"><i class="fa fa-phone"></i>&nbsp;&nbsp;{{ site.phone }}</a>
       </div>
     </div>
     <div class="container">
@@ -17,26 +27,20 @@
           <span class="icon-bar"></span>
         </button>
         <a class="navbar-brand" href="/" style="display:flex;align-items:center">
-          <img src="/assets/images/{{site.key}}.svg" alt="Austin Coding Academy logo" style="max-width:50px"/>
+          <img src="/assets/images/{{site.key}}-logo-white.svg" alt="{{site.school}} Logo" style="max-width:50px"/>
         </a>
       </div>
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
           <!-- <li><a href="/enterprise">ENTERPRISE</a></li> -->
-          <li><a href="/hire">HIRE A GRAD</a></li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">COURSES <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="/courses">Course Overview</a></li>
-              <li><a href="/courses/intro">Intro - Full Stack Web Development 101</a></li>
-              <li><a href="/courses/intermediate">Intermediate - Full Stack Web Development 102</a></li>
-              <li><a href="/courses/advanced">Advanced - Full Stack Web Development 103</a></li>
-            </ul>
-          </li>
+          <li><a href="/">Home</a></li>
+          <li><a href="/why">Why {{site.acronym}}</a></li>
+          <li><a href="/courses">Courses</a></li>
+          <li><a href="/tuition">Tuition</a></li>
           <li><a href="/faq">FAQ</a></li>
-          <!-- <li><a href="/blog">BLOG</a></li> -->
-          <li><a href="/about">ABOUT</a></li>
-          <li><a href="https://campus.austincodingacademy.com/login">LOGIN</a></li>
+          <li><a href="/contact">Contact</a></li>
+          <!-- <li><a href="/blog">Blog</a></li> -->
+          <!-- <li><a href="/calendar">Calendar</a></li> -->
           <li><a href="/apply" class="btn btn-success">APPLY NOW</a></li>
         </ul>
       </div>

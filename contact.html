@@ -1,0 +1,72 @@
+---
+layout: default
+permalink: /contact/
+title: Contact | {{ site.school }}
+description: >
+  Come find us! Contact information for {{ site.school }}
+---
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-4">
+        <div class="panel panel-default bg-gray-lighter" style="padding: 10px">
+          <div class="media">
+            <div class="media-left">
+              <i class="fa fa-map-o fa-3x fa-fw"></i>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading equalizer">
+                OUR OFFICE LOCATION
+                <br>
+                <small>{{site.location}}</small>
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default bg-gray-lighter" style="padding: 10px">
+          <div class="media">
+            <div class="media-left">
+              <i class="fa fa-phone fa-3x fa-fw"></i>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading equalizer">OUR CONTACT NUMBER</h4>
+              <h4><a href="tel:{{site.phone}}">{{site.phone}}</a></h4>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default bg-gray-lighter" style="padding: 10px">
+          <div class="media">
+            <div class="media-left">
+              <i class="fa fa-envelope fa-3x fa-fw"></i>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading equalizer">
+                SCHEDULE AN INFO SESSION
+                <br>
+                <small>
+                  Learn about {{site.school}}, Texas' most accessible,
+                  part-time coding school that can take you from novice
+                  to new-hire in nine months
+                </small>
+              </h4>
+            </div>
+          </div>
+          <br>
+          <a href="{{site.eventbrite}}" target="_blank" class="btn btn-block btn-success">SCHEDULE AN INFO SESSION</a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-8">
+        <h2 style="margin-top: 0;">
+          HOW CAN WE <span class="text-success">HELP?</span>
+          <br>
+          <small>
+            We're always happy to answer any questions you may have.
+          </small>
+          <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
+        </h2>
+        {% include capture-iframe.html form="capture-contact.html" id="capture-contact" %}
+      </div>
+    </div>
+    <iframe src="{{site.map}}" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+</section>

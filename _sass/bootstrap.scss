@@ -30,13 +30,41 @@
   // '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/print',
   '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/progress-bars',
   '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/responsive-embed',
-  // '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities',
+  '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities',
   '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/scaffolding',
   // '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/tables',
   // '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/theme',
   '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/thumbnails',
   // '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/tooltip',
   '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/type',
-  // '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/utilities',
+  '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/utilities',
   '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/wells',
   '../node_modules/bootstrap-block-grid/src/bootstrap3-block-grid';
+
+.panel-inverse {
+  border: 0;
+  border-left: 5px solid $brand-success;
+  background-color: $brand-primary;
+  color: $gray-lighter;
+  padding: 5px 10px;
+}
+
+.panel-group .panel-heading {
+  border: 0;
+  border-left: 5px solid $brand-success;
+  background-color: $brand-primary;
+  color: $gray-lighter;
+  padding: 10px;
+}
+
+nav.navbar {
+  border-bottom: 1px solid $brand-success;
+}
+
+.nav-tabs .active {
+  border-left: 5px solid $brand-success;
+}
+
+.media {
+  margin-bottom: 36px;
+}

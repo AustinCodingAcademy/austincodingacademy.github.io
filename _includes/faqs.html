@@ -1,0 +1,26 @@
+<h2>
+  Answers <span class="text-success">from {{site.school}}</span>
+  <br>
+  <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
+  <small>
+    We are here to help you learn. Here are some common answers to questions we're asked.
+  </small>
+</h2>
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  {% for faq in site.data.faqs.course %}
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="heading{{forloop.index}}">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{{forloop.index}}" aria-expanded="false" aria-controls="collapse{{forloop.index}}">
+          {{faq.question}}
+        </a>
+      </h4>
+    </div>
+    <div id="collapse{{forloop.index}}" class="panel-collapse collapse {% if forloop.index == 1 %} in {% endif %}" role="tabpanel" aria-labelledby="heading{{forloop.index}}">
+      <div class="panel-body">
+        {{faq.answer}}
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>

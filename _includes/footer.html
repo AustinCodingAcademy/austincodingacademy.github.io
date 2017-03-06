@@ -1,28 +1,57 @@
 <footer>
-  <nav class="navbar navbar-default navbar-static-bottom">
+  <nav class="navbar navbar-inverse navbar-static-bottom" style="margin-bottom: 5px;">
     <div class="container">
       <div class='row'>
-        <div class="col-xs-12 text-center">
-          <ul class="list-inline lead">
-            <li><small><a href="/apply">APPLICATION</a></small></li>
-            <!-- <li><small><a href="/blog">BLOG</a></small></li> -->
-            <li><small><a href="/courses">COURSES</a></small></li>
-            <li><small><a href="/hire">EMPLOYERS</a></small></li>
-            <li><small><a href="/faq">FAQ</a></small></li>
+        <div class="col-xs-12 col-md-3">
+          <h4 class="text-white">
+            {{site.acronym}} Info
+            <br>
+            <br>
+            <br>
+            <small class="text-white">
+              We’re committed to providing diverse communities the most
+              accessible coding education to transform lives and prepare
+              students for lifelong, fulfilling careers.
+            </small>
+          </h4>
+          <br>
+          <ul class="list-inline justify-content-space-between">
+            <li><a href="{{site.googleplus}}" alt="Google Plus" class="link-clear-dark"><i class="fa fa-google-plus fa-fw"></i></a></li>
+            <li><a href="{{site.twitter}}"  alt="Twitter" class="link-clear-dark"><i class="fa fa-twitter fa-fw"></i></a></li>
+            <li><a href="{{site.facebook}}" alt="Facebook" class="link-clear-dark"><i class="fa fa-facebook fa-fw"></i></a></li>
+            <li><a href="{{site.linkedin}}" alt="LinkedIn" class="link-clear-dark"><i class="fa fa-linkedin fa-fw"></i></a></li>
+            <li><a href="{{site.instagram}}" alt="Instagram" class="link-clear-dark"><i class="fa fa-instagram fa-fw"></i></a></li>
           </ul>
-          <ul class="list-inline">
-            <li><a href="{{site.facebook}}" alt="Facebook"><i class="fa fa-facebook-official fa-2x"></i></a></li>
-            <li><a href="{{site.googleplus}}" alt="Google Plus"><i class="fa fa-google-plus-official fa-2x"></i></a></li>
-            <li><a href="{{site.instagram}}" alt="Instagram" ><i class="fa fa-instagram fa-2x"></i></a></li>
-            <li><a href="{{site.twitter}}"  alt="Twitter"><i class="fa fa-twitter fa-2x"></i></a></li>
-            <li><a href="{{site.linkedin}}" alt="LinkedIn"><i class="fa fa-linkedin fa-2x"></i></a></li>
+        </div>
+        <div class="col-xs-12 col-md-3">
+          <h4 class="text-white">Courses</h4>
+          <br>
+          <ul class="list-unstyled" style="margin-left: 10px">
+            {% for course in site.data.courses %}
+              <li style="border-bottom: 1px dashed #777"><h5><a href="{{course.href}}" class="link-white">{{course[1].name}}</a></h5></li>
+            {% endfor %}
           </ul>
-          <center>
-            <img src="/assets/images/{{site.key}}-stamp.svg" alt="Stamp" style="max-width:100px;margin-bottom:5px"/>
-          </center>
-          &copy; 2017
+        </div>
+        <div class="col-xs-12 col-md-3">
+          <h4 class="text-white">Pages</h4>
+          <br>
+          <ul class="list-unstyled" style="margin-left: 10px">
+            <!-- <li style="border-bottom: 1px dashed #777"><h5><a href="#" class="link-white">Instructor Application</a></h5></li> -->
+            <li style="border-bottom: 1px dashed #777"><h5><a href="/why" class="link-white">Why {{site.acronym}}</a></h5></li>
+            <li style="border-bottom: 1px dashed #777"><h5><a href="/courses" class="link-white">Courses</a></h5></li>
+            <li style="border-bottom: 1px dashed #777"><h5><a href="/tuition" class="link-white">Tuition</a></h5></li>
+            <!-- <li style="border-bottom: 1px dashed #777"><h5><a href="#" class="link-white">Calendar</a></h5></li> -->
+            <li style="border-bottom: 1px dashed #777"><h5><a href="/faq" class="link-white">FAQ</a></h5></li>
+            <li style="border-bottom: 1px dashed #777"><h5><a href="/contact" class="link-white">Contact</a></h5></li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-md-3">
+          <h4 class="text-white">Quick Contact</h4>
+          <br>
+          {% include capture-iframe.html form="capture-footer.html" id="quick-contact" %}
         </div>
       </div>
     </div>
   </nav>
+  <h6 class="text-center">&copy; 2017 {{site.school}}</h6>
 </footer>
