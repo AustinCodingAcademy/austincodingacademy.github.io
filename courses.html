@@ -18,6 +18,14 @@ head: >
       text-shadow: black 1px 1px 5px;
     }
   </style>
+scripts: >
+  <script type="text/javascript">
+    $.ajax('https://campus.austincodingacademy.com/api/terms/dates/56f368f58085ad1100f2ad77', {
+      success: function(dates) {
+        $('.start-date').text(moment.utc(dates['{{site.city}}']).format('ddd, MMM Do, YYYY'));
+      }
+    });
+  </script>
 skills:
   - icon: scissors
     title: Languages and Frameworks
