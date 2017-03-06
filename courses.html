@@ -21,40 +21,57 @@ head: >
 skills:
   - icon: scissors
     title: Languages and Frameworks
-    body: Create apps that solve problems using cutting edge technology and software that our Curriculum Development Team has vetted.
+    body: >
+      Create apps that solve problems using cutting edge technology and software
+      that our Curriculum Development Team has vetted.
   - icon: pencil
     title: Dev team experience
-    body: Hiring managers value peer review and solid communication skills honed while working with others to create innovative solutions.
+    body: >
+      Hiring managers value peer review and solid communication skills honed
+      while working with others to create innovative solutions.
   - icon: wrench
     title: Presentation skills
-    body: Polish your presention acumen to communicate ideas to your team and others. Iterate to optimize your products.
+    body: >
+      Polish your presention acumen to communicate ideas to your team and
+      others. Iterate to optimize your products.
   - icon: object-group
     title: Design and Critical Thinking
-    body: Learn the technical skills to create static sites and dynamic web apps, as well as techniques to learn new programming languages quickly and effectively.
+    body: >
+      Learn the technical skills to create static sites and dynamic web apps, as
+      well as techniques to learn new programming languages quickly and
+      effectively.
   - icon: mobile
     title: Technological Sophistication
-    body: Learn the technical skills to create static sites and dynamic web apps, as well as techniques to learn new programming languages quickly and effectively.
+    body: >
+      Learn the technical skills to create static sites and dynamic web apps, as
+      well as techniques to learn new programming languages quickly and
+      effectively.
   - icon: lightbulb-o
     title: Build processes
-    body: Git, collaboration/version control software, and Agile methodology; widely accepted processes professional teams use to create apps.
+    body: >
+      Git, collaboration/version control software, and Agile methodology; widely
+      accepted processes professional teams use to create apps.
 financing_options:
-  - img: ''
+  - icon: graduation-cap
     title: Scholarships
     body: >
-      We sometimes offer partial or full-tuition scholarships through partnerships with third-party organizations. Please check with your Admissions Advisor to see if any are currently available.
-    href: ''
-  - img: ''
+      We sometimes offer partial or full-tuition scholarships through
+      partnerships with third-party organizations. Please check with your
+      Admissions Advisor to see if any are currently available.
+    href: /tuition
+  - icon: users
     title: GoFundMe
     body: >
-      Friends and family are important to every one of us and many of them might be willing to support, and assist, if given an accessible, online resource.
-    href: ''
-  - img: ''
+      Friends and family are important to every one of us and many of them might
+      be willing to support, and assist, if given an accessible, online resource.
+    href: https://www.gofundme.com/
+  - icon: university
     title: Lending agencies
     body: >
       Remember, you are free to obtain a loan from any lender, not just those
       listed below. Loans must be repaid with interest, and taking out a loan is
       a big decision, so consider it carefully.
-    href: ''
+    href: /tuition
 ---
 <section class="bg-gray-darker text-white">
   <div class="container">
@@ -191,7 +208,7 @@ financing_options:
         <div class="tab-content">
           {% for course in site.data.courses %}
           <div role="tabpanel" class="tab-pane {% if forloop.index == 1 %} active {% endif %}" id="{{course[0]}}-img">
-            <img src="{{course[1].img}}" alt="{{course[1].name}}">
+            <img src="{{course[1].img}}" alt="{{course[1].name}}" class="img-responsive">
           </div>
           {% endfor %}
         </div>
@@ -253,7 +270,7 @@ financing_options:
         <div class="media">
           <div class="media-left">
             <a href="{{option.href}}">
-              <img class="media-object" src="{{option.img}}" alt="event image">
+              <i class="fa fa-{{option.icon}} fa-2x" aria-hidden="true"></i>
             </a>
           </div>
           <div class="media-body">
