@@ -31,7 +31,7 @@
     "favicon-dallas": "real-favicon generate _favicon_dallas.json faviconData.json assets/favicons/ && npm run favicon-inject",
     "favicon-houston": "real-favicon generate _favicon_houston.json faviconData.json assets/favicons/ && npm run favicon-inject",
     "deploy-austin": "echo 'austincodingacademy.com' >> _site/CNAME && gh-pages --repo 'git@github.com:AustinCodingAcademy/austincodingacademy.com.git' -d ./_site",
-    "deploy-houston": "echo 'houstontx.codingacademy.com' >> _site/CNAME && gh-pages --repo 'git@github.com:AustinCodingAcademy/houstontxcodingacademy.com.git' -d ./_site",
+    "deploy-houston": "echo 'houstontxcodingacademy.com' >> _site/CNAME && gh-pages --repo 'git@github.com:AustinCodingAcademy/houstontxcodingacademy.com.git' -d ./_site",
     "deploy-sanantonio": "echo 'sanantonio.codingacademy.com' >> _site/CNAME && gh-pages --repo 'git@github.com:AustinCodingAcademy/sanantoniocodingacademy.com.git' -d ./_site",
     "deploy-dallas": "echo 'dallascodingacademy.com' >> _site/CNAME && gh-pages --repo 'git@github.com:AustinCodingAcademy/dallascodingacademy.com.git' -d ./_site",
     "deploy-austin-preview": "echo 'preview.austincodingacademy.com' >> _site/CNAME && gh-pages --repo 'git@github.com:AustinCodingAcademy/preview.austincodingacademy.com.git' -d ./_site",
