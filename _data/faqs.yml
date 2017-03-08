@@ -2,10 +2,10 @@ course:
   - question: Is this course relevant to me?
     answer: >
       There's never been a better time to start a career as a web developer. From startups to Fortune 100 companies, there is a consistent demand for developers who both write high-quality code and experienced problem solvers who can design creative solutions.
-  - question: How does HCA ensure student success in school?
+  - question: How does <span class="acronym"></span> ensure student success in school?
     answer: >
       We use every tool in the adult learning arsenal - teamwork, project-based learning modules, accountability partners, mentors, paired programming, and design thinking.
-  - question: What does HCA offer that others don't?
+  - question: What does <span class="acronym"></span> offer that others don't?
     answer: >
       Build static sites and dynamic web apps using API's and MVC architecture. Launch your sites using Heroku cloud service, collaborate within a team using an agile development workflow and widely-accepted collaboration practices using Git.
   - question: Who will I be sitting next to in class?
