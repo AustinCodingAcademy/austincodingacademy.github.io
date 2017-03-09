@@ -110,6 +110,7 @@ scripts: >
     </h4>
     <div class="row row-eq">
       {% for course in site.data.courses %}
+      {% if site.courses contains course[0] %}
       <div class="col-xs-12 col-md-6 col-lg-3">
         <div class="panel panel-default equalizer">
           <div class="panel-body">
@@ -126,6 +127,7 @@ scripts: >
           </div>
         </div>
       </div>
+      {% endif %}
       {% endfor %}
     </div>
   </div>
@@ -149,6 +151,46 @@ scripts: >
     {% include reviews.html %}
   </div>
 </section>
+<section class="br-gray-lighter ">
+  <div class="container">
+    <h3 class="text-center">Application Process
+      <br>
+      <small class="text-center">Interested in taking the next steps?<br>The acceptance process only takes 30 minutes!</small>
+      <br>
+      <br>
+      <!-- <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0"> -->
+    </h3>
+    <div class="row">
+      <div class="col-sm-6 col-md-3 text-center">
+        <h4>Submit Application<br>
+          <small>
+            Join {{site.city}}'s next generation of developers. Get started with our quick questionnaire.
+          </small>
+        </h4>
+      </div>
+      <div class="col-sm-6 col-md-3 text-center">
+        <h4>Phone Interview<br>
+          <small>
+            We'd like to get to know you better, understand your technical skill level, your goals, and answer any questions you have.
+          </small>
+        </h4>
+      </div>
+      <div class="col-sm-6 col-md-3 text-center">
+        <h4>Enrollment<br>
+          <small>Classes fill up fast and we want to make sure students can get started on their pre-work as quickly as possible.</small>
+        </h4>
+      </div>
+      <div class="col-sm-6 col-md-3 text-center">
+        <h4>Pre-work<br>
+          <small>Once you're enrolled in class, you'll have some pre-work to complete before the start of term.</small>
+        </h4>
+      </div>
+    </div>
+    <br />
+    <!-- {% include reviews.html %} -->
+  </div>
+</section>
+
 <section>
   <div class="container">
     <div class="row">

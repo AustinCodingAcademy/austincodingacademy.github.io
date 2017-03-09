@@ -204,20 +204,24 @@ financing_options:
         </h3>
         <ul class="nav nav-tabs nav-stacked" role="tablist">
           {% for course in site.data.courses %}
+          {% if site.courses contains course[0] %}
           <li role="presentation" class="{% if forloop.index == 1 %} active {% endif %}">
             <a href="#{{course[0]}}-img" aria-controls="home" data-target="#{{course[0]}}-img, #{{course[0]}}-details, #{{course[0]}}-description" role="tab" data-toggle="tab">
               {{course[1].name}}
             </a>
           </li>
+          {% endif %}
           {% endfor %}
         </ul>
       </div>
       <div class="col-xs-12 col-md-8">
         <div class="tab-content">
           {% for course in site.data.courses %}
+          {% if site.courses contains course[0] %}
           <div role="tabpanel" class="tab-pane {% if forloop.index == 1 %} active {% endif %}" id="{{course[0]}}-img">
             <img src="{{course[1].img}}" alt="{{course[1].name}}" class="img-responsive">
           </div>
+          {% endif %}
           {% endfor %}
         </div>
       </div>
@@ -231,11 +235,13 @@ financing_options:
             <hr style="width: 40px; text-align:left; margin-left:0; border-color:#777">
           </h3>
           {% for course in site.data.courses %}
+          {% if site.courses contains course[0] %}
           <div role="tabpanel" class="tab-pane {% if forloop.index == 1 %} active {% endif %}" id="{{course[0]}}-details">
             <ul class="list-unstyled">
               <li><h4><span class="text-success">Price :</span> {{site.course_amount}}</h4></li>
             </ul>
           </div>
+          {% endif %}
           {% endfor %}
         </div>
       </div>
