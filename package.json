@@ -12,7 +12,7 @@
     "sass-sanantonio": "node-sass --output-style compressed -o assets/stylesheets/ _sass/sanantonio.scss",
     "sass-dallas": "node-sass --output-style compressed -o assets/stylesheets/ _sass/dallas.scss",
     "sass-houston": "node-sass --output-style compressed -o assets/stylesheets/ _sass/houston.scss",
-    "sass-include": "mkdir _includes/stylesheets && cp -R assets/stylesheets/. _includes/stylesheets",
+    "sass-include": "mkdir -p _includes/stylesheets && cp -R assets/stylesheets/. _includes/stylesheets",
     "build-austin": "bundle exec jekyll build --config _config_austin.yml",
     "build-dallas": "bundle exec jekyll build --config _config_dallas.yml",
     "build-houston": "bundle exec jekyll build --config _config_houston.yml",
