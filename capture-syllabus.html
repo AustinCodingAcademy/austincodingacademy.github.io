@@ -25,7 +25,7 @@ layout: form
           <label for="course">Course</label>
           <select class="form-control" id="syllabus-href">
             {% for course in site.data.courses %}
-            {% if course[1].syllabus != '' %}
+            {% if site.courses contains course[0] %}
             <option value="{{course[1].syllabus}}">{{course[1].name}}</option>
             {% endif %}
             {% endfor %}

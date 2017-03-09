@@ -8,7 +8,9 @@ categories:
 tags:
   - account manager
   - developer
+image: 'globalisation.jpg'
 ---
+
 
 There are 5 things every account manager should know about development if they are going to be successful at communicating with a development team. Being an account manager with a technical team can be challenging, especially when balancing relationships between clients and your devs. This list will help manage this balance. For another interesting perspective on account managers and developers, check out ["Why Account Managers Shouldn't Prevent Designers From Speaking To Clients,"](https://www.smashingmagazine.com/2012/06/why-account-managers-shouldnt-prevent-designers-from-speaking-to-clients/) by Smashing Magazine.
 
@@ -17,7 +19,7 @@ By John Steinmetz. See original posting [here](http://blog.wcgworld.com/2013/10/
 ### 1. THE DIFFERENCE BETWEEN A WEBSITE AND A WEB APPLICATION.
 
 
-It is important to understand the difference between a website and a web application. A website is any online digital presence. A web application is any online digital presence driven by an online data source (CMS or other database). Ten years ago, roughly 10% of all websites were data driven web applications. Today, roughly 90% of all websites are data driven applications. You can learn about about this topic at our other post, [The Difference Between a Website and a Web Application](https://www.austincodingacademy.com/blog/the-difference-between-a-website-and-a-web-application-it-matters/).<!--DEAD LINK-->
+It is important to understand the difference between a website and a web application. A website is any online digital presence. A web application is any online digital presence driven by an online data source (CMS or other database). Ten years ago, roughly 10% of all websites were data driven web applications. Today, roughly 90% of all websites are data driven applications. You can learn about about this topic at our other post, [The Difference Between a Website and a Web Application](/blog%20post/industry%20insights/2016/02/12/the-difference-between-a-website-and-a-web-application-it-matters.html).
 
 Web applications should have a strong architecture and updates during development should be kept to a minimum. Really good discovery is essential.
 

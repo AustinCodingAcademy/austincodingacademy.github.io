@@ -6,8 +6,10 @@ categories:
   - Uncategorized
   - Blog Post
 tags: []
-
+image: 'keyboard.jpg'
 ---
+
+
 Whether you're an Austin Coding Academy student or a professional systems engineer hacking on the [Linux kernel](https://www.kernel.org/), there will always come a time when you, as a programmer, need to ask someone for help. While the saying "There's no such thing as a dumb question" is certainly something I believe, I also believe some questions are constructed better than others. Well constructed questions allows those answering to respond quickly and directly. Enter the anatomy of a good question.
 
 So whether you're asking an Austin Coding Academy instructor for assignment help, or asking the wizards of Stack Overflow to work their magic and answer your questions, following this guideline will help you quickly receive feedback you can learn from.

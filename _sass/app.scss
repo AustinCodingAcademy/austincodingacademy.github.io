@@ -89,6 +89,11 @@ html, body {
   justify-content: space-between !important;
 }
 
+.flex-column {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
 .justify-content-center {
   display: flex !important;
   justify-content: center !important;

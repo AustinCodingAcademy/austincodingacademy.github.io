@@ -7,8 +7,11 @@ categories:
   - Learn to Code
   - Industry Insights
 tags: []
+image: 'lukestennis.jpg'
 published: false
 ---
+
+
 <!-- Are these two heading missing info or supposed to be separate headings? -->
 
 ### **Self-confessed Austin Coding Academy 'brand fanatic'and Why He Decided to Learn to Code**

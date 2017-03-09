@@ -7,8 +7,9 @@ categories:
 tags:
   - Venture Deals
   - Brad Feld
-
+image: 'venturedeals.jpg'
 ---
+
 
 Book Review of [Venture Deals](http://www.askthevc.com/) by Brad Feld and Jason Mendelson (Short Version)
 

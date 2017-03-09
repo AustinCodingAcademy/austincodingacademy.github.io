@@ -28,7 +28,9 @@
           <br>
           <ul class="list-unstyled" style="margin-left: 10px">
             {% for course in site.data.courses %}
-              <li style="border-bottom: 1px dashed #777"><h5><a href="{{course.href}}" class="link-white">{{course[1].name}}</a></h5></li>
+            {% if site.courses contains course[0] %}
+            <li style="border-bottom: 1px dashed #777"><h5><a href="{{course.href}}" class="link-white">{{course[1].name}}</a></h5></li>
+            {% endif %}
             {% endfor %}
           </ul>
         </div>
@@ -46,9 +48,11 @@
           </ul>
         </div>
         <div class="col-xs-12 col-md-3">
-          <h4 class="text-white">Quick Contact</h4>
+          <img class="img-responsive" src="/assets/images/austin-logo-white.svg" alt="Austin Coding Academy Logo">
           <br>
-          {% include capture-iframe.html form="capture-footer.html" id="quick-contact" %}
+          <br>
+          <a href="/apply" class="btn btn-success btn-block">APPLY NOW</a>
+          <br>
         </div>
       </div>
     </div>

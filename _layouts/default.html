@@ -5,11 +5,17 @@
   <title>{{ page.title | liquify }}</title>
   {% include favicon.html %}
   {{ page.head | liquify }}
+  {% if page.permalink == '/' %}
+  <style>
+    {% include stylesheets/{{site.key}}.css %}
+  </style>
+  {% else %}
+  <link rel="stylesheet" href="/assets/stylesheets/{{ site.key }}.css">
+  {% endif %}
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{{ page.description | liquify }}">
   <meta name="keywords" content="">
-  <link rel="stylesheet" href="/assets/stylesheets/{{ site.key | liquify }}.css">
 </head>
 <body>
   {% include google-tag-manager-noscript.html %}
@@ -18,6 +24,9 @@
     {{ content }}
   </main>
   {% include footer.html %}
+  {% if page.permalink == '/' %}
+  <link rel="stylesheet" href="/assets/stylesheets/{{ site.key }}.css">
+  {% endif %}
   <script type="text/javascript" src="/assets/javascripts/app.js"></script>
   <script type="text/javascript">
     $('.acronym').text("{{site.acronym}}");

@@ -5,8 +5,11 @@ date: '2016-11-29'
 categories:
   - Uncategorized
 tags: []
+image: 'clock.jpg'
 published: false
 ---
+
+
 <!-- JS code needs to be organized -->
 In this intermediate tutorial, you will learn how to create a digital JavaScript clock for your web page in three easy steps.
 

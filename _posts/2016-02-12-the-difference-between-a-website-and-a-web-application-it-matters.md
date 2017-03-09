@@ -9,8 +9,9 @@ tags:
   - application
   - web application
   - web site
-
+image: 'twitter.jpg'
 ---
+
 
 It is important to understand the differences between websites and web applications. A website is any online digital presence. A web application is any online digital presence driven by an online data source (CMS or other database). Ten years ago, roughly 10% of all websites were data driven web applications. Today, roughly 90% of all websites are data driven applications. Thanks in large part to [Wordpress](https://wordpress.com/create/){:target="_blank"} and [Drupal](https://www.drupal.org/){:target="_blank"}.
 

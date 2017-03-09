@@ -7,8 +7,10 @@ categories:
   - Learn to Code
   - Industry Insights
 tags: []
+image: 'Gizemimg.jpg'
 published: false
 ---
+
 
 
 

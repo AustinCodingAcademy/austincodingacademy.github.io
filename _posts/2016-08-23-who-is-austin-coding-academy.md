@@ -5,7 +5,9 @@ date: '2016-08-23'
 categories:
   - Uncategorized
 tags: []
+image: 'IMG_6268.jpg'
 ---
+
 
 Founders of Austin Coding Academy Luke Filipos and Chris Sica met during college, and have been practically inseparable ever since.
 

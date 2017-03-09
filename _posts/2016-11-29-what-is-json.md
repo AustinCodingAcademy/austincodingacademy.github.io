@@ -5,10 +5,10 @@ date: '2016-11-29'
 categories:
   - Uncategorized
 tags: []
+image: 'htmlimage.jpg'
 ---
 
-
-<!-- Heading repeated -->
+<!-- Heading repeated therefore it's commented out-->
 <!-- # What is JSON and What is it used for? -->
 
 
