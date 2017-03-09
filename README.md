@@ -28,14 +28,41 @@ in its own terminal window
 1. Navigate to http://127.0.0.1:4000
   * Every change you make will regenerate the site
 
+## Making a change
+1. To make a change
+  1. Open terminal
+    1. `cd` into project directory `austincodingacademy.com/`
+    1. `git checkout preview` to get onto preview branch
+    1. `git checkout -b [name-of-fix]` to create the bug-specific branch, which will get deleted after
+  1. See : [Development](#Development)
+  1. In Editor
+    1. make fixes
+    1. check in http://127.0.0.1:4000
+  1. In terminal
+    1. check files `git status`
+    1. `git commit -am "some message"`
+    1. `git push origin [name-of-fix]`
+  1. In github.com
+    1. create pull request (`base: preview ... compare: [name-of-fix]`)
+    1. review, merge, delete `[name-of-fix]` branch
+    1. check [Preview Sites](#Preview)
+  1. if nothing breaks
+    1. create pull request (`base: master ... compare: preview`)
+    1. review, merge
+    1. check [Production Sites](#Production)
+
+
+
 ## Deploying
-1. Every change to the _preview_ branch will be deployed to
+### Preview
+Every change to the _preview_ branch will be deployed to
   * https://preview.austincodingacademy.com
   * https://preview.sanantoniocodingacademy.com
   * https://preview.dallascodingacademy.com
   * https://preview.houstontxcodingacademy.com
 
-1. Every change to the _master_ branch will be deployed to
+### Production
+Every change to the _master_ branch will be deployed to
   * https://austincodingacademy.com
   * https://sanantoniocodingacademy.com
   * https://dallascodingacademy.com
