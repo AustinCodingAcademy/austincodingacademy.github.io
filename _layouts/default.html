@@ -24,10 +24,18 @@
     {{ content }}
   </main>
   {% include footer.html %}
-  {% if page.permalink == '/' %}
-  <link rel="stylesheet" href="/assets/stylesheets/{{ site.key }}.css">
-  {% endif %}
   <script type="text/javascript" src="/assets/javascripts/app.js"></script>
+  {% if page.permalink == '/' %}
+  <script type="text/javascript">
+  $(document).ready(function() {
+    if (document.createStyleSheet){
+      document.createStyleSheet('/assets/stylesheets/{{ site.key }}.css');
+    } else {
+      $('head').append($('<link rel="stylesheet" href="/assets/stylesheets/{{ site.key }}.css" type="text/css" />'));
+    }
+  });
+  </script>
+  {% endif %}
   <script type="text/javascript">
     $('.acronym').text("{{site.acronym}}");
   </script>
