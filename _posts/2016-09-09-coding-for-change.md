@@ -7,7 +7,9 @@ categories:
   - Learn to Code
   - Industry Insights
 tags: []
+image: 'eddiegarcia.jpg'
 ---
+
 
 
 

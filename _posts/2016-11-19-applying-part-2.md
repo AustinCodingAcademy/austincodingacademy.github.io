@@ -5,7 +5,9 @@ date: '2016-11-19'
 categories:
   - Uncategorized
 tags: []
+image: 'technology.jpg'
 ---
+
 
 
 

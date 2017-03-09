@@ -6,8 +6,10 @@ categories:
   - Learn to Code
 tags:
   - url
+image: 'urlimage.jpg'
 published: false
 ---
+
 
 If you've ever been on the Internet then you've undoubtedly used a URL before, you most likely have even heard the term.
 We've developed a chart explaining what a URL is as a whole, and in parts. Brace yourself!

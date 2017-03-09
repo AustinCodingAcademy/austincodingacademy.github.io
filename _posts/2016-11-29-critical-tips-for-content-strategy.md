@@ -5,7 +5,9 @@ date: '2016-11-29'
 categories:
   - Uncategorized
 tags: []
+image: 'lady.jpg'
 ---
+
 
 By John Steinmeitz
 

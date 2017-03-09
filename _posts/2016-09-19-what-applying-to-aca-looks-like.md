@@ -5,7 +5,9 @@ date: '2016-09-19'
 categories:
   - Uncategorized
 tags: []
+image: 'technology.jpg'
 ---
+
 
 I must admit, applying to Austin Coding Academy after stumbling across it, was kind of exciting. You see, I had already suffered the sticker shock of various coding bootcamps and schools. And, might I add, my google skills are on point. But ACA's google search presence wasn't there when I searched four months ago.
 

@@ -6,7 +6,9 @@ categories:
   - Learn to Code
   - Advanced
 tags: []
+image: 'ubuntupic.jpg'
 ---
+
 
 By Joe McCullough
 

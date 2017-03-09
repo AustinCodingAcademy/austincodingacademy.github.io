@@ -10,7 +10,9 @@ tags:
   - cookies
   - internet cookies
   - tracking cookies
+image: 'cookie-monster.jpg'
 ---
+
 
 Internet browsing has come a long way and it's gotten smarter and more user friendly. Browsers have improved your user experience by remembering when you visit pages, what your language preference is, they can even tailor advertisements you see online to be more relevant to your specific interests. If you've ever wondered how this is possible, the answer is simply cookies. The internet is full of them, like a bottomless jar of gooey chocolate deliciousness.
 Before you start craving your laptop, let's explore what cookies are.

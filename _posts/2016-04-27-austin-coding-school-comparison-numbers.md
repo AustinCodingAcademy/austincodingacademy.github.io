@@ -15,8 +15,11 @@ tags:
   - general assembly
   - makersquare
   - the iron yard
+image: 'Austin-Coding-Schools-Comparison.jpg'
 published: false
+
 ---
+
 
 The Austin coding school market has gotten considerably larger over the last year. When deciding where to learn to code, it's important to know what's out there. Below is a comparison chart of the major full stack courses Austin has to offer.
 
