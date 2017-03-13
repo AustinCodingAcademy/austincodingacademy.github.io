@@ -112,8 +112,8 @@ scripts: >
       {% for course in site.data.courses %}
       {% if site.courses contains course[0] %}
       <div class="col-xs-12 col-md-6 col-lg-4">
-        <div class="panel panel-default equalizer">
-          <div class="panel-body">
+        <div class="panel panel-default">
+          <div class="panel-body equalizer">
             <img src="{{course[1].thumbnail}}" class="img-responsive" alt="{{course[1].name}}">
             <h4>
               {{course[1].name}}
