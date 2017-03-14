@@ -11,3 +11,4 @@ _includes/favicon.html
 faviconData.json
 *.log
 robots.txt
+*.orig
