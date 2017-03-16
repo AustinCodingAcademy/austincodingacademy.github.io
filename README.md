@@ -35,12 +35,18 @@ in its own terminal window
     1. `git checkout preview` to get onto preview branch
     1. `git checkout -b [name-of-fix]` to create the bug-specific branch, which will get deleted after
   1. See : [Development](#Development)
+  1. On site
+    1. Use DevTool to find the areas to fix
+    1. Find the most uniquely named class (or whatever has a unique name)
   1. In Editor
-    1. make fixes
-    1. check in http://127.0.0.1:4000
+    1. Use Command+Shift+F to search the codebase for the uniquely named class
+    1. Double click on the blue word to be taken to the specific file that needs updating
+    1. Make fixes
+    1. Check in http://127.0.0.1:4000
   1. In terminal
     1. check files `git status`
-    1. `git commit -am "some message"`
+    1. `git add .`
+    1. `git commit -m "some message"`
     1. `git push origin [name-of-fix]`
   1. In github.com
     1. create pull request (`base: preview ... compare: [name-of-fix]`)
@@ -51,6 +57,23 @@ in its own terminal window
     1. review, merge
     1. check [Production Sites](#Production)
 
+#After making a change
+  1. In Github, at austincodingacademy repo,
+    1. Click on green "compare and merge" button
+    1. Make sure to enter any relevant notes
+    1. Click green "Merge" button
+    1. Click green "Confirm" button
+    1. Click blue "Delete branch" button
+  1. In Terminal,
+    1. In bash window,
+      1. `git checkout preview` to get off deleted branch and back onto preview branch
+      1. `git pull origin preview` to receive most updated code base of preview branch
+    1. In node window,
+      1. `control + c` to stop
+      1. `npm run watch` to restart
+    1. In fsevent_watch window,
+      1. `control + c` to stop
+      1. `npm run serve-austin` to restart
 
 
 ## Deploying
