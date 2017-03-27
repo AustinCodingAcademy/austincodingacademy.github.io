@@ -36,7 +36,7 @@
   syllabus: 'https://student.austincodingacademy.com/austin-intro.html'
 
 211:
-  name: '221 JavaScript Full Stack'
+  name: '211 JavaScript Full Stack'
   summary: >
     After the core 101 class, students begin creating small apps using
     Javascript, jQuery, Node, NPM, API's, and Terminal.
