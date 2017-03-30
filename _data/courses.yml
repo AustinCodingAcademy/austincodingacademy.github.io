@@ -1,5 +1,5 @@
 101:
-  name: '101 Web'
+  name: '101 Intro to Web'
   summary: >
     Use HTML, CSS, Javascript, Git, Terminal, Atom, and the DevTool, to
     create sites and a professional Portfolio.
@@ -33,7 +33,45 @@
     - Web Designer
     - UX/UI Designer
     - Junior Web Developer
-  syllabus: 'https://student.austincodingacademy.com/austin-intro.html'
+  syllabus: '/FSWD-JS.html#101-intro-to-web'
+
+111:
+  name: '101 Intro to Web'
+  summary: >
+    Use HTML, CSS, Javascript, Git, Terminal, Atom, and the DevTool, to
+    create sites and a professional Portfolio.
+  img: /assets/images/intro-js.png
+  thumbnail: /assets/images/table-shot.jpg
+  description: >
+    <p>
+      This is our Intro course, designed to take true beginners to a level
+      of fluency with HTML and CSS that will allow them to build
+      professional, well designed, responsive websites. You can use these
+      skills to begin freelancing or to get started as a web designer.
+    </p>
+    <p>
+      This class is designed for someone who is brand new to writing code
+      or has dabbled with a few online tutorials like Codecademy and have
+      found they are ready to really solidify their knowledge base in
+      website development.
+    </p>
+  skills:
+    - HTML 5
+    - CSS 3
+    - GitHub
+    - Responsive Web Design
+    - Problem Solving
+    - Developer Tools
+  projects:
+    - Mobile Ready Websites
+    - Beginner's Portfolio
+    - Github Profile
+  jobs:
+    - Web Designer
+    - UX/UI Designer
+    - Junior Web Developer
+  syllabus: '/FSWD-JS.html#101-intro-to-web'
+
 
 211:
   name: '211 JavaScript Full Stack'
@@ -71,7 +109,7 @@
     - JavaScript Developer
     - Front End Developer
     - Junior Web Developer
-  syllabus: 'https://student.austincodingacademy.com/austin-intermediate.html'
+  syllabus: '/FSWD-JS.html#211-javascript-full-stack'
 
 311:
   name: '311 JavaScript Full Stack'
@@ -112,7 +150,7 @@
     - JavaScript Developer
     - Full Stack Developer
     - Junior Web Developer
-  syllabus: 'https://student.austincodingacademy.com/austin-advanced.html'
+  syllabus: '/FSWD-JS.html#311-javascript-full-stack'
 
 221:
   name: '221 C# & .NET Full Stack'
@@ -148,7 +186,7 @@
     - 'C# Developer'
     - Front End Developer
     - Junior Web Dev
-  syllabus: 'https://student.austincodingacademy.com/sanantonio-intermediate.html'
+  syllabus: '/FSWD-CSHARPDOTNET.html#221-c-net-full-stack'
 
 321:
   name: '321 C# & .NET Full Stack'
@@ -187,7 +225,7 @@
     - 'C#/.NET Developer'
     - Full Stack Developer
     - Junior Web Developer
-  syllabus: 'https://student.austincodingacademy.com/sanantonio-advanced.html'
+  syllabus: '/FSWD-CSHARPDOTNET.html#321-c-net-full-stack'
 
 # 231:
 #   name: '231 Web Design'
