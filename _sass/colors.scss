@@ -14,6 +14,15 @@ $brand-primary:         #004566 !default;
 $brand-info:            #d9edf7 !default;
 $brand-warning:         #006da3 !default;
 $brand-danger:          #d9534f !default;
+$redhighlight:          #F71F49 !default;
+$greenhighlight:        #7BFF75 !default;
+$yellowhighlight:       #FBFE13 !default;
+$bluehighlight:         #00b7d4 !default;
+$purplehighlight:       #FD00C5 !default;
+$orangehighlight:       #FF9B49 !default;
+$skybluehightlight:     #47F8F8 !default;
+$yellowgreenhighlight:  #D4FE48 !default;
+
 
 $colors:
   'gray-base'
@@ -27,7 +36,15 @@ $colors:
   'success'
   'info'
   'warning'
-  'danger';
+  'danger'
+  'redhighlight'
+  'greenhighlight'
+  'yellowhighlight'
+  'bluehighlight'
+  'purplehighlight'
+  'orangehighlight'
+  'skybluehightlight'
+  'yellowgreenhighlight';
 
 $color_vars:
   $gray-base
@@ -41,7 +58,15 @@ $color_vars:
   $brand-success
   $brand-info
   $brand-warning
-  $brand-danger;
+  $brand-danger
+  $redhighlight
+  $greenhighlight
+  $yellowhighlight
+  $bluehighlight
+  $purplehighlight
+  $orangehighlight
+  $skybluehightlight
+  $yellowgreenhighlight;
 
 @for $i from 1 through length($colors) {
   $color: nth($colors, $i);
