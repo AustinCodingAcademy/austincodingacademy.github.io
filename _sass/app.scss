@@ -5,11 +5,12 @@
 
 $fa-font-path: "/assets/fonts" !default;
 $slick-font-path: "/assets/fonts" !default;
-$slick-font-family: "Lato" !default;
+$slick-font-family: "Quicksand" !default;
 $slick-loader-path: "/assets/images/" !default;
 
 @import
-  url('https://fonts.googleapis.com/css?family=Lato'),
+  // url('https://fonts.googleapis.com/css?family=Lato'),
+  url('https://fonts.googleapis.com/css?family=Quicksand'),
   '../node_modules/font-awesome/scss/font-awesome',
   '../node_modules/slick-carousel/slick/slick.scss',
   '../node_modules/slick-carousel/slick/slick-theme.scss',
@@ -142,12 +143,20 @@ nav li a {
 .bg-gray-darker {
   min-height: 300px;
 }
+
 .font_18 {
   font-size: 18px !important;
 }
 .font_17 {
   font-size: 17px !important;
 }
+
+h4 small {
+  line-height: 1.6;
+  font-size: 89% !important;
+}
+
+
 // Media Queries - Tablet
 @media (min-width: 768px) and (max-width: 991px) {
   #f8 .col-sm-12, .col-xs-12 {

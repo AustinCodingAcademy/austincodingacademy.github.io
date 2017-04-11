@@ -22,7 +22,14 @@ $purplehighlight:       #FD00C5 !default;
 $orangehighlight:       #FF9B49 !default;
 $skybluehightlight:     #47F8F8 !default;
 $yellowgreenhighlight:  #D4FE48 !default;
-
+$lightyblue:            #ABE2FF !default;
+$lighterblue:           #CCEDFF !default;
+$lightyred:             #FFA7B1 !default;
+$lighterred:            #FFCAD0 !default;
+$lightygreen:           #B9FFA7 !default;
+$lightergreen:          #D5FFCA !default;
+$lightyorange:          #FFD7A7 !default;
+$lighterorange:         #FFE7CA !default;
 
 $colors:
   'gray-base'
@@ -44,7 +51,15 @@ $colors:
   'purplehighlight'
   'orangehighlight'
   'skybluehightlight'
-  'yellowgreenhighlight';
+  'yellowgreenhighlight'
+  'lightyblue'
+  'lighterblue'
+  'lightyred'
+  'lighterred'
+  'lightyorange'
+  'lighterorange'
+  'lightygreen'
+  'lightergreen';
 
 $color_vars:
   $gray-base
@@ -66,7 +81,15 @@ $color_vars:
   $purplehighlight
   $orangehighlight
   $skybluehightlight
-  $yellowgreenhighlight;
+  $yellowgreenhighlight
+  $lightyblue
+  $lighterblue
+  $lightyred
+  $lighterred
+  $lightyorange
+  $lighterorange
+  $lightygreen
+  $lightergreen;
 
 @for $i from 1 through length($colors) {
   $color: nth($colors, $i);
