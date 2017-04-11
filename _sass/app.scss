@@ -142,7 +142,12 @@ nav li a {
 .bg-gray-darker {
   min-height: 300px;
 }
-
+.font_18 {
+  font-size: 18px !important;
+}
+.font_17 {
+  font-size: 17px !important;
+}
 // Media Queries - Tablet
 @media (min-width: 768px) and (max-width: 991px) {
   #f8 .col-sm-12, .col-xs-12 {
