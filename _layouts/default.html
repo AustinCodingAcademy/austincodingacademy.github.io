@@ -3,6 +3,13 @@
 <head>
   {% include google-tag-manager.html %}
   <title>{{ page.title | liquify }}</title>
+  <meta property="og:title" content="{{ page.title | liquify }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ site.url }}{{ page.permalink }}">
+  <meta property="og:image" content="{{ site.url }}/assets/images/{{site.key}}-logo-white-bg.png">
+  <meta property="og:description" content="{{ page.description | liquify }}">
+
+
   {% include favicon.html %}
   {{ page.head | liquify }}
   {% if page.permalink == '/' %}
