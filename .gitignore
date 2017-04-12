@@ -10,5 +10,4 @@ _includes/stylesheets
 _includes/favicon.html
 faviconData.json
 *.log
-robots.txt
 *.orig

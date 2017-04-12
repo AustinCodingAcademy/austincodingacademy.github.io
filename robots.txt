@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /application
+Disallow: /capture.html
+Disallow: /capture-syllabus.html
+Disallow: /capture-contact.html
+Disallow: /capture-footer.html
