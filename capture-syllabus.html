@@ -7,10 +7,17 @@ layout: form
     <input type="hidden" id="insightly_ResponsibleUser" name="ResponsibleUser" value="1346854"/>
     <input type="hidden" id="insightly_LeadSource" name="LeadSource" value="1522626"/>
     <input type="hidden" id="insightly_AddressCity" name="AddressCity" type="text" value="{{site.city}}" />
+    <input type="hidden" id="insightly_LEAD_FIELD_36" name="LEAD_FIELD_36" type="text" value="Website - Syllabus" />
     <div class="row row-eq margin-0">
-      <div class="col-xs-12 col-sm-3 margin-0 equalizer">
+      <div class="col-xs-12 col-sm-2 margin-0 equalizer">
         <div class="form-group">
-          <label for="insightly_lastName">Name: </label>
+          <label for="insightly_firstName">First Name: </label>
+          <input id="insightly_firstName" class="form-control" name="FirstName" type="text" required />
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-2 margin-0 equalizer">
+        <div class="form-group">
+          <label for="insightly_lastName">Last Name: </label>
           <input id="insightly_lastName" class="form-control" name="LastName" type="text" required />
         </div>
       </div>
@@ -32,7 +39,7 @@ layout: form
           </select>
         </div>
       </div>
-      <div class="col-xs-12 col-sm-3 margin-0 equalizer">
+      <div class="col-xs-12 col-sm-2 margin-0 equalizer">
         <input type="submit" value="Submit" class="btn btn-success btn-block" style="margin-top:24px;">
       </div>
     </div>
