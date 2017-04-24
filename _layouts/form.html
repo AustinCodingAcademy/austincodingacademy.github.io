@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
+    {% include google-tag-manager.html %}
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" href="/assets/stylesheets/{{ site.key | liquify }}.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
+    {% include google-tag-manager-noscript.html %}
     {{ content }}
     <script type="text/javascript" src="/assets/javascripts/app.js"></script>
     <script>

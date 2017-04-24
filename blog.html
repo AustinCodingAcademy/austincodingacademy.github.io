@@ -13,14 +13,6 @@ description: >
         <ul>
           <div class="list-group">
             {% for post in site.posts %}
-            <!-- <a href="{{ post.url }}" class="list-group-item">
-              <h2 class="list-group-item-heading">
-                {{ post.title }}
-                <br />
-                <small>{{ post.date | date: "%a, %b %d, %Y"  }}</small>
-              </h2>
-              <p class="list-group-item-text">{{ post.excerpt | replace_regex: '<a.*>', '' | remove: '</a>' | remove: '<p>' | remove: '</p>'}}</p>
-            </a> -->
             <div class="panel panel-default">
               <div class="panel-body">
                 <div class="media">

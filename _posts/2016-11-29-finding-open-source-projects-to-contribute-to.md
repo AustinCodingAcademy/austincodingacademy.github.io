@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Finding Open Source Projects to Contribute To
+title: Finding Open Source Projects to Contribute To In Github
 date: '2016-11-29'
 categories:
   - Uncategorized

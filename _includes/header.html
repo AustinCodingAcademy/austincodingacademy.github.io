@@ -1,6 +1,6 @@
 <header>
   <nav class="navbar navbar-default navbar-static-top navbar-inverse">
-    <div class="well well-sm bg-success text-white border-0">
+    <!-- <div class="well well-sm bg-success text-white border-0">
       <div class="container">
         <ul class="list-inline margin-0 justify-content-space-between align-items-center">
           <li><a href="{{site.googleplus}}" alt="Google Plus" class="link-white"><i class="fa fa-google-plus fa-lg"></i></a></li>
@@ -10,12 +10,14 @@
           <li><a href="{{site.instagram}}" alt="Instagram" class="link-white"><i class="fa fa-instagram fa-lg"></i></a></li>
         </ul>
       </div>
-    </div>
-    <div class="well well-sm text-right border-0 bg-gray-lighter">
-      <div class="container">
-        <a href="{{ site.location_url }}" target="_blank" class="link-primary"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;{{ site.location }}</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="mailto:{{ site.email }}" target="_blank" class="link-primary"><i class="fa fa-envelope-o"></i>&nbsp;&nbsp;Email</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="tel:{{site.phone}}" class="link-primary"><i class="fa fa-phone"></i>&nbsp;&nbsp;{{ site.phone }}</a>
+    </div> -->
+    <div class="well well-sm border-0 bg-gray-lighter">
+      <div style="font-size: 16px;" class="container">
+        <a href="{{ site.location_url }}" target="_blank" class="link-primary text-right"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;{{ site.location }}</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <div class="text-right" style="float:right;">
+          <a href="mailto:{{ site.email }}" target="_blank" class="link-primary"><i class="fa fa-envelope-o"></i>&nbsp;&nbsp;Email</a>&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="tel:{{site.phone}}" class="link-primary"><i class="fa fa-phone"></i>&nbsp;&nbsp;{{ site.phone }}</a>
+        </div>
       </div>
     </div>
     <div class="container">
@@ -39,9 +41,10 @@
           <li><a href="/tuition">Tuition</a></li>
           <li><a href="/faq">FAQ</a></li>
           <li><a href="/contact">Contact</a></li>
-          <!-- <li><a href="/blog">Blog</a></li> -->
+          <li><a style="margin-right: 16px;" href="/blog">Blog</a></li>
           <!-- <li><a href="/calendar">Calendar</a></li> -->
-          <li><a href="/apply" class="btn btn-success">APPLY NOW</a></li>
+          <li><a href="/apply" class="btn btn-success">APPLY</a></li>
+          <li><a target="_blank" href="https://campus.austincodingacademy.com/login">Sign In</a></li>
         </ul>
       </div>
     </div>
