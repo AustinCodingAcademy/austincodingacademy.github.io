@@ -77,6 +77,7 @@
   "homepage": "https://github.com/AustinCodingAcademy/austincodingacademy.com#readme",
   "dependencies": {
     "bootstrap-block-grid": "^1.1.7",
+    "bootstrap-calendar": "^0.2.4",
     "bootstrap-sass": "^3.3.7",
     "browserify": "^13.3.0",
     "exorcist": "^0.4.0",
@@ -89,7 +90,8 @@
     "node-sass": "^4.3.0",
     "pygments-rouge-css": "^0.1.0",
     "slick-carousel": "^1.6.0",
-    "uglifyify": "^3.0.4"
+    "uglifyify": "^3.0.4",
+    "underscore": "^1.8.3"
   },
   "browser": {
     "bootstrap.affix": "./node_modules/bootstrap-sass/assets/javascripts/bootstrap/affix.js",

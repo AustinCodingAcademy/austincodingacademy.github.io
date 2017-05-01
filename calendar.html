@@ -1,0 +1,52 @@
+---
+layout: default
+permalink: /calendar/
+title: Learn To Code News & Tips | {{ site.school }} Calendar
+description: >
+  Learn to code with {{ site.school }}'s courses, classes, and workshops on Virtual Reality, HTML, CSS, and Javascript in the {{ site.city }} area
+head: >
+  <style media="screen">
+    section:first-child {
+      background-image: url('/assets/images/laptop-arms.jpg');
+      padding: 50px 0;
+      background-size: cover;
+      background-position: center top;
+    }
+    section:first-child h1 {
+      text-shadow: black 1px 1px 5px;
+    }
+  </style>
+---
+
+<!-- HEADER IMAGE -->
+<section class="bg-gray-darker">
+  <div class="container">
+    <h1 class="text-white">
+      {{site.school}} Calendar
+      <br>
+      <small class="text-white">
+        {{site.acronym}}'s courses, classes, and workshops on Virtual Reality, HTML, CSS, and Javascript in the {{ site.city }} area
+      </small>
+    </h1>
+  </div>
+</section>
+
+<!-- INSTRUCTIONS FOR CALENDARS -->
+<section class="cal-heading">
+  <div class="container">
+
+  </div>
+</section>
+
+<!-- MONTH VIEW OF CALENDAR -->
+<section class="calendar-month">
+  <div class="container">
+    <div id="bootstrap-calendar"></div>
+  </div>
+</section>
+
+<!-- FULL WIDTH BANNERS OF COMING WEEK EVENTS -->
+<section class="calendar-week">
+  <div class="container">
+  </div>
+</section>

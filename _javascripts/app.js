@@ -6,10 +6,13 @@ require('bootstrap.dropdown');
 require('bootstrap.modal');
 require('bootstrap.scrollspy');
 require('bootstrap.tab');
+require('bootstrap.tooltip');
 require('bootstrap.transition');
 require('slick-carousel');
 require('jquery.resize.js');
 require('jquery-match-height');
+require('bootstrap-calendar');
+window._ = require('underscore');
 window.moment = require('moment');
 
 $(function() {
@@ -35,4 +38,26 @@ $(function() {
       $(this).find('.equalizer').matchHeight();
     });
   }
+
+  $("#bootstrap-calendar").calendar({
+		tmpl_path: "/assets/vendor/bootstrap-calendar/tmpls/",
+		events_source: [
+      {
+          "id": 293,
+          "title": "Event 1",
+          "url": "http://example.com",
+          "class": "event-important",
+          "start": 1493660389512, // Milliseconds
+          "end": 1493660389512 // Milliseconds
+      },
+      {
+          "id": 294,
+          "title": "Event 2",
+          "url": "http://example.com",
+          "class": "event-important",
+          "start": 1493660389513, // Milliseconds
+          "end": 1493660389513 // Milliseconds
+      }
+    ]
+	});
 });
