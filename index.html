@@ -28,7 +28,7 @@ scripts: >
             <div class="media">
               <div class="media-left">
                 <a href="${event.url}" target="_blank">
-                  <img class="media-object" src="${event.logo.url}" alt="event image" style="max-width: 80px;">
+                  <img class="media-object" src="${(event.logo) ? event.logo.url : ''}" alt="event image" style="display:${(event.logo) ? 'inherit' : 'none'}; max-width: 80px;">
                 </a>
               </div>
               <div class="media-body">
