@@ -57,6 +57,14 @@ $(function() {
           "class": "event-important",
           "start": 1493660389513, // Milliseconds
           "end": 1493660389513 // Milliseconds
+      },
+      {
+          "id": 295,
+          "title": "Event 3",
+          "url": "http://example.com",
+          "class": "event-important",
+          "start": 1493660389514, // Milliseconds
+          "end": 1493660389514 // Milliseconds
       }
     ]
 	});
