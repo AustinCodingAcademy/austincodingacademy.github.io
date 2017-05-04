@@ -164,28 +164,10 @@ h4 small {
 
 // Media Queries - Tablet
 @media (min-width: 768px) and (max-width: 991px) {
-  #f8 .col-sm-12, .col-xs-12 {
-    text-align: center !important;
-  }
-  #f8 img {
-    float: none !important;
-    margin: auto;
-  }
-  #f8 p {
-    border-left: none !important;
-  }
+
 }
 
 // Media Queries - Phone
 @media (max-width: 767px) {
-  #f8 .col-sm-12, .col-xs-12 {
-    text-align: center !important;
-  }
-  #f8 img {
-    float: none !important;
-    margin: auto;
-  }
-  #f8 p {
-    border-left: none !important;
-  }
+  
 }
