@@ -1,39 +1,35 @@
 <header>
   <nav class="navbar navbar-default navbar-static-top navbar-inverse">
-    <!-- <div class="well well-sm bg-success text-white border-0">
-      <div class="container">
-        <ul class="list-inline margin-0 justify-content-space-between align-items-center">
-          <li><a href="{{site.googleplus}}" alt="Google Plus" class="link-white"><i class="fa fa-google-plus fa-lg"></i></a></li>
-          <li><a href="{{site.twitter}}"  alt="Twitter" class="link-white"><i class="fa fa-twitter fa-lg"></i></a></li>
-          <li><a href="{{site.facebook}}" alt="Facebook" class="link-white"><i class="fa fa-facebook fa-lg"></i></a></li>
-          <li><a href="{{site.linkedin}}" alt="LinkedIn" class="link-white"><i class="fa fa-linkedin fa-lg"></i></a></li>
-          <li><a href="{{site.instagram}}" alt="Instagram" class="link-white"><i class="fa fa-instagram fa-lg"></i></a></li>
-        </ul>
-      </div>
-    </div> -->
-    <div style="padding:0px !important;" class="well well-sm border-0 bg-gray-lighter">
-      <div style="font-size: 16px;" class="container">
-        <!-- START CITY DROPDOWN -->
-        <div class="collapse navbar-collapse" style="float:left; color:black !important;" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle text-right link-primary" style="background-color: transparent !important;" data-toggle="dropdown" role="button" aria-expanded="false">Locations <span class="caret"></span></a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="{{ site.location_url }}" target="_blank" class="link-primary"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;{{ site.location }}</a>&nbsp;&nbsp;&nbsp;&nbsp;</li>
-    <!-- NEED SCRIPT TO RESTRICT THIS TO ONLY AUSTIN SITE -->
-                <li><a href="{{ site.location_north_url }}" target="_blank" class="link-primary"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;{{ site.location_north }}</a>&nbsp;&nbsp;&nbsp;&nbsp;</li>
-              </ul>
-            </li>
-          </ul>
+  <!-- TOPMOST NAV - LOCATIONS, EMAIL LINK, PHONE LINK   -->
+    <div id="top_nav" style="padding:0" class="container-fluid well well-sm border-0 bg-gray-lighter">
+      <div class="row" style="font-size: 16px;">
+        <div class="col-lg-4 col-lg-offset-1">
+          <div class="collapse navbar-collapse" style="color:black !important;" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="dropdown">
+                <a href="#" class="text-center dropdown-toggle link-primary" style="background-color: transparent !important;" data-toggle="dropdown" role="button" aria-expanded="false">Find your Campus <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="https://austincodingacademy.com" style="padding-top: 20px;" target="_blank" class="link-primary">Downtown Austin - Capital Factory</a>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                  <li><a href="https://austincodingacademy.com" target="_blank" class="link-primary">North Austin - Tech Ranch</a>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                  <li><a href="https://sanantoniocodingacademy.com" target="_blank" class="link-primary">San Antonio - Launch SA</a>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                  <li><a href="https://dallascodingacademy.com" target="_blank" class="link-primary">Dallas - NoD Coworking</a>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                  <li><a href="https://houstontxcodingacademy.com" target="_blank" class="link-primary">Houston - Station Houston</a>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
         </div>
-        <!-- END CITY DROPDOWN -->
-
-        <div class="text-right" style="float:right; padding-top: 15px;">
-          <a href="mailto:{{ site.email }}" target="_blank" class="link-primary"><i class="fa fa-envelope-o"></i>&nbsp;&nbsp;Email</a>&nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="tel:{{site.phone}}" class="link-primary"><i class="fa fa-phone"></i>&nbsp;&nbsp;{{ site.phone }}</a>
+        <div class="col-lg-4 col-lg-offset-3">
+          <div class="text-center" style="padding-top: 15px;">
+            <a href="mailto:{{ site.email }}" target="_blank" class="link-primary"><i class="fa fa-envelope-o"></i>&nbsp;&nbsp;Email</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="tel:{{site.phone}}" class="link-primary"><i class="fa fa-phone"></i>&nbsp;&nbsp;{{ site.phone }}</a>
+          </div>
         </div>
       </div>
     </div>
+    <!-- END TOPMOST NAV -->
+
+    <!-- MAIN NAV -->
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
