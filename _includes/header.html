@@ -2,9 +2,9 @@
   <nav class="navbar navbar-default navbar-static-top navbar-inverse">
   <!-- TOPMOST NAV - LOCATIONS, EMAIL LINK, PHONE LINK   -->
     <div id="top_nav" style="padding:0" class="container-fluid well well-sm border-0 bg-gray-lighter">
-      <div class="row" style="font-size: 16px;">
-        <div class="col-lg-4 col-lg-offset-1">
-          <div class="collapse navbar-collapse" style="color:black !important;" id="bs-example-navbar-collapse-1">
+      <!-- <div class="row" style="font-size: 16px;"> -->
+        <!-- <div class="col-lg-4 col-lg-offset-1">
+          <div class="collapse navbar-collapse" style="color:black !important;" id="location-bar">
             <ul class="nav navbar-nav">
               <li class="dropdown">
                 <a href="#" class="text-center dropdown-toggle link-primary" style="background-color: transparent !important;" data-toggle="dropdown" role="button" aria-expanded="false">Find your Campus <span class="caret"></span></a>
@@ -18,14 +18,14 @@
               </li>
             </ul>
           </div>
-        </div>
-        <div class="col-lg-4 col-lg-offset-3">
-          <div class="text-center" style="padding-top: 15px;">
+        </div> -->
+        <div class="pull-right">
+          <div style="padding: 12px; padding-right:20px; font-size: 16px;">
             <a href="mailto:{{ site.email }}" target="_blank" class="link-primary"><i class="fa fa-envelope-o"></i>&nbsp;&nbsp;Email</a>&nbsp;&nbsp;&nbsp;&nbsp;
             <a href="tel:{{site.phone}}" class="link-primary"><i class="fa fa-phone"></i>&nbsp;&nbsp;{{ site.phone }}</a>
           </div>
         </div>
-      </div>
+      <!-- </div> -->
     </div>
     <!-- END TOPMOST NAV -->
 
@@ -45,6 +45,16 @@
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
           <!-- <li><a href="/enterprise">ENTERPRISE</a></li> -->
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Find your Campus <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="https://austincodingacademy.com" target="_blank">Downtown Austin - Capital Factory</a>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+              <li><a href="https://austincodingacademy.com" target="_blank" >North Austin - Tech Ranch</a>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+              <li><a href="https://sanantoniocodingacademy.com" target="_blank" >San Antonio - Launch SA</a>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+              <li><a href="https://dallascodingacademy.com" target="_blank" >Dallas - NoD Coworking</a>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+              <li><a href="https://houstontxcodingacademy.com" target="_blank" >Houston - Station Houston</a>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+            </ul>
+          </li>
           <li><a href="/">Home</a></li>
           <li><a href="/why">Why {{site.acronym}}</a></li>
           <li><a href="/courses">Courses</a></li>
