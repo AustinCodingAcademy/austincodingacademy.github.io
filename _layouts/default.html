@@ -23,6 +23,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{{ page.description | liquify }}">
   <meta name="keywords" content="">
+  <script type="text/javascript" src="/assets/javascripts/app.js"></script>
 </head>
 <body>
   {% include google-tag-manager-noscript.html %}
@@ -31,7 +32,6 @@
     {{ content }}
   </main>
   {% include footer.html %}
-  <script type="text/javascript" src="/assets/javascripts/app.js"></script>
   {% if page.permalink == '/' %}
   <script type="text/javascript">
   $(document).ready(function() {
