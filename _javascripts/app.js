@@ -39,10 +39,13 @@ $(function() {
         });
     }
 
-    // Google Calendar API    
+    // Ajax call to all campus' Google Calendar API    
     $.ajax('https://www.googleapis.com/calendar/v3/calendars/austincodingacademy.com_32c8lk59hohrjrhrra080dgnuc@group.calendar.google.com/events?fields=items(summary,id,location,start)&key=AIzaSyCAX77VQANnLhihivGILdowFLmqLjdy8c8', {
+        // If API call is successful, run the callback funtion
         success: function(response) {
+            // Create a list of items from the G.Maps API call, assign to mappedEvents
             const mappedEvents = response.items.map(function(event) {
+                // 'Map' the response items in the list to the following key/value pairs
                 return {
                     "id": event.id,
                     "title": event.summary ? event.summary : "",
@@ -52,13 +55,15 @@ $(function() {
                     "end": ""
                 }
             });
+            // Log the list of the newly formatted calendar events
             console.log(mappedEvents);
 
-            // Bootstrap calendar
+            // Grab the id of Bootstrap calendar, use the tmpl_path to __________, use mappedEvents as the listofevents/source for events_source
             $("#bootstrap-calendar").calendar({
                 tmpl_path: "/assets/vendor/bootstrap-calendar/tmpls/",
                 events_source: mappedEvents
             });
         }
     })
+
 });
