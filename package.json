@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\"",
-    "js": "mkdir -p assets/javascripts && browserify -g uglifyify _javascripts/app.js --debug | exorcist assets/javascripts/app.js.map > assets/javascripts/app.js && cp assets/javascripts/app.js _includes/app.js",
+    "js": "mkdir -p assets/javascripts && browserify _javascripts/app.js --debug | exorcist assets/javascripts/app.js.map > assets/javascripts/app.js",
     "images": "imagemin _images/* --out-dir=assets/images",
     "sass": "npm run sass-austin && npm run sass-sanantonio && npm run sass-dallas && npm run sass-houstontx && npm run sass-include",
     "postinstall": "npm run sass && npm run js && npm run images",

@@ -23,9 +23,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{{ page.description | liquify }}">
   <meta name="keywords" content="">
-  <script type="text/javascript">
-    {% include app.js %}
-  </script>
+  <meta name="campuskey" content="{{ site.key }}">
 </head>
 <body>
   {% include google-tag-manager-noscript.html %}
@@ -34,6 +32,7 @@
     {{ content }}
   </main>
   {% include footer.html %}
+  <script type="text/javascript" src="/assets/javascripts/app.js"></script>
   {% if page.permalink == '/' %}
   <script type="text/javascript">
   $(document).ready(function() {
@@ -46,9 +45,6 @@
   </script>
   <noscript><link rel="stylesheet" href="/assets/stylesheets/{{ site.key }}.css"></noscript>
   {% endif %}
-  <script type="text/javascript">
-    $('.acronym').text("{{site.acronym}}");
-  </script>
   {{ page.scripts | liquify }}
   {% include livechat.html %}
 </body>

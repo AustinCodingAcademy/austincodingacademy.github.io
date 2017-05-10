@@ -6,13 +6,11 @@
     <title></title>
     <link rel="stylesheet" href="/assets/stylesheets/{{ site.key | liquify }}.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script type="text/javascript">
-      {% include app.js %}
-    </script>
   </head>
   <body>
     {% include google-tag-manager-noscript.html %}
     {{ content }}
+    <script type="text/javascript" src="/assets/javascripts/app.js"></script>
     <script>
       parent.postMessage('resized-' + window.location.search.slice(4) + '-' + $('form').height(), '*');
       $('form').resize(function() {
