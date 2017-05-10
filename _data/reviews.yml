@@ -1,5 +1,6 @@
 - name: Luke Stenis
   img: /assets/images/luke.jpg
+  current_role: Implementation Engineer
   review: >
     "I just completed the entire Full Stack curriculum at Austin
     Coding Academy and not only did they help me transition my
@@ -10,6 +11,7 @@
 
 - name: Gizem Yilmaz
   img: /assets/images/gizem.jpg
+  current_role: UX/UI Designer
   review: >
     "I was reluctant to attend an immersive course but I wasn't making
     much progress on my own. I found ACA's flexible option and decided to take the
@@ -22,6 +24,7 @@
 
 - name: Kayla Dreisinger
   img: /assets/images/kayla.jpg
+  current_role: SEO Specialist at Status Labs 
   review: >
     "Challenging classes lead by an incredible team! As a (previously)
     non-technical person it was very very rewarding to learn coding in a way that
@@ -32,7 +35,8 @@
     skill set or change careers all together."
 
 - name: Meredith Case
-  img: /assets/images/meredith.jpg
+  img: /assets/images/meredith2.jpg
+  current_role: Marketing Consultant at SKU 
   review: >
     "Austin Coding Academy was a phenomenal experience for me. I had a
     little experience in web design and coding, so I knew I would enjoy it, but
@@ -46,6 +50,7 @@
 
 - name: Madison Sadler
   img: /assets/images/madison.jpg
+  current_role: Coding Instructor at River City Youth Foundation
   review: >
     "The Intro course was a great kickstarter for my education in Coding.
     I wouldn't have been able to motivate myself without the help of the amazing
@@ -55,6 +60,7 @@
 
 - name: Christa Clark
   img: /assets/images/christa.jpg
+  current_role: Lead UX/UI Designer at SkunkworxLab
   review: >
     "The people who run it are awesome and are very motivated to help
     people learn, hence the low prices. I loved the front-end beginner class
@@ -68,6 +74,7 @@
 
 - name: Natalie Doucet
   img: /assets/images/natalie.jpg
+  current_role: Systems Engineer at NetworkIP
   review: >
     "I love Austin Coding Academy and can not say enough good things
     about them! ACA not only teaches you Full-Stack Web Development, but also
@@ -81,6 +88,7 @@
 
 - name: Ernie Treviño
   img: /assets/images/ernie.png
+  current_role: Technical Analyst at Ezcorp
   review: >
     "I come from a Finance background and I have never worked in IT
     before. In the past I have always had problems learning how to code but ACA
@@ -93,6 +101,7 @@
 
 - name: Manny Hagman
   img: /assets/images/manny.jpg
+  current_role: Engineer-in-training, Austin, TX
   review: >
     "My classmates are amazing. I've never been surrounded by such
     serious and determined students. Their hunger and determination servers as

@@ -42,8 +42,8 @@ courses:
   - 101
   - 211
   - 311
-  - 221
-  - 321
+  - 221_2
+  - 321_2
 classtimes: 6:30pm - 9:00pm
 # Build settings
 markdown: kramdown
