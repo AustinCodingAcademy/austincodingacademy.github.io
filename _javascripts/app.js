@@ -96,7 +96,19 @@ $(function() {
     $.ajax('https://campus.austincodingacademy.com/api/terms/dates/56f368f58085ad1100f2ad77', {
       success: function(dates) {
         // GRAB EVERY CAMPUS' NEXT START DATE FROM CAMPUSDOT
-        $('.start-date').text(moment.utc(dates[campusKeys[campusKey].city]).format('ddd, MMM Do, YYYY'));
+        if (campusKeys[campusKey].city === 'Austin') {
+          $('.start-date').html(`
+            <small>Downtown</small>
+            <br/>
+            ${moment.utc(dates[campusKeys[campusKey].city]).format('ddd, MMM Do, YYYY')}
+            <br/>
+            <small>North</small>
+            <br />
+            ${moment.utc(dates['North Austin']).format('ddd, MMM Do, YYYY')}
+          `);
+        } else {
+          $('.start-date').text(moment.utc(dates[campusKeys[campusKey].city]).format('ddd, MMM Do, YYYY'));
+        }
       }
     });
     $.ajax('https://www.eventbriteapi.com/v3/organizers/' + campusKeys[campusKey].eventbriteId + '/events/?token=EFX5TSXYKK76RPDJSNBW&only_public=true&order_by=start_asc&start_date.range_start=' + moment.utc().subtract(1,'day').format(), {
