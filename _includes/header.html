@@ -19,7 +19,14 @@
             </ul>
           </div>
         </div> -->
-        <div class="pull-right">
+        {% if site.announcement %}
+        <div id="top-left-banner" class="pull-left">
+          <div style="padding: 12px; padding-left:20px; font-size: 16px;">
+            <a href="" class="link-primary">{{ site.announcement }}</a>
+          </div>
+        </div>
+        {% endif %}
+        <div id="top-right-banner" class="pull-right">
           <div style="padding: 12px; padding-right:20px; font-size: 16px;">
             <a href="mailto:{{ site.email }}" target="_blank" class="link-primary"><i class="fa fa-envelope-o"></i>&nbsp;&nbsp;Email</a>&nbsp;&nbsp;&nbsp;&nbsp;
             <a href="tel:{{site.phone}}" class="link-primary"><i class="fa fa-phone"></i>&nbsp;&nbsp;{{ site.phone }}</a>

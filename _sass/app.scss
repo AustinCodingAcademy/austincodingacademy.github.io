@@ -164,12 +164,23 @@ h4 small {
 
 // Media Queries - Tablet
 @media (min-width: 768px) and (max-width: 991px) {
-  
+
 }
 
 // Media Queries - Phone
 @media (max-width: 767px) {
-  
+  #top-left-banner, #top-right-banner {
+    text-align: center !important;
+    float: none !important;
+  }
+
+  #top-left-banner {
+    color: $brand-primary;
+    border: 2px solid $brand-success;
+  }
+
+
+
 }
 #cal-slide-content {
   background-image: url("/assets/vendor/bootstrap-calendar/img/dark_wood.png");
