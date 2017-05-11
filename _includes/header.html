@@ -19,7 +19,14 @@
             </ul>
           </div>
         </div> -->
-        <div class="pull-right">
+        {% if site.announcement %}
+        <div id="top-left-banner" class="pull-left">
+          <div style="padding: 12px; padding-left:20px; font-size: 16px;">
+            <a href="/apply" class="link-primary">{{ site.announcement }}</a>
+          </div>
+        </div>
+        {% endif %}
+        <div id="top-right-banner" class="pull-right">
           <div style="padding: 12px; padding-right:20px; font-size: 16px;">
             <a href="mailto:{{ site.email }}" target="_blank" class="link-primary"><i class="fa fa-envelope-o"></i>&nbsp;&nbsp;Email</a>&nbsp;&nbsp;&nbsp;&nbsp;
             <a href="tel:{{site.phone}}" class="link-primary"><i class="fa fa-phone"></i>&nbsp;&nbsp;{{ site.phone }}</a>
@@ -48,7 +55,7 @@
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Find your Campus <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
-              <li><a href="https://austincodingacademy.com" style="padding-top: 20px;" target="_blank">Downtown Austin - Capital Factory</a>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+              <li><a href="https://austincodingacademy.com" style="margin-top:20px;" target="_blank">Downtown Austin - Capital Factory</a>&nbsp;&nbsp;&nbsp;&nbsp;</li>
               <li><a href="https://austincodingacademy.com" target="_blank" >North Austin - Tech Ranch</a>&nbsp;&nbsp;&nbsp;&nbsp;</li>
               <li><a href="https://sanantoniocodingacademy.com" target="_blank" >San Antonio - Launch SA</a>&nbsp;&nbsp;&nbsp;&nbsp;</li>
               <li><a href="https://dallascodingacademy.com" target="_blank" >Dallas - NoD Coworking</a>&nbsp;&nbsp;&nbsp;&nbsp;</li>

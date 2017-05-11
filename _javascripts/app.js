@@ -15,7 +15,35 @@ require('bootstrap-calendar');
 window._ = require('underscore');
 window.moment = require('moment');
 
+var campusKeys = {
+    austin: {
+        city: 'Austin',
+        eventbriteId: 10937668459,
+        googleCalendarId: 'austincodingacademy.com_32c8lk59hohrjrhrra080dgnuc@group.calendar.google.com',
+        acronym: 'ACA'
+    },
+    sanantonio: {
+        city: 'San Antonio',
+        eventbriteId: 12423084089,
+        googleCalendarId: 'austincodingacademy.com_jl117iian9r8ls03rn52qnf628@group.calendar.google.com',
+        acronym: 'SACA'
+    },
+    dallas: {
+        city: 'Dallas',
+        eventbriteId: 12701002998,
+        googleCalendarId: 'austincodingacademy.com_ru7uurqr2ba3nj2fqk35jp7kls@group.calendar.google.com',
+        acronym: 'DCA'
+    },
+    houstontx: {
+        city: 'Houston',
+        eventbriteId: 13010327216,
+        googleCalendarId: 'austincodingacademy.com_rmgbfhv4pr6uuvb5at1v0b1h74@group.calendar.google.com',
+        acronym: 'HCA'
+    }
+};
+
 $(function() {
+    var campusKey = $('meta[name="campuskey"]').attr('content');
     if ($('.slick-carousel').length) {
         $('.slick-carousel').each(function() {
             $(this).slick({
@@ -39,113 +67,79 @@ $(function() {
         });
     }
 
+    // Ajax call to all campus' Google Calendar API
+    $.ajax('https://www.googleapis.com/calendar/v3/calendars/' + campusKeys[campusKey].googleCalendarId + '/events?fields=items(summary,id,location,start)&key=AIzaSyCAX77VQANnLhihivGILdowFLmqLjdy8c8', {
+        // If API call is successful, run the callback funtion
+        success: function(response) {
+            // Create a list of items from the G.Maps API call, assign to mappedEvents
+            const mappedEvents = response.items.map(function(event) {
+                // 'Map' the response items in the list to the following key/value pairs
+                return {
+                    "id": event.id,
+                    "title": event.summary ? event.summary : "",
+                    "url": 'https://calendar.google.com/calendar/event?eid=' + btoa(event.id + ' ' + campusKeys[campusKey].googleCalendarId) + '&ctz=America/Chicago',
+                    "class": "event-important",
+                    "start": event.start ? moment.utc(event.start.dateTime).valueOf() : "",
+                    "end": ""
+                }
+            });
 
-    // $("#bootstrap-calendar").calendar({
-    //     tmpl_path: "/assets/vendor/bootstrap-calendar/tmpls/",
-    //     events_source: [{
-    //             "id": 293,
-    //             "title": "Event 1",
-    //             "url": "http://example.com",
-    //             "class": "event-important",
-    //             "start": 1493660389512, // Convert date to Unix and include milliseconds => 000
-    //             "end": 1493660389512 // Milliseconds
-    //         },
-    //         {
-    //             "id": 294,
-    //             "title": "Event 2",
-    //             "url": "http://example.com",
-    //             "class": "event-important",
-    //             "start": 1493660389513, // Milliseconds
-    //             "end": 1493660389513 // Milliseconds
-    //         },
-    //         {
-    //             "id": 295,
-    //             "title": "Event 3",
-    //             "url": "http://example.com",
-    //             "class": "event-success",
-    //             "start": 1493660389514, // Milliseconds
-    //             "end": 1493660389514 // Milliseconds
-    //         },
-    //         {
-    //             "id": 296,
-    //             "title": "Event 4",
-    //             "url": "http://example.com",
-    //             "class": "event-success",
-    //             "start": 1493660389516, // Milliseconds
-    //             "end": 1493660389516 // Milliseconds
-    //         },
-    //         {
-    //             "id": 296,
-    //             "title": "Event 5",
-    //             "url": "http://example.com/",
-    //             "class": "event-warning",
-    //             "start": 1494331200000, // Milliseconds
-    //             "end": 1494333000000
-    //         },
-    //         {
-    //             "id": 256,
-    //             "title": "Event that ends on timeline",
-    //             "url": "http://example.com/",
-    //             "class": "event-warning",
-    //             "start": 1494428400000,
-    //             "end": 1494428400000
-    //         },
-    //         {
-    //             "id": 276,
-    //             "title": "Short day event",
-    //             "url": "http://example.com/",
-    //             "class": "event-success",
-    //             "start": 1494428400000,
-    //             "end": 1494428400000
-    //         },
-    //         {
-    //             "id": 294,
-    //             "title": "This is information class ",
-    //             "url": "http://example.com/",
-    //             "class": "event-info",
-    //             "start": 1363111200000,
-    //             "end": 1363284086400
-    //         },
-    //         {
-    //             "id": 297,
-    //             "title": "This is success event",
-    //             "url": "http://example.com/",
-    //             "class": "event-success",
-    //             "start": 1363234500000,
-    //             "end": 1363284062400
-    //         },
-    //         {
-    //             "id": 54,
-    //             "title": "This is simple event",
-    //             "url": "http://example.com/",
-    //             "class": "event-special",
-    //             "start": 1363712400000,
-    //             "end": 1363716086400
-    //         },
-    //         {
-    //             "id": 532,
-    //             "title": "This is inverse event",
-    //             "url": "http://example.com/",
-    //             "class": "event-inverse",
-    //             "start": 1364407200000,
-    //             "end": 1364493686400
-    //         },
-    //         {
-    //             "id": 548,
-    //             "title": "This is special event",
-    //             "url": "http://example.com/",
-    //             "class": "event-special",
-    //             "start": 1363197600000,
-    //             "end": 1363629686400
-    //         },
-    //         {
-    //             "id": 295,
-    //             "title": "Event 3",
-    //             "url": "http://example.com/",
-    //             "class": "event-important",
-    //             "start": 1364320800000,
-    //             "end": 1364407286400
-    //         }
-    //     ]
-    // });
+            // Grab the id of Bootstrap calendar, use the tmpl_path to __________, use mappedEvents as the listofevents/source for events_source
+            $("#bootstrap-calendar").calendar({
+                tmpl_path: "/assets/vendor/bootstrap-calendar/tmpls/",
+                events_source: mappedEvents
+            });
+        }
+    });
+
+    // EVENTBRITE
+    $.ajax('https://campus.austincodingacademy.com/api/terms/dates/56f368f58085ad1100f2ad77', {
+      success: function(dates) {
+        // GRAB EVERY CAMPUS' NEXT START DATE FROM CAMPUSDOT
+        if (campusKeys[campusKey].city === 'Austin') {
+          $('.start-date').html(`
+            <small>Downtown</small>
+            <br/>
+            ${moment.utc(dates[campusKeys[campusKey].city]).format('ddd, MMM Do, YYYY')}
+            <br/>
+            <small>North</small>
+            <br />
+            ${moment.utc(dates['North Austin']).format('ddd, MMM Do, YYYY')}
+          `);
+        } else {
+          $('.start-date').text(moment.utc(dates[campusKeys[campusKey].city]).format('ddd, MMM Do, YYYY'));
+        }
+      }
+    });
+    $.ajax('https://www.eventbriteapi.com/v3/organizers/' + campusKeys[campusKey].eventbriteId + '/events/?token=EFX5TSXYKK76RPDJSNBW&only_public=true&order_by=start_asc&start_date.range_start=' + moment.utc().subtract(1,'day').format(), {
+      success: function(response) {
+        var $upcomingEvents = $('<div></div>');
+        response.events.slice(0, 3).forEach(function(event) {
+          $upcomingEvents.append(`
+            <div class="media">
+              <div class="media-left">
+                <a href="${event.url}" target="_blank">
+                  <img class="media-object" src="${(event.logo) ? event.logo.url : ''}" alt="event image" style="display:${(event.logo) ? 'inherit' : 'none'}; max-width: 200px;">
+                </a>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">
+                  <a href="${event.url}" target="_blank">${event.name.html}</a>
+                  <br>
+                  <small>
+                    <i class="fa fa-calendar"></i> ${moment.utc(event.start.local).format('ddd, MMM Do, YYYY h:mma')} - ${moment.utc(event.end.local).format('h:mma')}
+                  </small>
+                </h4>
+                ${event.description.text.slice(0, 200)}...
+                <br>
+                <a href="${event.url}" target="_blank">Read More</a>
+              </div>
+            </div>
+          `)
+        });
+        $('#upcoming-events').html($upcomingEvents);
+      }
+    });
+
+     $('.acronym').text(campusKeys[campusKey].acronym);
 });

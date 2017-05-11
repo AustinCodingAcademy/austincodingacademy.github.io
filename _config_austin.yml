@@ -46,6 +46,7 @@ courses:
   - 321_2
 classtimes: 6:30pm - 9:00pm
 # Build settings
+announcement: North Austin .NET classes begin June 19th!
 markdown: kramdown
 
 gems:
