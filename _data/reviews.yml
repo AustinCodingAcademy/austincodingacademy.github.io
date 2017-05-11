@@ -1,6 +1,6 @@
 - name: Luke Stenis
   img: /assets/images/luke.jpg
-  current_role: Implementation Engineer
+  current_role: Implementation Engineer 
   review: >
     "I just completed the entire Full Stack curriculum at Austin
     Coding Academy and not only did they help me transition my
@@ -24,7 +24,7 @@
 
 - name: Kayla Dreisinger
   img: /assets/images/kayla.jpg
-  current_role: SEO Specialist at Status Labs 
+  current_role: SEO Specialist at Status Labs
   review: >
     "Challenging classes lead by an incredible team! As a (previously)
     non-technical person it was very very rewarding to learn coding in a way that
@@ -36,7 +36,7 @@
 
 - name: Meredith Case
   img: /assets/images/meredith2.jpg
-  current_role: Marketing Consultant at SKU 
+  current_role: Marketing Consultant at SKU
   review: >
     "Austin Coding Academy was a phenomenal experience for me. I had a
     little experience in web design and coding, so I knew I would enjoy it, but
