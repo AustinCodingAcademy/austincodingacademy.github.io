@@ -35,8 +35,8 @@
     - Junior Web Developer
   syllabus: '/FSWD-JS.html#101-intro-to-web'
 
-111:
-  name: '101 Intro to Web'
+101_2:
+  name: '101 Intro to Web (North Austin)'
   summary: >
     Use HTML, CSS, JavaScript, Git, Terminal, Atom, and the DevTool, to
     create sites and a professional Portfolio.
@@ -71,7 +71,6 @@
     - UX/UI Designer
     - Junior Web Developer
   syllabus: '/FSWD-JS.html#101-intro-to-web'
-
 
 211:
   name: '211 JavaScript Full Stack'
@@ -189,9 +188,9 @@
   syllabus: '/FSWD-CSHARPDOTNET.html#221-c-net-full-stack'
 
 221_2:
-  name: '221 C# & .NET Full Stack'
+  name: '221 C# & .NET Full Stack (North Austin)'
   summary: >
-    [ New and exclusive to our North Austin campus ] After the core 101 class, students begin creating small apps using C#, SQL,
+    After the core 101 class, students begin creating small apps using C#, SQL,
     and object oriented programming.
   img: /assets/images/intermediate-csharp.png
   thumbnail: /assets/images/girl-pointing.jpg
@@ -265,7 +264,7 @@
   syllabus: '/FSWD-CSHARPDOTNET.html#321-c-net-full-stack'
 
 321_2:
-  name: '321 C# & .NET Full Stack'
+  name: '321 C# & .NET Full Stack (North Austin)'
   summary: >
     [ New and exclusive to our North Austin campus ] Students construct 2 full web apps using Visual Studio, Razor, and the SQL database.
   img: /assets/images/advanced-csharp.png

@@ -40,6 +40,7 @@ eventbrite_organizer_id: 10937668459
 eventbrite: https://www.eventbrite.com/o/austin-coding-academy-10937668459
 courses:
   - 101
+  - 101_2
   - 211
   - 311
   - 221_2
