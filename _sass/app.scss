@@ -161,6 +161,20 @@ h4 small {
   font-size: 89% !important;
 }
 
+#cal-slide-content {
+  background-image: url("/assets/vendor/bootstrap-calendar/img/dark_wood.png");
+}
+
+#cal-slide-tick {
+  background-image: url("/assets/vendor/bootstrap-calendar/img/tick.png");
+}
+
+// Main body text of blog should be h4's, below adds needed line height
+.blog-legible-line-height h4 {
+  line-height: 1.7;
+}
+
+
 
 // Media Queries - Tablet
 @media (min-width: 768px) and (max-width: 991px) {
@@ -180,15 +194,6 @@ h4 small {
   }
 
   #review-body {
-    
+
   }
-
-
-
-}
-#cal-slide-content {
-  background-image: url("/assets/vendor/bootstrap-calendar/img/dark_wood.png");
-}
-#cal-slide-tick {
-  background-image: url("/assets/vendor/bootstrap-calendar/img/tick.png");
 }
