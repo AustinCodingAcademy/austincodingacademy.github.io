@@ -6,6 +6,7 @@ categories:
   - Uncategorized
 tags: []
 image: 'htmlimage.jpg'
+permalink: 'blog/what_is_json_and_what_is_json_used_for'
 ---
 
 <!-- Heading repeated therefore it's commented out-->
