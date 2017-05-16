@@ -24,7 +24,9 @@ description: >
                   </div>
                   <div id="media-body-vertical-center" class="media-body">
                     <h4 class="media-heading"><a href="{{ post.url }}">{{ post.title }}</a></h4>
-                    {{ post.excerpt | replace_regex: 'h3', 'p' | replace_regex: '<img.*>', '' | replace_regex: '<a.*>', '' | remove: '</a>' | remove: '<p>' | remove: '</p>'}}
+                    <div class="blog-subheading">
+                      {{ post.excerpt | replace_regex: 'h3', 'p' | replace_regex: '<img.*>', '' | replace_regex: '<a.*>', '' | remove: '</a>' | remove: '<p>' | remove: '</p>'}}
+                    </div>
                   </div>
                 </div>
 
