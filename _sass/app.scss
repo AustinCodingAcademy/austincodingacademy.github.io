@@ -174,7 +174,19 @@ h4 small {
   line-height: 1.7;
 }
 
+#blog-date {
+  min-width: 80px;
+  min-height: 60px;
+  display: flex !important;
+  align-items: center !important;
+  font-size: 18px;
+  text-align: center;
+  padding: 9px;
+}
 
+#media-body-vertical-center {
+  padding-top: 10px;
+}
 
 // Media Queries - Tablet
 @media (min-width: 768px) and (max-width: 991px) {
