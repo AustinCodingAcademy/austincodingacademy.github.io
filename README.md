@@ -90,3 +90,14 @@ Every change to the _master_ branch will be deployed to
   * https://sanantoniocodingacademy.com
   * https://dallascodingacademy.com
   * https://houstontxcodingacademy.com
+
+
+#Making a Blog Post
+  1. In Atom > [underscore]posts
+    1. Create a new file using the format of the previous posts
+    1. Make sure to include and update the front-matter
+    1. Blog posts are done in markdown, so those rules apple, as well as Bootstrap columns for images
+    1. Regular text should be done with H4's - 4 hashmarks - for legibility
+    1. Break up the text with H2's - 2 hashmarks
+    1. [Here is an ACA post as an example](https://austincodingacademy.com/blog/austin_coding_academy_opening_north_campus)
+    1. [Here is an Iron Yard example](http://blog.theironyard.com/2015/07/02/the-iron-yard-strategic-investment-from-apollo-education-group/)
