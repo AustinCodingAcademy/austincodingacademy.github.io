@@ -15,19 +15,20 @@ description: >
             {% for post in site.posts %}
             <div class="panel panel-default">
               <div class="panel-body">
+                <img src="/assets/images/{{post.image}}" class="img-responsive" alt="{{post.description}}">
                 <div class="media">
                   <div class="media-left">
-                    <a href="#">
-                      <img class="media-object" src="/assets/images/{{post.image}}" style="max-width:200px">
-                    </a>
+                    <div id="blog-date" class="bg-success text-white">
+                      {{ post.date | date: "%a,<br> %b %d,<br> %Y"  }}
+                    </div>
                   </div>
-                  <div class="media-body">
+                  <div id="media-body-vertical-center" class="media-body">
                     <h4 class="media-heading"><a href="{{ post.url }}">{{ post.title }}</a></h4>
                     {{ post.excerpt | replace_regex: 'h3', 'p' | replace_regex: '<img.*>', '' | replace_regex: '<a.*>', '' | remove: '</a>' | remove: '<p>' | remove: '</p>'}}
                   </div>
                 </div>
+
               </div>
-              <div class="panel-footer">{{ post.date | date: "%a, %b %d, %Y"  }}</div>
             </div>
             {% endfor %}
           </div>
