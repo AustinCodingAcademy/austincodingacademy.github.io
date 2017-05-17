@@ -26,4 +26,4 @@ The Austin coding school market has gotten considerably larger over the last yea
 In this infographic we compare Austin Coding School prices, time commitment, etc., and includes [Galvanize](http://galvanize.com), [General Assembly](http://generalassemb.ly), [The Iron Yard](http://theironyard.com), [Dev Bootcamp,](http://devbootcamp.com) and [Makersquare](http://makersquare.com) (Now [Hack Reactor](http://www.hackreactor.com)).
 If you've been to one of these schools, let us know what you think in the comments.
 <!-- DEAD LINK -->
-[Code School Comparison](//www.austincodingacademy.com/wp-content/uploads/2016/04/Code-School-Comparison.jpg)
+[Code School Comparison](//www.austincodingacademy.com/assets/images/Code-School-Comparison.jpg)

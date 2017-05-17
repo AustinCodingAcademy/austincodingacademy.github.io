@@ -9,8 +9,7 @@ tags: []
 image: 'ubuntupic.jpg'
 ---
 
-
-By Joe McCullough
+How to successfully install VirtualBox (a general-purpose full virtualizer for x86 hardware) and Vagrant (enables users to create and configure lightweight, reproducible, and portable development environments) on your server.
 
 After installing Ubuntu on my [SoYouStart](https://www.soyoustart.com/us/) machine (amazing machines for the price by the way), the first thing I did was attempt to install [Vagrant](https://www.vagrantup.com/) and [VirtualBox](https://www.virtualbox.org/wiki/Downloads).
 

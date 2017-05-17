@@ -7,14 +7,19 @@ categories:
 tags: []
 image: 'development-job.jpeg'
 ---
-So you want to get a web development job in Austin. Earlier this week, I sat down with my mentor for some coffee to discuss one of my biggest goals for 2016: get a job in Austin's tech industry as a newly-minted Web Developer. By mid-April, I will have finished Austin Coding Academy's Full Stack track and be "job ready". That means I need to start the process now.
-<!--excerpt-->
+So you want to get a web development job in Austin.
+
+Earlier this week, I sat down with my mentor for some coffee to discuss one of my biggest goals for 2016: get a job in Austin's tech industry as a newly-minted Web Developer. By mid-April, I will have finished Austin Coding Academy's Full Stack track and be "job ready". That means I need to start the process now.
 
 Just for some perspective, my mentor - who will remain anonymous - was a founding Senior Developer for one of the most successful startups in Austin for the last 10 years, and has recently left and launched his own startup. Naturally, the discussion turned into some much-needed wisdom and advice.
+
+
 
 ### 1. GO TO THESE TWO CAREER FAIRS
 
 Yes, people still go to career fairs and still get jobs. Yes, even in the tech industry, and especially at these two career fairs.
+
+
 
 #### [UT TECHNOLOGY & SCIENCE CAREER FAIR](https://cns.utexas.edu/career-services/career-events/career-fairs){:target="_blank"}
 
@@ -44,6 +49,8 @@ Yes, people still go to career fairs and still get jobs. Yes, even in the tech i
 
 
 You can certainly type in "web development job in Austin" with Monster, LinkedIn, Glassdoor, Craigslist and other popular job sites, but they won't have the refined focus of these job boards. If you are looking for a job in web design and development, here are the best job boards for you:
+
+
 
 #### FOR WEB DESIGNERS AND DEVELOPERS
 

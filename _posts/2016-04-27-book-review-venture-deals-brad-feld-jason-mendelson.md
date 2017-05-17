@@ -8,6 +8,7 @@ tags:
   - Venture Deals
   - Brad Feld
 image: 'venturedeals.jpg'
+published: false
 ---
 
 

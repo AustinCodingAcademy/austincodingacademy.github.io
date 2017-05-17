@@ -120,7 +120,7 @@ $(function() {
               <div class="panel-body">
                 <img src="${(event.logo) ? event.logo.url : ''}" class="img-responsive" style="width:100% !important;" alt="event image">
                 <div class="media">
-                  <i class="fa fa-calendar"></i> ${moment.utc(event.start.local).format('ddd, MMM Do, YYYY h:mma')} - ${moment.utc(event.end.local).format('h:mma')}
+                  ${moment.utc(event.start.local).format('ddd, MMM Do, YYYY h:mma')} - ${moment.utc(event.end.local).format('h:mma')}
                   <div class="media-body">
                     <h4 class="media-heading">
                       <a href="${event.url}" target="_blank">${event.name.html}</a>
