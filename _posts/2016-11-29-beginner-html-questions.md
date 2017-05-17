@@ -8,7 +8,8 @@ image: 'html_css.jpg'
 
 
 ### Below are a list of the top 5 Intro to HTML/CSS questions we get at Austin Coding Academy
-Answers provided by Joe McCullough
+
+Answers provided by Joe McCullough, Web Developer
 
 **Question: WHAT IS THE POINT OF NON-VISIBLE TAGS, SUCH AS `<head>`?**
 

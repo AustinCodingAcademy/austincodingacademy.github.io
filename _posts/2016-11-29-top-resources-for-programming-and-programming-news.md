@@ -8,14 +8,11 @@ tags: []
 image: 'tipimage.jpg'
 ---
 
+Why Should I Even Read Programming News? New libraries, paradigms, projects, and opinions are introduced into the programming world on a daily basis.
 
+Discovering these exciting, new contributions can be time consuming without knowing where to look.
 
-
-### Why Should I Even Read Programming News?
-
-
-New libraries, paradigms, projects, and opinions are introduced into the programming world on a daily basis. Discovering these exciting, new contributions can be time consuming without knowing where to look. We've compiled a list of resources for programming news so you can stay current and stay informed!
-
+We've compiled a list of resources for programming news so you can stay current and stay informed!
 
 
 **YOU DON'T HAVE TO BE AN EXPERT TO UNDERSTAND PROGRAMMING NEWS**

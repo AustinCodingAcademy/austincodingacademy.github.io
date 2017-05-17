@@ -6,6 +6,7 @@ categories:
   - Uncategorized
 tags: []
 image: 'technology.jpg'
+published: false
 ---
 
 
