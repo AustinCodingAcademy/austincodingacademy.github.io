@@ -12,7 +12,9 @@ image: 'globalisation.jpg'
 ---
 
 
-There are 5 things every account manager should know about development if they are going to be successful at communicating with a development team. Being an account manager with a technical team can be challenging, especially when balancing relationships between clients and your devs. This list will help manage this balance. For another interesting perspective on account managers and developers, check out ["Why Account Managers Shouldn't Prevent Designers From Speaking To Clients,"](https://www.smashingmagazine.com/2012/06/why-account-managers-shouldnt-prevent-designers-from-speaking-to-clients/) by Smashing Magazine.
+There are 5 things every account manager should know about development if they are going to be successful at communicating with a development team.
+
+Being an account manager with a technical team can be challenging, especially when balancing relationships between clients and your devs. This list will help manage this balance. For another interesting perspective on account managers and developers, check out ["Why Account Managers Shouldn't Prevent Designers From Speaking To Clients,"](https://www.smashingmagazine.com/2012/06/why-account-managers-shouldnt-prevent-designers-from-speaking-to-clients/) by Smashing Magazine.
 
 By John Steinmetz. See original posting [here](http://blog.wcgworld.com/2013/10/5-things-every-account-manager-should-know-about-development).
 
@@ -54,21 +56,21 @@ The secondary objective is to start early requirements gathering. Learn what ext
 
 ### 3. "SMALL" CHANGES ARE NOT ALWAYS SMALL CHANGES.
 
-
 A lot of profitability can go out of the window if account teams do not understand this fundamental development issue. A change that may seem small can impact things like User Experience (UX), [responsive capabilities](https://web.archive.org/web/20150416062954/http://johnsteinmetz.net/responsive-design-alternative-content-is-important/#close) or other timeline issues. Even the smallest text change can have implications that you might not understand. Be mindful of that and check with development before making what seem to be quick fixes.
+
+
 
 ### 4. THERE ARE A NUMBER OF DIFFERENT WAYS TO MANAGE A PROJECT.
 
-
-One size may not (and usually doesn't) fit all. You may have heard the term Agile or Waterfall in dealing with process. There are varying degrees of implementation of each of those or any of the other development styles. You can read about a [few here](http://en.wikipedia.org/wiki/Software_development_process){:target="_blank"}.
+One size may not (and usually doesn't) fit all. You may have heard the term Agile or Waterfall in dealing with process. There are varying degrees of implementation of each of those or any of the other development styles. You can read about a [few here](http://en.wikipedia.org/wiki/Software_development_process).
 
 Understand that some websites should be managed differently than web applications. Anything that has a high probability of client change should use methods that allow for that. If deadlines are set and cannot be moved, there are different methodologies for that as well. Understanding how to manage the development process and use these types of methods to your advantage gives you the ability to get things done right, on time and budget. The most difficult part of all of this is how to educate the client on the process. Get senior developers involved there too.
+
+
 
 ### 5. BREAK DOWN STEREOTYPES.
 
 In addition to miscommunication (not covered here), there are a lot of misconceptions about development and developers in general. The first step to resolving this industry wide problem is education. It also works both ways. Developers need to learn more about what the other teams do and break down the stereotypes that keep us from moving forward efficiently.
-
-
 
 Developers are a strange variety of characters. Being a developer and the writer of this education series, I have an interesting view. The common misconceptions that account teams have toward development groups is common throughout the industry. Those companies who tackle this issue head on can accomplish much more in shorter periods of time. That is why it is so important to call these things out. Once you understand what everyone is thinking, you can better adjust how your day to day dealings with them are.
 

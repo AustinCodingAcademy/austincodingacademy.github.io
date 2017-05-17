@@ -8,7 +8,6 @@ categories:
   - Industry Insights
 tags: []
 image: 'christa-small.jpg'
-published: false
 ---
 
 
@@ -29,10 +28,6 @@ She's a coffee-shop worker who contracts, sometimes going into the office. Colle
 When asked about her hobbies, she laughs and asks 'does coding count?'. She's fit - obsessed with finding the perfect diet and exercise plan, currently focussing on paleo and ketogenics. She throws herself into her interests with intensity, applying the same, consuming passion to coding, joking that she's thankful for choosing it because 'that's now something I have a career in'.
 
 ### "For a few thousand dollars, I got something more valuable than I could have ever asked from a bachelor's degree."
-
-
-
-
 
 I asked her what she did before graduating ACA, and she explained her fascination with the tech industry. A failed Bitcoin startup in 2014, where she worked on marketing and branding, prompted her to learn to code. 'I'd always been fascinated ... particularly [with] cryptography, so when I heard about Bitcoin and Blockchain technology, I completely fell in love with it. In the startup, my friend handled everything technical, but I was always envious that he could actually build the thing I would be selling'.
 
