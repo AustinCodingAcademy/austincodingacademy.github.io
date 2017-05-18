@@ -188,6 +188,16 @@ h4 small {
   padding-top: 10px;
 }
 
+#footer-call-tour-grab {
+  background-image: url(/assets/images/call_or_tour_bkgd.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+
+
+
 // Media Queries - Tablet
 @media (min-width: 768px) and (max-width: 991px) {
 
