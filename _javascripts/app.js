@@ -114,7 +114,7 @@ $(function() {
     $.ajax('https://www.eventbriteapi.com/v3/organizers/' + campusKeys[campusKey].eventbriteId + '/events/?token=EFX5TSXYKK76RPDJSNBW&only_public=true&order_by=start_asc&start_date.range_start=' + moment.utc().subtract(1,'day').format(), {
       success: function(response) {
         var $upcomingEvents = $('<div></div>');
-        response.events.slice(0, 3).forEach(function(event) {
+        response.events.slice(0, 7).forEach(function(event) {
           $upcomingEvents.append(`
             <div class="panel">
               <div class="panel-body">
