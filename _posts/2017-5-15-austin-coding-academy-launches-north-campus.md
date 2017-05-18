@@ -9,7 +9,7 @@ image: 'techranch_sign2.jpg'
 permalink: 'blog/austin_coding_academy_opening_north_campus'
 ---
 
-#### You Wanted a North Austin Campus? You Got It! June 19th, Austin Coding Academy Teams up with Tech Ranch to Launch Their Second Campus.
+You Wanted a North Austin Campus? You Got It! June 19th, Austin Coding Academy Teams up with Tech Ranch to Launch Their Second Campus.
 
 <div class="col-sm-12">
   <img class="img-responsive" src="/assets/images/techranch_1.png" />

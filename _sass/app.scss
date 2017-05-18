@@ -196,6 +196,14 @@ h4 small {
   height: auto;
 }
 
+#cal-slide-content {
+  background-image: url("/assets/vendor/bootstrap-calendar/img/dark_wood.png");
+}
+
+#cal-slide-tick {
+  background-image: url("/assets/vendor/bootstrap-calendar/img/tick.png");
+}
+
 
 
 // Media Queries - Tablet
@@ -218,7 +226,4 @@ h4 small {
   #blog-item {
     padding-left: 0;
   }
-  // .blog-subheading {
-  //   font-size: 12px !important;
-  // }
 }
