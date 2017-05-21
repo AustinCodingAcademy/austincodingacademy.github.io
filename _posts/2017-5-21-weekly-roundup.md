@@ -21,7 +21,7 @@ Upcoming Events Across Texas: Your weekly news and events update from our coding
 
 ---
 
-## AUSTIN
+# AUSTIN
 
 
 ---
@@ -68,7 +68,7 @@ Upcoming Events Across Texas: Your weekly news and events update from our coding
 
 ---
 
-## DALLAS
+# DALLAS
 
 ---
 
@@ -101,7 +101,7 @@ Upcoming Events Across Texas: Your weekly news and events update from our coding
 
 ---
 
-## HOUSTON
+# HOUSTON
 
 ---
 
