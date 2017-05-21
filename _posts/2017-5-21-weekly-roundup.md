@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Weekly Roundup, 5/21
-date: '2017-5-22'
+date: '2017-5-21'
 categories:
   - Uncategorized
 tags: []
