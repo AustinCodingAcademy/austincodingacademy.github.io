@@ -9,15 +9,9 @@ image: 'htmlimage.jpg'
 permalink: 'blog/what_is_json_and_what_is_json_used_for'
 ---
 
-<!-- Heading repeated therefore it's commented out-->
-<!-- # What is JSON and What is it used for? -->
+Whether you are a front end or back end developer, understanding the purpose and uses of JSON will enable you to easily add stunning functionality to your web applications.
 
-
-By Joseph McCullough
-
-
-
-Whether you are a front end or back end developer, understanding the purpose and uses of JSON will enable you to easily add stunning functionality to your web applications. Knowing when to use JSON is practically a prerequisite for any web development position.
+Knowing when to use JSON is practically a prerequisite for any web development position.
 
 WHAT EXACTLY IS JSON?
 JSON stands for JavaScript Object Notation. JSON is a lightweight data-interchange format. We can represent any data in the JSON format if we can boil down the data to its core attributes.

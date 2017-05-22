@@ -14,11 +14,14 @@ image: 'cookie-monster.jpg'
 ---
 
 
-Internet browsing has come a long way and it's gotten smarter and more user friendly. Browsers have improved your user experience by remembering when you visit pages, what your language preference is, they can even tailor advertisements you see online to be more relevant to your specific interests. If you've ever wondered how this is possible, the answer is simply cookies. The internet is full of them, like a bottomless jar of gooey chocolate deliciousness.
+Internet browsing has come a long way and it's gotten smarter and more user friendly.
+
+Browsers have improved your user experience by remembering when you visit pages, what your language preference is, they can even tailor advertisements you see online to be more relevant to your specific interests. If you've ever wondered how this is possible, the answer is simply cookies. The internet is full of them, like a bottomless jar of gooey chocolate deliciousness.
 Before you start craving your laptop, let's explore what cookies are.
 
-### **What Are Cookies?**
 
+
+### **What Are Cookies?**
 
 First of all, they are not edible, but I'm sure you've already figured that out!
 They are small text files stored on your computer's browser. Cookies are created whenever you use your browser to visit a website that uses them.
@@ -27,7 +30,6 @@ They are mainly used to anonymously collect information about you such as age, l
 
 
 ### **Types of Cookies**
-
 
 Not all cookies are created equal, therefore they don't all perform the same functions.
 [Revissio](http://www.revissio.com), a company dedicated to protecting your private data when online shopping, has broken down the different kinds of cookies and their functions brilliantly. Here's a direct quote from their article: [Online Cookies. All You Need To Know](http://www.revissio.com/online-cookies-all-you-need-to-know/)
@@ -70,8 +72,6 @@ Not all cookies are created equal, therefore they don't all perform the same fun
 Cookies have made browsing the internet simpler and more complicated simultaneously.
 Simpler because they can remember how you like things set up, if you like to stay signed in and such.
 More complicated because most of us don't know much about them therefore we don't know how to manage them.
-
-
 
 One way to find out who is adding cookies is using the [free Ghostery Browser Extension](https://www.ghostery.com/our-solutions/ghostery-browser-extension/) to control how you are tracked online. You can see which websites are adding third-party cookies, what they do and you can choose the ones you want and which you'd like to turn off.
 

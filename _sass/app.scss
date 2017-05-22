@@ -161,6 +161,50 @@ h4 small {
   font-size: 89% !important;
 }
 
+#cal-slide-content {
+  background-image: url("/assets/vendor/bootstrap-calendar/img/dark_wood.png");
+}
+
+#cal-slide-tick {
+  background-image: url("/assets/vendor/bootstrap-calendar/img/tick.png");
+}
+
+// Main body text of blog should be h4's, below adds needed line height
+.blog-legible-line-height h4 {
+  line-height: 1.7;
+}
+
+#blog-date {
+  min-width: 80px;
+  min-height: 60px;
+  display: flex !important;
+  align-items: center !important;
+  font-size: 18px;
+  text-align: center;
+  padding: 9px;
+}
+
+#media-body-vertical-center {
+  padding-top: 10px;
+}
+
+#footer-call-tour-grab {
+  background-image: url(/assets/images/call-or-tour.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+
+#cal-slide-content {
+  background-image: url("/assets/vendor/bootstrap-calendar/img/dark_wood.png");
+}
+
+#cal-slide-tick {
+  background-image: url("/assets/vendor/bootstrap-calendar/img/tick.png");
+}
+
+
 
 // Media Queries - Tablet
 @media (min-width: 768px) and (max-width: 991px) {
@@ -179,16 +223,7 @@ h4 small {
     border: 2px solid $brand-success;
   }
 
-  #review-body {
-    
+  #blog-item {
+    padding-left: 0;
   }
-
-
-
-}
-#cal-slide-content {
-  background-image: url("/assets/vendor/bootstrap-calendar/img/dark_wood.png");
-}
-#cal-slide-tick {
-  background-image: url("/assets/vendor/bootstrap-calendar/img/tick.png");
 }

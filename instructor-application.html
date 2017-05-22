@@ -1,0 +1,176 @@
+---
+layout: form
+---
+<!-- <form name="insightly_web_to_lead" action="https://googleapps.insight.ly/WebToLead/Create" method="post">
+  <input type="hidden" name="formId" value="P26VnYXCPMyqu/336CA7sA==" />
+  <input type="hidden" id="insightly_ResponsibleUser" name="ResponsibleUser" value="1271681" />
+  <input type="hidden" id="insightly_LeadSource" name="LeadSource" value="1522626" />
+
+  <div class="form-group">
+    <label for="insightly_firstName">First Name: </label>
+    <input id="insightly_firstName" name="FirstName" type="text" required />
+  </div>
+  <div class="form-group">
+    <label for="insightly_lastName">Last Name: </label>
+    <input id="insightly_lastName" name="LastName" type="text" required />
+  </div>
+  <div class="form-group">
+    <label for="AddressCity">City </label>
+    <input id="insightly_AddressCity" name="AddressCity" type="text" required />
+  </div>
+  <div class="form-group">
+    <label for="email">E-mail: </label>
+    <input id="insightly_Email" name="email" type="text" required />
+  </div>
+  <div class="form-group">
+    <label for="phone">Phone: </label>
+    <input id="insightly_Phone" name="phone" type="text" required />
+  </div>
+  <div class="form-group">
+    <label for="insightly_LEAD_FIELD_45">How much coding experience do you have? </label>
+    <input id="insightly_LEAD_FIELD_45" name="LEAD_FIELD_45" type="text" required />
+  </div>
+  <div class="form-group">
+    <label for="insightly_LEAD_FIELD_2">Why do you want to teach? </label>
+    <input id="insightly_LEAD_FIELD_2" name="LEAD_FIELD_2" type="text" required />
+  </div>
+  <button type="submit" class="btn btn-success btn-block">Submit Form</button>
+
+</form> -->
+
+
+
+
+
+<form name="insightly_web_to_lead" action="https://googleapps.insight.ly/WebToLead/Create" method="post">
+  <input type="hidden" name="formId" value="P26VnYXCPMyqu/336CA7sA==" />
+  <input type="hidden" name="ResponsibleUser" value="1346854" />
+  <input type="hidden" name="LeadSource" value="1522626" />
+  <input type="hidden" name="LEAD_FIELD_38" type="text" value="{{site.city}}" />
+  <input type="hidden" name="LEAD_FIELD_14" type="text" value="In the Application Process">
+
+  <div class="form-group">
+    <label for="insightly_firstName">First Name: </label>
+    <input class="form-control" id="insightly_firstName" name="FirstName" type="text" required />
+  </div>
+  <div class="form-group">
+    <label for="insightly_lastName">Last Name: </label>
+    <input class="form-control" id="insightly_lastName" name="LastName" type="text" required />
+  </div>
+  <div class="form-group">
+    <label for="email">Email: </label>
+    <input class="form-control" id="insightly_Email" name="email" type="text" required />
+  </div>
+  <div class="form-group">
+    <label for="phone">Phone: </label>
+    <input class="form-control" id="insightly_Phone" name="phone" type="text" required />
+  </div>
+  <div class="form-group">
+    <label for="insightly_LEAD_FIELD_27">Which course are you applying to teach for? </label>
+    <select id="insightly_LEAD_FIELD_27" class="form-control" name="LEAD_FIELD_27" required />
+    <option value="" disabled selected>Select Course</option>
+    {% for course in site.data.courses %} {% if site.courses contains course[0] %}
+    <option value="{{course[1].name}}">{{course[1].name}}</option>
+    {% endif %} {% endfor %}
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="iinsightly_AddressCity">Current City </label>
+    <input class="form-control" id="insightly_AddressCity" name="AddressCity" type="text" required />
+  </div>
+  <div class="form-group">
+    <label for="insightly_LEAD_FIELD_43">College or School Attended </label>
+    <input class="form-control" id="insightly_LEAD_FIELD_43" name="LEAD_FIELD_43" type="text" required />
+  </div>
+  <div class="form-group">
+    <label for="insightly_LEAD_FIELD_44">Current Occupation </label>
+    <input class="form-control" id="insightly_LEAD_FIELD_44" name="LEAD_FIELD_44" type="text" required />
+  </div>
+  <div class="form-group">
+    <label for="insightly_LEAD_FIELD_45">Current Company </label>
+    <input class="form-control" id="insightly_LEAD_FIELD_45" name="LEAD_FIELD_45" type="text" required />
+  </div>
+  <div class="form-group">
+    <label for="insightly_LEAD_FIELD_26">What experience do you have in coding already? </label>
+    <input class="form-control" id="insightly_LEAD_FIELD_26" name="LEAD_FIELD_26" type="text" required />
+  </div>
+  <div class="form-group">
+    <label for="insightly_LEAD_FIELD_46">What should we know about your teaching style? </label>
+    <input class="form-control" id="insightly_LEAD_FIELD_46" name="LEAD_FIELD_46" type="text" required />
+  </div>
+  <div class="form-group">
+    <label for="insightly_LEAD_FIELD_2">Why do you want to teach? </label>
+    <input class="form-control" id="insightly_LEAD_FIELD_2" name="LEAD_FIELD_2" type="text" required />
+  </div>
+  <!-- <div class="form-group">
+    <label for="insightly_LEAD_FIELD_9">Please paste a link to the meme that best describes you </label>
+    <input class="form-control" id="insightly_LEAD_FIELD_9" name="LEAD_FIELD_9" type="text" />
+  </div> -->
+  <label>When deciding on a coding school to teach at, what are the biggest factors for you? </label>
+  <br />
+  <label class="checkbox-inline">
+    <input type="checkbox" value="Curriculum" name="LEAD_FIELD_47" />
+    Curriculum
+  </label>
+  <label class="checkbox-inline">
+    <input type="checkbox" value="Schedule" name="LEAD_FIELD_47" />
+    Schedule
+  </label>
+  <label class="checkbox-inline">
+    <input type="checkbox" value="Teaching Methodology" name="LEAD_FIELD_47" />
+    Teaching Methodology
+  </label>
+  <label class="checkbox-inline">
+    <input type="checkbox" value="Culture Fit" name="LEAD_FIELD_47" />
+    Culture Fit
+  </label>
+  <br />
+  <br />
+  <!-- <div class="form-group">
+    <label for="insightly_LEAD_FIELD_11">Will your employer be paying for this course? </label>
+    <select class="form-control" id="insightly_LEAD_FIELD_11" name="LEAD_FIELD_11">
+      <option value="I'll have to check">I'll have to check</option>
+      <option value="Yes">Yes</option>
+      <option value="No">No</option>
+    </select>
+  </div> -->
+  <div class="form-group">
+    <label for="insightly_LEAD_FIELD_48">How did you hear about this coding school? </label>
+    <select class="form-control" id="insightly_LEAD_FIELD_48" name="LEAD_FIELD_48" required />
+    <option value="" disabled selected>Select one</option>
+    <option value="Coding Academy Student / Alumni">Coding Academy Student / Alumni</option>
+    <option value="Coding Academy Event">Coding Academy Event</option>
+    <option value="Friends / Family">Friends / Family</option>
+    <option value="Employer / Colleague">Employer / Colleague</option>
+    <option value="Radio">Radio</option>
+    <option value="Pandora">Pandora</option>
+    <option value="Google or Search Engine">Google or Search Engine</option>
+    <option value="Facebook / Twitter / Social Media">Facebook / Twitter / Social Media</option>
+    <option value="Email / Newsletter Marketing">Email / Newsletter Marketing</option>
+    <option value="Another Website / Blog">Another Website / Blog</option>
+    <option value="News Article">News - TV or Article</option>
+    <option value="Other">Other</option>
+    </select>
+  </div>
+  <!-- <div class="form-group">
+    <label for="insightly_LEAD_FIELD_13">Referral or Promo Code </label>
+    <input class="form-control" id="insightly_LEAD_FIELD_13" name="LEAD_FIELD_13" type="text" />
+  </div>
+  <br />
+  <label style="font-size: 20px;">Help us track Diversity in Tech! </label>
+  <br />
+  <br />
+  <div class="form-group">
+    <label for="insightly_LEAD_FIELD_39">Race [ Optional ]</label>
+    <input class="form-control" id="insightly_LEAD_FIELD_39" name="LEAD_FIELD_39" type="text" />
+  </div>
+  <div class="form-group">
+    <label for="insightly_LEAD_FIELD_40">Ethnicity [ Optional ]</label>
+    <input class="form-control" id="insightly_LEAD_FIELD_40" name="LEAD_FIELD_40" type="text" />
+  </div>
+  <div class="form-group">
+    <label for="insightly_LEAD_FIELD_41">Gender [ Optional ]</label>
+    <input class="form-control" id="insightly_LEAD_FIELD_41" name="LEAD_FIELD_41" type="text" />
+  </div> -->
+  <button type="submit" class="btn btn-success btn-block">Submit Form</button
+</form>

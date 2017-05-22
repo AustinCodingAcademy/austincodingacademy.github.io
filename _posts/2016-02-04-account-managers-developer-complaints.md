@@ -13,7 +13,9 @@ tags:
 image: 'team.jpg'
 ---
 
-In addition to the 5 items every account manager should know, it is important to know how developers see certain situations. There are some misconceptions on how account managers may see developers.
+In addition to the 5 items every account manager should know, it is important to know how developers see certain situations.
+
+There are some misconceptions on how account managers may see developers.
 
 By John Steinmetz, Product Manager at W2O Digital. See original posting [here](http://johnsteinmetz.net/the-difference-between-a-website-and-a-web-application-it-matters/).
 
@@ -23,22 +25,18 @@ By John Steinmetz, Product Manager at W2O Digital. See original posting [here](h
 
 ### _Account Manager Developer Complaint 1: "THEY JUST DON'T WANT TO DO WHAT THE CLIENT WANTS."_
 
-
-
 Not true. A developer looks at a request and analyzes it from the development perspective. A developer with limited client experience will see only that they are doing it wrong or how much time it will take to maintain the code. The real issue is we need to educate the development teams on the importance of client relationships and account teams on how to structure projects for perceived success.
+
+
 
 ### _Account Manager Developer Complaint 2: "THEY ALWAYS MISS DEADLINES."_
 
-
-
 If this is happening, there is a larger issue. We, in senior management, have a responsibility to the account and project management groups to make sure we are setting the correct expectations for timeline and estimates. You, as the account and project management teams have the same responsibility to develop process to structure requests that do not make goals unattainable. Think of it this way. I will create a scenario that I think most people can understand.
+
 
 #### SCENARIO
 
-
 **Goal:** I need to drive from Austin to Houston. (deliverable)
-
-
 
 **Assumptions:**
 
@@ -69,13 +67,13 @@ So, we tell you that we can do it. Ideally, we have given ourselves 5 hours to d
 
 **Response from Development:**
 
-
-
 "Going through San Antonio will add an additional 1 hour to the trip. So as it stands, we are now at 10:30am. We cannot move the time up because we have to eat. So we need to move the timeline out to 10:45 at the very least."
+
 
 **Response from Account Manager/PMO:**
 
 "Not acceptable. We have already told the client that you would be there by 9:45 or that we would try to make that time."
+
 
 **Response from Development:**
 
@@ -108,7 +106,5 @@ Developers will ask this question when account / project managers don't take tim
 
 Align yourself with people you can trust. If a developer is combative, its a good thing. That usually means that they see something that can affect expectations. It is never good to not have that voice telling you the reality of the situation. Ideally, we would have a complete process with no holes. That is a Utopia that all of us hope for but is not achievable. Avoid the “Know It All” guys and align with the “Educator” types. It will serve you well.
 
-If you want to run some of these concepts by developers here in Austin, Texas, feel free to head to a developer meetup like               [Refresh Austin](http://www.refreshaustin.org/){:target="_blank"}
-, or
-[Bleeding Edge Web](https://www.meetup.com/bleeding-edge-web/){:target="_blank"}
- and strike up a conversation.
+If you want to run some of these concepts by developers here in Austin, Texas, feel free to head to a developer Meetup like [Refresh Austin](http://www.refreshaustin.org/){:target="_blank"}
+, or [Bleeding Edge Web](https://www.meetup.com/bleeding-edge-web/){:target="_blank"} and strike up a conversation.

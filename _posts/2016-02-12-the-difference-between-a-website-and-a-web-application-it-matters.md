@@ -13,25 +13,21 @@ image: 'twitter.jpg'
 ---
 
 
-It is important to understand the differences between websites and web applications. A website is any online digital presence. A web application is any online digital presence driven by an online data source (CMS or other database). Ten years ago, roughly 10% of all websites were data driven web applications. Today, roughly 90% of all websites are data driven applications. Thanks in large part to [Wordpress](https://wordpress.com/create/){:target="_blank"} and [Drupal](https://www.drupal.org/){:target="_blank"}.
+It is important to understand the differences between websites and web applications.
+
+A website is any online digital presence. A web application is any online digital presence driven by an online data source (CMS or other database). Ten years ago, roughly 10% of all websites were data driven web applications. Today, roughly 90% of all websites are data driven applications.
 
 By John Steinmetz, Product Manager at W2O Digital. See original posting [here](http://johnsteinmetz.net/the-difference-between-a-website-and-a-web-application-it-matters/).
 
 
 
-
-
 ### WEBSITES
-
-
 
 A general website is a basic marketing site that is updated directly through FTP, SFTP or another standard publishing format. A general website may have server side code such as ASP, PHP, .NET or Cold Fusion but will not be driven by a CMS or other DB application.
 
 
 **1. Mini-Site (marketing)**
 A mini-site is defined as 1-5 static HTML pages. These will serve a purpose to inform or incite a call to action. A mini-site could also serve as a method to collect information from a user. Short forms are pretty standard on mini-sites. A lot of people will use a WYSIWYG (What You See Is What You Get) editor like Wordpress, Squarespace, or Wix.
-
-
 
 **2. Marketing site**
 A basic marketing site can have any number of pages and perform various functions as needed. It could connect to simple REST APIs for data and also have forms.
@@ -52,11 +48,7 @@ The most important part of the process is the verification of the completed work
 
 
 
-
-
 ### **WEB APPLICATIONS**
-
-
 
 In the most general sense, web applications are any HTML based application that is driven by a datasource. A web application will have both a front-end and a back-end component. Each type of application will have its own set of pros and cons. It is very important to understand each of these. Outlined here are our current capabilities and we will be adding to those capabilities as new ones come on line.
 
@@ -87,13 +79,12 @@ The Open Graph protocol enables developers to integrate their pages into the soc
 **3. HTML5 Mobile Application**
 Over the last 3 years, the landscape of web development has changed dramatically. It may surprise you but that landscape changes exponentially ever 2-3 months. When thinking of web, understand that there are 4 current major browsers that we develop against.
 
-
-
 All major browsers except IE force updating to the latest versions. IE is implemented in many corporate networks as the web standard for security and application control. Many larger networks, including the largest healthcare networks still use integrated deployment strategies to cut down on IT costs so they roll out browser updates in mass. This is the reason why many of our clients are still on IE8.
 
 Internet Explorer's growth seems to be slowing. Global vs US stats show different data. IE is still the global leader while market share is divided well in the US.
 
 HTML5 is a new development standard meant to add features and promote cross browser functionality. When developing applications with HTML5, we have to be aware of using tags in code that aren't supported in older browsers. In some instances, we can add some libraries that will degrade our code to be supported by older versions of browsers.
+
 
 **Custom Analytic Dashboard**
 Building dashboards has far reaching implications in how it relates to client relationships, WCG's analytic reputation and how we handle the development. There are a number of considerations when building a dashboard. We are currently working on ways to give quick solutions for dashboard projects but the major considerations are budget, data sources, time and level of customization.
@@ -110,9 +101,8 @@ When selling dashboards, analytic teams should be consulted to find out need bef
 **Responsive Development? Yes.**
 This isn't even in question. It is a part of everything we do. The cost is negligible for any project to be responsive IF it is known up front. There is a difference between making an application work on smartphones and tablets and designing an experience tailor-made for those environments. That will reflect in level of effort. See my blog post on [Responsive Development](http://www.johnsteinmetz.net/responsive-design-alternative-content-is-important/).
 
-
-
 There aren't any reasons why responsive development should not be done in every application you do. It is a consistent ask of every client (usually a week after launch). Clients should be aware that a large percent of today's users only use mobile devices. In 2012, sales of tablets overtook the sales of desktop machines for the first time. The gap will only widen.
+
 
 **HTML Version**
 Generally speaking, all sites should be built to the latest code standard. HTML5 should be the base markup for all web applications. The development team should degrade the code (graceful degradation), that is, build the code so that lower browsers can view it within the limits of their capabilities.

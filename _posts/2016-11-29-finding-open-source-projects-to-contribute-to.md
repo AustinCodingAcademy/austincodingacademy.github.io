@@ -8,19 +8,13 @@ tags: []
 image: 'hacker.jpg'
 ---
 
+Whether you're looking for extra programming practice or you're in the mood to volunteer, contributing to open source projects is certainly a worthy endeavor!
+
+A common barrier to entry for developers wishing to participate in the open source community is simply the question "What project should I contribute to?"
 
 
 
 ### **How To Boost Your Credibility As a New Developer: Contribute to Open Source Projects**
-
-
-By Joe McCullough
-
-
-
-Whether you're looking for extra programming practice or you're in the mood to volunteer, contributing to open source projects is certainly a worthy endeavor!
-
-A common barrier to entry for developers wishing to participate in the open source community is simply the question "What project should I contribute to?"
 
 Here is an extremely quick tip for finding a plethora of projects both worthy of your time and likely to incorporate your pull requests.
 
