@@ -76,7 +76,7 @@ Upcoming Events Across Texas: Your weekly news and events update from our coding
   <img style="border:1px solid grey;" class="img-responsive" src="/assets/images/blog-5-22-17-5.jpeg" />
 </div>
 
-### Tues. May 24
+### Wed. May 24
 
 ## [1 Million Cups - Dallas](http://www.1millioncups.com/dallas)
 
