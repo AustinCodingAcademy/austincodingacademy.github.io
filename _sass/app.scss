@@ -208,6 +208,13 @@ h4 small {
   border: 2px solid $brand-success;
 }
 
+.bkgd-color-lite-blue {
+  background-color: $bluehighlight !important;
+}
+
+.img-full {
+  width: 100% !important;
+}
 
 // Media Queries - Tablet
 @media (min-width: 768px) and (max-width: 991px) {
