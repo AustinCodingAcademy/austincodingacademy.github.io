@@ -1,6 +1,7 @@
 ---
 layout: post
 title: New Austin Coding Academy North Campus Opens at Tech Ranch! Classes Start June 19
+description: You Wanted a North Austin Campus? You Got It! June 19th, Austin Coding Academy Teams up with Tech Ranch to Launch Their Second Campus
 date: '2017-5-15'
 categories:
   - Uncategorized
