@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Web Development Jobs Around Texas - C#, JavaScript, Front-End, and Full-Stack
+description: Web Development Jobs Around Texas - C#, JavaScript, Front-End, and Full-Stack
 date: '2017-5-15'
 categories:
   - Uncategorized

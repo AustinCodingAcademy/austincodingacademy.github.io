@@ -10,6 +10,7 @@ header: Houston's Best Value in Coding Education
 email: info@houstontxcodingacademy.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://houstontxcodingacademy.com # the base hostname & protocol for your site, e.g. http://example.com
+twitterhandle: HoustonCoding
 twitter: https://twitter.com/HoustonCoding
 github:  https://github.com/AustinCodingAcademy
 facebook: https://www.facebook.com/HoustonCodingAcademy/

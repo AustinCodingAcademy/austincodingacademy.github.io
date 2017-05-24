@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 5 Awesome Apps You Can Create with C#
+description: A short introduction to C# and five amazing apps you can build with this technology stack
 date: '2017-5-15'
 categories:
   - Uncategorized
