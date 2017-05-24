@@ -5,15 +5,18 @@ date: '2017-5-24'
 categories:
   - Uncategorized
 tags: []
-image: 'blog_5_19_17_1.jpg'
-permalink: 'blog/web-development-jobs-around-texas'
+image: 'blog-5-24-17-1.jpg'
+permalink: 'blog/why-out-coding-bootcamp-teaches-you-more-than-just-code'
 ---
 
 Why Our Coding Bootcamp Teaches You More Than Just Code
  
 Junior web developers who are proficient in these three soft skills find success and accelerate their coding career.
  
- 
+
+<div class="col-sm-12">
+  <img class="img-responsive" src="/assets/images/blog-5-24-17-1.jpg" />
+</div>
  
  
 #### I’ve been involved with Austin Coding Academy since its inception many, many moons ago. I’ve taken the coding bootcamp journey as both a student and as an instructor, and I’ve helped class after class of students go from complete novices to completely job-ready in the course of nine months, with varying degrees of success. 
@@ -32,6 +35,9 @@ Junior web developers who are proficient in these three soft skills find success
 
 <p style="text:center;">Teamwork & Leadership Skills</p>
 
+<div class="col-sm-12">
+  <img class="img-responsive" src="/assets/images/blog-5-24-17-2.jpg" />
+</div>
 
 #### When I started applying for dev jobs, my mentor gave me sage wisdom: walk through the engineering area - if developers are sitting silently in rows of cubicles with headphones on, turn and walk away. Great software is usually not written by one person, but by a team. A web development team is made up of different types of people in different types of roles, and sometimes collaboration and teamwork is loud… and messy.
  
@@ -44,6 +50,10 @@ Junior web developers who are proficient in these three soft skills find success
  
  
 ## Critical-Thinking and Problem-Solving Skills
+
+<div class="col-sm-12">
+  <img class="img-responsive" src="/assets/images/blog-5-24-17-3.jpg" />
+</div>
 
 #### Most educational resources for coding follows the same process - choose a language to learn, teach you the syntax, and dive into concepts and theories. What it won’t teach you is how to solve problems or design the process for an entire project, which is why most of us learn how to code in the first place.
  
@@ -62,6 +72,10 @@ Junior web developers who are proficient in these three soft skills find success
  
  
 ## Build Your Personal Brand: 
+
+<div class="col-sm-12">
+  <img class="img-responsive" src="/assets/images/blog-5-24-17-4.jpg" />
+</div>
  
 #### Branding is about establishing a consistent message about yourself that is recognized by some repeated stimulus (online profiles, resume, portfolio) which when seen reminds the reader of the message. You may have a logo of your initials or a “doing business as” name you want to be identified as professionally. 
  
@@ -88,3 +102,6 @@ Junior web developers who are proficient in these three soft skills find success
 #### Fortunately, our students already have a head start on the first day of class.  Not only do students have a robust network of current students, they also have access to our pool of alumni mentors and a non-stop events calendar of networking events and field trips to startups and tech companies around the city.  Check out our [events calendar](/calendar) for the next networking event in your city.
  
 #### We don’t just teach you how to code, we also teach you the soft skills to succeed in the diverse environment of a web development job. If you are interested in learning both the hard and soft skills necessary for a coding career, check out our [course schedule](/courses) or [fill out an application to save your spot in the next class.](/apply)
+
+
+### If you are interested in learning how to code and much more, check out our [course schedule](/courses) or **[fill out an application to reserve your spot in the next class](/apply)**.
