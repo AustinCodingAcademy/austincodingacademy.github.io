@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Weekly Roundup, 5/21
-description: Upcoming Events Across Texas: Your weekly news and events update from our coding academies
+description: Upcoming Events Across Texas - Your weekly news and events update from our coding academies
 date: '2017-5-21'
 categories:
   - Uncategorized
