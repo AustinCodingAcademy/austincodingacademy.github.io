@@ -38,27 +38,29 @@ Upcoming Events Across Texas -  Your weekly news and events update from our codi
 
 #### [1 Million Cups](http://www.1millioncups.com/about) is a free, national program designed to educate, engage, and connect entrepreneurs with their communities. 1MC believes entrepreneurs discover solutions and network over a million cups of coffee. [RSVP](http://www.1millioncups.com/dallas)
 
+---
+
 
 
 <div class="col-sm-5">
-  <img style="width:100%;" src="/assets/images/blog-5-29-17-2.jpg" />
+  <img style="width:100%;" src="/assets/images/blog-5-29-17-2.png" />
 </div>
 
-###Sat. June 2:
+### Sat. June 2:
 
-##[Breakfast Panel: Finding Technology Resources on a Budget](https://www.eventbrite.com/e/finding-technology-resources-on-a-budget-tickets-34808188228)
+## [Breakfast Panel: Finding Technology Resources on a Budget](https://www.eventbrite.com/e/finding-technology-resources-on-a-budget-tickets-34808188228)
 
-####Join us for breakfast and learn from Yady Diaz (San Antonio Coding Academy) and Noor Ain (Houston Coding Academy) what YOU as an entrepreneur without a background in tech need to know when looking for technology resources on a budget.
+#### Join us for breakfast and learn from Yady Diaz (San Antonio Coding Academy) and Noor Ain (Houston Coding Academy) what YOU as an entrepreneur without a background in tech need to know when looking for technology resources on a budget.
 
+#### Free breakfast, free parking, and attendees are welcome to cowork out of the TreeHouse Addison for free for the remainder of the day! Get free access with code: DCAChat17. [RSVP](https://www.eventbrite.com/e/finding-technology-resources-on-a-budget-tickets-34808188228)
 
-Free breakfast, free parking, and attendees are welcome to cowork out of the TreeHouse Addison for free for the remainder of the day! Get free access with code: DCAChat17. [RSVP](https://www.eventbrite.com/e/finding-technology-resources-on-a-budget-tickets-34808188228)
+---
+
 
 
 <div class="col-sm-5">
   <img style="width:100%;" src="/assets/images/blog-5-22-17-6.jpg" />
 </div>
-
-
 
 ### Tues. June 27
 
@@ -75,18 +77,20 @@ Free breakfast, free parking, and attendees are welcome to cowork out of the Tre
 
 
 ---
+
 <div class="col-sm-5">
-  <img style="width:100%;" src="/assets/images/blog-5-29-17-3.png" />
+  <img style="width:100%;" src="/assets/images/blog-5-29-17-3.jpg" />
 </div>
 
-##Sat., June 3:
+### Sat., June 3:
 
-##[Career Paths in Tech Panel](https://www.eventbrite.com/e/panel-career-paths-in-tech-presented-by-aca-tickets-34637896882)
-####If you're new to tech or curious about what it might be like to switch into tech, you might not be aware of all the different options and paths open to you. Join us for a panel to hear from five different perspectives on the job hunt, presented by Austin Coding Academy. An IT recruiter, a web developer, a self-made entrepreneur, and a recruiter from a local tech company will give their take on getting tech jobs.**[RSVP]**(https://www.eventbrite.com/e/panel-career-paths-in-tech-presented-by-aca-tickets-34637896882)
+## [Career Paths in Tech Panel](https://www.eventbrite.com/e/panel-career-paths-in-tech-presented-by-aca-tickets-34637896882)
 
-
+#### If you're new to tech or curious about what it might be like to switch into tech, you might not be aware of all the different options and paths open to you. Join us for a panel to hear from five different perspectives on the job hunt, presented by Austin Coding Academy. An IT recruiter, a web developer, a self-made entrepreneur, and a recruiter from a local tech company will give their take on getting tech jobs. **[RSVP](https://www.eventbrite.com/e/panel-career-paths-in-tech-presented-by-aca-tickets-34637896882)**
 
 ---
+
+
 
 <div class="col-sm-5">
   <img style="width:100%;" src="/assets/images/blog-5-22-17-2.png" />
@@ -98,20 +102,30 @@ Free breakfast, free parking, and attendees are welcome to cowork out of the Tre
 
 #### Visit our new location at [Tech Ranch](https://techranchaustin.com/), north Austin’s hub for entrepreneurship, and learn about the resources we provide students in our part-time classes and the unique C# and .Net curriculum we’ll be teaching. [RSVP](https://www.eventbrite.com/e/bot-what-you-got-create-a-chatbot-for-business-marketing-and-fun-tickets-33913689759?aff=erelexpmlt)
 
+---
+
+
+
+<div class="col-sm-5">
+  <img style="width:100%;" src="/assets/images/blog-5-22-17-4.png" />
+</div>
 
 
 ### Sat. June 25
 
-## [Bot What You Got: Chatbot Workshop for All!](https://www.eventbrite.com/e/bot-what-you-got-create-a-chatbot-for-business-marketing-and-fun-tickets-33913689759?aff=erelexpmlt)
+## [Chatbot Workshop for All!](https://www.eventbrite.com/e/bot-what-you-got-create-a-chatbot-for-business-marketing-and-fun-tickets-33913689759?aff=erelexpmlt)
 
 #### Have you ever gone to a site and chatted with a robot in place of a customer service representative? We want to teach you how to build that! Learn how to make an automated chat system: the future of human-machine interactions. [RSVP](https://www.eventbrite.com/e/bot-what-you-got-create-a-chatbot-for-business-marketing-and-fun-tickets-33913689759?aff=erelexpmlt)
 
 
- ---
+
+---
 
 # HOUSTON
 
 ---
+
+
 
 <div class="col-sm-5">
   <img style="width:100%;" src="/assets/images/blog-5-22-17-7.png" />
@@ -146,13 +160,15 @@ Free breakfast, free parking, and attendees are welcome to cowork out of the Tre
 
 
 ---
+
+
+
 <div class="col-sm-5">
-  <img style="width:100%;" src="/assets/images/blog-5-29-17-4.png" />
+  <img style="width:100%;" src="/assets/images/blog-5-29-17-4.jpg" />
 </div>
 
+### Tues., May 30th
 
+## [Tech Talent Texas](https://www.eventbrite.com/e/tech-talent-texas-tickets-34252660630)
 
-##Tues., May 30th
-
-##[Tech Talent Texas](https://www.eventbrite.com/e/tech-talent-texas-tickets-34252660630)
-####Join San Antonio Coding Academy and [Tech Talent Texas](Tech Talent Tuesday) - the Source for Tech Talent and Career Development - this Tuesday, May 30th, at the [Geekdom](http://geekdom.com) Event Centre for a dynamic "Gender & Technology" discussion. Panelists include USAA Strategic Innovation Director, Marina Gavito, Tech Quarry Strategic Director Javier Guerra, Founder at La Maestra Consulting and advocate for change, Irene Chavez and Tech Talent Texas Founder, Gerry Diaz, as moderator. **[RSVP]**(https://www.eventbrite.com/e/tech-talent-texas-tickets-34252660630)
+#### Join San Antonio Coding Academy and [Tech Talent Texas](Tech Talent Tuesday) - the Source for Tech Talent and Career Development - this Tuesday, May 30th, at the [Geekdom](http://geekdom.com) Event Centre for a dynamic "Gender & Technology" discussion. Panelists include USAA Strategic Innovation Director, Marina Gavito, Tech Quarry Strategic Director Javier Guerra, Founder at La Maestra Consulting and advocate for change, Irene Chavez and Tech Talent Texas Founder, Gerry Diaz, as moderator. **[RSVP](https://www.eventbrite.com/e/tech-talent-texas-tickets-34252660630)**
