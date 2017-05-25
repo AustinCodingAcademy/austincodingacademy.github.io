@@ -216,9 +216,15 @@ h4 small {
   width: 100% !important;
 }
 
+.text-shadow {
+  text-shadow: black 1px 2px 5px;
+}
+
 // Media Queries - Tablet
 @media (min-width: 768px) and (max-width: 991px) {
-
+  .phone-margin-bottom {
+    margin-bottom: 50px;
+  }
 }
 
 // Media Queries - Phone
@@ -235,5 +241,9 @@ h4 small {
 
   #blog-item {
     padding-left: 0;
+  }
+
+  .phone-margin-bottom {
+    margin-bottom: 40px;
   }
 }
