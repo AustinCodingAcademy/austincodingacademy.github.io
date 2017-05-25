@@ -216,6 +216,9 @@ h4 small {
   width: 100% !important;
 }
 
+.text-shadow {
+  text-shadow: black 1px 2px 5px;
+}
 
 // Media Queries - Tablet
 @media (min-width: 768px) and (max-width: 991px) {
