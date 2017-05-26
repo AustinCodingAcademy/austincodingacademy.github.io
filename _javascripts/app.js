@@ -72,14 +72,16 @@ $(function() {
         // If API call is successful, run the callback funtion
         success: function(response) {
             // Create a list of items from the G.Maps API call, assign to mappedEvents
-            const mappedEvents = response.items.map(function(event) {
+            const mappedEvents = response.items.filter(event => {
+              return event.start && event.start.dateTime;
+            }).map(function(event) {
                 // 'Map' the response items in the list to the following key/value pairs
                 return {
                     "id": event.id,
                     "title": event.summary ? event.summary : "",
                     "url": 'https://calendar.google.com/calendar/event?eid=' + btoa(event.id + ' ' + campusKeys[campusKey].googleCalendarId) + '&ctz=America/Chicago',
                     "class": "event-important",
-                    "start": event.start ? moment.utc(event.start.dateTime).valueOf() : "",
+                    "start": moment.utc(event.start.dateTime).valueOf(),
                     "end": ""
                 }
             });
