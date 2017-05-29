@@ -1,0 +1,124 @@
+- name: Luke Stenis
+  img: /assets/images/luke-stenis-testimonial.png
+  campus: Austin Coding Academy
+  current_role: Implementation Engineer at Invodo Inc.
+  current_company: Invodo Inc.
+  blurb: >
+    "I just completed the entire Full Stack curriculum at Austin
+    Coding Academy and not only did they help me transition my
+    career into coding, they helped me land a JavaScript Engineering
+    job before I even graduated.
+    The instructors are 'wicked smart', the curriculum is challenging in a good way, and the community is incredibly supportive.
+    I recommend anyone looking to upgrade their skill set or a complete career change to look no further than ACA for the most affordable and flexible option available."
+
+- name: Matt Viteri
+  img:
+  campus: Austin Coding Academy
+  class: 101.1 Intro to Web
+  current_role:
+  current_company:
+  blurb:
+
+- name: Keith Kritselis
+  img:
+  campus: Austin Coding Academy
+  class: 101.2 Intro to Web
+  current_role:
+  current_company:
+  blurb:
+
+- name: Dinh Huynh
+  img:
+  campus: Austin Coding Academy
+  class: 101.3 Intro to Web
+  current_role:
+  current_company:
+  blurb:
+
+- name: Kevin Colten
+  img:
+  campus: Austin Coding Academy
+  class: 211.1 JavaScript Full Stack
+  current_role: CTO
+  current_company: Austin Coding Academy
+  blurb:
+
+- name: Kai Yang
+  img:
+  campus: Austin Coding Academy
+  class: 211.2 JavaScript Full Stack
+  current_role:
+  current_company:
+  blurb:
+
+- name: Ivo Meisner
+  img:
+  campus: Austin Coding Academy
+  class: 311.1 JavaScript Full Stack
+  current_role:
+  current_company:
+  blurb:
+
+- name: Jon Woo
+  img:
+  campus: Austin Coding Academy
+  class: 311.2 JavaScript Full Stack
+  current_role:
+  current_company:
+  blurb:
+
+- name: Shane White
+  img:
+  campus: Dallas Coding Academy
+  class: 101.1 Intro to Web
+  current_role:
+  current_company:
+  blurb:
+
+- name: Thomas Williams
+  img:
+  campus: Dallas Coding Academy
+  class: 221.1 C# & .NET Full Stack
+  current_role:
+  current_company:
+  blurb:
+
+- name: Greg Harrison
+  img:
+  campus: Houston Coding Academy
+  class: 101.1 Intro to Web
+  current_role:
+  current_company:
+  blurb:
+
+- name: Todd Wolf
+  img:
+  campus: Houston Coding Academy
+  class: 221.1 C# & .NET Full Stack
+  current_role:
+  current_company:
+  blurb:
+
+- name: Roberto Navarro
+  img:
+  campus: San Antonio Coding Academy
+  class: 101.1 Intro to Web
+  current_role:
+  current_company:
+  blurb:
+
+- name: Carlos Navarro
+  img:
+  campus: San Antonio Coding Academy
+  class: 221.1 C# & .NET Full Stack
+  current_role:
+  current_company:
+  blurb:
+
+- name: Curt Arbtin
+  img:
+  campus: San Antonio Coding Academy
+  class: 321.1 C# & .NET Full Stack
+  current_role:
+  current_company:
+  blurb:
