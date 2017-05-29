@@ -1,0 +1,131 @@
+---
+layout: default
+permalink: /js-fullstack-program/
+title: JS Fullstack Program | {{ site.school }}
+description: >
+  Coding classes for beginners: Learn to code responsive websites, build interactive apps, and become a job-ready web developer at {{site.school}} in just nine months.
+scripts: >
+  <script type="text/javascript">
+    $('body').scrollspy({ target: '#scrollspy' });
+    $('.nav-wrapper').height($('[data-spy="affix"]').height());
+  </script>
+head: >
+  <style media="screen">
+    [data-spy="affix"] {
+      top: 10px;
+    }
+    .affix-bottom {
+      position: relative;
+    }
+    .list-group-item {
+      margin-bottom: -3px !important;
+    }
+    section:first-child {
+      background-image: url('/assets/images/laptop-tablet.jpg');
+      padding: 50px 0;
+      background-size: cover;
+      background-position: center top;
+    }
+    section:first-child h1 {
+      text-shadow: black 1px 1px 5px;
+    }
+  </style>
+---
+<section class="bg-gray-darker">
+  <div class="container">
+    <h1 class="text-white">
+      Programs at {{site.school}}
+      <br>
+      <small class="text-white">
+        Full Stack Program - 3 sessions, 10 weeks per session, part-time
+        <br>
+        Become a Full Stack developer, UI/UX Designer, Database Manager, and more
+      </small>
+    </h1>
+  </div>
+</section>
+<section>
+  <div class="container" id="scrollspy">
+    <div class="row">
+      <div class="hidden-sm hidden-xs col-md-3">
+        <div class="nav-wrapper">
+          <ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="300" data-offset-bottom="600" style="max-width: 212px;">
+            <li><a href="#overview" class="list-group-item">Overview</a></li>
+            <li><a href="#career-support" class="list-group-item">Career Support</a></li>
+            <li><a href="#student-life" class="list-group-item">Student Life</a></li>
+            <li><a href="#syllabus" class="list-group-item">Syllabus</a></li>
+            <li><a href="#projects" class="list-group-item">Projects</a></li>
+            <li><a href="#instructors" class="list-group-item">Instructors</a></li>
+            <li><a href="#tuition-dates" class="list-group-item">Tuition & Dates</a></li>
+            <li><a href="#finance-options" class="list-group-item">Finance Options</a></li>
+            <li><a href="#campus-tours" class="list-group-item">Campus Tours</a></li>
+            <li><a href="#faqs" class="list-group-item">FAQ's</a></li>
+            <li><a href="/apply" class="list-group-item">APPLY</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-9">
+        <div class="program-values">
+          <h2 id="overview">BEGIN A CAREER YOU LOVE IN WEB DEVELOPMENT</h2>
+          <h4>Learn and apply the skills you need to start a career in code.</h4>
+          <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
+        </div>
+        <div class="program-values">
+          <h2 id="career-support">CAREER SUPPORT</h2>
+          <h4>We provide each of our immersive graduates with access to job readiness training, connections to employers, and opportunities to hone new skills.</h4>
+          <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
+        </div>
+        <!-- <div class="program-values">
+          {% include reviews.html %}
+        </div>
+        <div class="program-values">
+          {% include companies.html %}
+        </div> -->
+        <div class="program-values">
+          <h2 id="student-life">STUDENT LIFE</h2>
+          <h4>We break up our daily schedule with a mix of presentations, interactive labs, and project collaboration. No two days look exactly alike, but here's an example of what your day could look like on campus.</h4>
+          <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
+        </div>
+        <div class="program-values">
+          <h2 id="syllabus">SYLLABUS</h2>
+          <h4>We teach the skills you need to kickstart your career as a developer and a lifelong learner. From programming fundamentals to launching full-stack web apps, you'll learn to solve problems with code while applying industry best practices in a collaborative environment.</h4>
+          <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
+        </div>
+        <div class="program-values">
+          <h2 id="projects">BUILD YOUR PORTFOLIO</h2>
+          <h4>You'll complete several projects, including a primary portfolio project that will help you begin your job search with confidence. Check out an example of a past student project.</h4>
+          <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
+        </div>
+        <div class="program-values">
+          <h2 id="instructors">MEET YOUR INSTRUCTORS</h2>
+          <h4>Learn from skilled developers with professional experience in the field.</h4>
+          <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
+        </div>
+        <div class="program-values">
+          <h2 id="tuition-dates">NEXT START DATE</h2>
+          <h4>Import Date banner</h4>
+          <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
+        </div>
+        <div class="program-values">
+          <h2 id="finance-options">FUND YOUR FUTURE</h2>
+          <h4>Need payment assistance? Our financing options allow you to focus on your goals instead of the barriers that keep you from reaching them.</h4>
+          <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
+        </div>
+        <div class="program-values">
+          <h2 id="campus-tours">VISIT CAMPUS</h2>
+          <h4>See if this program is a fit for you. Meet the GA team, get an overview of the program curriculum, and chat with other students thinking about the course</h4>
+          <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
+        </div>
+        <div class="program-values">
+          <h2 id="faqs">GET ANSWERS</h2>
+          <h4>We love questions, almost as much as we love providing answers. Here are a few samplings of what we’re typically asked, along with our responses:</h4>
+          <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
+        </div>
+        <div class="program-values">
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
