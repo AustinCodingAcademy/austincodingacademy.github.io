@@ -1,124 +1,125 @@
-- name: Luke Stenis
-  img: /assets/images/luke-stenis-testimonial.png
-  campus: Austin Coding Academy
-  current_role: Implementation Engineer at Invodo Inc.
-  current_company: Invodo Inc.
-  blurb: >
-    "I just completed the entire Full Stack curriculum at Austin
-    Coding Academy and not only did they help me transition my
-    career into coding, they helped me land a JavaScript Engineering
-    job before I even graduated.
-    The instructors are 'wicked smart', the curriculum is challenging in a good way, and the community is incredibly supportive.
-    I recommend anyone looking to upgrade their skill set or a complete career change to look no further than ACA for the most affordable and flexible option available."
-
 - name: Matt Viteri
-  img:
+  img: /assets/images/luke-stenis-testimonial.png
   campus: Austin Coding Academy
   class: 101.1 Intro to Web
   current_role:
   current_company:
-  blurb:
+  blurb: >
+    "..."
 
 - name: Keith Kritselis
-  img:
+  img: /assets/images/luke-stenis-testimonial.png
   campus: Austin Coding Academy
   class: 101.2 Intro to Web
   current_role:
   current_company:
-  blurb:
+  blurb: >
+    "..."
 
 - name: Dinh Huynh
-  img:
+  img: /assets/images/luke-stenis-testimonial.png
   campus: Austin Coding Academy
   class: 101.3 Intro to Web
   current_role:
   current_company:
-  blurb:
+  blurb: >
+    "..."
 
 - name: Kevin Colten
-  img:
+  img: /assets/images/luke-stenis-testimonial.png
   campus: Austin Coding Academy
   class: 211.1 JavaScript Full Stack
   current_role: CTO
   current_company: Austin Coding Academy
-  blurb:
+  blurb: >
+    "..."
 
 - name: Kai Yang
-  img:
+  img: /assets/images/luke-stenis-testimonial.png
   campus: Austin Coding Academy
   class: 211.2 JavaScript Full Stack
   current_role:
   current_company:
-  blurb:
+  blurb: >
+    "..."
 
 - name: Ivo Meisner
-  img:
+  img: /assets/images/luke-stenis-testimonial.png
   campus: Austin Coding Academy
   class: 311.1 JavaScript Full Stack
   current_role:
   current_company:
-  blurb:
+  blurb: >
+    "..."
 
 - name: Jon Woo
-  img:
+  img: /assets/images/luke-stenis-testimonial.png
   campus: Austin Coding Academy
   class: 311.2 JavaScript Full Stack
   current_role:
   current_company:
-  blurb:
+  blurb: >
+    "..."
 
 - name: Shane White
-  img:
+  img: /assets/images/luke-stenis-testimonial.png
   campus: Dallas Coding Academy
   class: 101.1 Intro to Web
   current_role:
   current_company:
-  blurb:
+  blurb: >
+    "..."
 
 - name: Thomas Williams
-  img:
+  img: /assets/images/luke-stenis-testimonial.png
   campus: Dallas Coding Academy
   class: 221.1 C# & .NET Full Stack
   current_role:
   current_company:
-  blurb:
+  blurb: >
+    "..."
 
 - name: Greg Harrison
-  img:
+  img: /assets/images/luke-stenis-testimonial.png
   campus: Houston Coding Academy
   class: 101.1 Intro to Web
   current_role:
   current_company:
-  blurb:
+  blurb: >
+    "..."
 
 - name: Todd Wolf
-  img:
+  img: /assets/images/luke-stenis-testimonial.png
   campus: Houston Coding Academy
   class: 221.1 C# & .NET Full Stack
   current_role:
   current_company:
-  blurb:
+  blurb: >
+    "..."
 
 - name: Roberto Navarro
-  img:
+  img: /assets/images/luke-stenis-testimonial.png
   campus: San Antonio Coding Academy
   class: 101.1 Intro to Web
   current_role:
   current_company:
-  blurb:
+  blurb: >
+    "..."
 
 - name: Carlos Navarro
-  img:
+  img: /assets/images/luke-stenis-testimonial.png
   campus: San Antonio Coding Academy
   class: 221.1 C# & .NET Full Stack
   current_role:
   current_company:
-  blurb:
+  blurb: >
+    "..."
 
 - name: Curt Arbtin
-  img:
+  img: /assets/images/luke-stenis-testimonial.png
   campus: San Antonio Coding Academy
   class: 321.1 C# & .NET Full Stack
   current_role:
   current_company:
-  blurb:
+  blurb: >
+    "..."
