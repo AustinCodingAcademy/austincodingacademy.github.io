@@ -41,7 +41,7 @@ eventbrite_organizer_id: 10937668459
 eventbrite: https://www.eventbrite.com/o/austin-coding-academy-10937668459
 tracks:
   - JavaScript
-  - CSharp
+  - CSharp_2
   - WebDesign
 classtimes: 6:30pm - 9:00pm
 # Build settings

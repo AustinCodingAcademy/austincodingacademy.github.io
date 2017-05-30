@@ -12,12 +12,12 @@ CSharp:
     - 221
     - 321
 
-CSharp_1:
+CSharp_2:
   name: CSharp Program (North Austin)
   courses:
-    - 101_1
-    - 221_1
-    - 321_1
+    - 101_2
+    - 221_2
+    - 321_2
 
 WebDesign:
   name: Web Design Program
