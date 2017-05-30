@@ -1,10 +1,13 @@
 ---
 layout: post
 title: 20 Tips for Landing Your First Job in Web Development
-description: '{{ page.excerpt | strip_html }}'
-image: blog-5-26-17-4.jpg
-redirect_from:
-  - blog/20-tips-for-landing-your-first-job-in-web-development
+description: As a fledgling techie, you can land your first job by following in the footsteps of coders before you, and use these twenty tips for success in the job market.
+date: '2017-5-26'
+categories:
+  - Uncategorized
+tags: []
+image: 'blog-5-26-17-4.jpg'
+permalink: 'blog/20-tips-for-landing-your-first-job-in-web-development'
 ---
 
 As a fledgling techie, you can land your first job by following in the footsteps of coders before you, and use these twenty tips for success in the job market.

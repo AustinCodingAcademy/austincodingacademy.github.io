@@ -1,7 +1,14 @@
 ---
 layout: post
 title: The Difference Between Websites And Web Applications
-description: '{{ page.excerpt | strip_html }}'
+date: 2016-02-12
+categories:
+  - Blog Post
+  - Industry Insights
+tags:
+  - application
+  - web application
+  - web site
 image: 'twitter.jpg'
 ---
 

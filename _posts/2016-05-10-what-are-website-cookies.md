@@ -1,7 +1,15 @@
 ---
 layout: post
 title: What are Website or Browser Cookies?
-description: '{{ page.excerpt | strip_html }}'
+date: '2016-05-10'
+categories:
+  - Blog Post
+  - Industry Insights
+tags:
+  - 3rd party cookies
+  - cookies
+  - internet cookies
+  - tracking cookies
 image: 'cookie-monster.jpg'
 ---
 

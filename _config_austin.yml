@@ -39,19 +39,20 @@ color: '#f8b232'
 map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3445.884375397476!2d-97.74275278487958!3d30.2688754818011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b4e31ad087bd%3A0xd6644ce54fe2531c!2sAustin+Coding+Academy!5e0!3m2!1sen!2sus!4v1488689585071
 eventbrite_organizer_id: 10937668459
 eventbrite: https://www.eventbrite.com/o/austin-coding-academy-10937668459
-tracks:
-  - JavaScript
-  - CSharp_2
-  - WebDesign
+courses:
+  - 101
+  - 101_2
+  - 211
+  - 311
+  - 221_2
+  - 321_2
 classtimes: 6:30pm - 9:00pm
 # Build settings
 announcement: North Austin .NET classes begin June 19th!
 markdown: kramdown
-permalink: blog/:year/:month/:day/:slug/
 
 gems:
   - jekyll-feed
-  - jekyll-redirect-from
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -60,4 +61,3 @@ exclude:
   - vendor
   - README.md
   - faviconData.json
-  - npm-debug.log

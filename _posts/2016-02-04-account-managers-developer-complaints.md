@@ -1,7 +1,15 @@
 ---
 layout: post
 title: 'Account Managers Developer Complaints: Solved'
-description: '{{ page.excerpt | strip_html }}'
+date: '2016-02-04'
+categories:
+  - Blog Post
+  - Industry Insights
+tags:
+  - account manager
+  - developer
+  - software developer
+  - web developer
 image: 'team.jpg'
 ---
 

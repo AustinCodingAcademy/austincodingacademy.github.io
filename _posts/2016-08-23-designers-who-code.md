@@ -1,7 +1,12 @@
 ---
 layout: post
 title: 'Austin Coding Academy Alumni Spotlight: Gizem Yilmaz'
-description: '{{ page.excerpt | strip_html }}'
+date: '2016-08-23'
+categories:
+  - Blog Post
+  - Learn to Code
+  - Industry Insights
+tags: []
 image: 'Gizemimg.jpg'
 published: false
 ---

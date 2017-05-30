@@ -1,7 +1,10 @@
 ---
 layout: post
 title: Top Resources for Learning Programming and Coding News
-description: '{{ page.excerpt | strip_html }}'
+date: '2016-11-29'
+categories:
+  - Uncategorized
+tags: []
 image: 'tipimage.jpg'
 ---
 

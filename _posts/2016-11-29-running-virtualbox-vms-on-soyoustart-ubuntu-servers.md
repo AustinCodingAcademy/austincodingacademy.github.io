@@ -1,7 +1,11 @@
 ---
 layout: post
 title: Running Virtualbox VMS On Soyoustart Ubuntu Servers
-description: '{{ page.excerpt | strip_html }}'
+date: '2016-11-29'
+categories:
+  - Learn to Code
+  - Advanced
+tags: []
 image: 'ubuntupic.jpg'
 ---
 

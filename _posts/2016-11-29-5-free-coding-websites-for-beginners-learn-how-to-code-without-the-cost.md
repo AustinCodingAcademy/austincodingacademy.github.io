@@ -1,7 +1,10 @@
 ---
 layout: post
 title: 5 Free Coding Websites for Beginners - Learn How to Code without the Cost
-description: '{{ page.excerpt | strip_html }}'
+date: '2016-11-29'
+categories:
+  - Learn to Code
+tags: []
 image: 'bean-bag-working.jpg'
 ---
 

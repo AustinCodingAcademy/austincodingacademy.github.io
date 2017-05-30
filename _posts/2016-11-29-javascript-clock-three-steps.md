@@ -1,8 +1,11 @@
 ---
 layout: post
 title: How To Create a Digital JavaScript Clock In Three Easy Steps
-description: '{{ page.excerpt | strip_html }}'
-image: clock.jpg
+date: '2016-11-29'
+categories:
+  - Uncategorized
+tags: []
+image: 'clock.jpg'
 published: false
 ---
 

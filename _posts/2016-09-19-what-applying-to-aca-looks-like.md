@@ -1,7 +1,10 @@
 ---
 layout: post
 title: What applying to ACA was like for me
-description: '{{ page.excerpt | strip_html }}'
+date: '2016-09-19'
+categories:
+  - Uncategorized
+tags: []
 image: 'technology.jpg'
 published: false
 ---
