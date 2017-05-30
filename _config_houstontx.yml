@@ -45,9 +45,11 @@ classtimes: 6:30pm - 9:00pm
 # Build settings
 announcement: Registration open until July 10th!
 markdown: kramdown
+permalink: blog/:year/:month/:day/:slug/
 
 gems:
   - jekyll-feed
+  - jekyll-redirect-from
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -57,3 +59,4 @@ exclude:
   - README.md
   - circle.yml
   - faviconData.json
+  - npm-debug.log

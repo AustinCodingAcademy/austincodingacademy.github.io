@@ -50,9 +50,11 @@ classtimes: 6:30pm - 9:00pm
 # Build settings
 announcement: North Austin .NET classes begin June 19th!
 markdown: kramdown
+permalink: blog/:year/:month/:day/:slug/
 
 gems:
   - jekyll-feed
+  - jekyll-redirect-from
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -61,3 +63,4 @@ exclude:
   - vendor
   - README.md
   - faviconData.json
+  - npm-debug.log

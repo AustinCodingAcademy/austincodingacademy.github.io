@@ -1,10 +1,7 @@
 ---
 layout: post
 title: Applying Part 2
-date: '2016-11-19'
-categories:
-  - Uncategorized
-tags: []
+description: '{{ page.excerpt | strip_html }}'
 image: 'technology.jpg'
 published: false
 ---

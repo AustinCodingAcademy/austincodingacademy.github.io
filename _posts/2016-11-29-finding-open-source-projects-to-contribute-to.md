@@ -1,10 +1,7 @@
 ---
 layout: post
 title: Finding Open Source Projects to Contribute To In Github
-date: '2016-11-29'
-categories:
-  - Uncategorized
-tags: []
+description: '{{ page.excerpt | strip_html }}'
 image: 'hacker.jpg'
 ---
 

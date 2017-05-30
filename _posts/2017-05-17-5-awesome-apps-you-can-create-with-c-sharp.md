@@ -1,13 +1,10 @@
 ---
 layout: post
 title: 5 Awesome Apps You Can Create with C#
-description: A short introduction to C# and five amazing apps you can build with this technology stack
-date: '2017-5-15'
-categories:
-  - Uncategorized
-tags: []
-image: 'Blog_5_17_17_3.jpg'
-permalink: 'blog/5_awesome_apps_you_can_create_with_c_sharp'
+description: '{{ page.excerpt | strip_html }}'
+image: Blog_5_17_17_3.jpg
+redirect_from:
+  - blog/5_awesome_apps_you_can_create_with_c_sharp
 ---
 
 Curious about what the C# programming language can do? Here is a short introduction to C# and five amazing apps you can build with this technology stack.

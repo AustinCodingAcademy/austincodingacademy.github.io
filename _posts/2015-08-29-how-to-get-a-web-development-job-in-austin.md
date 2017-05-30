@@ -1,10 +1,7 @@
 ---
 layout: post
 title: "5 Ways To Get A Web Development Job In Austin's Tech Industry"
-date: '2015-08-29'
-categories:
-  - Uncategorized
-tags: []
+description: '{{ page.excerpt | strip_html }}'
 image: 'development-job.jpeg'
 ---
 So you want to get a web development job in Austin.

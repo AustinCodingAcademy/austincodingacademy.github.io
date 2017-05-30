@@ -1,10 +1,7 @@
 ---
 layout: post
 title: Making of an Austin Coding Academy Radio Commercial
-date: '2016-11-29'
-categories:
-  - Uncategorized
-tags: []
+description: '{{ page.excerpt | strip_html }}'
 image: 'vintage.jpg'
 published: false
 ---

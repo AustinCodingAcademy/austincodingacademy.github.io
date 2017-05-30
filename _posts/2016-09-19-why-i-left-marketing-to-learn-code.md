@@ -1,12 +1,7 @@
 ---
 layout: post
 title: 'Austin Coding Academy Alumni Spotlight: Luke Stenis'
-date: '2016-09-19'
-categories:
-  - Blog Post
-  - Learn to Code
-  - Industry Insights
-tags: []
+description: '{{ page.excerpt | strip_html }}'
 image: 'lukestennis.jpg'
 ---
 

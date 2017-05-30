@@ -9,7 +9,7 @@
   <!-- OPEN GRAPH TAGS -->
   <meta property="og:title" content="{{ page.title | liquify }}">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="{{ site.url }}{{ page.permalink }}">
+  <meta property="og:url" content="{{ site.url }}{{ page.permalink | liquify}}">
   <meta property="og:image" content="{% if page.image %}{{ site.url }}/assets/images/{{page.image}}{% else %}{{ site.url }}/assets/images/{{site.key}}-logo-white-bg.png{% endif %}">
   <meta property="og:description" content="{{ page.description | liquify }}">
   <meta property="og:site_name" content="{{ site.school }}" />
@@ -22,7 +22,7 @@
   <meta name="twitter:description" content="{{ page.description | liquify }}">
   <meta name="twitter:image" content="{% if page.image %}{{ site.url }}/assets/images/{{page.image}}{% else %}{{ site.url }}/assets/images/{{site.key}}-logo-white-bg.png{% endif %}">
   <!-- CANONICAL LINK -->
-  <link rel="canonical" href="https://austincodingacademy.com/{{page.permalink}}" />
+  <link rel="canonical" href="https://austincodingacademy.com/{{page.permalink | liquify}}" />
 
   {% include favicon.html %}
   {{ page.head | liquify }}
