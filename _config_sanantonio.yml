@@ -37,17 +37,17 @@ color: '#82ca9c'
 map: https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13899.14382366836!2d-98.4946427!3d29.4350517!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865c5f51a21d2429%3A0x89f4c49b30b4ca34!2sSan+Antonio+Coding+Academy!5e0!3m2!1sen!2sus!4v1488738159410
 eventbrite_organizer_id: 12423084089
 eventbrite: https://www.eventbrite.com/o/san-antonio-coding-academy-12423084089
-tracks:
-  - CSharp
+courses:
+  - 101
+  - 221
+  - 321
 classtimes: 6:15pm - 8:45pm
 # Build settings
 announcement: Registration open until Aug 14th!
 markdown: kramdown
-permalink: blog/:year/:month/:day/:slug/
 
 gems:
   - jekyll-feed
-  - jekyll-redirect-from
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -57,4 +57,3 @@ exclude:
   - README.md
   - circle.yml
   - faviconData.json
-  - npm-debug.log

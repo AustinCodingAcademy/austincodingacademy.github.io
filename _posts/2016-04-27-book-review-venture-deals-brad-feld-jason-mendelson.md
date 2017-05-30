@@ -1,7 +1,12 @@
 ---
 layout: post
 title: 'Book Review: Venture Deals By Brad Feld And Jason Mendelson'
-description: '{{ page.excerpt | strip_html }}'
+date: '2016-04-27 19:56:20 -0500'
+categories:
+  - Blog Post
+tags:
+  - Venture Deals
+  - Brad Feld
 image: 'venturedeals.jpg'
 published: false
 ---

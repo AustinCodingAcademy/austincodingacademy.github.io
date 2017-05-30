@@ -1,7 +1,12 @@
 ---
 layout: post
 title: 'Austin Coding Academy Alumni Spotlight: Christa Clark'
-description: '{{ page.excerpt | strip_html }}'
+date: '2016-08-24'
+categories:
+  - Blog Post
+  - Learn to Code
+  - Industry Insights
+tags: []
 image: 'christa-small.jpg'
 ---
 

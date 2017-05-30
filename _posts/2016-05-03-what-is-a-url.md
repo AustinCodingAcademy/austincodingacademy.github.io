@@ -1,7 +1,11 @@
 ---
 layout: post
 title: What is a URL?
-description: '{{ page.excerpt | strip_html }}'
+date: '2016-05-03'
+categories:
+  - Learn to Code
+tags:
+  - url
 image: 'urlimage.jpg'
 published: false
 ---

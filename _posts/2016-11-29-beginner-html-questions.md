@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Top 5 Beginner HTML Questions
-description: '{{ page.excerpt | strip_html }}'
+date: '2016-11-29'
+tags: []
 image: 'html_css.jpg'
 ---
 

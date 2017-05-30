@@ -1,7 +1,12 @@
 ---
 layout: post
 title: 10 Reasons Learning to Code Makes You a Better Designer
-description: '{{ page.excerpt | strip_html }}'
+date: '2016-07-06'
+categories:
+  - Blog Post
+  - Learn to Code
+  - Industry Insights
+tags: []
 image: 'designer.jpeg'
 ---
 

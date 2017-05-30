@@ -1,7 +1,15 @@
 ---
 layout: post
 title: How Websites Work
-description: '{{ page.excerpt | strip_html }}'
+date: '2016-04-27'
+categories:
+  - Learn to Code
+tags:
+  - css
+  - how websites work
+  - html
+  - javascript
+  - website
 image: 'How-Websites-Work-Image.jpg'
 published: false
 ---

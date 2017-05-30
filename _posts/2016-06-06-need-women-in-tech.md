@@ -1,7 +1,11 @@
 ---
 layout: post
 title: Do We Need More Women in Tech?
-description: '{{ page.excerpt | strip_html }}'
+date: '2016-06-06'
+categories:
+  - Blog Post
+  - Industry Insights
+tags: []
 image: 'virtual-reality.jpg'
 ---
 

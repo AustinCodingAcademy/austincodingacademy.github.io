@@ -1,7 +1,10 @@
 ---
 layout: post
 title: Who is Austin Coding Academy
-description: '{{ page.excerpt | strip_html }}'
+date: '2016-08-23'
+categories:
+  - Uncategorized
+tags: []
 image: 'IMG_6268.jpg'
 ---
 
