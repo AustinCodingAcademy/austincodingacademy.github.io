@@ -1,10 +1,7 @@
 ---
 layout: post
 title: "Critical Tips For Content Strategy: Don't Let Them Decide Now!"
-date: '2016-11-29'
-categories:
-  - Uncategorized
-tags: []
+description: '{{ page.excerpt | strip_html }}'
 image: 'lady.jpg'
 ---
 

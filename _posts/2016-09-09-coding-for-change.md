@@ -1,12 +1,7 @@
 ---
 layout: post
 title: 'Austin Coding Academy Alumni Spotlight: Eddie Garcia'
-date: '2016-09-09'
-categories:
-  - Blog Post
-  - Learn to Code
-  - Industry Insights
-tags: []
+description: '{{ page.excerpt | strip_html }}'
 image: 'eddiegarcia.jpg'
 ---
 

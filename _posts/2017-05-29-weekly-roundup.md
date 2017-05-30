@@ -1,16 +1,11 @@
 ---
 layout: post
 title: The Weekly Roundup, 5/29
-description: Upcoming Events Across Texas - Your weekly news and events update from our coding academies
-date: '2017-5-29'
-categories: News Roundup
-tags: []
-image: 'blog-5-29-17-1.jpg'
-permalink: 'blog/weekly-roundup-5-29'
+description: '{{ page.excerpt | strip_html }}'
+image: blog-5-29-17-1.jpg
+redirect_from:
+  - blog/weekly-roundup-5-29
 ---
-
-
-
 Upcoming Events Across Texas -  Your weekly news and events update from our coding academies
 
 
@@ -46,7 +41,7 @@ Upcoming Events Across Texas -  Your weekly news and events update from our codi
   <img style="width:100%;" src="/assets/images/blog-5-29-17-2.png" />
 </div>
 
-### Sat. June 2:
+### Sat. June 3:
 
 ## [Breakfast Panel: Finding Technology Resources on a Budget](https://www.eventbrite.com/e/finding-technology-resources-on-a-budget-tickets-34808188228)
 

@@ -1,11 +1,7 @@
 ---
 layout: post
 title: The Anatomy Of A Good Question
-date: '2016-04-27'
-categories:
-  - Uncategorized
-  - Blog Post
-tags: []
+description: '{{ page.excerpt | strip_html }}'
 image: 'keyboard.jpg'
 ---
 
