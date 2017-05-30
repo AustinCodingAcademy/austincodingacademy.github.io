@@ -185,6 +185,14 @@ h4 small {
   line-height: 1.7;
 }
 
+.lineheightbigger {
+  line-height: 2;
+}
+
+.section-smaller {
+  padding: none !important;
+}
+
 #blog-date {
   min-width: 80px;
   min-height: 60px;
@@ -245,6 +253,35 @@ h4 small {
   background-color: $lighterorange;
 }
 
+#student-life {
+  background-image: url('/assets/images/Class-background-small-overlay.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#loan-petition {
+  background-image: url('/assets/images/asking_for_loan.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#projects, #corporate-reimbursement {
+  background-color: $lightergreen;
+}
+
+#gofundme {
+  background-color: $lighterorange;
+}
+
+.list-style-none {
+  list-style-type: none !important;
+}
+
+.height-50 {
+  height: 50px;
+}
 
 // Media Queries - Tablet
 @media (min-width: 768px) and (max-width: 991px) {
