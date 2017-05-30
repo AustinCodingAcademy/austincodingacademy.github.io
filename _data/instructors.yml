@@ -1,125 +1,115 @@
-- name: Matt Viteri
-  img: /assets/images/luke-stenis-testimonial.png
-  campus: Austin Coding Academy
-  class: 101.1 Intro to Web
-  current_role:
-  current_company:
-  blurb: >
-    "..."
+austin:
+  - name: Matt Viteri
+    img: /assets/images/luke-stenis-testimonial.png
+    class: 101.1 Intro to Web
+    current_role:
+    current_company:
+    blurb: >
+      "..."
 
-- name: Keith Kritselis
-  img: /assets/images/luke-stenis-testimonial.png
-  campus: Austin Coding Academy
-  class: 101.2 Intro to Web
-  current_role:
-  current_company:
-  blurb: >
-    "..."
+  - name: Keith Kritselis
+    img: /assets/images/luke-stenis-testimonial.png
+    class: 101.2 Intro to Web
+    current_role:
+    current_company:
+    blurb: >
+      "..."
 
-- name: Dinh Huynh
-  img: /assets/images/luke-stenis-testimonial.png
-  campus: Austin Coding Academy
-  class: 101.3 Intro to Web
-  current_role:
-  current_company:
-  blurb: >
-    "..."
+  - name: Dinh Huynh
+    img: /assets/images/luke-stenis-testimonial.png
+    class: 101.3 Intro to Web
+    current_role:
+    current_company:
+    blurb: >
+      "..."
 
-- name: Kevin Colten
-  img: /assets/images/luke-stenis-testimonial.png
-  campus: Austin Coding Academy
-  class: 211.1 JavaScript Full Stack
-  current_role: CTO
-  current_company: Austin Coding Academy
-  blurb: >
-    "..."
+  - name: Kevin Colten
+    img: /assets/images/luke-stenis-testimonial.png
+    class: 211.1 JavaScript Full Stack
+    current_role: CTO
+    current_company: Austin Coding Academy
+    blurb: >
+      "..."
 
-- name: Kai Yang
-  img: /assets/images/luke-stenis-testimonial.png
-  campus: Austin Coding Academy
-  class: 211.2 JavaScript Full Stack
-  current_role:
-  current_company:
-  blurb: >
-    "..."
+  - name: Kai Yang
+    img: /assets/images/luke-stenis-testimonial.png
+    class: 211.2 JavaScript Full Stack
+    current_role:
+    current_company:
+    blurb: >
+      "..."
 
-- name: Ivo Meisner
-  img: /assets/images/luke-stenis-testimonial.png
-  campus: Austin Coding Academy
-  class: 311.1 JavaScript Full Stack
-  current_role:
-  current_company:
-  blurb: >
-    "..."
+  - name: Ivo Meisner
+    img: /assets/images/luke-stenis-testimonial.png
+    class: 311.1 JavaScript Full Stack
+    current_role:
+    current_company:
+    blurb: >
+      "..."
 
-- name: Jon Woo
-  img: /assets/images/luke-stenis-testimonial.png
-  campus: Austin Coding Academy
-  class: 311.2 JavaScript Full Stack
-  current_role:
-  current_company:
-  blurb: >
-    "..."
+  - name: Jon Woo
+    img: /assets/images/luke-stenis-testimonial.png
+    class: 311.2 JavaScript Full Stack
+    current_role:
+    current_company:
+    blurb: >
+      "..."
 
-- name: Shane White
-  img: /assets/images/luke-stenis-testimonial.png
-  campus: Dallas Coding Academy
-  class: 101.1 Intro to Web
-  current_role:
-  current_company:
-  blurb: >
-    "..."
+dallas:
+  - name: Shane White
+    img: /assets/images/instructor_shane.jpg
+    class: 101.1 Intro to Web
+    current_role: Founder | Entrepreneur
+    current_company: Midwest Streams
+    blurb: >
+      "I have always been passionate about entrepreneurship. Knowing how to code is like cheating at entrepreneurship. I am passionate about sharing my knowledge of coding with others, so they can have the same advantage that I did."
 
-- name: Thomas Williams
-  img: /assets/images/luke-stenis-testimonial.png
-  campus: Dallas Coding Academy
-  class: 221.1 C# & .NET Full Stack
-  current_role:
-  current_company:
-  blurb: >
-    "..."
+  - name: Thomas Williams
+    img: /assets/images/luke-stenis-testimonial.png
+    class: 221.1 C# & .NET Full Stack
+    current_role:
+    current_company:
+    blurb: >
+      "..."
 
-- name: Greg Harrison
-  img: /assets/images/luke-stenis-testimonial.png
-  campus: Houston Coding Academy
-  class: 101.1 Intro to Web
-  current_role:
-  current_company:
-  blurb: >
-    "..."
+houston:
+  - name: Greg Harrison
+    img: /assets/images/luke-stenis-testimonial.png
+    class: 101.1 Intro to Web
+    current_role:
+    current_company:
+    blurb: >
+      "..."
 
-- name: Todd Wolf
-  img: /assets/images/luke-stenis-testimonial.png
-  campus: Houston Coding Academy
-  class: 221.1 C# & .NET Full Stack
-  current_role:
-  current_company:
-  blurb: >
-    "..."
+  - name: Todd Wolf
+    img: /assets/images/luke-stenis-testimonial.png
+    class: 221.1 C# & .NET Full Stack
+    current_role:
+    current_company:
+    blurb: >
+      "..."
 
-- name: Roberto Navarro
-  img: /assets/images/luke-stenis-testimonial.png
-  campus: San Antonio Coding Academy
-  class: 101.1 Intro to Web
-  current_role:
-  current_company:
-  blurb: >
-    "..."
+sanantonio:
+  - name: Roberto Navarro
+    img: /assets/images/luke-stenis-testimonial.png
+    class: 101.1 Intro to Web
+    current_role:
+    current_company:
+    blurb: >
+      "..."
 
-- name: Carlos Navarro
-  img: /assets/images/luke-stenis-testimonial.png
-  campus: San Antonio Coding Academy
-  class: 221.1 C# & .NET Full Stack
-  current_role:
-  current_company:
-  blurb: >
-    "..."
+  - name: Carlos Navarro
+    img: /assets/images/luke-stenis-testimonial.png
+    class: 221.1 C# & .NET Full Stack
+    current_role:
+    current_company:
+    blurb: >
+      "..."
 
-- name: Curt Arbtin
-  img: /assets/images/luke-stenis-testimonial.png
-  campus: San Antonio Coding Academy
-  class: 321.1 C# & .NET Full Stack
-  current_role:
-  current_company:
-  blurb: >
-    "..."
+  - name: Curt Arbtin
+    img: /assets/images/luke-stenis-testimonial.png
+    class: 321.1 C# & .NET Full Stack
+    current_role:
+    current_company:
+    blurb: >
+      "..."
