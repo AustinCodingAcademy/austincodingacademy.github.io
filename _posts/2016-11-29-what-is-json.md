@@ -1,12 +1,8 @@
 ---
 layout: post
 title: What Is JSON and What Is JSON Used For?
-date: '2016-11-29'
-categories:
-  - Uncategorized
-tags: []
+description: '{{ page.excerpt | strip_html }}'
 image: 'htmlimage.jpg'
-permalink: 'blog/what_is_json_and_what_is_json_used_for'
 ---
 
 Whether you are a front end or back end developer, understanding the purpose and uses of JSON will enable you to easily add stunning functionality to your web applications.

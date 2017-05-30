@@ -1,0 +1,14 @@
+---
+---
+<ul>
+{% for track in site.tracks %}
+  <li>
+    {{ site.data.tracks[track].name }}
+    <ul>
+      {% for course in site.data.tracks[track].courses %}
+      <li>{{site.data.courses[course].name}}</li>
+      {% endfor %}
+    </ul>
+  </li>
+{% endfor %}
+</ul>

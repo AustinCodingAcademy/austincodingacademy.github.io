@@ -37,17 +37,17 @@ color: '#ef472d'
 map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3463.833356252052!2d-95.36796008489169!3d29.753535681989103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640bf3c5af3482b%3A0x7e30e47d069b453b!2s1301+Fannin+St+%232440%2C+Houston%2C+TX+77002!5e0!3m2!1sen!2sus!4v1488738108230
 eventbrite_organizer_id: 13010327216
 eventbrite: https://www.eventbrite.com/o/houstontx-coding-academy-13010327216
-courses:
-  - 101
-  - 221
-  - 321
+tracks:
+  - CSharp
 classtimes: 6:30pm - 9:00pm
 # Build settings
 announcement: Registration open until July 10th!
 markdown: kramdown
+permalink: blog/:year/:month/:day/:slug/
 
 gems:
   - jekyll-feed
+  - jekyll-redirect-from
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -57,3 +57,4 @@ exclude:
   - README.md
   - circle.yml
   - faviconData.json
+  - npm-debug.log

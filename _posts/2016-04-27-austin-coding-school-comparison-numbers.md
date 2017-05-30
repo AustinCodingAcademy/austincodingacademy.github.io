@@ -1,20 +1,7 @@
 ---
 layout: post
 title: Austin Coding School Comparison
-date: '2016-04-27'
-categories:
-  - Learn to Code
-tags:
-  - austin coding academy
-  - austin coding school
-  - bootcamp
-  - coding bootcamp
-  - coding school
-  - dev bootcamp
-  - galvanize
-  - general assembly
-  - makersquare
-  - the iron yard
+description: '{{ page.excerpt | strip_html }}'
 image: 'Austin-Coding-Schools-Comparison.jpg'
 published: false
 
