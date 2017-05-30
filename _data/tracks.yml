@@ -1,0 +1,27 @@
+JavaScript:
+  name: JavaScript Program
+  courses:
+    - 101
+    - 211
+    - 311
+
+CSharp:
+  name: CSharp Program
+  courses:
+    - 101
+    - 221
+    - 321
+
+CSharp_1:
+  name: CSharp Program (North Austin)
+  courses:
+    - 101_1
+    - 221_1
+    - 321_1
+
+WebDesign:
+  name: Web Design Program
+  courses:
+    - 101
+    - 231
+    - 331
