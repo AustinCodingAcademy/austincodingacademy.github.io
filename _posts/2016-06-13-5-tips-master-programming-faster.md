@@ -1,11 +1,7 @@
 ---
 layout: post
 title: 5 Tips to Master Programming Faster
-date: '2016-06-13'
-categories:
-  - Blog Post
-  - Learn to Code
-tags: []
+description: '{{ page.excerpt | strip_html }}'
 image: 'living-room-workstation.jpg'
 ---
 

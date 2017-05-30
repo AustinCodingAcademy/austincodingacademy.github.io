@@ -1,13 +1,7 @@
 ---
 layout: post
 title: What Coding Language Should I Learn First
-date: '2016-04-12'
-categories:
-  - Blog Post
-  - Learn to Code
-tags:
-  - coding language
-  - learn to code
+description: '{{ page.excerpt | strip_html }}'
 image: 'code.jpg'
 ---
 
