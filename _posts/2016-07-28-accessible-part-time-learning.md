@@ -1,11 +1,7 @@
 ---
 layout: post
 title: Part Time Classes - Accessible Learning for Busy People
-date: '2016-07-28'
-categories:
-  - Blog Post
-  - Learn to Code
-tags: []
+description: '{{ page.excerpt | strip_html }}'
 image: 'successparttime.jpg'
 published: false
 ---

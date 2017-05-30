@@ -20,6 +20,7 @@ group :jekyll_plugins do
    gem "jekyll-feed", "~> 0.6"
    gem 'jekyll-paginate'
    # gem 'jekyll-press', :git => 'https://github.com/michaelcurry/jekyll-press.git'
+   gem 'jekyll-redirect-from'
 end
 
 gem 'github-pages'

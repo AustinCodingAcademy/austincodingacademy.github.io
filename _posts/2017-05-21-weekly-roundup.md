@@ -1,13 +1,10 @@
 ---
 layout: post
 title: The Weekly Roundup, 5/21
-description: Upcoming Events Across Texas - Your weekly news and events update from our coding academies
-date: '2017-5-21'
-categories:
-  - Uncategorized
-tags: []
-image: 'blog-5-22-17-1.jpg'
-permalink: 'blog/weekly-roundup-5-21'
+description: '{{ page.excerpt | strip_html }}'
+image: blog-5-22-17-1.jpg
+redirect_from:
+  - blog/weekly-roundup-5-21
 ---
 
 Upcoming Events Across Texas: Your weekly news and events update from our coding academies

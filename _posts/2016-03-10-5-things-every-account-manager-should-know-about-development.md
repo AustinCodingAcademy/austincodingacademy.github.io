@@ -1,13 +1,7 @@
 ---
 layout: post
 title: 5 Things Every Account Manager Should Know About Development
-date: '2016-03-10'
-categories:
-  - Blog Post
-  - Industry Insights
-tags:
-  - account manager
-  - developer
+description: '{{ page.excerpt | strip_html }}'
 image: 'globalisation.jpg'
 ---
 
