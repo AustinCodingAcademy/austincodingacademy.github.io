@@ -245,6 +245,16 @@ h4 small {
   background-color: $lighterorange;
 }
 
+#student-life {
+  background-image: url('/assets/images/Class-background-small-overlay.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#projects {
+  background-color: $lighterred;
+}
 
 // Media Queries - Tablet
 @media (min-width: 768px) and (max-width: 991px) {
