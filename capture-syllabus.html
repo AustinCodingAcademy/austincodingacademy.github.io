@@ -33,6 +33,7 @@ permalink: capture-syllabus
         <div class="form-group">
           <label for="course">Course</label>
           <select class="form-control" id="syllabus-href" name="LEAD_FIELD_37">
+            <option value="" disabled selected>Select Course</option>
             {% for course in site.data.courses %}
             {% if site.courses contains course[0] %}
             <option value="https://student.{{site.key}}codingacademy.com/_book{{course[1].syllabus}}">{{course[1].name}}</option>
