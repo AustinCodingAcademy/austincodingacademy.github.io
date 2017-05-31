@@ -40,6 +40,6 @@ Leaving a stagnant career to learn coding was the best thing Luke says he's ever
 
 
 
-#### **There is a lot to gain from learning how to code**.     [→ Check out our courses today!](href="//www.austincodingacademy.com/courses/)
+#### **There is a lot to gain from learning how to code**. [Check out our courses today!](/courses)
 
-  Learn more about [Austin Coding Academy](href="//www.austincodingacademy.com/)‘s coding program and revamp your career with impressive new skills.
+  Learn more about [our coding program](/) and revamp your career with impressive new skills.

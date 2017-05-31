@@ -15,7 +15,7 @@ By John Steinmetz. See original posting [here](http://blog.wcgworld.com/2013/10/
 ### 1. THE DIFFERENCE BETWEEN A WEBSITE AND A WEB APPLICATION.
 
 
-It is important to understand the difference between a website and a web application. A website is any online digital presence. A web application is any online digital presence driven by an online data source (CMS or other database). Ten years ago, roughly 10% of all websites were data driven web applications. Today, roughly 90% of all websites are data driven applications. You can learn about about this topic at our other post, [The Difference Between a Website and a Web Application](/blog%20post/industry%20insights/2016/02/12/the-difference-between-a-website-and-a-web-application-it-matters.html).
+It is important to understand the difference between a website and a web application. A website is any online digital presence. A web application is any online digital presence driven by an online data source (CMS or other database). Ten years ago, roughly 10% of all websites were data driven web applications. Today, roughly 90% of all websites are data driven applications. You can learn about about this topic at our other post, [The Difference Between a Website and a Web Application](http://johnsteinmetz.net/the-difference-between-a-website-and-a-web-application-it-matters/).
 
 Web applications should have a strong architecture and updates during development should be kept to a minimum. Really good discovery is essential.
 

@@ -26,7 +26,7 @@ As a fledgling techie, you can land your first job by following in the footsteps
 #### When you change jobs or careers, you need your resume to reflect your new career positioning.
 - Summarize your professional skills with three bullet points at the top of your resume.
 - Highlight your greatest achievements and biggest responsibilities at each previous job you’ve held.
-- If you have an eye for design, give it a nice look using [Canva.](https://www.canva.com/)
+- If you have an eye for design, give it a nice look using [Canva](https://www.canva.com/)
 
 
 ## 2. Create Different Resume Versions
@@ -98,7 +98,7 @@ As a fledgling techie, you can land your first job by following in the footsteps
   <img class="img-full" src="/assets/images/blog-5-26-17-4.jpg" />
 </div>
 
-#### Web developers need to work well in a [collaborative environment and know how to contribute to projects meaningfully.](blog/why-our-coding-bootcamp-teaches-you-more-than-just-code) Every recruiter and hiring manager you communicate with will most likely review your Github profile and repos to see how much experience you have with these teamwork-based skills. It’s also a great way to grow your skillsets and projects featured on your portfolio.
+#### Web developers need to work well in a [collaborative environment and know how to contribute to projects meaningfully.](/blog/why-our-coding-bootcamp-teaches-you-more-than-just-code) Every recruiter and hiring manager you communicate with will most likely review your Github profile and repos to see how much experience you have with these teamwork-based skills. It’s also a great way to grow your skillsets and projects featured on your portfolio.
 
 
 ## 14. Spend As Much Time As Possible Per Day Job Searching
