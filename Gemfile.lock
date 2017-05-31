@@ -198,9 +198,10 @@ DEPENDENCIES
   jekyll (= 3.3.1)
   jekyll-feed (~> 0.6)
   jekyll-paginate
+  jekyll-redirect-from
 
 RUBY VERSION
    ruby 2.2.6p396
 
 BUNDLED WITH
-   1.13.7
+   1.14.6

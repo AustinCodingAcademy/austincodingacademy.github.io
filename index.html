@@ -29,7 +29,7 @@ scripts: >
         <h4 class="text-white" style="text-shadow: 1px 1px 14px black;">EDUCATION FOR EVERYONE</h4>
         <div class="row">
           <div class="col-xs-12 col-sm-offset-6 col-sm-3">
-            <a href="https://acaappointment.acuityscheduling.com/schedule.php?appointmentType=1406673" class="btn btn-clear btn-lg btn-block">More Info</a>
+            <a href="https://acaappointment.acuityscheduling.com/schedule.php?appointmentType=1406673" class="text-shadow btn btn-clear btn-lg btn-block">More Info</a>
           </div>
           <div class="col-xs-12 col-sm-3">
             <a href="/apply" class="btn btn-success btn-lg btn-block">Get Started</a>
@@ -68,7 +68,7 @@ scripts: >
     </div>
   </div>
 </section>
-<section class="bg-info">
+<section id="important-dates" class="bg-info">
   {% include important-dates.html %}
 </section>
 <section class="bg-gray-lighter">
@@ -172,19 +172,13 @@ scripts: >
 
 <section>
   <div class="container">
-    <div class="row">
-      <div class="col-xs-12 col-md-6">
-        <h2>
-          <i class="fa fa-calendar"></i> UPCOMING<span class="text-success"> EVENTS</span>
-          <br>
-          <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
-        </h2>
-        <div id="upcoming-events"></div>
-      </div>
-      <div class="col-xs-12 col-md-6">
-        {% include faqs.html %}
-      </div>
-    </div>
+    <h2>
+      <i class="fa fa-calendar"></i> UPCOMING<span class="text-success"> EVENTS</span>
+      <br>
+      <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
+    </h2>
+    <div id="upcoming-events"></div>
+      {% include faqs.html %}
   </div>
 </section>
 <section class="bg-gray-lighter">

@@ -1,11 +1,8 @@
 ---
 layout: post
 title: What the Heck is HTML? An Introduction to HTML
-date: '2016-11-29'
-categories:
-  - Uncategorized
-tags: []
-image: 'html5.jpg'
+date: 2016-11-29
+image: html5.jpg
 published: false
 ---
 

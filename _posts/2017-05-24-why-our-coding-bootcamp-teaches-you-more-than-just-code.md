@@ -1,13 +1,10 @@
 ---
 layout: post
 title: Why Our Coding Bootcamp Teaches You More Than Just Code
-description: Junior web developers who are proficient in these soft skills find success and accelerate their coding career.
-date: '2017-5-24'
-categories:
-  - Uncategorized
-tags: []
-image: 'blog-5-24-17-1.jpg'
-permalink: 'blog/why-out-coding-bootcamp-teaches-you-more-than-just-code'
+description: '{{ page.excerpt | strip_html }}'
+image: blog-5-24-17-1.jpg
+redirect_from:
+  - blog/why-our-coding-bootcamp-teaches-you-more-than-just-code
 ---
 
 Junior web developers who are proficient in these three soft skills find success and accelerate their coding career.

@@ -72,14 +72,16 @@ $(function() {
         // If API call is successful, run the callback funtion
         success: function(response) {
             // Create a list of items from the G.Maps API call, assign to mappedEvents
-            const mappedEvents = response.items.map(function(event) {
+            const mappedEvents = response.items.filter(event => {
+              return event.start && event.start.dateTime;
+            }).map(function(event) {
                 // 'Map' the response items in the list to the following key/value pairs
                 return {
                     "id": event.id,
                     "title": event.summary ? event.summary : "",
                     "url": 'https://calendar.google.com/calendar/event?eid=' + btoa(event.id + ' ' + campusKeys[campusKey].googleCalendarId) + '&ctz=America/Chicago',
                     "class": "event-important",
-                    "start": event.start ? moment.utc(event.start.dateTime).valueOf() : "",
+                    "start": moment.utc(event.start.dateTime).valueOf(),
                     "end": ""
                 }
             });
@@ -113,21 +115,23 @@ $(function() {
     });
     $.ajax('https://www.eventbriteapi.com/v3/organizers/' + campusKeys[campusKey].eventbriteId + '/events/?token=EFX5TSXYKK76RPDJSNBW&only_public=true&order_by=start_asc&start_date.range_start=' + moment.utc().subtract(1,'day').format(), {
       success: function(response) {
-        var $upcomingEvents = $('<div></div>');
+        var $upcomingEvents = $('<div class="row"></div>');
         response.events.slice(0, 7).forEach(function(event) {
           $upcomingEvents.append(`
-            <div class="panel">
-              <div class="panel-body">
-                <img src="${(event.logo) ? event.logo.url : ''}" class="img-responsive" style="width:100% !important;" alt="event image">
-                <div class="media">
-                  ${moment.utc(event.start.local).format('ddd, MMM Do, YYYY h:mma')} - ${moment.utc(event.end.local).format('h:mma')}
-                  <div class="media-body">
-                    <h4 class="media-heading">
-                      <a href="${event.url}" target="_blank">${event.name.html}</a>
-                    </h4>
-                    ${event.description.text.slice(0, 200)}...
-                    <br>
-                    <a href="${event.url}" target="_blank">Read More</a>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="panel">
+                <div class="panel-body">
+                  <img src="${(event.logo) ? event.logo.url : ''}" class="img-responsive" style="width:100% !important;" alt="event image">
+                  <div class="media">
+                    ${moment.utc(event.start.local).format('ddd, MMM Do, YYYY h:mma')} - ${moment.utc(event.end.local).format('h:mma')}
+                    <div class="media-body">
+                      <h4 class="media-heading">
+                        <a href="${event.url}" target="_blank">${event.name.html}</a>
+                      </h4>
+                      ${event.description.text.slice(0, 200)}...
+                      <br>
+                      <a href="${event.url}" target="_blank">Read More</a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -138,5 +142,5 @@ $(function() {
       }
     });
 
-     $('.acronym').text(campusKeys[campusKey].acronym);
+    $('.acronym').text(campusKeys[campusKey].acronym);
 });
