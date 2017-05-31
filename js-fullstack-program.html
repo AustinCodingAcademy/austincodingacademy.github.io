@@ -1,9 +1,6 @@
 ---
 layout: default
-<<<<<<< HEAD
-=======
 permalink: /js-fullstack-program/
->>>>>>> 585666d39a79ca58c48fcc60d611db4dc6e3b18c
 title: JS Fullstack Program | {{ site.school }}
 description: >
   Coding classes for beginners: Learn to code responsive websites, build interactive apps, and become a job-ready web developer at {{site.school}} in just nine months.
@@ -60,17 +57,16 @@ head: >
             <li><a href="#syllabus" class="list-group-item">Syllabus</a></li>
             <li><a href="#projects" class="list-group-item">Projects</a></li>
             <li><a href="#instructors" class="list-group-item">Instructors</a></li>
-            <li><a href="#tuition-dates" class="list-group-item">Tuition & Dates</a></li>
+            <li><a href="#tuition-dates" class="list-group-item">Enrollment Dates</a></li>
             <li><a href="#finance-options" class="list-group-item">Finance Options</a></li>
-            <!-- <li><a href="#campus-tours" class="list-group-item">Campus Tours</a></li> -->
             <li><a href="#faqs" class="list-group-item">FAQ's</a></li>
             <li><a href="/apply" class="list-group-item">APPLY</a></li>
           </ul>
         </div>
       </div>
-      <div class="col-xs-12 col-md-9">
-        <div>
-          <h2 id="overview">BEGIN A CAREER YOU LOVE IN WEB DEVELOPMENT</h2>
+      <div id="overview" class="col-xs-12 col-md-9">
+        <div class="program-values">
+          <h2>BEGIN A CAREER YOU LOVE IN WEB DEVELOPMENT</h2>
           <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
           <h4>Learn and apply the skills you need to start a career in code.</h4>
           <div class="row">
@@ -109,7 +105,7 @@ head: >
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-md-9 col-md-offset-3">
-        <div>
+        <div class="program-values">
           <h2>CAREER SUPPORT</h2>
           <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
           <h4>We provide each of our immersive graduates with access to job readiness training, connections to employers, and opportunities to hone new skills.</h4>
@@ -352,7 +348,15 @@ head: >
 </section> -->
 
 <section id="tuition-dates" class="bg-info">
-  {% include important-dates.html %}
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-9 col-md-offset-3">
+        <div class="program-values">
+          {% include important-dates.html %}
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
 <!-- <section id="tuition-dates">
