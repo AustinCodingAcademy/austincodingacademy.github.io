@@ -41,7 +41,7 @@ Upcoming Events Across Texas -  Your weekly news and events update from our codi
   <img style="width:100%;" src="/assets/images/blog-5-29-17-2.png" />
 </div>
 
-### Sat. June 3:
+### Fri. June 2:
 
 ## [Breakfast Panel: Finding Technology Resources on a Budget](https://www.eventbrite.com/e/finding-technology-resources-on-a-budget-tickets-34808188228)
 
