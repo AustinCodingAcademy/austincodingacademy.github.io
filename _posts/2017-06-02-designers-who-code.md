@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '{{ site.school }} Alumni Spotlight: Gizem Yilmaz'
+title: 'Alumni Spotlight: Gizem Yilmaz'
 description: '{{ page.excerpt | strip_html }}'
 image: 'Gizemimg.jpg'
 published: true
