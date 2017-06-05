@@ -80,7 +80,7 @@ Are there certain characteristics that make you a better web developer than othe
 
 ## A Nose for Business Sense
 
- <div class="col-sm-12">
+<div class="col-sm-12">
   <img class="img-full" src="/assets/images/blog-5-31-17-8.jpg" />
 </div>
 
