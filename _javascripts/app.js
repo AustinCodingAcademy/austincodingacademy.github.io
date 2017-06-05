@@ -108,6 +108,8 @@ $(function() {
             <br />
             ${moment.utc(dates['North Austin']).format('ddd, MMM Do, YYYY')}
           `);
+        } else if (['Dallas', 'Houston'].includes(campusKeys[campusKey].city)) {
+          $('.start-date').html('Soon! <br /> <small>Request a syllabus below to be added to our waiting list.</small>');
         } else {
           $('.start-date').text(moment.utc(dates[campusKeys[campusKey].city]).format('ddd, MMM Do, YYYY'));
         }
