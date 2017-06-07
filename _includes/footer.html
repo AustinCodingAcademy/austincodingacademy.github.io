@@ -72,11 +72,13 @@
             <li style="border-bottom: 1px dashed #777"><h5><a href="/blog" class="link-white">Blog</a></h5></li>
           </ul>
         </div>
-        <div class="col-xs-12 col-md-3">
+        <div class="col-xs-12 col-md-3 align-items-center flex-column">
           <img class="img-responsive" src="/assets/images/{{site.key}}-logo-white.svg" alt="Austin Coding Academy Logo">
           <br>
           <br>
+          {% if site.key == 'austin' or site.key == 'sanantonio' %}
           <a href="/apply" class="btn btn-success btn-block">APPLY NOW</a>
+          {% endif %}
           <br>
         </div>
       </div>

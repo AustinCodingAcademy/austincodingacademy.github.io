@@ -259,7 +259,7 @@ lenders:
 <section>
   <div class="container">
     <div class="row">
-      <div class="col-xs-12 col-md-6">
+      <div class="col-xs-12">
         <h2>
           <i class="fa fa-calendar"></i> UPCOMING<span class="text-success"> EVENTS</span>
           <br>
@@ -267,7 +267,9 @@ lenders:
         </h2>
         <div id="upcoming-events"></div>
       </div>
-      <div class="col-xs-12 col-md-6">
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
         <h2 id="lending">
           Lending <span class="text-success">Agencies</span>
           <br>
@@ -282,9 +284,9 @@ lenders:
           loan programs may be available to you, there is no agreement in
           place between {{site.school}} and these organizations.
         </p>
-        <ul class="list-unstyled">
+        <ul class="list-unstyled justify-content-space-between flex-wrap">
           {% for lender in page.lenders %}
-          <li><h4><a href="{{lender.href}}">{{lender.name}}</a></h4></li>
+          <li style="min-width: 200px"><h4><a href="{{lender.href}}">{{lender.name}}</a></h4></li>
           {% endfor %}
         </ul>
       </div>

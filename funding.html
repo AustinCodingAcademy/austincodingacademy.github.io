@@ -59,7 +59,9 @@ head: >
             <li><a href="#payment-plans" class="list-group-item">Payment Plans</a></li>
             <li><a href="#lending-agencies" class="list-group-item">Lending Agencies</a></li>
             <li><a href="#faqs" class="list-group-item">FAQ's</a></li>
+            {% if site.key == 'austin' or site.key == 'sanantonio' %}
             <li><a href="/apply" class="list-group-item">APPLY</a></li>
+            {% endif %}
           </ul>
         </div>
       </div>

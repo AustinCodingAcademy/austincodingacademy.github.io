@@ -32,7 +32,9 @@ scripts: >
             <a href="https://acaappointment.acuityscheduling.com/schedule.php?appointmentType=1406673" class="text-shadow btn btn-clear btn-lg btn-block">More Info</a>
           </div>
           <div class="col-xs-12 col-sm-3">
+            {% if site.key == 'austin' or site.key == 'sanantonio' %}
             <a href="/apply" class="btn btn-success btn-lg btn-block">Get Started</a>
+            {% endif %}
           </div>
         </div>
       </div>
