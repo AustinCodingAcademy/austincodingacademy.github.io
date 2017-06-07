@@ -60,7 +60,9 @@ head: >
             <li><a href="#tuition-dates" class="list-group-item">Enrollment Dates</a></li>
             <li><a href="#finance-options" class="list-group-item">Finance Options</a></li>
             <li><a href="#faqs" class="list-group-item">FAQ's</a></li>
+            {% if site.key == 'austin' or site.key == 'sanantonio' %}
             <li><a href="/apply" class="list-group-item">APPLY</a></li>
+            {% endif %}
           </ul>
         </div>
       </div>
