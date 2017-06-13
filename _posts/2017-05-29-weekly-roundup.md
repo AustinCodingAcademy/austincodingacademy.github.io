@@ -95,8 +95,7 @@ Upcoming Events Across Texas -  Your weekly news and events update from our codi
 
 ## [New North Austin Open House](https://www.eventbrite.com/e/austin-coding-academy-open-house-tickets-34369733799)
 
-#### Visit our new location at [Tech Ranch](https://techranchaustin.com/), north Austin’s hub for entrepreneurship, and learn about the resources we provide students in our part-time classes and the unique C# and .Net curriculum we’ll be teaching. [RSVP](https://www.eventbrite.com/e/bot-what-you-got-create-a-chatbot-for-business-marketing-and-fun-tickets-33913689759?aff=erelexpmlt)
-
+#### Visit our new location at [Tech Ranch](https://techranchaustin.com/), north Austin’s hub for entrepreneurship, and learn about the resources we provide students in our part-time classes and the unique C# and .Net curriculum we’ll be teaching. 
 ---
 
 
