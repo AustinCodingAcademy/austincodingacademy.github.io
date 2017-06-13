@@ -101,17 +101,6 @@ Upcoming Events Across Texas -  Your weekly news and events update from our codi
 
 
 
-<div class="col-sm-5">
-  <img style="width:100%;" src="/assets/images/blog-5-22-17-4.png" />
-</div>
-
-
-### Sat. June 25
-
-## [Chatbot Workshop for All!](https://www.eventbrite.com/e/bot-what-you-got-create-a-chatbot-for-business-marketing-and-fun-tickets-33913689759?aff=erelexpmlt)
-
-#### Have you ever gone to a site and chatted with a robot in place of a customer service representative? We want to teach you how to build that! Learn how to make an automated chat system: the future of human-machine interactions. [RSVP](https://www.eventbrite.com/e/bot-what-you-got-create-a-chatbot-for-business-marketing-and-fun-tickets-33913689759?aff=erelexpmlt)
-
 
 
 ---
