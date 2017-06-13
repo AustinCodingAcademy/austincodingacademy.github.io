@@ -72,8 +72,6 @@ talking_points:
 lenders:
   - name: WeFinance
     href: https://www.wefinance.co/
-  - name: Climb
-    href: https://climbcredit.com/
   - name: Upstart
     href: https://www.upstart.com/
   - name: Pave
@@ -220,7 +218,7 @@ lenders:
       <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
     </h2>
     <div class="row text-center">
-      <div class="col-xs-12 col-sm-6 col-md-4">
+      <div class="col-xs-12 col-sm-6">
         <i class="text-success fa fa-smile-o fa-3x"></i>
         <h3>WEFINANCE</h3>
         <p class="font_17">
@@ -229,18 +227,7 @@ lenders:
           Some of our students have had success using <a style="text-decoration:underline;" href="https://www.wefinance.co/">WeFinance</a>.
         </p>
       </div>
-      <div class="col-xs-12 col-sm-6 col-md-4">
-        <i class="text-success fa fa-smile-o fa-3x"></i>
-        <h3>PAYMENT PLANS</h3>
-        <p class="font_17">
-          We proudly offer 10 week payment plans. Students will be expected to make the minimum deposit
-          of $490.00 to secure a spot on the roster and make monthly payments. Full tuition will be due
-          by the end of the 10 weeks of instruction.
-          <br>
-          <a style="text-decoration:underline;" href="/apply">Fill out an application to set up a plan</a>.
-        </p>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4">
+      <div class="col-xs-12 col-sm-6">
         <i class="text-success fa fa-smile-o fa-3x"></i>
         <h3>CORPORATE FUNDING</h3>
         <p class="font_17">
@@ -257,7 +244,7 @@ lenders:
 <section>
   <div class="container">
     <div class="row">
-      <div class="col-xs-12 col-md-6">
+      <div class="col-xs-12">
         <h2>
           <i class="fa fa-calendar"></i> UPCOMING<span class="text-success"> EVENTS</span>
           <br>
@@ -265,7 +252,9 @@ lenders:
         </h2>
         <div id="upcoming-events"></div>
       </div>
-      <div class="col-xs-12 col-md-6">
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
         <h2 id="lending">
           Lending <span class="text-success">Agencies</span>
           <br>
@@ -280,9 +269,9 @@ lenders:
           loan programs may be available to you, there is no agreement in
           place between {{site.school}} and these organizations.
         </p>
-        <ul class="list-unstyled">
+        <ul class="list-unstyled justify-content-space-between flex-wrap">
           {% for lender in page.lenders %}
-          <li><h4><a href="{{lender.href}}">{{lender.name}}</a></h4></li>
+          <li style="min-width: 200px"><h4><a href="{{lender.href}}">{{lender.name}}</a></h4></li>
           {% endfor %}
         </ul>
       </div>

@@ -1,11 +1,11 @@
 <div class="slick-carousel">
   {% for review in site.data.reviews %}
-  <div class="review media align-items-center hidden">
-    <div class="media-left media-middle">
-      <img class="media-object" src="{{review.img}}" alt="{{review.name}}" style="max-width: 150px; max-height: 150px;">
+  <div class="row hidden">
+    <div class="col-xs-12 col-md-2 justify-content-center">
+      <img src="{{review.img}}" alt="{{review.name}}" class="img-responsive" style="border-radius: 65px; max-height:130px">
     </div>
-    <div id="review-body" class="media-body">
-      <h4 class="media-heading">
+    <div class="col-xs-12 col-md-10">
+      <h4 id="review-body">
         {{review.review}}
         <br />
         <br />

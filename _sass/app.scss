@@ -225,6 +225,11 @@ h4 small {
 
 .btn-clear {
   border: 2px solid $brand-success;
+  text-shadow: black 1px 1px 4px;
+  &:hover {
+    border: 2px solid darken($brand-success, 15%);
+    color: darken($brand-success, 15%) !important;
+  }
 }
 
 .bkgd-color-lite-blue {

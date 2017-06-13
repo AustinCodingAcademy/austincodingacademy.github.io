@@ -27,6 +27,7 @@ scripts: >
           <h3 class="margin-0 display-inline">{{site.header}}</h2>
         </div>
         <h4 class="text-white" style="text-shadow: 1px 1px 14px black;">EDUCATION FOR EVERYONE</h4>
+        {% if site.key == 'austin' or site.key == 'sanantonio' %}
         <div class="row">
           <div class="col-xs-12 col-sm-offset-6 col-sm-3">
             <a href="https://acaappointment.acuityscheduling.com/schedule.php?appointmentType=1406673" class="text-shadow btn btn-clear btn-lg btn-block">More Info</a>
@@ -35,6 +36,7 @@ scripts: >
             <a href="/apply" class="btn btn-success btn-lg btn-block">Get Started</a>
           </div>
         </div>
+        {% endif %}
       </div>
     </div>
   </div>
