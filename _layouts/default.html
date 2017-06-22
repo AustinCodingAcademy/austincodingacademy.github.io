@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <!-- TAG MANAGERS -->
-  {% include google-tag-manager.html %}
+  {% include google-analytics.html %}
   {% include facebook-pixel.html %}
   <!-- PAGE TITLE -->
   <title>{{ page.title | liquify }}</title>
@@ -40,7 +40,6 @@
   <meta name="campuskey" content="{{ site.key }}">
 </head>
 <body>
-  {% include google-tag-manager-noscript.html %}
   {% include header.html %}
   <main>
     {{ content }}

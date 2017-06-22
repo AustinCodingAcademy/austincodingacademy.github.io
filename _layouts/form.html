@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    {% include google-tag-manager.html %}
+    {% include google-analytics.html %}
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" href="/assets/stylesheets/{{ site.key | liquify }}.css">
@@ -9,7 +9,6 @@
     <meta name="campuskey" content="{{ site.key }}">
   </head>
   <body>
-    {% include google-tag-manager-noscript.html %}
     {{ content }}
     <script type="text/javascript" src="/assets/javascripts/app.js"></script>
     <script>
@@ -17,11 +16,18 @@
       $('form').resize(function() {
         parent.postMessage('resized-' + window.location.search.slice(4) + '-' + $(this).height(), '*');
       });
-      $('form').submit(function() {
-        parent.postMessage('captured-' + window.location.search.slice(4), '*');
-        if ($('#syllabus-href').val()) {
-          parent.postMessage('redirect-' + window.location.search.slice(4) + ':split:' + $('#syllabus-href').val(), '*');
-        }
+      $('form').submit(function(e) {
+        e.preventDefault();
+        ga('send', 'event', {
+          eventCategory: 'Forms',
+          eventAction: 'Submit',
+          eventLabel: $(this).attr('id'),
+          hitCallback: function() {
+            $(this).submit(function() {
+              parent.postMessage('captured-' + window.location.search.slice(4), '*');
+            });
+          }
+        });
       });
     </script>
   </body>
