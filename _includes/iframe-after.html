@@ -10,10 +10,5 @@
     if (typeof e.data === 'string' && e.data.indexOf('resized-{{ include.id }}') > -1) {
       document.getElementById('ratio-{{ include.id }}').setAttribute('style', 'min-height: ' + e.data.split('-')[e.data.split('-').length - 1] + 'px');
     }
-
-    // if (typeof e.data === 'string' && e.data.indexOf('redirect-{{ include.id }}') > -1) {
-    //   var win = window.open(e.data.split(':split:')[e.data.split(':split:').length - 1], '_blank');
-    //   win.focus();
-    // }
   });
 </script>
