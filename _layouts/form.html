@@ -21,13 +21,15 @@
         ga('send', 'event', {
           eventCategory: 'Forms',
           eventAction: 'Submit',
-          eventLabel: $(this).attr('id'),
-          hitCallback: function() {
-            $(this).submit(function() {
-              parent.postMessage('captured-' + window.location.search.slice(4), '*');
-            });
-          }
+          eventLabel: $(this).attr('id')
         });
+        var that = this;
+        setTimeout(function() {
+          that.submit();
+          setTimeout(function() {
+            parent.postMessage('captured-' + window.location.search.slice(4), '*');
+          }, 500);
+        }, 1000);
       });
     </script>
   </body>
