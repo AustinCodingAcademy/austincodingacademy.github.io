@@ -5,7 +5,6 @@ title: Apply Now | Learn How To Code At {{site.school}}
 description: >
   Apply now. Complete and submit your {{site.school}} application. Take the first step toward a new career in web development.
 ---
-{% if site.key == 'austin' or site.key == 'sanantonio' %}
 <section>
   <div class="container text-center">
     <div class="row">
@@ -24,8 +23,3 @@ description: >
     {% include application-iframe.html form="application.html" id="application" %}
   </div>
 </section>
-{% else %}
-  <script>
-  window.location = "https://{{site.key}}codingacademy.com";
-  </script>
-{% endif %}
