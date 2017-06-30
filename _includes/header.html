@@ -3,13 +3,11 @@
   <!-- TOPMOST NAV - LOCATIONS, EMAIL LINK, PHONE LINK   -->
     <div id="top_nav" style="padding:0" class="container-fluid well well-sm border-0 bg-gray-lighter">
       {% if site.announcement %}
-      {% if site.key == 'austin' or site.key == 'sanantonio' %}
       <div id="top-left-banner" class="pull-left">
         <div style="padding: 12px; padding-left:20px; font-size: 16px;">
           <a href="/apply" class="link-primary">{{ site.announcement }}</a>
         </div>
       </div>
-      {% endif %}
       {% endif %}
       <div id="top-right-banner" class="pull-right">
         <div style="padding: 12px; padding-right:20px; font-size: 16px;">
@@ -48,9 +46,7 @@
               <li><a href="/instructor-apply">Join the Team</a></li>
             </ul>
           </li>
-          {% if site.key == 'austin' or site.key == 'sanantonio' %}
           <li><a href="/apply" class="btn btn-success">APPLY</a></li>
-          {% endif %}
           <li><a target="_blank" href="https://campus.austincodingacademy.com/login">Sign In</a></li>
         </ul>
       </div>
