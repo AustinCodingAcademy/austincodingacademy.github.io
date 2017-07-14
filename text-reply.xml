@@ -1,0 +1,7 @@
+---
+---
+<Response>
+  <Sms>
+    Thank you for your feedback! Please reply with any additional feedback, or, for additional assistance, please call or text {{site.phone}} or email us at {{site.email}}
+  </Sms>
+</Response>
