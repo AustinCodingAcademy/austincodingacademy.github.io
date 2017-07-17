@@ -1,0 +1,11 @@
+---
+---
+<Response>
+  <Say voice="alice">
+    For any assistance please call or text {{site.phone}} or email us at {{site.email}}
+  </Say>
+  <Pause length="1"/>
+  <Say voice="alice">
+    Thank you.
+  </Say>
+</Response>
