@@ -26,10 +26,8 @@
         });
         var that = this;
         setTimeout(function() {
+          parent.postMessage('captured-' + window.location.search.slice(4), '*');
           that.submit();
-          setTimeout(function() {
-            parent.postMessage('captured-' + window.location.search.slice(4), '*');
-          }, 500);
         }, 1000);
       });
     </script>
