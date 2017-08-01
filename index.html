@@ -199,21 +199,24 @@ head: >
   {% include companies.html %}
 </section>
 <script type="application/ld+json">
-[
-{% for course in site.data.courses %}
-{% if site.courses contains course[0] %}
-{
-  "@context": "http://schema.org",
-  "@type": "Course",
-  "name": "{{course[1].name}}",
-  "description": "{{course[1].summary}}",
-  "provider": {
-    "@type": "Organization",
-    "name": "{{site.school}}",
-    "sameAs": "{{site.url}}"
+{% assign comma = '' %}
+  [
+  {% for course in site.data.courses %}
+  {% if site.courses contains course[0] %}
+  {{ comma }}
+  {
+    "@context": "http://schema.org",
+    "@type": "Course",
+    "name": "{{course[1].name}}",
+    "description": "{{course[1].summary}}",
+    "provider": {
+      "@type": "Organization",
+      "name": "{{site.school}}",
+      "sameAs": "{{site.url}}"
+    }
   }
-},
-{% endif %}
-{% endfor %}
+  {% assign comma = ',' %}
+  {% endif %}
+  {% endfor %}
 ]
 </script>
