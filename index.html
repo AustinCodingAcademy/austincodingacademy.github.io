@@ -13,10 +13,6 @@ head: >
       background-position: center;
     }
   </style>
-scripts: >
-  <script type="text/javascript">
-
-  </script>
 ---
 <section style="border-bottom: 10px solid {{site.color}}">
   <div class="container">
@@ -202,3 +198,22 @@ scripts: >
 <section class="bg-gray-lighter">
   {% include companies.html %}
 </section>
+<script type="application/ld+json">
+[
+{% for course in site.data.courses %}
+{% if site.courses contains course[0] %}
+{
+  "@context": "http://schema.org",
+  "@type": "Course",
+  "name": "{{course[1].name}}",
+  "description": "{{course[1].summary}}",
+  "provider": {
+    "@type": "Organization",
+    "name": "{{site.school}}",
+    "sameAs": "{{site.url}}"
+  }
+},
+{% endif %}
+{% endfor %}
+]
+</script>
