@@ -44,7 +44,7 @@ tracks:
   - CSharp
 classtimes: 6:15pm - 8:45pm
 # Build settings
-announcement: Registration open until Aug 14th!
+announcement: Registration open until Sept 19th!
 markdown: kramdown
 permalink: blog/:year/:month/:day/:slug/
 
