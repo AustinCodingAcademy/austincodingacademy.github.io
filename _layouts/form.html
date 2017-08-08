@@ -25,9 +25,9 @@
           eventAction: 'Submit',
           eventLabel: $(this).attr('id')
         });
-        fbq('track', 'Form Submit', {
+        fbq('trackCustom', 'Form Submit', {
           form: $(this).attr('id'),
-          city: {{ site.city }}
+          city: '{{ site.city }}'
         });
         if ($(this).attr('id') === 'application') {
           fbq('track', 'Lead', {
