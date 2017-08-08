@@ -24,6 +24,12 @@
           eventAction: 'Submit',
           eventLabel: $(this).attr('id')
         });
+        if ($(this).attr('id') === 'application') {
+          fbq('track', 'Lead', {
+            value: 10.00,
+            currency: 'USD'
+          });
+        }
         var that = this;
         setTimeout(function() {
           parent.postMessage('captured-' + window.location.search.slice(4), '*');
