@@ -315,3 +315,25 @@ h4 small {
     margin-bottom: 40px;
   }
 }
+
+.jumbo {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.card {
+  box-shadow: 0px 2px 25px #cccccc;
+  padding: 10px;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+.hexagon {
+  -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0 100%, 0% 25%);
+  clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0 100%, 0% 25%);
+  width: 280px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}

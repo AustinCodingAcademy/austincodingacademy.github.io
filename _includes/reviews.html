@@ -1,11 +1,11 @@
-<div class="slick-carousel">
+<div class="slick-carousel" data-dots="false">
   {% for review in site.data.reviews %}
-  <div class="row hidden">
-    <div class="col-xs-12 col-md-2 justify-content-center">
+  <div class="row hidden row-eq">
+    <div class="col-xs-12 col-md-2 justify-content-center equalizer">
       <img src="{{review.img}}" alt="{{review.name}}" class="img-responsive" style="border-radius: 65px; max-height:130px">
     </div>
     <div class="col-xs-12 col-md-10">
-      <h4 id="review-body">
+      <h4 id="review-body" class="equalizer">
         {{review.review}}
         <br />
         <br />
