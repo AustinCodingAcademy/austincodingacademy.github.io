@@ -19,15 +19,38 @@
         parent.postMessage('resized-' + window.location.search.slice(4) + '-' + $(this).height(), '*');
       });
       $('form').submit(function(e) {
+        var form = $(this).attr('id');
+        var userData = {
+          em: $(this).find('[id="insightly_Email"]'),
+          ph: $(this).find('[id="insightly_Phone"]'),
+          fn: $(this).find('[id="insightly_firstName"]'),
+          ln: $(this).find('[id="insightly_lastName"]'),
+          ct: $(this).find('[id="insightly_AddressCity"]'),
+          st: $(this).find('[id="insightly_Phone"]'),
+          zp: $(this).find('[id="insightly_Phone"]'),
+          ge: $(this).find('[id="insightly_Phone"]'),
+        }
         e.preventDefault();
         ga('send', 'event', {
           eventCategory: 'Forms',
           eventAction: 'Submit',
-          eventLabel: $(this).attr('id')
+          eventLabel: form
         });
+        Cookies.set('austincodingacademy', Object.assign(
+          JSON.parse(Cookies.get('austincodingacademy')), {
+            em:
+            ph:
+            fn:
+            ln:
+            ct:
+            st:
+            zp:
+            ge:
+          }
+        ))
         fbq('trackCustom', 'Form Submit', {
-          form: $(this).attr('id'),
-          city: '{{ site.city }}'
+          form: form,
+          city: {{ site.city }}
         });
         if ($(this).attr('id') === 'application') {
           fbq('track', 'Lead', {
