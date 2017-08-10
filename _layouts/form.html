@@ -67,20 +67,20 @@
           requestUserData.push([ key, userData[key] ]);
         });
 
-        function queryParamater(str, param) {
-          return `${str}[${param[0]}]=${shajs('sha256').update(param[1]).digest('hex')}`
+        function queryParamater(str, param, hash) {
+          return `${str}[${param[0]}]=${hash ? shajs('sha256').update(param[1]).digest('hex') : param[1]}`
         }
 
         requestUserData = requestUserData.map(datum => {
-          return queryParamater('ud', datum);
+          return queryParamater('ud', datum, true);
         }).join('&');
 
         var formSubmitData = [[ 'form', form ], ['city', '{{ site.city }}']].map(datum => {
-          return queryParamater('cd', datum);
+          return queryParamater('cd', datum, false);
         }).join('&');
 
         var leadData = [['value', 1.00], ['currency', 'USD']].map(datum => {
-          return queryParamater('cd', datum);
+          return queryParamater('cd', datum, false);
         }).join('&');
 
         function addImage(event, eventData) {
