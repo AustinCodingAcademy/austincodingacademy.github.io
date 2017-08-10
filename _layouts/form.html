@@ -75,7 +75,7 @@
           return queryParamater('ud', datum, true);
         }).join('&');
 
-        var formSubmitData = [[ 'form', form ], ['city', '{{ site.city }}']].map(datum => {
+        var formSubmitData = [[ 'form', form ], ['city', '{{ site.key }}']].map(datum => {
           return queryParamater('cd', datum, false);
         }).join('&');
 
