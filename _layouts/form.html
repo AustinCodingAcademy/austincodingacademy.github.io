@@ -20,26 +20,88 @@
       });
       $('form').submit(function(e) {
         e.preventDefault();
+        var form = $(this).attr('id');
+        var $this = $(this);
+        var em = $this.find('#insightly_Email').val();
+        var ph = $this.find('#insightly_Phone').val();
+        var fn = $this.find('#insightly_firstName').val();
+        var ln = $this.find('#insightly_lastName').val();
+        var ct = $this.find('#insightly_AddressCity').val();
+        var st = $this.find('#insightly_AddressState').val();
+        var zp = $this.find('#insightly_AddressPostalCode').val();
+        var db = $this.find('#insightly_LEAD_FIELD_54').val();
+        var ge = $this.find('#insightly_LEAD_FIELD_41').val();
+        var newUserData = {
+          em: em ? em.toLowerCase() : '',
+          ph: ph ? `1${ph.split('').filter(char => !isNaN(char)).join('')}` : '',
+          fn: fn ? fn.split(' ').join('').toLowerCase() : '',
+          ln: ln ? ln.split(' ').join('').toLowerCase() : '',
+          ct: ct ? ct.split(' ').join('').toLowerCase() : '',
+          st: st ? st.toLowerCase() : '',
+          zp: zp ? zp : '',
+          db: db ? `${db.split('/')[2]}${db.split('/')[0]}${db.split('/')[1]}` : '',
+          ge: ge ? (ge.includes('f') ? 'f' : (ge.includes('m') ? 'm' : '')) : ''
+        }
+
         ga('send', 'event', {
           eventCategory: 'Forms',
           eventAction: 'Submit',
-          eventLabel: $(this).attr('id')
+          eventLabel: form
         });
-        fbq('track', 'Form Submit', {
-          form: $(this).attr('id'),
-          city: {{ site.city }}
+
+        var filteredUserData = {};
+
+        Object.keys(newUserData).forEach(key => {
+          if (newUserData[key]) filteredUserData[key] = newUserData[key];
         });
-        if ($(this).attr('id') === 'application') {
-          fbq('track', 'Lead', {
-            value: 1.00,
-            currency: 'USD'
-          });
+
+        Cookies.set('austincodingacademy', Object.assign(
+          JSON.parse(Cookies.get('austincodingacademy') || '{}'),
+          filteredUserData
+        ));
+
+        var userData = JSON.parse(Cookies.get('austincodingacademy') || '{}');
+
+        var requestUserData = [];
+        Object.keys(userData).forEach(key => {
+          requestUserData.push([ key, userData[key] ]);
+        });
+
+        function queryParamater(str, param, hash) {
+          return `${str}[${param[0]}]=${hash ? shajs('sha256').update(param[1]).digest('hex') : param[1]}`
         }
+
+        requestUserData = requestUserData.map(datum => {
+          return queryParamater('ud', datum, true);
+        }).join('&');
+
+        var formSubmitData = [[ 'form', form ], ['city', '{{ site.key }}']].map(datum => {
+          return queryParamater('cd', datum, false);
+        }).join('&');
+
+        var leadData = [['value', 1.00], ['currency', 'USD']].map(datum => {
+          return queryParamater('cd', datum, false);
+        }).join('&');
+
+        function addImage(event, eventData) {
+          var img = document.createElement('img');
+          img.height = 1;
+          img.width = 1;
+          img.style = "display:none";
+          img.src = `https://www.facebook.com/tr/?id={{ site.pixel_id }}&ev=${event}&${eventData}&${requestUserData}`;
+          document.querySelector('body').appendChild(img);
+        }
+
+        addImage('FormSubmit', formSubmitData);
+        if ($(this).attr('id') === 'application') {
+          addImage('Lead', leadData);
+        }
+
         var that = this;
         setTimeout(function() {
           parent.postMessage('captured-' + window.location.search.slice(4), '*');
           that.submit();
-        }, 1000);
+        }, 1500);
       });
     </script>
   </body>

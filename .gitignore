@@ -4,7 +4,10 @@ _site
 node_modules
 assets/images
 assets/javascripts
-assets/stylesheets
+
+assets/stylesheets/*
+!assets/stylesheets/images
+
 assets/favicons
 _includes/stylesheets
 _includes/favicon.html

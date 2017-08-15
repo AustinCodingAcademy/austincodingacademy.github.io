@@ -83,12 +83,15 @@
     "exorcist": "^0.4.0",
     "font-awesome": "^4.7.0",
     "imagemin-cli": "^3.0.0",
+    "intl-tel-input": "^12.0.1",
     "javascript-detect-element-resize": "^0.5.3",
     "jquery": "^3.1.1",
     "jquery-match-height": "^0.7.2",
+    "jquery-ui": "^1.12.1",
     "moment": "^2.17.1",
     "node-sass": "^4.3.0",
     "pygments-rouge-css": "^0.1.0",
+    "sha.js": "^2.4.8",
     "slick-carousel": "^1.6.0",
     "uglifyify": "^3.0.4",
     "underscore": "^1.8.3"
@@ -106,7 +109,8 @@
     "bootstrap.tab": "./node_modules/bootstrap-sass/assets/javascripts/bootstrap/tab.js",
     "bootstrap.tooltip": "./node_modules/bootstrap-sass/assets/javascripts/bootstrap/tooltip.js",
     "bootstrap.transition": "./node_modules/bootstrap-sass/assets/javascripts/bootstrap/transition.js",
-    "jquery.resize.js": "./node_modules/javascript-detect-element-resize/jquery.resize.js"
+    "jquery.resize.js": "./node_modules/javascript-detect-element-resize/jquery.resize.js",
+    "jquery-ui.datepicker": "./node_modules/jquery-ui/ui/widgets/datepicker.js"
   },
   "devDependencies": {
     "cli-real-favicon": "0.0.6",

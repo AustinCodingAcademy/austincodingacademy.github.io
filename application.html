@@ -19,11 +19,15 @@ permalink: application.html
   </div>
   <div class="form-group">
     <label for="email">Email: </label>
-    <input class="form-control" id="insightly_Email" name="email" type="text" required />
+    <input class="form-control" id="insightly_Email" name="email" type="text" required pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" />
   </div>
   <div class="form-group">
     <label for="phone">Phone: </label>
-    <input class="form-control" id="insightly_Phone" name="phone" type="text" required />
+    <input class="form-control" id="insightly_Phone" name="phone" type="text" required pattern="^\(?\d{3}\)? ?\d{3}[\-]\d{4}$" />
+  </div>
+  <div class="form-group">
+    <label for="insightly_LEAD_FIELD_54">Date of Birth: </label>
+    <input class="form-control datepicker" id="insightly_LEAD_FIELD_54" name="LEAD_FIELD_54" type="text" required placeholder="ex: 01/01/2001" />
   </div>
   <div class="form-group">
     <label for="insightly_LEAD_FIELD_1">Which course are you applying for? </label>
@@ -37,8 +41,16 @@ permalink: application.html
     </select>
   </div>
   <div class="form-group">
-    <label for="iinsightly_AddressCity">Current City </label>
+    <label for="insightly_AddressCity">City </label>
     <input class="form-control" id="insightly_AddressCity" name="AddressCity" type="text" required />
+  </div>
+  <div class="form-group">
+    <label for="insightly_AddressState">State </label>
+    <input class="form-control" id="insightly_AddressState" name="AddressState" type="text" placeholder="ex: TX" required pattern="^(A[LKSZRAEP]|C[AOT]|D[EC]|F[LM]|G[AU]|HI|I[ADLN]|K[SY]|LA|M[ADEHINOPST]|N[CDEHJMVY]|O[HKR]|P[ARW]|RI|S[CD]|T[NX]|UT|V[AIT]|W[AIVY])$"/>
+  </div>
+  <div class="form-group">
+    <label for="insightly_AddressPostalCode">Zipcode </label>
+    <input class="form-control" id="insightly_AddressPostalCode" name="AddressPostCode" placeholder="ex: 78701" type="text" required pattern="^\d{5}$"/>
   </div>
   <div class="form-group">
     <label for="insightly_LEAD_FIELD_3">College or School Attended </label>
@@ -133,15 +145,15 @@ permalink: application.html
   <br />
   <br />
   <div class="form-group">
-    <label for="insightly_LEAD_FIELD_39">Race [ Optional ]</label>
+    <label for="insightly_LEAD_FIELD_39">Race <small>(Optional)</small></label>
     <input class="form-control" id="insightly_LEAD_FIELD_39" name="LEAD_FIELD_39" type="text" />
   </div>
   <div class="form-group">
-    <label for="insightly_LEAD_FIELD_40">Ethnicity [ Optional ]</label>
+    <label for="insightly_LEAD_FIELD_40">Ethnicity <small>(Optional)</small></label>
     <input class="form-control" id="insightly_LEAD_FIELD_40" name="LEAD_FIELD_40" type="text" />
   </div>
   <div class="form-group">
-    <label for="insightly_LEAD_FIELD_41">Gender [ Optional ]</label>
+    <label for="insightly_LEAD_FIELD_41">Gender <small>(Optional)</small></label>
     <input class="form-control" id="insightly_LEAD_FIELD_41" name="LEAD_FIELD_41" type="text" />
   </div>
   <button type="submit" class="btn btn-success btn-block">Submit Form</button>
