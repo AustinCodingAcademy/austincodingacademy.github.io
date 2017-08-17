@@ -125,13 +125,12 @@ financing_options:
           Classes Designed to Move at the Pace of Life
         </h2>
         <p>
-          Our classes ore brohen up ìnto 3 trachs, eoch compriJed of 3 levels. TheJe
-          clQJses ore designed to get you fron begínner tojob reody in o suJtainale
-          monner.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-          commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-          velit esse cillum dolore eu fugiat nulla pariatur.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, in unde
+          ratione cupiditate ab quia ipsam aliquid quod minima neque, fuga vero
+          at alias cum delectus cumque impedit itaque expedita. Lorem ipsum dolor
+          sit amet consectetur adipisicing elit. Ipsa, in unde
+          ratione cupiditate ab quia ipsam aliquid quod minima neque, fuga vero
+          at alias cum delectus cumque impedit itaque expedita.
         </p>
         <p>
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
@@ -199,7 +198,9 @@ financing_options:
             </div>
           </div>
         </div>
-        <img src="/assets/images/flow-chart.png" alt="Flow Chart" class="img-responsive">
+        <div class="justify-content-center">
+          <img src="/assets/images/flow-chart.png" alt="Flow Chart" class="img-responsive">
+        </div>
       </div>
     </div>
   </div>
@@ -410,31 +411,31 @@ financing_options:
     </div>
   </div>
 </section>
-<section class="bg-gray-lighter text-center" id="course-skills">
+<section class="bg-gray-lighter" id="course-skills">
   <div class="container">
     <div class="row">
       <div class="col-md-offset-3 col-md-9 col-lg-10 col-lg-offset-2">
-        <div class="row row-eq">
+        <h2>
+          OUR <span class="text-success">SKILLS AND TOOLS</span>
+          <br>
+          <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
+        </h2>
+        <div class="row text-center row-eq">
           {% for skill in page.skills %}
           <div class="col-xs-12 col-sm-6 col-md-4">
-            <div class="panel panel-default">
+            <div class="panel panel-default equalizer">
               <div class="panel-body">
-                <div class="media">
-                  <div class="media-left">
-                    <div class="panel panel-inverse margin-0 equalizer align-items-center">
-                      <div class="panel-body" style="padding: 5px;">
-                        <i class="fa fa-{{skill.icon}} fa-3x fa-fw"></i>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="media-body">
-                    <h4 class="media-heading equalizer">
+                <div class="panel panel-inverse margin-0 align-items-center">
+                  <div class="panel-body" style="padding: 5px;">
+                    <i class="fa fa-{{skill.icon}} fa-3x fa-fw"></i>
+                    <h4>
                       {{skill.title}}
-                      <br>
-                      <small>{{skill.body}}</small>
                     </h4>
                   </div>
                 </div>
+                <h4>
+                  <small>{{skill.body}}</small>
+                </h4>
               </div>
             </div>
           </div>
@@ -523,9 +524,9 @@ financing_options:
   </div>
 </section>
 <section id="financing-options">
-  <div class="row">
-    <div class="col-md-offset-3 col-md-9 col-lg-10 col-lg-offset-2">
-      <div class="container">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-offset-3 col-md-9 col-lg-10 col-lg-offset-2">
         <div class="row">
           <div class="col-xs-12 col-md-6">
             <h2>
