@@ -32,6 +32,10 @@ $slick-loader-path: "/assets/images/" !default;
   border: 0;
 }
 
+.padding-0 {
+  padding: 0 !important;
+}
+
 [class^="col-"] {
   margin-top: 10px;
   margin-bottom: 10px
@@ -40,10 +44,6 @@ $slick-loader-path: "/assets/images/" !default;
 section {
   padding-top: 60px;
   padding-bottom: 60px;
-}
-
-.slick-dots li button:before {
-  color: #ffffff;
 }
 
 a.link-clear-dark {
@@ -325,7 +325,7 @@ h4 small {
 
 .card {
   box-shadow: 0px 2px 25px #cccccc;
-  padding: 10px;
+  padding: 15px;
 }
 
 .bold {
@@ -338,4 +338,9 @@ h4 small {
   width: 280px;
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+h1, .h1, h2, .h2, h3, .h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }

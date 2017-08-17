@@ -15,9 +15,27 @@ head: >
     section:first-child h1 {
       text-shadow: black 1px 1px 5px;
     }
+    [data-spy="affix"] {
+      top: 10px;
+    }
+    .affix-bottom {
+      position: relative;
+    }
+    .list-group-item {
+      margin-bottom: -3px !important;
+    }
+    @media (min-width: 1200px) and (max-width: 1330px) {
+      .lg-scrollspy {
+        max-width: 1020px !important;
+        margin-left: 160px !important;
+      }
+    }
+    
   </style>
 scripts: >
   <script type="text/javascript">
+    $('body').scrollspy({ target: '#scrollspy' });
+    $('.nav-wrapper').height($('[data-spy="affix"]').height());
     $.ajax('https://campus.austincodingacademy.com/api/terms/dates/56f368f58085ad1100f2ad77', {
       success: function(dates) {
         $('.start-date').text(moment.utc(dates['{{site.city}}']).format('ddd, MMM Do, YYYY'));
@@ -88,236 +106,341 @@ financing_options:
     <a href="/apply" class="btn btn-success btn-lg">Start Your Application</a>
   </div>
 </section>
-<section class="text-center">
+<div id="scrollspy" style="position:absolute; left:20px" class="col-md-2 col-lg-1">
+  <div class="hidden-sm hidden-xs">
+    <div class="nav-wrapper">
+      <ul class="nav nav-pills nav-stacked text-center" data-spy="affix" data-offset-top="300" data-offset-bottom="715" style="max-width:155px">
+        <li><a href="#our-program" class="list-group-item">Our Program</a></li>
+        <li><a href="#course-tracks" class="list-group-item">Course Tracks</a></li>
+        <li><a href="#courses-list" class="list-group-item">Courses List</a></li>
+        <li><a href="#syllabus" class="list-group-item">Syllabus</a></li>
+        <li><a href="#course-skills" class="list-group-item">Course Skills</a></li>
+        <li><a href="#student-resources" class="list-group-item">Student Resources</a></li>
+        <li><a href="#upcoming-courses" class="list-group-item">Upcoming Courses</a></li>
+        <li><a href="#financing-options" class="list-group-item">Financing Options</a></li>
+        <li><a class="btn btn-success">Apply Now</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<section class="text-center" id="our-program">
   <div class="container">
-    <h2>
-      Classes Designed to Move at the Pace of Life
-    </h2>
-    <p>
-      Our closses ore brohen up ìnto 3 trachs, eoch compriJed of 3 levels. TheJe
-      clQJses ore designed to get you fron begínner tojob reody in o suJtainale
-      monner.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur.
-    </p>
-    <p>
-      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est laborum.
-    </p>
-    <div class="row row-eq">
-      <div class="col-xs-12 col-sm-6 col-md-3">
-        <div class="panel equalizer card">
-          <h3 class="bold">
-            Step 1:
-            <br />
-            Intro
-          </h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
-          </p>
+    <div class="row">
+      <div class="col-md-offset-2 col-md-10 col-lg-11 col-lg-offset-1 lg-scrollspy">
+        <h2>
+          Classes Designed to Move at the Pace of Life
+        </h2>
+        <p>
+          Our classes ore brohen up ìnto 3 trachs, eoch compriJed of 3 levels. TheJe
+          clQJses ore designed to get you fron begínner tojob reody in o suJtainale
+          monner.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+          velit esse cillum dolore eu fugiat nulla pariatur.
+        </p>
+        <p>
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum.
+        </p>
+        <div class="row row-eq">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="panel equalizer card">
+              <h3 class="bold">
+                Step 1:
+                <br />
+                Intro
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat.
+              </p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="panel equalizer card">
+              <h3 class="bold">
+                Step 2:
+                <br />
+                Intermediate
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat.
+              </p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="panel equalizer card">
+              <h3 class="bold">
+                Step 3:
+                <br />
+                Advanced
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat.
+              </p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="panel equalizer card">
+              <h3 class="bold">
+                Step 4:
+                <br />
+                Job Search
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat.
+              </p>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-3">
-        <div class="panel equalizer card">
-          <h3 class="bold">
-            Step 2:
-            <br />
-            Intermediate
-          </h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
-          </p>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-3">
-        <div class="panel equalizer card">
-          <h3 class="bold">
-            Step 3:
-            <br />
-            Advanced
-          </h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
-          </p>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-3">
-        <div class="panel equalizer card">
-          <h3 class="bold">
-            Step 4:
-            <br />
-            Job Search
-          </h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
-          </p>
-        </div>
+        <img src="/assets/images/flow-chart.png" alt="Flow Chart" class="img-responsive">
       </div>
     </div>
-    <img src="/assets/images/flow-chart.png" alt="Flow Chart" class="responsive-img">
   </div>
 </section>
-<section class="bg-gray-lighter text-center">
+<section class="bg-jobs text-white" style="padding-top:0;padding-bottom:0">
   <div class="container">
-    <div class="row row-eq">
-      {% for skill in page.skills %}
-      <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="panel panel-default">
-          <div class="panel-body">
-            <div class="media">
-              <div class="media-left">
-                <div class="panel panel-inverse margin-0 equalizer align-items-center">
-                  <div class="panel-body" style="padding: 5px;">
-                    <i class="fa fa-{{skill.icon}} fa-3x fa-fw"></i>
-                  </div>
-                </div>
+    <div class="row">
+      <div class="col-md-offset-2 col-md-10 col-lg-11 col-lg-offset-1 lg-scrollspy">
+        {% include reviews.html %}
+      </div>
+    </div>
+  </div>
+</section>
+<section class="text-center" id="course-tracks">
+  <div class="container">
+    <div class="row">
+        <div class="col-md-offset-2 col-md-10 col-lg-11 col-lg-offset-1 lg-scrollspy">
+        <div class="row">
+          <div class="col-sm-12 col-md-offset-1 col-md-10">
+            <h2>
+              3 Tracks
+              <br>
+              <small>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                est laborum.
+              </small>
+            </h2>
+          </div>
+        </div>
+        <div class="panel card padding-0">
+          <div class="row row-eq margin-0">
+            <div class="col-sm-12 col-md-3 bg-javascript padding-0" style="margin:-1px">
+              <div class="equalizer justify-content-center align-items-center" style="margin: 11px 0;">
+              <h3 class="text-white">JavaScript Full Stack Web Development</h3></div>
+            </div>
+            <div class="col-sm-12 col-md-7 equalizer">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+              minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+              pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+              culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+            <div class="col-sm-12 col-md-2 equalizer justify-content-center align-items-center">
+              <img src="/assets/images/javascript.png" alt="javascript" class="img-responsive" style="max-height:100px">
+            </div>
+          </div>
+        </div>
+        <div class="panel card padding-0">
+          <div class="row row-eq margin-0">
+            <div class="col-sm-12 col-md-3 bg-csharp padding-0" style="margin:-1px">
+              <div class="equalizer justify-content-center align-items-center" style="margin: 11px 0;">
+                <h3 class="text-white">C#/.Net Full Stack Web Development</h3>
               </div>
-              <div class="media-body">
-                <h4 class="media-heading equalizer">
-                  {{skill.title}}
-                  <br>
-                  <small>{{skill.body}}</small>
-                </h4>
-              </div>
+            </div>
+            <div class="col-sm-12 col-md-7 equalizer">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+              minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+              pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+              culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+            <div class="col-sm-12 col-md-2 equalizer justify-content-center align-items-center">
+              <img src="/assets/images/csharp.png" alt="csharp" class="img-responsive" style="max-height:100px">
+            </div>
+          </div>
+        </div>
+        <div class="panel card padding-0">
+          <div class="row row-eq margin-0">
+            <div class="col-sm-12 col-md-3 bg-design padding-0" style="margin: -1px">
+              <div class="equalizer justify-content-center align-items-center" style="margin: 11px 0;">
+              <h3 class="text-white">Web Design</h3></div>
+            </div>
+            <div class="col-sm-12 col-md-7 equalizer">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+              minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+              pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+              culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+            <div class="col-sm-12 col-md-2 equalizer justify-content-center align-items-center">
+              <img src="/assets/images/web-design.png" alt="web design" class="img-responsive" style="max-height:100px">
             </div>
           </div>
         </div>
       </div>
-      {% endfor %}
-    </div>
-  </div>
-</section>
-<section class="bg-success text-white" style="padding-top:0;padding-bottom:0">
-  <div class="container">
-    {% include reviews.html %}
-  </div>
-</section>
-<section>
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12 col-md-3">
-        <h3>
-          STUDENT <span class="text-success">RESOURCES</span>
-          <br>
-          <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
-          <br>
-          <small>
-            We care for students, coach them while they learn to build web apps,
-            and prepare them for the next step in their career.
-          </small>
-        </h3>
-        <p>
-          Our progressive teaching approach and effective curriculum cultivates exceptional technical proficiency in tandem with deft interpersonal skills.
-        </p>
-      </div>
-      <div class="col-xs-12 col-md-3">
-        <h3>
-          STUDENT SUCCESS ADVOCATE
-          <br>
-          <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
-        </h3>
-        <p>
-          Each campus has an SSA who listens to students and helps them overcome challenges. SSA's and staff host the career readiness workshops - Networking, Branding, Resume, Opportunity Funnel, and Interviewing.
-        </p>
-      </div>
-      <div class="col-xs-12 col-md-3">
-        <h3>
-          INSTRUCTORS AND TA'S
-          <br>
-          <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
-        </h3>
-        <p>
-          Every Instructor and TA is a professional developer who is passionate about helping students master the principles of software development. You will learn by creating sites and apps in pairs, teams, and singularly.
-        </p>
-      </div>
-      <div class="col-xs-12 col-md-3">
-        <h3>
-          CAMPUS <br>MANAGER
-          <br>
-          <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
-        </h3>
-        <p>
-          Campus Manager, our online Learning Management System, has many features - attendance, grades, messaging platform, class recordings, Q&A forum, screensharing, jobs board, and calendar.
-        </p>
-      </div>
     </div>
   </div>
 </section>
 <section>
   <div class="container">
     <div class="row">
-      <div class="col-xs-12 col-md-4">
-        <h3>
-          Courses <span class="text-success">List</span>
-          <br>
-          <hr style="width: 40px; text-align:left; margin-left:0; border-color:#777">
-        </h3>
-        <ul class="nav nav-tabs nav-stacked" role="tablist">
-          {% for course in site.data.courses %}
-          {% if site.courses contains course[0] %}
-          <li role="presentation" class="{% if forloop.index == 1 %} active {% endif %}">
-            <a href="#{{course[0]}}-img" aria-controls="home" data-target="#{{course[0]}}-img, #{{course[0]}}-details, #{{course[0]}}-description" role="tab" data-toggle="tab">
-              {{course[1].name}}
-            </a>
-          </li>
-          {% endif %}
-          {% endfor %}
-        </ul>
-      </div>
-      <div class="col-xs-12 col-md-8">
-        <div class="tab-content">
-          {% for course in site.data.courses %}
-          {% if site.courses contains course[0] %}
-          <div role="tabpanel" class="tab-pane {% if forloop.index == 1 %} active {% endif %}" id="{{course[0]}}-img">
-            <img src="{{course[1].img}}" alt="{{course[1].name}}" class="img-responsive">
+      <div class="col-md-offset-2 col-md-10 col-lg-11 col-lg-offset-1 lg-scrollspy">
+        <div class="panel card">
+          <h3>Meet an <span class="text-success">{{ site.acronym }} Student</span></h3>
+          <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
+          <div class="slick-carousel" data-dots="true" data-autoplay="false" data-arrows="false">
+            {% for interview in site.data.interviews %}
+            <div class="row hidden">
+              <div class="col-sm-12 col-md-6">
+                <h3>
+                  {{interview.quote}}
+                  <br>
+                  <small>- <strong>{{interview.name}}</strong><br>&nbsp;&nbsp;{{interview.current_role}}</small>
+                </h3>
+              </div>
+              <div class="col-sm-12 col-md-6">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="{{interview.embed}}" frameborder="0" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+            {% endfor %}
           </div>
-          {% endif %}
-          {% endfor %}
         </div>
       </div>
     </div>
+  </div>
+</section>
+<section id="courses-list">
+  <div class="container">
     <div class="row">
-      <div class="col-xs-12 col-md-4">
-        <div class="tab-content">
-          <h3>
-            Course <span class="text-success">Details</span>
-            <br>
-            <hr style="width: 40px; text-align:left; margin-left:0; border-color:#777">
-          </h3>
-          {% for course in site.data.courses %}
-          {% if site.courses contains course[0] %}
-          <div role="tabpanel" class="tab-pane {% if forloop.index == 1 %} active {% endif %}" id="{{course[0]}}-details">
-            <ul class="list-unstyled">
-              <li><h4><span class="text-success">Price :</span> {{site.course_amount}}</h4></li>
+      <div class="col-md-offset-2 col-md-10 col-lg-11 col-lg-offset-1 lg-scrollspy">
+        <div class="row">
+          <div class="col-xs-12 col-md-4">
+            <h3>
+              Courses <span class="text-success">List</span>
+              <br>
+              <hr style="width: 40px; text-align:left; margin-left:0; border-color:#777">
+            </h3>
+            <ul class="nav nav-tabs nav-stacked" role="tablist">
+              {% for course in site.data.courses %}
+              {% if site.courses contains course[0] %}
+              <li role="presentation" class="{% if forloop.index == 1 %} active {% endif %}">
+                <a href="#{{course[0]}}-img" aria-controls="home" data-target="#{{course[0]}}-img, #{{course[0]}}-details, #{{course[0]}}-description" role="tab" data-toggle="tab">
+                  {{course[1].name}}
+                </a>
+              </li>
+              {% endif %}
+              {% endfor %}
             </ul>
           </div>
-          {% endif %}
-          {% endfor %}
+          <div class="col-xs-12 col-md-8">
+            <div class="tab-content">
+              {% for course in site.data.courses %}
+              {% if site.courses contains course[0] %}
+              <div role="tabpanel" class="tab-pane {% if forloop.index == 1 %} active {% endif %}" id="{{course[0]}}-img">
+                <img src="{{course[1].img}}" alt="{{course[1].name}}" class="img-responsive">
+              </div>
+              {% endif %}
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-md-4">
+            <div class="tab-content">
+              <h3>
+                Course <span class="text-success">Details</span>
+                <br>
+                <hr style="width: 40px; text-align:left; margin-left:0; border-color:#777">
+              </h3>
+              {% for course in site.data.courses %}
+              {% if site.courses contains course[0] %}
+              <div role="tabpanel" class="tab-pane {% if forloop.index == 1 %} active {% endif %}" id="{{course[0]}}-details">
+                <ul class="list-unstyled">
+                  <li><h4><span class="text-success">Price :</span> {{site.course_amount}}</h4></li>
+                </ul>
+              </div>
+              {% endif %}
+              {% endfor %}
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-8">
+            <div class="tab-content">
+              {% for course in site.data.courses %}
+              <div role="tabpanel" class="tab-pane {% if forloop.index == 1 %} active {% endif %}" id="{{course[0]}}-description">
+                <h2>
+                  {{course[1].name}}
+                  <hr style="width:40px; text-align:left; margin-left:0; border-color:{{site.color}};">
+                </h2>
+                {{course[1].description}}
+              </div>
+              {% endfor %}
+            </div>
+          </div>
         </div>
       </div>
-      <div class="col-xs-12 col-md-8">
-        <div class="tab-content">
-          {% for course in site.data.courses %}
-          <div role="tabpanel" class="tab-pane {% if forloop.index == 1 %} active {% endif %}" id="{{course[0]}}-description">
-            <h2>
-              {{course[1].name}}
-              <hr style="width:40px; text-align:left; margin-left:0; border-color:{{site.color}};">
-            </h2>
-            {{course[1].description}}
+    </div>
+  </div>
+</section>
+<section class="bg-primary" id="syllabus">
+  <div class="row">
+    <div class="col-md-offset-2 col-md-10 col-lg-11 col-lg-offset-1 lg-scrollspy">
+      {% include syllabus-capture.html %}
+    </div>
+  </div>
+</section>
+<section class="bg-gray-lighter text-center" id="course-skills">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-offset-2 col-md-10 col-lg-11 col-lg-offset-1 lg-scrollspy">
+        <div class="row row-eq">
+          {% for skill in page.skills %}
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <div class="media">
+                  <div class="media-left">
+                    <div class="panel panel-inverse margin-0 equalizer align-items-center">
+                      <div class="panel-body" style="padding: 5px;">
+                        <i class="fa fa-{{skill.icon}} fa-3x fa-fw"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading equalizer">
+                      {{skill.title}}
+                      <br>
+                      <small>{{skill.body}}</small>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           {% endfor %}
         </div>
@@ -325,45 +448,121 @@ financing_options:
     </div>
   </div>
 </section>
-<section class="bg-primary">
-  {% include syllabus-capture.html %}
+<section id="student-resources">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-offset-2 col-md-10 col-lg-11 col-lg-offset-1 lg-scrollspy">
+        <div class="row">
+          <div class="col-xs-12 col-md-3">
+            <h3>
+              STUDENT<br><span class="text-success">RESOURCES</span>
+              <br>
+              <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
+              <small>
+                We care for students, coach them while they learn to build web apps,
+                and prepare them for the next step in their career. Our progressive
+                teaching approach and effective curriculum cultivates exceptional
+                technical proficiency in tandem with deft interpersonal skills.
+              </small>
+            </h3>
+          </div>
+          <div class="col-xs-12 col-md-3">
+            <h3>
+              STUDENT SUCCESS ADVOCATE
+              <br>
+              <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
+              <small>
+                Each campus has an Student Success Advocate who listens to students
+                and helps them overcome challenges. SSA's and staff host the career
+                readiness workshops - Networking, Branding, Resume, Opportunity Funnel,
+                and Interviewing.
+              </small>
+            </h3>
+          </div>
+          <div class="col-xs-12 col-md-3">
+            <h3>
+              INSTRUCTORS AND TEACHING ASSISTANTS
+              <br>
+              <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
+              <small>
+                Every Instructor and Teaching Assistant is a professional developer who is passionate
+                about helping students master the principles of software development.
+                You will learn by creating sites and apps in pairs, teams, and singularly.
+              </small>
+            </h3>
+          </div>
+          <div class="col-xs-12 col-md-3">
+            <h3>
+              CAMPUS<br>MANAGER
+              <br>
+              <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
+              <small>
+                Campus Manager, our online Learning Management System, has many
+                features - attendance, grades, messaging platform, class recordings,
+                Q&amp;A forum, screensharing, and calendar.
+              </small>
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
-<section class="bg-info">
-  {% include important-dates.html %}
+<section class="bg-info" id="upcoming-courses">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-offset-2 col-md-10 col-lg-11 col-lg-offset-1 lg-scrollspy">
+        {% include important-dates.html %}
+      </div>
+    </div>
+  </div>
 </section>
 <section>
   <div class="container">
     <div class="row">
-      <div class="col-xs-12 col-md-6">
-        <h2>
-          <span class="fa-stack">
-            <i class="fa fa-circle-thin fa-stack-2x"></i>
-            <i class="fa fa fa-usd fa-stack-1x"></i>
-          </span>
-          FINANCING<span class="text-success"> OPTIONS</span>
-          <br>
-          <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
-        </h2>
-        {% for option in page.financing_options %}
-        <div class="media">
-          <div class="media-left">
-            <a href="{{option.href}}">
-              <i class="fa fa-{{option.icon}} fa-2x" aria-hidden="true"></i>
-            </a>
+      <div class="col-md-offset-2 col-md-10 col-lg-11 col-lg-offset-1 lg-scrollspy">
+        {% include companies.html %}
+      </div>
+    </div>
+  </div>
+</section>
+<section id="financing-options">
+  <div class="row">
+    <div class="col-md-offset-2 col-md-10 col-lg-11 col-lg-offset-1 lg-scrollspy">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-6">
+            <h2>
+              <span class="fa-stack">
+                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                <i class="fa fa fa-usd fa-stack-1x"></i>
+              </span>
+              FINANCING<span class="text-success"> OPTIONS</span>
+              <br>
+              <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
+            </h2>
+            {% for option in page.financing_options %}
+            <div class="media">
+              <div class="media-left">
+                <a href="{{option.href}}">
+                  <i class="fa fa-{{option.icon}} fa-2x" aria-hidden="true"></i>
+                </a>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">
+                  <a href="{{option.href}}">{{option.title}}</a>
+                </h4>
+                {{option.body}}
+                <br>
+                <a href="{{option.href}}">Read More</a>
+              </div>
+            </div>
+            {% endfor %}
           </div>
-          <div class="media-body">
-            <h4 class="media-heading">
-              <a href="{{option.href}}">{{option.title}}</a>
-            </h4>
-            {{option.body}}
-            <br>
-            <a href="{{option.href}}">Read More</a>
+          <div class="col-xs-12 col-md-6">
+            {% include faqs.html %}
           </div>
         </div>
-        {% endfor %}
-      </div>
-      <div class="col-xs-12 col-md-6">
-        {% include faqs.html %}
       </div>
     </div>
   </div>

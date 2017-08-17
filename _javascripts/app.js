@@ -55,7 +55,7 @@ $(function() {
         infinite: true,
         speed: 300,
         slidesToShow: $(this).data('slides') || 1,
-        autoplay: true,
+        autoplay: $(this).data('autoplay') !== undefined ? $(this).data('autoplay') : true,
         autoplaySpeed: $(this).data('autoplay-speed') || 10000,
         initialSlide: Math.floor(Math.random() * $(this).children().length),
         lazyLoad: 'ondemand'

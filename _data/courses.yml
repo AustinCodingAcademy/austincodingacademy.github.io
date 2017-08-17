@@ -302,29 +302,29 @@
     - Junior Web Developer
   syllabus: '/FSWD-CSHARPDOTNET.html#321-c-net-full-stack'
 
-# 231:
-#   name: '231 Web Design'
-#   summary: >
-#     Learn how to freelance, receive an introduction to writing copy and graphic design, static web page generation and templating.
-#   img: ''
-#   thumbnail: /assets/images/looking-glasses.jpg
-#   description: ''
-#   skills: []
-#   projects: []
-#   jobs: []
-#   syllabus: ''
-#
-# 331:
-#   name: '331 Web Design'
-#   summary: >
-#     Optimize your portfolio for User Experience and User Interface. Manage your projects with the Agile framework, build marketing plans and contracts.
-#   img: ''
-#   thumbnail: /assets/images/around-table.jpg
-#   description: ''
-#   skills: []
-#   projects: []
-#   jobs: []
-#   syllabus: ''
+231:
+  name: '231 Web Design'
+  summary: >
+    Learn how to freelance, receive an introduction to writing copy and graphic design, static web page generation and templating.
+  img: ''
+  thumbnail: /assets/images/looking-glasses.jpg
+  description: ''
+  skills: []
+  projects: []
+  jobs: []
+  syllabus: ''
+
+331:
+  name: '331 Web Design'
+  summary: >
+    Optimize your portfolio for User Experience and User Interface. Manage your projects with the Agile framework, build marketing plans and contracts.
+  img: ''
+  thumbnail: /assets/images/around-table.jpg
+  description: ''
+  skills: []
+  projects: []
+  jobs: []
+  syllabus: ''
 #
 # 'Coming Soon':
 #   name: 'Coming Soon'

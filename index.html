@@ -59,8 +59,14 @@ head: >
         </h4>
       </div>
       <div class="col-xs-12 col-md-6">
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/OdTgzEe_6gE?list=PLB3lIeK4NB6to_kOFtWvegu57Gx-4t9Vs" frameborder="0" allowfullscreen></iframe>
+        <div class="slick-carousel" data-dots="true" data-autoplay="false" data-arrows="false">
+          {% for interview in site.data.interviews %}
+          <div>
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="{{ interview.embed }}" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+          {% endfor %}
         </div>
       </div>
     </div>
@@ -195,7 +201,7 @@ head: >
       {% include faqs.html %}
   </div>
 </section>
-<section class="bg-gray-lighter">
+<section>
   {% include companies.html %}
 </section>
 <script type="application/ld+json">

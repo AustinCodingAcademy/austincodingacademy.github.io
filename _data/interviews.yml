@@ -1,0 +1,34 @@
+- name: Erica
+  embed: https://www.youtube.com/embed/e25bNsKfEPo?list=PLDheYtSfJ4BDVdG2iKX53qNCyDeG8Fd1l
+  current_role: Current Student
+  quote: >
+    "I really needed something that could work with my life as it is now. I have
+    a full time job and I have two kids and I really wasn't in a position to
+    quit work and just focus on school 100%, so I needed something that would
+    work with my existing schedule."
+
+- name: Stuart
+  embed: https://www.youtube.com/embed/6KIHhFdEfC0?list=PLDheYtSfJ4BDVdG2iKX53qNCyDeG8Fd1l
+  current_role: Current Student
+  quote: >
+    "I remember coding when I was younger and it really struck a chord with me,
+    so I decided to jump in and see if I could do anything more with it. It
+    feels like a group of people trying to help you learn, not a school.
+    It's just so hands-on."
+
+- name: Jon
+  embed: https://www.youtube.com/embed/SC6zgIosRm0?list=PLDheYtSfJ4BDVdG2iKX53qNCyDeG8Fd1l
+  current_role: Instructor, Full-Time Software Developer 
+  quote: >
+    "I've seen curriculums from a lot of schools, and I think this one is the best.
+    The team is really passionate. They love teaching, they love education,
+    they love technology. It's the perfect mix of everything."
+
+- name: Luke
+  embed: https://www.youtube.com/embed/UTPlFwnKrEo?list=PLDheYtSfJ4BDVdG2iKX53qNCyDeG8Fd1l
+  current_role: Alumni, Instructor, Full-Time Software Developer 
+  quote: >
+    "I chose to come here for three reasons: the flexibility that it offered my
+    schedule, the price was just the most affordable option I found out there,
+    and because I feel like the curriculum is so digestible for anyone to learn."
+

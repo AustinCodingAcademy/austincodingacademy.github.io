@@ -32,6 +32,12 @@ $lightergreen:          #E8F5E9 !default;
 $lightyorange:          #FFD7A7 !default;
 $lighterorange:         #FFF3E0 !default;
 
+$web: #6ac1e9 !default;
+$javascript: #f1b24d !default;
+$csharp: #3674a1 !default;
+$design: #ee5041 !default;
+$jobs: #1cc7a0 !default;
+
 $colors:
   'gray-base'
   'gray-darker'
@@ -60,7 +66,12 @@ $colors:
   'lightyorange'
   'lighterorange'
   'lightygreen'
-  'lightergreen';
+  'lightergreen'
+  'web'
+  'javascript'
+  'csharp'
+  'design'
+  'jobs';
 
 $color_vars:
   $gray-base
@@ -90,7 +101,12 @@ $color_vars:
   $lightyorange
   $lighterorange
   $lightygreen
-  $lightergreen;
+  $lightergreen
+  $web
+  $javascript
+  $csharp
+  $design
+  $jobs;
 
 @for $i from 1 through length($colors) {
   $color: nth($colors, $i);

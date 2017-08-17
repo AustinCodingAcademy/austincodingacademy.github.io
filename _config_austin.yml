@@ -46,6 +46,8 @@ courses:
   - 101_2
   - 221_2
   - 321_2
+  - 231
+  - 331
 tracks:
   - JavaScript
   - CSharp_2
