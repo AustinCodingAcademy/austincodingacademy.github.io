@@ -1,13 +1,11 @@
-<div class="container">
-  <h3 class="text-center"><span class="text-success">Our Students</span> Work at Amazing Companies</h3>
-  <br><br>
-  <div class="block-grid-xs-2 block-grid-sm-2 block-grid-md-3">
-    {% for company in site.data.companies %}
-    <div class="justify-content-center">
-      <img class="img-responsive" src="{{company.logo}}" alt="{{company.name}}" style="max-height:70px;width:auto;"/>
-    </div>
-    {% endfor %}
+<h3 class="text-center"><span class="text-success">Our Students</span> Work at Amazing Companies</h3>
+<br><br>
+<div class="block-grid-xs-2 block-grid-sm-2 block-grid-md-3">
+  {% for company in site.data.companies %}
+  <div class="justify-content-center">
+    <img class="img-responsive" src="{{company.logo}}" alt="{{company.name}}" style="max-height:70px;width:auto;"/>
   </div>
-  <br><br>
-  <h3 class="text-center">And a ton more...</h3>
+  {% endfor %}
 </div>
+<br><br>
+<h3 class="text-center">And a ton more...</h3>

@@ -1,31 +1,29 @@
-<div class="container">
-  <div class="row">
-    <div class="col-xs-12 col-md-3 text-center">
-      {% if include.left != "false" %}
-      <i class="fa fa-calendar fa-3x"></i>
-      <h3>Register by</h3>
-      <h2 class="start-date"></h2>
-      {% endif %}
-    </div>
-    <div class="col-xs-12 col-md-6 text-center">
-      <h3>
-        Attend 2 nights a week, {{site.classtimes}}
-        <br>
-      </h3>
-      <h4 style="margin-top: 30px;">
-        Unable to meet the deadline to enroll?
-        <br>
-        <br>
-        Give us a call for information about our future sessions.
-      </h4>
-      <h3>
-        <a href="tel:{{site.phone}}">{{site.phone}}</a>
-      </h3>
-    </div>
-    <div class="col-xs-12 col-md-3 text-center">
-      <i class="fa fa-calendar fa-3x"></i>
-      <h3>Classes Start</h3>
-      <h2 class="start-date"></h2>
-    </div>
+<div class="row">
+  <div class="col-xs-12 col-md-3 text-center">
+    {% if include.left != "false" %}
+    <i class="fa fa-calendar fa-3x"></i>
+    <h3>Register by</h3>
+    <h2 class="start-date"></h2>
+    {% endif %}
+  </div>
+  <div class="col-xs-12 col-md-6 text-center">
+    <h3>
+      Attend 2 nights a week, {{site.classtimes}}
+      <br>
+    </h3>
+    <h4 style="margin-top: 30px;">
+      Unable to meet the deadline to enroll?
+      <br>
+      <br>
+      Give us a call for information about our future sessions.
+    </h4>
+    <h3>
+      <a href="tel:{{site.phone}}">{{site.phone}}</a>
+    </h3>
+  </div>
+  <div class="col-xs-12 col-md-3 text-center">
+    <i class="fa fa-calendar fa-3x"></i>
+    <h3>Classes Start</h3>
+    <h2 class="start-date"></h2>
   </div>
 </div>
