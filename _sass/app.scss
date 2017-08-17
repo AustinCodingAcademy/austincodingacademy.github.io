@@ -321,7 +321,7 @@ h4 small {
 .jumbo {
   font-size: 48px;
   font-weight: 900;
-  @media max-width: 767px; {
+  @media (max-width: 767px) {
     font-size: 36px;
   }
 }
