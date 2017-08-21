@@ -266,7 +266,7 @@
 321_2:
   name: '321 C# & .NET Full Stack (North Austin)'
   summary: >
-    [ New and exclusive to our North Austin campus ] Students construct 2 full web apps using Visual Studio, Razor, and the SQL database.
+    Students construct 2 full web apps using Visual Studio, Razor, and the SQL database.
   img: /assets/images/advanced-csharp.png
   thumbnail: /assets/images/student.jpg
   description: >
@@ -308,7 +308,10 @@
     Learn how to freelance, receive an introduction to writing copy and graphic design, static web page generation and templating.
   img: ''
   thumbnail: /assets/images/looking-glasses.jpg
-  description: ''
+  description: >
+    <p>
+      Learn graphic design, crafting User Experience and User Interface, CSS frameworks, as well as an arsenal of tools to enable a successful freelancing career.
+    </p>
   skills: []
   projects: []
   jobs: []
@@ -320,7 +323,10 @@
     Optimize your portfolio for User Experience and User Interface. Manage your projects with the Agile framework, build marketing plans and contracts.
   img: ''
   thumbnail: /assets/images/around-table.jpg
-  description: ''
+  description: >
+    <p>
+      Complete the track by learning how to drive traffic to their websites utilizing A/B testing techniques, search engine optimization, google analytics, and attractive design.
+    </p>
   skills: []
   projects: []
   jobs: []

@@ -210,11 +210,12 @@ h4 small {
 }
 
 #footer-call-tour-grab {
-  background-image: url(/assets/images/call-or-tour.jpg);
+  background-image: url(/assets/images/looking-at-laptop.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: auto;
+  padding: 100px;
 }
 
 #cal-slide-content {
@@ -350,4 +351,8 @@ h1, .h1, h2, .h2, h3, .h3 {
 
 .img-responsive {
   object-fit: contain;
+}
+
+.nowrap {
+  white-space: nowrap !important;
 }

@@ -4,21 +4,21 @@
     <div id="footer-call-tour-grab" class="well text-white">
       <div class="">
         <div class="container">
-          <h2 class="text-center text-white">
+          <h2 class="text-center text-white jumbo text-shadow">
             Want to come check out classes or talk to a human?
-            <br><br>
-            <div class="row">
+          </h2>
+          <br><br>
+          <div class="row">
               <div class="phone-margin-bottom text-center {% if site.key == 'austin' %}col-md-4 col-sm-12{% else %}col-md-6{% endif %}">
-                <a class="text-shadow" href="https://acaappointment.acuityscheduling.com/schedule.php?appointmentType=1406673"><i class="fa fa-phone"></i>&nbsp;&nbsp;Schedule a call</a>
+                <a class="btn btn-lg btn-success" href="https://acaappointment.acuityscheduling.com/schedule.php?appointmentType=1406673"><i class="fa fa-phone"></i>&nbsp;&nbsp;Schedule a call</a>
               </div>
               <div class="phone-margin-bottom text-center {% if site.key == 'austin' %}col-md-4 col-sm-12{% else %}col-md-6{% endif %}">
-                <a class="text-shadow" href="https://acaappointment.acuityscheduling.com/schedule.php?appointmentType=2958006"><i class="fa fa-building-o" aria-hidden="true"></i>&nbsp;&nbsp;Central Campus Tour</a>
+                <a class="btn btn-lg btn-success" href="https://acaappointment.acuityscheduling.com/schedule.php?appointmentType=2958006"><i class="fa fa-building-o" aria-hidden="true"></i>&nbsp;&nbsp;Central Campus Tour</a>
               </div>
               <div class="phone-margin-bottom text-center {% if site.key == 'austin' %}col-md-4 col-sm-12{% else %} hidden {% endif %}">
-                <a class="text-shadow" href="https://acaappointment.acuityscheduling.com/schedule.php?appointmentType=3254226"><i class="fa fa-building-o" aria-hidden="true"></i>&nbsp;&nbsp;North Campus Tour</a>
+                <a class="btn btn-lg btn-success" href="https://acaappointment.acuityscheduling.com/schedule.php?appointmentType=3254226"><i class="fa fa-building-o" aria-hidden="true"></i>&nbsp;&nbsp;North Campus Tour</a>
               </div>
             </div>
-          </h2>
         </div>
       </div>
     </div>
@@ -31,6 +31,12 @@
             <br>
             <br>
             <br>
+            <a href="{{site.location_url}}" class="link-white"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;{{ site.location }}</a>
+            {% if site.location_north %}
+            <br><br>
+            <a href="{{site.location_north_url}}" class="link-white"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;{{ site.location_north }}</a>
+            {% endif %}
+            <br><br>
             <small class="text-white">
               We’re committed to providing diverse communities the most
               accessible coding education to transform lives and prepare

@@ -61,6 +61,7 @@ permalink: blog/:year/:month/:day/:slug/
 gems:
   - jekyll-feed
   - jekyll-redirect-from
+  - amp-jekyll
 exclude:
   - Gemfile
   - Gemfile.lock

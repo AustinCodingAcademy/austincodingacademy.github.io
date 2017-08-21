@@ -9,6 +9,10 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.5.0)
       public_suffix (~> 2.0, >= 2.0.2)
+    amp-jekyll (1.0.2)
+      fastimage (>= 1.8.0)
+      jekyll (~> 3.0)
+      nokogiri (>= 1.6.0)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -19,6 +23,7 @@ GEM
     execjs (2.7.0)
     faraday (0.10.1)
       multipart-post (>= 1.2, < 3)
+    fastimage (2.1.0)
     ffi (1.9.14)
     forwardable-extended (2.6.0)
     gemoji (2.1.0)
@@ -194,6 +199,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  amp-jekyll
   github-pages
   jekyll (= 3.3.1)
   jekyll-feed (~> 0.6)

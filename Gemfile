@@ -21,6 +21,7 @@ group :jekyll_plugins do
    gem 'jekyll-paginate'
    # gem 'jekyll-press', :git => 'https://github.com/michaelcurry/jekyll-press.git'
    gem 'jekyll-redirect-from'
+   gem 'amp-jekyll'
 end
 
 gem 'github-pages'
