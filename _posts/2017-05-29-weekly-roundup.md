@@ -9,7 +9,7 @@ redirect_from:
 Upcoming Events Across Texas -  Your weekly news and events update from our coding academies
 
 
-<div style="margin-bottom:75px;" class="col-sm-12">
+<div class="col-sm-12">
   <img class="img-responsive" src="/assets/images/blog-5-29-17-1.jpg" />
 </div>
 
@@ -24,7 +24,7 @@ Upcoming Events Across Texas -  Your weekly news and events update from our codi
 
 
 <div class="col-sm-5">
-  <img style="border:1px solid grey;" class="img-responsive" src="/assets/images/blog-5-22-17-5.jpeg" />
+  <img class="img-responsive" src="/assets/images/blog-5-22-17-5.jpeg" />
 </div>
 
 ### Wed. May 31
@@ -38,7 +38,7 @@ Upcoming Events Across Texas -  Your weekly news and events update from our codi
 
 
 <div class="col-sm-5">
-  <img style="width:100%;" src="/assets/images/blog-5-29-17-2.png" />
+  <img class="img-responsive" src="/assets/images/blog-5-29-17-2.png" />
 </div>
 
 ### Fri. June 2:
@@ -54,7 +54,7 @@ Upcoming Events Across Texas -  Your weekly news and events update from our codi
 
 
 <div class="col-sm-5">
-  <img style="width:100%;" src="/assets/images/blog-5-22-17-6.jpg" />
+  <img class="img-responsive" src="/assets/images/blog-5-22-17-6.jpg" />
 </div>
 
 ### Tues. June 27
@@ -74,7 +74,7 @@ Upcoming Events Across Texas -  Your weekly news and events update from our codi
 ---
 
 <div class="col-sm-5">
-  <img style="width:100%;" src="/assets/images/blog-5-29-17-3.jpg" />
+  <img class="img-responsive" src="/assets/images/blog-5-29-17-3.jpg" />
 </div>
 
 ### Sat., June 3:
@@ -88,7 +88,7 @@ Upcoming Events Across Texas -  Your weekly news and events update from our codi
 
 
 <div class="col-sm-5">
-  <img style="width:100%;" src="/assets/images/blog-5-22-17-2.png" />
+  <img class="img-responsive" src="/assets/images/blog-5-22-17-2.png" />
 </div>
 
 ### Mon. June 5
@@ -111,7 +111,7 @@ Upcoming Events Across Texas -  Your weekly news and events update from our codi
 
 
 <div class="col-sm-5">
-  <img style="width:100%;" src="/assets/images/blog-5-22-17-7.png" />
+  <img class="img-responsive" src="/assets/images/blog-5-22-17-7.png" />
 </div>
 
 ### Wed. June 14
@@ -125,7 +125,7 @@ Upcoming Events Across Texas -  Your weekly news and events update from our codi
 ---
 
 <div class="col-sm-5">
-  <img style="width:100%;" src="/assets/images/blog-5-22-17-8.png" />
+  <img class="img-responsive" src="/assets/images/blog-5-22-17-8.png" />
 </div>
 
 ### Wed. June 28
@@ -147,7 +147,7 @@ Upcoming Events Across Texas -  Your weekly news and events update from our codi
 
 
 <div class="col-sm-5">
-  <img style="width:100%;" src="/assets/images/blog-5-29-17-4.jpg" />
+  <img class="img-responsive" src="/assets/images/blog-5-29-17-4.jpg" />
 </div>
 
 ### Tues., May 30th

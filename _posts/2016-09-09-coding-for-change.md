@@ -46,7 +46,7 @@ Developers may have a stereotype for antisocial behavior - but Eddie is breaking
 
 For Eddie, learn how to code has opened up another avenue for him to help others - he's now teaching code to ACA students, who are eager to learn. 'Listening and helping in small ways has become a highlight in my life. I was very lucky. I was blessed with the most patient people in the world, who helped me learn. I just want others to share that joy.'
 
-<span style="font-weight: 400;">Did learning how to code change the way Eddie thinks? Absolutely - ‘I see opportunities everywhere,' he says. ‘I don't watch a lot of tv anymore, I read business books. I get so caught up helping a project grow. I talk to people about their lives more.' For Eddie Garcia, coding isn't just a skill - it's helping him to become a better human being.
+Did learning how to code change the way Eddie thinks? Absolutely - ‘I see opportunities everywhere,' he says. ‘I don't watch a lot of tv anymore, I read business books. I get so caught up helping a project grow. I talk to people about their lives more.' For Eddie Garcia, coding isn't just a skill - it's helping him to become a better human being.
 
 
 

@@ -11,7 +11,7 @@ Junior web developers who are proficient in these three soft skills find success
 
 
 <div class="col-sm-12">
-  <img class="img-full" src="/assets/images/blog-5-24-17-1.jpg" />
+  <img class="img-responsive" src="/assets/images/blog-5-24-17-1.jpg" />
 </div>
 
 
@@ -30,7 +30,7 @@ Junior web developers who are proficient in these three soft skills find success
 ## Teamwork & Leadership Skills
 
 <div class="col-sm-12">
-  <img class="img-full" src="/assets/images/blog-5-24-17-2.jpg" />
+  <img class="img-responsive" src="/assets/images/blog-5-24-17-2.jpg" />
 </div>
 
 #### When I started applying for dev jobs, my mentor gave me sage wisdom: walk through the engineering area - if developers are sitting silently in rows of cubicles with headphones on, turn and walk away. Great software is usually not written by one person, but by a team. A web development team is made up of different types of people in different types of roles, and sometimes collaboration and teamwork is loud… and messy.
@@ -46,7 +46,7 @@ Junior web developers who are proficient in these three soft skills find success
 ## Critical-Thinking and Problem-Solving Skills
 
 <div class="col-sm-12">
-  <img class="img-full" src="/assets/images/blog-5-24-17-3.jpg" />
+  <img class="img-responsive" src="/assets/images/blog-5-24-17-3.jpg" />
 </div>
 
 #### Most educational resources for coding follows the same process - choose a language to learn, teach you the syntax, and dive into concepts and theories. What it won’t teach you is how to solve problems or design the process for an entire project, which is why most of us learn how to code in the first place.
@@ -68,7 +68,7 @@ Junior web developers who are proficient in these three soft skills find success
 ## Build Your Personal Brand:
 
 <div class="col-sm-12">
-  <img class="img-full" src="/assets/images/blog-5-24-17-4.jpg" />
+  <img class="img-responsive" src="/assets/images/blog-5-24-17-4.jpg" />
 </div>
 
 #### Branding is about establishing a consistent message about yourself that is recognized by some repeated stimulus (online profiles, resume, portfolio) which when seen reminds the reader of the message. You may have a logo of your initials or a “doing business as” name you want to be identified as professionally.

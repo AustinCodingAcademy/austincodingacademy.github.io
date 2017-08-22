@@ -29,7 +29,7 @@ You Wanted a North Austin Campus? You Got It! June 19th, Austin Coding Academy T
 
 #### We will continue to offer our full stack JavaScript courses out of downtown [Capital Factory](https://capitalfactory.com/), Austin’s “center of gravity for entrepreneurship,” where we’ve been grateful to live for nearly the last year. We look forward to serving North Austinites and the large technology companies in the area.
 
-<div style="margin-bottom:20px;" class="row">
+<div class="row">
   <div class="col-md-3 col-xs-6">
     <img class="img-responsive" src="/assets/images/techranch_2.jpg" />
   </div>
