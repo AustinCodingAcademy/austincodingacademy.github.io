@@ -336,3 +336,41 @@ h1, .h1, h2, .h2, h3, .h3 {
 .nowrap {
   white-space: nowrap !important;
 }
+
+header {
+  img {
+    max-width: 50px;
+  }
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  #top-right-banner {
+    padding: 12px;
+    padding-right:20px;
+    font-size: 16px;
+  }
+  #top-left-banner {
+    padding: 12px;
+    padding-left:20px;
+    font-size: 16px;
+  }
+  #top_nav {
+    padding: 0px;
+  }
+}
+
+footer {
+  li.styled {
+    border-bottom: 1px dashed #777;
+  }
+  ul.list-unstyled {
+    margin-left: 10px;
+  }
+  nav.navbar {
+    margin-bottom: 5px;
+  }
+  img {
+    max-height: 242px;
+  }
+}
