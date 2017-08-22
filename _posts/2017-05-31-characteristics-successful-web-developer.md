@@ -7,7 +7,7 @@ image: 'blog-5-31-17-1.jpg'
 Are there certain characteristics that make you a better web developer than others?
 
 <div class="col-sm-12">
-  <img class="img-full" src="/assets/images/blog-5-31-17-1.jpg" />
+  <img class="img-responsive" src="/assets/images/blog-5-31-17-1.jpg" />
 </div>
 
 #### Breaking into the tech scene can be very intimidating - it seems like every day there is a trendy new JS library to learn and another class of coding school graduates to compete with. If you spend any time scouring job boards, you’ll also see this reflected in entry-level or junior web development jobs requiring a wider knowledge base from their applicants than in the past.  
@@ -21,7 +21,7 @@ Are there certain characteristics that make you a better web developer than othe
 ## A Passion of Knowledge
 
 <div class="col-sm-12">
-  <img class="img-full" src="/assets/images/blog-5-31-17-2.jpg" />
+  <img class="img-responsive" src="/assets/images/blog-5-31-17-2.jpg" />
 </div>
 
 #### Technology is always evolving, and the skills and abilities needed in today's tech scene can get outdated quickly. It's important to have a passion for learning and the desire to keep up with the latest trends. As newer versions of languages, libraries and frameworks roll out, you will be expected to not only know these changes, but be a subject matter expert within your company.  Don’t confuse this with technical skills - you can still love to learn without being the sharpest crayon in the box.
@@ -31,7 +31,7 @@ Are there certain characteristics that make you a better web developer than othe
 ## Great Teammate
 
 <div class="col-sm-12">
-  <img class="img-full" src="/assets/images/blog-5-31-17-3.jpg" />
+  <img class="img-responsive" src="/assets/images/blog-5-31-17-3.jpg" />
 </div>
 
 #### A web developer rarely works alone. Good software is commonly built by a whole development team comprised of many dynamic roles. Being able to take on a team mentality can be critical to the success of a project.
@@ -41,7 +41,7 @@ Are there certain characteristics that make you a better web developer than othe
 ## Creative Problem-Solver
 
 <div class="col-sm-12">
-  <img class="img-full" src="/assets/images/blog-5-31-17-4.jpg" />
+  <img class="img-responsive" src="/assets/images/blog-5-31-17-4.jpg" />
 </div>
 
 #### Developing code for a software program or designing website from scratch is incredibly difficult -- much like trying to solve a complex math equation or write a novel. A great developer thrives on finding ways to make things work, no matter the challenge, and sometimes needs to get creative to find a working solution. You want to try to avoid the phrase “It can’t be done” when you are pitched a new project.
@@ -51,7 +51,7 @@ Are there certain characteristics that make you a better web developer than othe
 ## Ability to Plan.. for Everything
 
 <div class="col-sm-12">
-  <img class="img-full" src="/assets/images/blog-5-31-17-5.jpg" />
+  <img class="img-responsive" src="/assets/images/blog-5-31-17-5.jpg" />
 </div>
 
 #### Rather than jumping head-first into a project, a wise and cautious web developer will first learn as much as possible about the desired end product. Once this step is completed, the developer will then plan out the entire structure of the project before typing out one line of code.
@@ -61,7 +61,7 @@ Are there certain characteristics that make you a better web developer than othe
 ## Debugging Skills
 
 <div class="col-sm-12">
-  <img class="img-full" src="/assets/images/blog-5-31-17-6.jpg" />
+  <img class="img-responsive" src="/assets/images/blog-5-31-17-6.jpg" />
 </div>
 
 #### In my current job, I identify and solve issues on large, e-commerce websites. Basically, I help fix bad code written by their in-house developers that they couldn’t solve themselves. What I found more shocking than how simple the mistakes are -- was how often the developers themselves did not know how to properly debug their own mistakes.
@@ -71,7 +71,7 @@ Are there certain characteristics that make you a better web developer than othe
 ## "Accelerated Failure" Mentality
 
 <div class="col-sm-12">
-  <img class="img-full" src="/assets/images/blog-5-31-17-7.jpg" />
+  <img class="img-responsive" src="/assets/images/blog-5-31-17-7.jpg" />
 </div>
 
 #### "Fail Fast", "Fail Better", "Fail Forward" are all popular mantras used by startups and tech giants in Silicon Valley. If you aren't failing, you aren't learning.
@@ -81,7 +81,7 @@ Are there certain characteristics that make you a better web developer than othe
 ## A Nose for Business Sense
 
 <div class="col-sm-12">
-  <img class="img-full" src="/assets/images/blog-5-31-17-8.jpg" />
+  <img class="img-responsive" src="/assets/images/blog-5-31-17-8.jpg" />
 </div>
 
 #### A great developer can look beyond the project they are working on and see the big picture for the business. A savvy business sense can lead to new applications or automated processes focused on more saving time and money for a company.

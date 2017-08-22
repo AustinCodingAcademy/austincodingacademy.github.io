@@ -10,7 +10,7 @@ redirect_from:
 As a fledgling techie, you can land your first job by following in the footsteps of coders before you, and use these twenty tips for success in the job market.
 
 <div class="col-sm-12">
-  <img class="img-full" src="/assets/images/blog-5-26-17-1.jpg" />
+  <img class="img-responsive" src="/assets/images/blog-5-26-17-1.jpg" />
 </div>
 
 
@@ -37,7 +37,7 @@ As a fledgling techie, you can land your first job by following in the footsteps
 ## 3. Start a Blog
 
 <div class="col-sm-12">
-  <img class="img-full" src="/assets/images/blog-5-26-17-2.jpg" />
+  <img class="img-responsive" src="/assets/images/blog-5-26-17-2.jpg" />
 </div>
 
 #### Not only will you become a better developer from the amounts of research that goes into writing, but blogging also showcases your depth of knowledge, areas of interest, and establishes your brand voice. It can also set you apart from your competition. Anyone can “fake it” on a resume or portfolio, but a blog is another substantial piece of evidence that you are the real deal.
@@ -61,7 +61,7 @@ As a fledgling techie, you can land your first job by following in the footsteps
 ## 7. Find a Mentor in the Industry
 
 <div class="col-sm-12">
-  <img class="img-full" src="/assets/images/blog-5-26-17-3.jpg" />
+  <img class="img-responsive" src="/assets/images/blog-5-26-17-3.jpg" />
 </div>
 
 #### If you followed every tip in this post, you will be well-prepared for landing a job. However, if I had to choose only three tips from this list to share, this would be one of them. There is no better way to know how to succeed in getting a job than from being coached up by a seasoned veteran of the industry. You can find mentors within your existing networks, or at meetups and networking events around town. I found my mentor on my soccer team, and it was one of the most valuable steps I took to getting my first job in web development.
@@ -95,7 +95,7 @@ As a fledgling techie, you can land your first job by following in the footsteps
 ## 13. Contribute and Collaborate on Github Projects
 
 <div class="col-sm-12">
-  <img class="img-full" src="/assets/images/blog-5-26-17-4.jpg" />
+  <img class="img-responsive" src="/assets/images/blog-5-26-17-4.jpg" />
 </div>
 
 #### Web developers need to work well in a [collaborative environment and know how to contribute to projects meaningfully.](/blog/why-our-coding-bootcamp-teaches-you-more-than-just-code) Every recruiter and hiring manager you communicate with will most likely review your Github profile and repos to see how much experience you have with these teamwork-based skills. It’s also a great way to grow your skillsets and projects featured on your portfolio.
@@ -124,7 +124,7 @@ As a fledgling techie, you can land your first job by following in the footsteps
 ## 18. Research Companies You Interview With
 
 <div class="col-sm-12">
-  <img class="img-full" src="/assets/images/blog-5-26-17-5.jpg" />
+  <img class="img-responsive" src="/assets/images/blog-5-26-17-5.jpg" />
 </div>
 
 #### Before going in for an interview, do some background research on the folks you’ve been told are involved in the interviewing process (ex: LinkedIn profiles). Knowing an interesting fact about the interviewer - what college they went to, did they play a sport or part of a club - can be an instant icebreaker and shows your level of interest not only in the company, but in the people you could potentially work with.

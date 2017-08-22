@@ -10,7 +10,7 @@ published: true
 ## Why All Designers Should Learn To Code
 
 <div class="col-sm-12">
-  <img class="img-full" src="/assets/images/graphic-designer-hero2.jpg" />
+  <img class="img-responsive" src="/assets/images/graphic-designer-hero2.jpg" />
 </div>
 
 #### Here at {{ site.school }} we think our Alumni are rock stars and we want the whole world to know it! They are diving in head first to become badass coders, and taking on the challenge to change their lives. Gizem Yilmaz, a recent graduate, is no exception.
@@ -26,7 +26,7 @@ published: true
 ## 'It took me a long time to understand that just because I am self-taught doesn't mean I have to learn alone.'
 
 <div class="col-sm-12">
-  <img class="img-full" src="/assets/images/blog-6-3-17-2.jpg" />
+  <img class="img-responsive" src="/assets/images/blog-6-3-17-2.jpg" />
 </div>
 
 #### Searching for a coding school, Gizem considered everything from online programs to full-time courses. Unfortunately, none seemed like the right fit. 'With the former, I was reluctant to spend my money on any online source no matter how good the reviews were. With the latter, I realized that I wasn't willing to completely abandon my design career to be a developer, especially when I wasn't sure if I would love coding or even be good at it!' she laughs.
@@ -42,7 +42,7 @@ published: true
 ## The worst thing a designer can do is 'become stagnant and replaceable'.
 
 <div class="col-sm-12">
-  <img class="img-full" src="/assets/images/blog-6-3-17-3.jpg" />
+  <img class="img-responsive" src="/assets/images/blog-6-3-17-3.jpg" />
 </div>
 
 #### It's an ongoing debate – should designers have coding skills? 'Design is such a saturated career path,' she declares. 'Even if you don't become a full-on developer, I guarantee that learning to code will give you a competitive edge – especially in terms of salary. One thing I would really like to highlight is that HTML and CSS, [as well as] some familiarity with JavaScript and jQuery are required by many jobs and crucial to success in the current job market.'
