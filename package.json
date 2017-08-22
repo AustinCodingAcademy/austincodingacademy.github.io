@@ -22,7 +22,7 @@
     "amp-sanantonio": "postcss assets/stylesheets/sanantonio-amp.css --use postcss-amp --no-map > _includes/stylesheets/sanantonio-amp.css",
     "amp-houstontx": "postcss assets/stylesheets/houstontx-amp.css --use postcss-amp --no-map > _includes/stylesheets/houstontx-amp.css",
     "sass-include": "mkdir -p _includes/stylesheets && cp -R assets/stylesheets/. _includes/stylesheets",
-    "build-austin": "bundle exec jekyll build --config _config_austin.yml",
+    "build-austin": "bundle exec jekyll build --config _config_austin.yml && bundle exec jekyll build --config _config_austin.yml",
     "build-dallas": "bundle exec jekyll build --config _config_dallas.yml",
     "build-houstontx": "bundle exec jekyll build --config _config_houstontx.yml",
     "build-sanantonio": "bundle exec jekyll build --config _config_sanantonio.yml",
