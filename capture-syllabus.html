@@ -36,7 +36,7 @@ permalink: capture-syllabus
             <option value="" disabled selected>Select Course</option>
             {% for course in site.data.courses %}
             {% if site.courses contains course[0] %}
-            <option value="https://student.{{site.key}}codingacademy.com/_book{{course[1].syllabus}}">{{course[1].name}}</option>
+            <option value="{{course[1].name}}">{{course[1].name}}</option>
             {% endif %}
             {% endfor %}
           </select>
