@@ -54,7 +54,7 @@ tracks:
   - WebDesign
 classtimes: 6:30pm - 9:00pm
 # Build settings
-announcement: Classes begin September 11th!
+announcement: Classes begin <span class="start-date-only"></span>!
 markdown: kramdown
 permalink: blog/:year/:month/:day/:slug/
 

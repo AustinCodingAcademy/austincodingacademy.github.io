@@ -34,6 +34,7 @@
     - UX/UI Designer
     - Junior Web Developer
   syllabus: '/FSWD-JS.html#101-intro-to-web'
+  href: '/courses'
 
 101_2:
   name: '101 Intro to Web (North Austin)'
@@ -71,6 +72,7 @@
     - UX/UI Designer
     - Junior Web Developer
   syllabus: '/FSWD-JS.html#101-intro-to-web'
+  href: '/courses'
 
 211:
   name: '211 JavaScript Full Stack'
@@ -109,6 +111,7 @@
     - Front End Developer
     - Junior Web Developer
   syllabus: '/FSWD-JS.html#211-javascript-full-stack'
+  href: '/courses'
 
 311:
   name: '311 JavaScript Full Stack'
@@ -150,6 +153,7 @@
     - Full Stack Developer
     - Junior Web Developer
   syllabus: '/FSWD-JS.html#311-javascript-full-stack'
+  href: '/courses'
 
 221:
   name: '221 C# & .NET Full Stack'
@@ -186,6 +190,7 @@
     - Front End Developer
     - Junior Web Dev
   syllabus: '/FSWD-CSHARPDOTNET.html#221-c-net-full-stack'
+  href: '/courses'
 
 221_2:
   name: '221 C# & .NET Full Stack (North Austin)'
@@ -222,7 +227,7 @@
     - Front End Developer
     - Junior Web Dev
   syllabus: '/FSWD-CSHARPDOTNET.html#221-c-net-full-stack'
-
+  href: '/courses'
 
 321:
   name: '321 C# & .NET Full Stack'
@@ -262,6 +267,7 @@
     - Full Stack Developer
     - Junior Web Developer
   syllabus: '/FSWD-CSHARPDOTNET.html#321-c-net-full-stack'
+  href: '/courses'
 
 321_2:
   name: '321 C# & .NET Full Stack (North Austin)'
@@ -301,36 +307,39 @@
     - Full Stack Developer
     - Junior Web Developer
   syllabus: '/FSWD-CSHARPDOTNET.html#321-c-net-full-stack'
+  href: '/courses'
 
 231:
   name: '231 Web Design'
   summary: >
     Learn how to freelance, receive an introduction to writing copy and graphic design, static web page generation and templating.
-  img: ''
   thumbnail: /assets/images/looking-glasses.jpg
   description: >
     <p>
       Learn graphic design, crafting User Experience and User Interface, CSS frameworks, as well as an arsenal of tools to enable a successful freelancing career.
+      <a href="https://freelanceatx.austincodingacademy.com" target="_blank">Click here for more info</a>
     </p>
   skills: []
   projects: []
   jobs: []
   syllabus: ''
+  href: 'https://freelanceatx.austincodingacademy.com'
 
 331:
   name: '331 Web Design'
   summary: >
     Optimize your portfolio for User Experience and User Interface. Manage your projects with the Agile framework, build marketing plans and contracts.
-  img: ''
   thumbnail: /assets/images/around-table.jpg
   description: >
     <p>
       Complete the track by learning how to drive traffic to their websites utilizing A/B testing techniques, search engine optimization, google analytics, and attractive design.
+      <a href="https://freelanceatx.austincodingacademy.com" target="_blank">Click here for more info</a>
     </p>
   skills: []
   projects: []
   jobs: []
   syllabus: ''
+  href: 'https://freelanceatx.austincodingacademy.com'
 #
 # 'Coming Soon':
 #   name: 'Coming Soon'

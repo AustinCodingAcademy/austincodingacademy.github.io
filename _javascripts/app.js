@@ -111,9 +111,12 @@ $(function() {
           <br />
           ${moment.utc(dates['North Austin']).format('ddd, MMM Do, YYYY')}
         `);
+        var first = moment.utc(dates[campusKeys[campusKey].city]) < moment.utc(dates['North Austin']) ? moment.utc(dates[campusKeys[campusKey].city]) : moment.utc(dates['North Austin']);
+        $('.start-date-only').text(first.format('ddd, MMM Do'));
       } else if (['Dallas', 'Houston'].includes(campusKeys[campusKey].city)) {
         $('.start-date').html('Soon! <br /> <small>Request a syllabus below to be added to our waiting list.</small>');
       } else {
+        $('.start-date-only').text(moment.utc(dates[campusKeys[campusKey].city].format('ddd, MMM Do')));
         $('.start-date').text(moment.utc(dates[campusKeys[campusKey].city]).format('ddd, MMM Do, YYYY'));
       }
     }

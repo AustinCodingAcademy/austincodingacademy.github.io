@@ -375,8 +375,11 @@ financing_options:
             <div class="tab-content">
               {% for course in site.data.courses %}
               {% if site.courses contains course[0] %}
+              
               <div role="tabpanel" class="tab-pane {% if forloop.index == 1 %} active {% endif %}" id="{{course[0]}}-img">
+                {% if course[1].img %}
                 <img src="{{course[1].img}}" alt="{{course[1].name}}" class="img-responsive">
+                {% endif %}
               </div>
               {% endif %}
               {% endfor %}
