@@ -43,6 +43,7 @@ image: blog-10-30-17.jpeg
 ### Saturday, November 4th 10:00am-2:00pm
 
 ### Galvanize
+
 ## [Civic Hack Saturday]( https://www.meetup.com/Open-Austin/events/242727702/) 
 #### Open Austin’s bi-monthly Civic Hack Night is a hands on meet up for “hackers" interested in contributing to civic apps. Developers, designers, writers, data analyst, policy wonks and people of all skill levels are encouraged to attend. [RSVP]( https://www.meetup.com/Open-Austin/events/242727702/)
 
