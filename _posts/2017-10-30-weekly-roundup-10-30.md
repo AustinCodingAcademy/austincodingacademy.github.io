@@ -7,7 +7,7 @@ image: blog-10-30-17.jpeg
 ## Upcoming Events in Austin This Week!
 
 <div class="col-sm-12">
-  <img class="img-responsive" src="/assets/images/blog-10-20-17.jpeg" />
+  <img class="img-responsive" src="/assets/images/blog-10-30-17.jpeg" />
 </div>
 
 ---
@@ -26,7 +26,7 @@ image: blog-10-30-17.jpeg
 
 ---
 
-<div class="col-sm-5"> <img class="img-responsive" src="/assets/images/Hotft1030.jpg" /> </div>
+<div class="col-sm-5"> <img class="img-responsive" src="/assets/images/Hoft1030.jpg" /> </div>
 
 ### Wednesday, November 1st 7pm
 ### Capital Factory 16th floor
