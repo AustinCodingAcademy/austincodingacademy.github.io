@@ -29,7 +29,9 @@ image: blog-10-30-17.jpeg
 <div class="col-sm-5"> <img class="img-responsive" src="/assets/images/Hoft1030.jpg" /> </div>
 
 ### Wednesday, November 1st 7pm
+
 ### Capital Factory 16th floor
+
 ## [Intro to HOFT Institute Game Dev Program](https://www.facebook.com/events/1821946374501006/?acontext=%7B%22source%22%3A3%2C%22source_newsfeed_story_type%22%3A%22regular%22%2C%22action_history%22%3A%22[%7B%5C%22surface%5C%22%3A%5C%22newsfeed%5C%22%2C%5C%22mechanism%5C%22%3A%5C%22feed_story%5C%22%2C%5C%22extra_data%5C%22%3A[]%7D]%22%2C%22has_source%22%3Atrue%7D&source=3&source_newsfeed_story_type=regular&action_history=[%7B%22surface%22%3A%22newsfeed%22%2C%22mechanism%22%3A%22feed_story%22%2C%22extra_data%22%3A[]%7D]&has_source=1&hc_ref=ART1jEokcE6dW7FzTAaZrFb_Kx41CFlg33M2ll6eUc7RSLWKj1OdFZMWgvNJdjEIhvM)
  
 #### [HOFT Institute]( http://www.hoft.edu/) is an accredited educational operation that's been in Austin since the 1980s. Vocational training is the new venture within HOFT, and video game development is the first vocation of focus. This event will include a description of the new program, set to start in January 2018 and a presentation by experienced level designer Chip Sbroga, who has worked on titles including Metroid Prime 2: Echoes and Portal 2. Part program presentation and pitch, part professional demonstration. [RSVP](https://www.facebook.com/events/493831777647812/?acontext=%7B%22action_history%22%3A%22null%22%7D)
