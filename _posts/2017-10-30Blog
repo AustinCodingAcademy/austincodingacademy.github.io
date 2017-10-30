@@ -4,7 +4,7 @@ title: The Weekly Events Round Up, 10/30
 description: '{{ page.excerpt | strip_html }}'
 image: blog-10-30-17.jpeg
 redirect_from:
-  - blog/weekly-roundup-10-30-17
+  - blog/weekly-roundup-10-30
 ---
 Upcoming Events in Austin This Week!
 
