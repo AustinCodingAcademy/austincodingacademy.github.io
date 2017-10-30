@@ -1,3 +1,4 @@
+[![CircleCI](https://circleci.com/gh/AustinCodingAcademy/austincodingacademy.com.svg?style=svg&circle-token=4617c94c1eb85c5fee334ba791bbe83b2251e106)](https://circleci.com/gh/AustinCodingAcademy/austincodingacademy.com)
 # Austin Coding Academy Website Generator
 
 ## Environment Setup
