@@ -50,7 +50,7 @@ image: StudentFeature112.jpg
 
 ### What is your proudest moment related to learning to code?
 
-####My proudest moment has been using my skills to update some elements of my church's website. Of course, I'm still learning as I go, but now my church turns to me for help. That's awesome considering I didn't even know what HTML and CSS meant just a couple months ago and now I'm using it on their site.
+#### My proudest moment has been using my skills to update some elements of my church's website. Of course, I'm still learning as I go, but now my church turns to me for help. That's awesome considering I didn't even know what HTML and CSS meant just a couple months ago and now I'm using it on their site.
 
 
 ### Would you rather do battle with one horse-sized duck or 100 duck-sized horses?
