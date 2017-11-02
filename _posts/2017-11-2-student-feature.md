@@ -25,7 +25,7 @@ image: StudentFeature112.jpg
 
 ### What got you interested in coding?
 
-####I found it difficult to find employment in the tech-booming city of Austin with an International Relations Degree. I had no technical skills and told myself, "Before I hop on a plane and try to get a job in Ecuador, I should check out one of these coding bootcamps...See what that's all about and if that can't help my situation here, I'll go to Ecuador."  I have already received solicitations to do little gigs here and there using the HTML and CSS skills I've developed so I might hold off on the flight for the time being. 
+#### I found it difficult to find employment in the tech-booming city of Austin with an International Relations Degree. I had no technical skills and told myself, "Before I hop on a plane and try to get a job in Ecuador, I should check out one of these coding bootcamps...See what that's all about and if that can't help my situation here, I'll go to Ecuador."  I have already received solicitations to do little gigs here and there using the HTML and CSS skills I've developed so I might hold off on the flight for the time being. 
 
 
 ### How will you use your skills once you finish the courses?
