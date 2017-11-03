@@ -29,7 +29,9 @@ image: blog-11-6-17.jpg
 #### Are you an entrepreneur starting a new tech company? Come hear an overview from an experienced entrepreneur and angel investor and get a chance to introduce yourself and ask questions. Lead by Managing Director and General Partner Gordon Daugherty, and special guests.  [RSVP](https://www.eventbrite.com/e/intro-to-fundraising-in-texas-ask-me-anything-with-gordon-daugherty-in-austin-tickets-39084129684 )
 
 ---
-div class="col-sm-5"> <img class="img-responsive" src="/assets/images/Blog-women-who-code.jpeg"/> </div>
+<div class="col-sm-5"> 
+  <img class="img-responsive" src="/assets/images/Blog-women-who-code.jpeg"/> 
+</div>
 
 ### Wednesday, November 8th 6:30om-9:00pm
 
