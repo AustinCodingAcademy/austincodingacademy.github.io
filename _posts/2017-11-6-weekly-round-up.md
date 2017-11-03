@@ -34,7 +34,7 @@ image: blog-11-6-17.jpg
   <img class="img-responsive" src="/assets/images/Blog-women-who-code.jpeg"/> 
 </div>
 
-### Wednesday, November 8th 6:30om-9:00pm
+### Wednesday, November 8th 6:30pm-9:00pm
 
 ### Bloomfire
 
