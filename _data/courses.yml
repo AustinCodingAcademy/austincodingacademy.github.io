@@ -314,6 +314,7 @@
   summary: >
     Learn how to freelance, receive an introduction to writing copy and graphic design, static web page generation and templating.
   thumbnail: /assets/images/looking-glasses.jpg
+  img: /assets/images/web-design-image.jpg
   description: >
     <p>
       Learn graphic design, crafting User Experience and User Interface, CSS frameworks, as well as an arsenal of tools to enable a successful freelancing career.
@@ -330,6 +331,7 @@
   summary: >
     Optimize your portfolio for User Experience and User Interface. Manage your projects with the Agile framework, build marketing plans and contracts.
   thumbnail: /assets/images/around-table.jpg
+  img: /assets/images/web-design-image.jpg
   description: >
     <p>
       Complete the track by learning how to drive traffic to their websites utilizing A/B testing techniques, search engine optimization, google analytics, and attractive design.
