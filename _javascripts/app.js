@@ -107,7 +107,7 @@ $(function() {
           <br/>
           ${moment.utc(dates[campusKeys[campusKey].city]).format('ddd, MMM Do, YYYY')}
           <br/>
-          <small>North</small>
+          <small>North / <a href="/remote">Remote</a></small>
           <br />
           ${moment.utc(dates['North Austin']).format('ddd, MMM Do, YYYY')}
         `);

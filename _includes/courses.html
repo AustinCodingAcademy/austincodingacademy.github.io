@@ -1,0 +1,73 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-offset-3 col-md-9 col-lg-10 col-lg-offset-2">
+      <div class="row">
+        <div class="col-xs-12 col-md-4">
+          <h3>
+            Courses <span class="text-success">List</span>
+            <br>
+            <hr style="width: 40px; text-align:left; margin-left:0; border-color:#777">
+          </h3>
+          <ul class="nav nav-tabs nav-stacked" role="tablist">
+            {% for course in site.data.courses %}
+            {% if include.courses contains course[0] %}
+            <li role="presentation" class="{% if forloop.index == 1 %} active {% endif %}">
+              <a href="#{{course[0]}}-img" aria-controls="home" data-target="#{{course[0]}}-img, #{{course[0]}}-details, #{{course[0]}}-description" role="tab" data-toggle="tab">
+                {{course[1].name}}
+              </a>
+            </li>
+            {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="col-xs-12 col-md-8">
+          <div class="tab-content">
+            {% for course in site.data.courses %}
+            {% if include.courses contains course[0] %}
+            
+            <div role="tabpanel" class="tab-pane {% if forloop.index == 1 %} active {% endif %}" id="{{course[0]}}-img">
+              {% if course[1].img %}
+              <img src="{{course[1].img}}" alt="{{course[1].name}}" class="img-responsive">
+              {% endif %}
+            </div>
+            {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-md-4">
+          <div class="tab-content">
+            <h3>
+              Course <span class="text-success">Details</span>
+              <br>
+              <hr style="width: 40px; text-align:left; margin-left:0; border-color:#777">
+            </h3>
+            {% for course in site.data.courses %}
+            {% if include.courses contains course[0] %}
+            <div role="tabpanel" class="tab-pane {% if forloop.index == 1 %} active {% endif %}" id="{{course[0]}}-details">
+              <ul class="list-unstyled">
+                <li><h4><span class="text-success">Price :</span> {{site.course_amount}}</h4></li>
+              </ul>
+            </div>
+            {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-8">
+          <div class="tab-content">
+            {% for course in site.data.courses %}
+            <div role="tabpanel" class="tab-pane {% if forloop.index == 1 %} active {% endif %}" id="{{course[0]}}-description">
+              <h2>
+                {{course[1].name}}
+                <hr style="width:40px; text-align:left; margin-left:0; border-color:{{site.color}};">
+              </h2>
+              {{course[1].description}}
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
