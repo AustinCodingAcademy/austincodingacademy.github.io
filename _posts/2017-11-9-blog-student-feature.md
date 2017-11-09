@@ -4,7 +4,7 @@ title: Student Highlight - 11/9
 description: '{{ page.excerpt | strip_html }}'
 image: Blog119StudentFeature.jpeg
 ---
-## Getting to Know Taylor Bently
+## Getting to Know Taylor Bentley
 
 <div class="col-sm-12">
   <img class="img-responsive" src="/assets/images/Blog119StudentFeature.jpeg"/>
@@ -14,7 +14,7 @@ image: Blog119StudentFeature.jpeg
 
 # Every week we like to feature one of our outstanding students at Austin Coding Academy. ACA’s student body is as diverse as it is interesting and we’d like to give ya’ll the opportunity to get to know them a little better. Our students make Austin Coding Academy the great place that it is.
 
-## This week we’re putting the spotlight on Taylor Bently from Kyle, Texas! We asked her to share a little about herself and her coding journey.
+## This week we’re putting the spotlight on Taylor Bentley from Kyle, Texas! We asked her to share a little about herself and her coding journey.
 
 ---
 
