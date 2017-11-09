@@ -2,12 +2,12 @@
 layout: post
 title: Student Highlight - 11/9
 description: '{{ page.excerpt | strip_html }}'
-image: Blog119StudentFeature.jpeg
+image: Blog-11-9-17.jpg
 ---
 ## Getting to Know Taylor Bentley
 
 <div class="col-sm-12">
-  <img class="img-responsive" src="/assets/images/Blog119StudentFeature.jpeg"/>
+  <img class="img-responsive" src="/assets/images/Blog-11-9-17.jpg"/>
 </div>
 
 ---
