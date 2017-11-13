@@ -1,3 +1,4 @@
+---
 layout: post
 title: The Weekly Events Round Up, 11/13
 description: '{{ page.excerpt | strip_html }}'
@@ -40,7 +41,7 @@ Right now America has over 500,000 open tech jobs – by 2020 this number will g
 ## [Lesbians Who Tech](https://lesbianswhotech.org) November Speed Mentoring
 
 #### Speed mentoring is a super casual and fun way for people to meet others in their field and learn more about what’s needed to grow. We’ll have 3-4 sessions throughout the night and you can sign up to be in 1 or all 4. Each session is 30-45 minutes. We’ll guide & prompt you and in each session you’ll get to provide wisdom to multiple mentees. You feel good, they feel good. Win-win.
-[FAQ] (https://lesbianswhotech.org/mentoring/)
+[FAQ](https://lesbianswhotech.org/mentoring/)
 
 [RSVP](https://www.eventbrite.com/e/lesbians-who-tech-allies-austin-november-speed-mentoring-tickets-38963916122?aff=es2)
 
