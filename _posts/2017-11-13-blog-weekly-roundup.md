@@ -36,7 +36,7 @@ Right now America has over 500,000 open tech jobs – by 2020 this number will g
 
 ### Tuesday, November 14th 5:00pm-9:00pm
 
-### Capital Factory - [part of Tech Jobs Tour](https://techjobstour.com/tour-cities/austin/?utm_source=%2AAustin+Tech+Live&utm_campaign=e78cad582e-ATL_EMAIL_CAMPAIGN_2017_11_13&utm_medium=email&utm_term=0_937623188b-e78cad582e-69074573)
+### Capital Factory - part of [Tech Jobs Tour](https://techjobstour.com/tour-cities/austin/?utm_source=%2AAustin+Tech+Live&utm_campaign=e78cad582e-ATL_EMAIL_CAMPAIGN_2017_11_13&utm_medium=email&utm_term=0_937623188b-e78cad582e-69074573)
 
 ## [Lesbians Who Tech](https://lesbianswhotech.org) November Speed Mentoring
 
