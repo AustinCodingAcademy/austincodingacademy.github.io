@@ -1,0 +1,74 @@
+---
+layout: post
+title: Student Highlight - 11/16
+description: '{{ page.excerpt | strip_html }}'
+image: blog-11-16-17.jpg
+---
+## Getting to Know Cameron Gottschall
+
+<div class="col-sm-12">
+  <img class="img-responsive" src="/assets/images/blog-11-16-17.jpg"/>
+</div>
+
+---
+
+# Every week we like to feature one of our outstanding students at Austin Coding Academy. ACA’s student body is as diverse as it is interesting and we’d like to give ya’ll the opportunity to get to know them a little better. Our students make Austin Coding Academy the great place that it is.
+
+## This week we’re putting the spotlight on Cameron Gottschall orignally from Wixom, Michigan! He is currently enrolled in 311 Javascript and is graduating in a few weeks! We asked him to share a little about himself and his coding journey.
+
+---
+
+### Tell us what got sparked your interested in coding?
+
+#### I have always had a strong interest in Technology and how it worked.  I also love to learn and I just feel that coding will allow me to learn for a living. Since technology is always changing, I will always have new content to learn or come up with myself!
+
+
+
+### What do you do for work now?
+
+#### I recently left my sales job at Dell. I wanted to focus on learning the necessary skills to pursue a career in programming.
+
+
+
+### What’s your dream job after completing the program?
+ 
+#### My dream job would obviously involve being a programmer. I  hope to develop applications that are capable of helping others in some way.  I would then hope to grow these applications and sell them nationwide and maybe even globally to help people around the world. 
+
+
+
+### Now that you’ve almost graduated, can you give us a compare and contrast from the first day of school to now?
+
+#### On my first day,  I essentially only knew basic HTML. I was able to put some words on a page and a couple of pictures and change the background color. Since then we have learned a lot. With the help of my classmates I’ve gained a way better understanding of programming and learn new languages that allowed me to build the entire applications.  *If I had to guess where I would’ve been now at the beginning of class I wouldn’t have imagined this.*
+
+
+
+### What unique skill or experience do you have, tell us something that makes you – you.
+
+#### One of my favorite skills about myself is my ability to make others laugh. Bringing joy others is the surest way to improve someone’s day and giving that joy improves mine all the same. 
+
+
+
+### What do you appreciate the most about your whole ACA experience?
+
+
+#### There so many things that I appreciate about Austin Coding Academy. Besides the staff and making new friends with my classmates— I would say it has been learning the skills to pursue a passion of mine.
+
+
+
+### What is your proudest moment related to learning to code?
+
+#### There have been a few. I would have to say my proudest moment overall though was finally understanding React and Redux. It can get pretty complicated but finally feeling that AHA moment really puts into perspective how achievable my goals are. 
+
+
+
+### Tell us a joke!
+
+#### “Donald Trump’s tie length”
+
+
+---
+
+### We love showing off our students, they’re incredible! If you’re one of our students and have a great story, we’d love to hear it. Email Victoria@austincodingacademy.com for consideration. 
+
+### If you’re not one of our students, but you’d like to start your own journey, our next class starts Jan. 15, 2018. We do tours and class visits, so if you’d like to see what ACA is all about, we’d love to have you by! 
+---
