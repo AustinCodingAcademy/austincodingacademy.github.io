@@ -87,3 +87,11 @@ image: blog_11_22_2017.jpg
 ### *Lastly, hit us with a joke*
 
 #### I told my friend 10 jokes to get him to laugh. Sadly no pun in 10 did.
+
+---
+
+### We love showing off our students, they’re incredible! If you’re one of our students and have a great story, we’d love to hear it. Email Victoria@austincodingacademy.com for consideration. 
+
+### If you’re not one of our students, but you’d like to start your own journey, our next class starts Jan. 15, 2018. We do tours and class visits, so if you’d like to see what ACA is all about, we’d love to have you by! 
+
+---
