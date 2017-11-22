@@ -2,12 +2,12 @@
 layout: post
 title: Student Highlight - 11/22
 description: '{{ page.excerpt | strip_html }}'
-image: blog_11_22_20107.jpg
+image: blog_11_22_2017.jpg.jpg
 ---
 ## Getting to Know Max Gaj - Remote Student Extraordinaire 
 
 <div class="col-sm-12">
-  <img class="img-responsive" src="/assets/images/blog_11_22_20107.jpg"/>
+  <img class="img-responsive" src="/assets/images/blog_11_22_2017.jpg"/>
 </div>
 
 ---
