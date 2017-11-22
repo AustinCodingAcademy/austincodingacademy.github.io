@@ -6,7 +6,7 @@
     "test": "echo \"Error: no test specified\"",
     "js": "mkdir -p assets/javascripts && browserify _javascripts/app.js --debug | exorcist assets/javascripts/app.js.map > assets/javascripts/app.js",
     "images": "imagemin _images/* --out-dir=assets/images",
-    "sass": "npm run sass-austin && npm run sass-sanantonio && npm run sass-dallas && npm run sass-houstontx && npm run sass-include",
+    "sass": "npm run sass-austin && npm run sass-sanantonio && npm run sass-dallas && npm run sass-houstontx && npm run sass-include && npm run sass-amp",
     "sass-amp": "npm run sass-amp-austin && npm run sass-amp-dallas && npm run sass-amp-houstontx && npm run sass-amp-sanantonio && npm run amp-austin && npm run amp-dallas && npm run amp-houstontx && npm run amp-sanantonio",
     "postinstall": "npm run sass && npm run js && npm run images",
     "sass-austin": "node-sass --output-style compressed -o assets/stylesheets/ _sass/austin.scss",

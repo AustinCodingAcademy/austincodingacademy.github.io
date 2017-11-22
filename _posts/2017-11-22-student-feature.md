@@ -2,7 +2,7 @@
 layout: post
 title: Student Highlight - 11/22
 description: '{{ page.excerpt | strip_html }}'
-image: blog_11_22_2017.jpg.jpg
+image: blog_11_22_2017.jpg
 ---
 ## Getting to Know Max Gaj - Remote Student Extraordinaire 
 
