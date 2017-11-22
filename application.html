@@ -30,17 +30,6 @@ permalink: application.html
     <input class="form-control datepicker" id="insightly_LEAD_FIELD_54" name="LEAD_FIELD_54" type="text" required placeholder="ex: 01/01/2001" />
   </div>
   <div class="form-group">
-    <label for="insightly_LEAD_FIELD_1">Which course are you applying for? </label>
-    <select id="insightly_LEAD_FIELD_1" class="form-control" name="LEAD_FIELD_1" required />
-      <option value="" disabled selected>Select Course</option>
-      {% for course in site.data.courses %}
-      {% if site.courses contains course[0] %}
-      <option value="{{course[1].name}}">{{course[1].name}}</option>
-      {% endif %}
-      {% endfor %}
-    </select>
-  </div>
-  <div class="form-group">
     <label for="insightly_AddressCity">City </label>
     <input class="form-control" id="insightly_AddressCity" name="AddressCity" type="text" required />
   </div>
