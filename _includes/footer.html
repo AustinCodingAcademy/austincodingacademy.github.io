@@ -2,30 +2,26 @@
   <nav class="navbar navbar-inverse navbar-static-bottom">
     {% if site.key == 'austin' or site.key == 'sanantonio' %}
     <div id="footer-call-tour-grab" class="well text-white">
-      <div class="">
-        <div class="container">
-          <h2 class="text-center text-white jumbo text-shadow">
-            Want to come check out classes or talk to a human?
-          </h2>
-          <br><br>
-          <div class="row">
-              {% if site.key == 'austin' %}
-              <div class="phone-margin-bottom text-center col-md-4 col-sm-12">
-                <a class="btn btn-lg btn-success" href="https://acaappointment.acuityscheduling.com/schedule.php?appointmentType=1406673"><i class="fa fa-phone"></i>&nbsp;&nbsp;Schedule a call</a>
-              </div>
-              <div class="phone-margin-bottom text-center col-md-4 col-sm-12">
-                <a class="btn btn-lg btn-success" href="https://acaappointment.acuityscheduling.com/schedule.php?appointmentType=2958006"><i class="fa fa-building-o" aria-hidden="true"></i>&nbsp;&nbsp;Central Campus Tour</a>
-              </div>
-              <div class="phone-margin-bottom text-center col-md-4 col-sm-12">
-                <a class="btn btn-lg btn-success" href="https://acaappointment.acuityscheduling.com/schedule.php?appointmentType=3254226"><i class="fa fa-building-o" aria-hidden="true"></i>&nbsp;&nbsp;North Campus Tour</a>
-              </div>
-              {% elsif site.key == 'sanantonio' %}
-                <div class="phone-margin-bottom text-center col-md-6 col-sm-12">
-                  <a class="btn btn-lg btn-success" href="https://acaappointment.acuityscheduling.com/schedule.php?appointmentType=4004268"><i class="fa fa-phone"></i>&nbsp;&nbsp;Schedule a call</a>
-                </div>
-              {% endif %}
-            </div>
+      <h2 class="text-center text-white jumbo text-shadow">
+        Want to come check out classes or talk to a human?
+      </h2>
+      <br><br>
+      <div class="row">
+        {% if site.key == 'austin' %}
+        <div class="phone-margin-bottom text-center col-md-4 col-sm-12">
+          <a class="btn btn-lg btn-success" href="https://acaappointment.acuityscheduling.com/schedule.php?appointmentType=1406673"><i class="fa fa-phone"></i>&nbsp;&nbsp;Schedule a call</a>
         </div>
+        <div class="phone-margin-bottom text-center col-md-4 col-sm-12">
+          <a class="btn btn-lg btn-success" href="https://acaappointment.acuityscheduling.com/schedule.php?appointmentType=2958006"><i class="fa fa-building-o" aria-hidden="true"></i>&nbsp;&nbsp;Central Campus Tour</a>
+        </div>
+        <div class="phone-margin-bottom text-center col-md-4 col-sm-12">
+          <a class="btn btn-lg btn-success" href="https://acaappointment.acuityscheduling.com/schedule.php?appointmentType=3254226"><i class="fa fa-building-o" aria-hidden="true"></i>&nbsp;&nbsp;North Campus Tour</a>
+        </div>
+        {% elsif site.key == 'sanantonio' %}
+          <div class="phone-margin-bottom text-center col-md-6 col-sm-12">
+            <a class="btn btn-lg btn-success" href="https://acaappointment.acuityscheduling.com/schedule.php?appointmentType=4004268"><i class="fa fa-phone"></i>&nbsp;&nbsp;Schedule a call</a>
+          </div>
+        {% endif %}
       </div>
     </div>
     {% endif %}
