@@ -10,6 +10,7 @@ header: Austin's Best Value in Coding Education
 email: info@austincodingacademy.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://austincodingacademy.com # the base hostname & protocol for your site, e.g. http://example.com
+hostname: austincodingacademy.com
 twitterhandle: AustinCoding
 twitter: https://twitter.com/AustinCoding
 github:  https://github.com/AustinCodingAcademy
