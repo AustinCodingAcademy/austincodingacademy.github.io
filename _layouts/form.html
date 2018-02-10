@@ -5,7 +5,7 @@
     {% include facebook-pixel.html %}
     {% include clickheat.html %}
     <meta charset="utf-8">
-    <title></title>
+    <title>{{ page.title | liquify }}</title>
     <link rel="stylesheet" href="/assets/stylesheets/{{ site.key | liquify }}.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="campuskey" content="{{ site.key }}">
@@ -19,6 +19,28 @@
       $('form').resize(function() {
         parent.postMessage('resized-' + window.location.search.slice(4) + '-' + $(this).height(), '*');
       });
+      function getCookie(key) {
+        return ('; ' + document.cookie)
+          .split('; ' + key + '=')
+          .pop()
+          .split(';')
+          .shift()
+      }
+
+      if ($('input[name="hs_context"]').length) {
+        var hs_context = {
+          hutk: getCookie('hubspotutk'),
+          pageUrl: window.location.href,
+          pageName: document.querySelector('title').text
+        }
+      
+        $.getJSON('https://api.ipify.org?format=jsonp&callback=?', function(data) {
+          hs_context.ipAddress = data.ip;
+          $('input[name="hs_context"]').val(JSON.stringify(hs_context));
+        });
+      
+        $('input[name="hs_context"]').val(encodeURI(JSON.stringify(hs_context)));
+      }
       $('form').submit(function(e) {
         e.preventDefault();
         var form = $(this).attr('id');
