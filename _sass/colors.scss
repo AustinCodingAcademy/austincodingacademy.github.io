@@ -114,6 +114,9 @@ $color_vars:
 
   .text-#{$color} {
     color: $color_var !important;
+    label {
+      color: $color_var !important;
+    }
   }
 
   .bg-#{$color} {
