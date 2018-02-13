@@ -14,6 +14,7 @@ require('jquery-match-height');
 require('bootstrap-calendar');
 require('intl-tel-input');
 require('jquery-ui.datepicker');
+window.Cookies = require('js-cookie');
 window.shajs = require('sha.js');
 window._ = require('underscore');
 window.moment = require('moment');
@@ -168,5 +169,5 @@ $(function() {
     changeMonth: true,
     yearRange: '1950:2017'
   });
-
+  
 });

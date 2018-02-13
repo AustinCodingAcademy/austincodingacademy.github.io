@@ -158,7 +158,7 @@ GEM
       gemoji (~> 2.0)
       html-pipeline (~> 2.2)
       jekyll (>= 3.0)
-    json (1.8.3)
+    json (1.8.6)
     kramdown (1.11.1)
     liquid (3.0.6)
     listen (3.0.6)
@@ -201,13 +201,13 @@ PLATFORMS
 DEPENDENCIES
   amp-jekyll
   github-pages
-  jekyll (= 3.3.1)
-  jekyll-feed (~> 0.6)
+  jekyll
+  jekyll-feed
   jekyll-paginate
   jekyll-redirect-from
 
 RUBY VERSION
-   ruby 2.2.6p396
+   ruby 2.5.0p0
 
 BUNDLED WITH
-   1.14.6
+   1.16.1
