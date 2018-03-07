@@ -114,8 +114,8 @@ $(function() {
         `);
         var first = moment.utc(dates[campusKeys[campusKey].city]) < moment.utc(dates['North Austin']) ? moment.utc(dates[campusKeys[campusKey].city]) : moment.utc(dates['North Austin']);
         $('.start-date-only').text(first.format('ddd, MMM Do'));
-      } else if (['Dallas', 'Houston', 'San Antonio'].includes(campusKeys[campusKey].city)) {
-        $('.start-date').html('Classes begin April 9th!');
+      } else if (['Dallas', 'Houston', 'San Antonio'].includes(campusKeys[campusKey].city) || true) {
+        $('.start-date').html('April 9th');
       } else {
         $('.start-date-only').text(moment.utc(dates[campusKeys[campusKey].city].format('ddd, MMM Do')));
         $('.start-date').text(moment.utc(dates[campusKeys[campusKey].city]).format('ddd, MMM Do, YYYY'));
