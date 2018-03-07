@@ -45,7 +45,7 @@ tracks:
   - CSharp
 classtimes: 6:15pm - 8:45pm
 # Build settings
-announcement: Classes begin <span class="start-date-only"></span>!
+announcement: Classes begin April 9th!
 markdown: kramdown
 permalink: blog/:year/:month/:day/:slug/
 
