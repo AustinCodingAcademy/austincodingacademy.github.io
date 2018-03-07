@@ -45,7 +45,7 @@ tracks:
   - CSharp
 classtimes: 6:30pm - 9:00pm
 # Build settings
-announcement: Apply to get on the waiting list!
+announcement: Classes begin April 9th!
 markdown: kramdown
 permalink: blog/:year/:month/:day/:slug/
 
