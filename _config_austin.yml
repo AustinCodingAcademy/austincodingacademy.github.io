@@ -57,7 +57,7 @@ classtimes: 6:30pm - 9:00pm
 # Build settings
 announcement: Classes begin <span class="start-date-only"></span>!
 markdown: kramdown
-permalink: blog/:year/:month/:day/:slug/
+permalink: :year/:month/:day/:slug/
 
 gems:
   - jekyll-feed
