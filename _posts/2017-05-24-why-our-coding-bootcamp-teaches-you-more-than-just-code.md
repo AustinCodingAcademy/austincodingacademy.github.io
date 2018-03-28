@@ -39,7 +39,7 @@ Junior web developers who are proficient in these three soft skills find success
 
 #### From the first day of class, students are placed into learning groups where they collaborate and work together on their first website project outside of class. We have found that students who collaborate and compromise well with others thrive in group work.
 
-#### Throughout the course of our 10-week classes, students who are successful also have a firm grasp on their time management. While we pride ourselves on a flexible program you can complete without quitting your day job, the coursework is no joke. You will need to hone your time management skills down to a science in order to master this soft skill.
+#### Throughout the course of our 10-week {% if site.key != 'austin' '%} remote {% endif %} classes, students who are successful also have a firm grasp on their time management. While we pride ourselves on a flexible program you can complete without quitting your day job, the coursework is no joke. You will need to hone your time management skills down to a science in order to master this soft skill.
 
 
 

@@ -39,6 +39,6 @@ A great way to teach other's without taking up much of your time is to blog abou
 
 ### **5. Take A Class Or Boot Camp**
 
-Boot camps and classes are another excellent way to master programming faster. Classes are instructor led allowing students to get hands on experience and work directly with professors. Taking a front end or back end track class through an academy such as [Austin Coding Academy](//www.austincodingacademy.com/) takes students through beginning, intermediate, and advanced lessons necessary to prepare for full time developer roles.
+Boot camps and {% if site.key != 'austin' '%} remote {% endif %} classes are another excellent way to master programming faster. {% if site.key != 'austin' '%} Remote {% endif %} classes are instructor led allowing students to get hands on experience and work directly with professors. Taking a front end or back end track class through an academy such as [Austin Coding Academy](//www.austincodingacademy.com/) takes students through beginning, intermediate, and advanced lessons necessary to prepare for full time developer roles.
 
 Growing with your organization, changing careers, or getting serious about a hobby all starts with mastering the subject matter. If you're a programmer or a future programmer in the Austin area, take a look at how you can master programming with our 10-week courses.

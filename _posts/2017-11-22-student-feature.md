@@ -51,7 +51,7 @@ image: blog_11_22_2017.jpg
  
 ### *You’re taking our remote classes! Tell us about your experience!*
  
-#### The remote classes are great! My teacher Erik does a great job of giving each student individual attention, making those of us online feel like we’re getting the same quality lessons. Taking classes remotely saves me hours of commute time each week, hours that I can now use to study and become a stronger student.
+#### The remote classes are great! My teacher Erik does a great job of giving each student individual attention, making those of us online feel like we’re getting the same quality lessons. Taking {% if site.key != 'austin' '%} remote {% endif %} classes remotely saves me hours of commute time each week, hours that I can now use to study and become a stronger student.
  
  
  

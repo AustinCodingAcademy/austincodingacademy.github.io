@@ -42,13 +42,13 @@ The curriculum was written by developer friends who agreed to teach part-time. A
 
 
 
-**Practical classes for part time learners**
+**Practical {% if site.key != 'austin' '%} remote {% endif %} classes for part time learners**
 
-The first class is designed for beginners, teaching them the infrastructure of the web while building websites in HTML, CSS, Bootstrap, jQuery, and a bit of JavaScript. Soon after completing the first semester, they realized their students were hooked, and the intermediate and advanced classes were soon introduced.
+The first class is designed for beginners, teaching them the infrastructure of the web while building websites in HTML, CSS, Bootstrap, jQuery, and a bit of JavaScript. Soon after completing the first semester, they realized their students were hooked, and the intermediate and advanced {% if site.key != 'austin' '%} remote {% endif %} classes were soon introduced.
 
-This extended program provides an opportunities to jump into a development career. The part-time classes are a perfect fit for students with busy lives, full time jobs, families and other commitments. After two years, ACA has built an excellent curriculum and a personalized approach to teaching.
+This extended program provides an opportunities to jump into a development career. The part-time {% if site.key != 'austin' '%} remote {% endif %} classes are a perfect fit for students with busy lives, full time jobs, families and other commitments. After two years, ACA has built an excellent curriculum and a personalized approach to teaching.
 
-Luke explains this methodology. 'Our classes are designed to be very practical, and we've cut a lot of the fat from traditional educational institutions. Students are building projects and learning skills that are directly applicable to a wide area of jobs in the tech industry. We're very much "teaching a man to fish" so to speak, by giving students the tools to build powerful web programs and sites; things that are valuable and useable.'
+Luke explains this methodology. 'Our {% if site.key != 'austin' '%} remote {% endif %} classes are designed to be very practical, and we've cut a lot of the fat from traditional educational institutions. Students are building projects and learning skills that are directly applicable to a wide area of jobs in the tech industry. We're very much "teaching a man to fish" so to speak, by giving students the tools to build powerful web programs and sites; things that are valuable and useable.'
 
 
 
@@ -64,9 +64,9 @@ The school's mission statement is to provide affordable, accessible coding educa
 
 The school is expanding - with campuses in Austin, San Antonio, Dallas and Houston - and they're hoping to grow further while maintaining their standards of quality for instruction and mentorship. 'The most rewarding part of my job,' says Luke, 'is seeing the school [become] a fluidly functioning place where people can comfortably learn to code and do it without having to mortgage their future.'
 
-Luke and Chris are also working on developing an online version of their classes, but won't be releasing it until they can replicate the same level of encouragement, challenge and guidance the instructors are able to offer in person.
+Luke and Chris are also working on developing an online version of their {% if site.key != 'austin' '%} remote {% endif %} classes, but won't be releasing it until they can replicate the same level of encouragement, challenge and guidance the instructors are able to offer in person.
 
-Accessibility is their focus - part time night classes, instructors available online to answer questions, tutoring labs on the weekend, and a practical approach to learning.
+Accessibility is their focus - part time night {% if site.key != 'austin' '%} remote {% endif %} classes, instructors available online to answer questions, tutoring labs on the weekend, and a practical approach to learning.
 
 Austin Coding Academy's graduates are career ready, and ready to take the tech industry by storm.
 

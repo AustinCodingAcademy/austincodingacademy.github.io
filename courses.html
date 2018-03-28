@@ -3,7 +3,7 @@ layout: default
 permalink: /courses/
 title: Computer Coding Courses & Training | {{ site.school }}
 description: >
-  Coding classes for beginners: Learn to code responsive websites, build interactive apps, and become a job-ready web developer at {{site.school}} in just nine months.
+  {% if site.key != 'austin' '%} Remote {% endif %} coding classes for beginners: Learn to code responsive websites, build interactive apps, and become a job-ready web developer at {{site.school}} in just nine months.
 head: >
   <style media="screen">
     section:first-child {
@@ -93,7 +93,7 @@ financing_options:
 <section class="bg-gray-darker text-white text-center">
   <div class="container">
     <h1 class="jumbo">
-      Coding Classes Designed by Developers to Help You Get a Career That You Love.
+       {% if site.key != 'austin' '%} Remote {% endif %} Coding Classes Designed by Developers to Help You Get a Career That You Love.
     </h1>
     <br /><br />
     <a href="/apply" class="btn btn-success btn-lg">Start Your Application</a>
@@ -122,11 +122,11 @@ financing_options:
       </div>
       <div class="col-md-9 col-lg-10">
         <h2>
-          Classes Designed to Move at the Pace of Life
+          {% if site.key != 'austin' '%} Remote {% endif %} classes Designed to Move at the Pace of Life
         </h2>
         <p>
-            Our classes are broken up into 3 tracks, each comprised of 3 levels.
-            These classes are designed to get you from beginner to job ready in
+            Our {% if site.key != 'austin' '%} remote {% endif %} classes are broken up into 3 tracks, each comprised of 3 levels.
+            These {% if site.key != 'austin' '%} remote {% endif %} classes are designed to get you from beginner to job ready in
             a sustainable and accessible manner, without having to quit your job
             or mortgage your future. 
         </p>

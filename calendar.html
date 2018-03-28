@@ -3,7 +3,7 @@ layout: default
 permalink: /calendar/
 title: Learn To Code News & Tips | {{ site.school }} Calendar
 description: >
-  Learn to code with {{ site.school }}'s courses, classes, and workshops on Virtual Reality, HTML, CSS, and Javascript in the {{ site.city }} area
+  Learn to code with {{ site.school }}'s courses, {% if site.key != 'austin' '%} remote {% endif %} classes, and workshops on Virtual Reality, HTML, CSS, and Javascript in the {{ site.city }} area
 head: >
   <style media="screen">
     section:first-child {
@@ -25,7 +25,7 @@ head: >
       {{site.school}} Calendar
       <br>
       <small class="text-white">
-        {{site.acronym}}'s courses, classes, and workshops on Virtual Reality, HTML, CSS, and Javascript in the {{ site.city }} area
+        {{site.acronym}}'s courses, {% if site.key != 'austin' '%} remote {% endif %} classes, and workshops on Virtual Reality, HTML, CSS, and Javascript in the {{ site.city }} area
       </small>
     </h1>
   </div>

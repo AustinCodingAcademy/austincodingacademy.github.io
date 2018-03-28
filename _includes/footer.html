@@ -3,7 +3,7 @@
     {% if site.key == 'austin' or site.key == 'sanantonio' %}
     <div id="footer-call-tour-grab" class="well text-white">
       <h2 class="text-center text-white jumbo text-shadow">
-        Want to come check out classes or talk to a human?
+        Want to come check out {% if site.key != 'austin' '%} remote {% endif %} classes or talk to a human?
       </h2>
       <br><br>
       <div class="row">
@@ -17,8 +17,8 @@
         <div class="phone-margin-bottom text-center col-md-4 col-sm-12">
           <a class="btn btn-lg btn-success" href="https://acaappointment.acuityscheduling.com/schedule.php?appointmentType=3254226"><i class="fa fa-building-o" aria-hidden="true"></i>&nbsp;&nbsp;North Campus Tour</a>
         </div>
-        {% elsif site.key == 'sanantonio' %}
-          <div class="phone-margin-bottom text-center col-md-6 col-sm-12">
+        {% else %}
+          <div class="phone-margin-bottom text-center col-sm-12">
             <a class="btn btn-lg btn-success" href="https://acaappointment.acuityscheduling.com/schedule.php?appointmentType=4004268"><i class="fa fa-phone"></i>&nbsp;&nbsp;Schedule a call</a>
           </div>
         {% endif %}
@@ -31,9 +31,11 @@
           <h4 class="text-white">
             {{site.acronym}} Info
             <br>
+            {% if site.location %}
             <br>
             <br>
             <a href="{{site.location_url}}" class="link-white"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;{{ site.location }}</a>
+            {% endif %}
             {% if site.location_north %}
             <br><br>
             <a href="{{site.location_north_url}}" class="link-white"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;{{ site.location_north }}</a>
@@ -90,5 +92,5 @@
       </div>
     </div>
   </nav>
-  <h6 class="text-center">&copy; 2017 {{site.school}}</h6>
+  <h6 class="text-center">&copy; 2018 Austin Coding Academy</h6>
 </footer>

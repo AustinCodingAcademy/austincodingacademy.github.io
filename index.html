@@ -19,10 +19,13 @@ head: >
     <div class="row text-white text-right">
       <div class="col-xs-12" style="margin-top: 155px; margin-bottom: -55px;">
         <h1 style="font-size: 63px; text-shadow: 1px 1px 5px black;">{{site.school}}</h1>
+        {% if site.key != 'austin' %}
+        <small>Powered by Austin Coding Academy</small>
+        <br/>
+        {% endif %}
         <div class="panel panel-success panel-inverse margin-0 display-inline-block">
           <h3 class="margin-0 display-inline">WHERE TEXAS LEARNS TO CODE</h2>
         </div>
-        {% if site.key == 'austin' or site.key == 'sanantonio' %}
         <div class="row">
           <div class="col-xs-12 col-sm-offset-6 col-sm-3">
             <a href="/courses" class="text-white btn btn-success btn-lg btn-block">Our Courses</a>
@@ -31,7 +34,6 @@ head: >
             <a href="/apply" class="btn btn-success btn-lg btn-block">Get Started</a>
           </div>
         </div>
-        {% endif %}
       </div>
     </div>
   </div>
@@ -51,7 +53,7 @@ head: >
           Here at {{site.acronym}}, we believe anyone can learn how to code! That's why we offer the most affordable and accessible coding education for anyone looking to jumpstart their career in tech.
           <br>
           <br>
-          Classes are taught by professional developers, two nights a week from 6:30 pm - 9:00 pm, allowing full time employment while you learn and prepare for your next career opportunity.
+          {% if site.key != 'austin' '%} Remote {% endif %} classes are taught by professional developers, two nights a week from 6:30 pm - 9:00 pm, allowing full time employment while you learn and prepare for your next career opportunity.
           <br>
           <br>
           With determination, our curriculum, and career readiness workshops, you'll be ready for a career you love in nine months.

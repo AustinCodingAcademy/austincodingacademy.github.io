@@ -38,4 +38,4 @@ There are tons of other things these guys do an incredible job of breaking down 
 
 One of the hidden benefits of working with a coding school is that you will be exposed to people that not only understand these things, but know who to introduce you to when it's time to get these things ironed out.
 
-If you love learning about this stuff, check us out. If you want to learn about the software development lifecycle or how to code your own minimum viable product, check out one of our classes.
+If you love learning about this stuff, check us out. If you want to learn about the software development lifecycle or how to code your own minimum viable product, check out one of our {% if site.key != 'austin' '%} remote {% endif %} classes.
