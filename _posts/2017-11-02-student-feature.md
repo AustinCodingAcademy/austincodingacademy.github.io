@@ -45,7 +45,7 @@ image: StudentFeature112.jpg
 
 ### What do you appreciate the most about your whole ACA experience?
 
-#### I appreciate the number of the coding classes led by women. Whether it's as the main instructor or a teaching assistant, it has made me want to step my game up. I have enjoyed seeing women lead the coursework and being very knowledgeable about the subject. 
+#### I appreciate the number of the coding {% if site.key != 'austin' '%} remote {% endif %} classes led by women. Whether it's as the main instructor or a teaching assistant, it has made me want to step my game up. I have enjoyed seeing women lead the coursework and being very knowledgeable about the subject. 
 
 
 ### What is your proudest moment related to learning to code?

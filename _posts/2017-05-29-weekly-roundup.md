@@ -95,7 +95,7 @@ Upcoming Events Across Texas -  Your weekly news and events update from our codi
 
 ## [New North Austin Open House](https://www.eventbrite.com/e/austin-coding-academy-open-house-tickets-34369733799)
 
-#### Visit our new location at [Tech Ranch](https://techranchaustin.com/), north Austin’s hub for entrepreneurship, and learn about the resources we provide students in our part-time classes and the unique C# and .Net curriculum we’ll be teaching. 
+#### Visit our new location at [Tech Ranch](https://techranchaustin.com/), north Austin’s hub for entrepreneurship, and learn about the resources we provide students in our part-time {% if site.key != 'austin' '%} remote {% endif %} classes and the unique C# and .Net curriculum we’ll be teaching. 
 ---
 
 
@@ -132,7 +132,7 @@ Upcoming Events Across Texas -  Your weekly news and events update from our codi
 
 ## [HCA Open House](https://www.eventbrite.com/e/houston-coding-academy-open-house-tickets-34040139975)
 
-#### Want to learn more about what makes our evening coding classes unique? Here’s your chance! Come visit us at [Station Houston](http://stationhouston.com/) and hear from instructors, teachers, and staff on how preparing for a career in tech through our courses have changed lives. [RSVP](https://www.eventbrite.com/e/learn-to-code-class-intro-to-web-development-tickets-34040024630)
+#### Want to learn more about what makes our evening coding {% if site.key != 'austin' '%} remote {% endif %} classes unique? Here’s your chance! Come visit us at [Station Houston](http://stationhouston.com/) and hear from instructors, teachers, and staff on how preparing for a career in tech through our courses have changed lives. [RSVP](https://www.eventbrite.com/e/learn-to-code-class-intro-to-web-development-tickets-34040024630)
 
 
 

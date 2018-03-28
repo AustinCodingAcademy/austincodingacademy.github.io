@@ -34,7 +34,7 @@ He used his 'extensive experience in digital marketing to find ACA via Google se
 
 He's applying these skills to his life in more than just a work setting. ‘I now approach everything in life like code. Assess the problem, look at the end goal, plan each step, and execute with detail and confidence.'
 
-Luke is now an instructor at ACA - a career that he loves. He spends his days as a full time developer and spends his evenings paying it forward to students, teaching tAfter meeting the school's founders, Chris Sica and Luke Filipos, and completing the beginner, intermediate and advanced classes, he 'became a huge brand fanatic!' - which appears to be marketing speak for 'I'm a fan!'.
+Luke is now an instructor at ACA - a career that he loves. He spends his days as a full time developer and spends his evenings paying it forward to students, teaching tAfter meeting the school's founders, Chris Sica and Luke Filipos, and completing the beginner, intermediate and advanced {% if site.key != 'austin' '%} remote {% endif %} classes, he 'became a huge brand fanatic!' - which appears to be marketing speak for 'I'm a fan!'.
 
 Leaving a stagnant career to learn coding was the best thing Luke says he's ever done. 'My life has really come into focus and its path has never been more clear'.
 

@@ -23,8 +23,8 @@ coursereport:
 switchup:
 thinkful:
 phone: (469) 340-1194
-location: 'NoD, 17290 Preston Rd #300, Dallas, TX 75252'
-location_url: https://goo.gl/maps/KYNdbWyKZnD2
+# location: 'NoD, 17290 Preston Rd #300, Dallas, TX 75252'
+# location_url: https://goo.gl/maps/KYNdbWyKZnD2
 city: Dallas
 course_amount: $2,990
 track_amount: $8,970
@@ -45,7 +45,7 @@ tracks:
   - CSharp
 classtimes: 6:30pm - 9:00pm
 # Build settings
-announcement: Classes begin April 9th!
+announcement: Remote classes begin <span class="start-date-only"></span>!
 markdown: kramdown
 permalink: :year/:month/:day/:slug/
 

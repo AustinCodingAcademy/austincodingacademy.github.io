@@ -23,8 +23,8 @@ coursereport:
 switchup:
 thinkful:
 phone: (210) 951-0407
-location: Launch SA, 600 Soledad St, San Antonio, TX 78205
-location_url: https://goo.gl/maps/So4e2w6Y6BB2
+# location: Launch SA, 600 Soledad St, San Antonio, TX 78205
+# location_url: https://goo.gl/maps/So4e2w6Y6BB2
 city: San Antonio
 course_amount: $2,990
 track_amount: $8,970
@@ -45,7 +45,7 @@ tracks:
   - CSharp
 classtimes: 6:15pm - 8:45pm
 # Build settings
-announcement: Classes begin April 9th!
+announcement: Remote classes begin <span class="start-date-only"></span>!
 markdown: kramdown
 permalink: :year/:month/:day/:slug/
 

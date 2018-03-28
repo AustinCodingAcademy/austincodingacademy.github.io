@@ -23,8 +23,8 @@ coursereport:
 switchup:
 thinkful:
 phone: (832) 779-2108
-location: 'Station Houston, 1301 Fannin St #2440, Houston, TX 77002'
-location_url: https://goo.gl/maps/3LrV6umVPc32
+# location: 'Station Houston, 1301 Fannin St #2440, Houston, TX 77002'
+# location_url: https://goo.gl/maps/3LrV6umVPc32
 city: Houston
 course_amount: $2,990
 track_amount: $8,970
@@ -45,7 +45,7 @@ tracks:
   - CSharp
 classtimes: 6:30pm - 9:00pm
 # Build settings
-announcement: Classes begin April 9th!
+announcement: Remote classes begin <span class="start-date-only"></span>!
 markdown: kramdown
 permalink: :year/:month/:day/:slug/
 

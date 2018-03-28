@@ -20,7 +20,7 @@ After entering my wants and needs of a coding school into a "Find My Bootcamp" w
 
 
 **1) Schedule:**
-Working two jobs, one with zero scheduling flexibility, I only had a small window to take classes. And if the schedule didn't fit, it wasn't gonna happen.
+Working two jobs, one with zero scheduling flexibility, I only had a small window to take {% if site.key != 'austin' '%} remote {% endif %} classes. And if the schedule didn't fit, it wasn't gonna happen.
 
 **2) Price:**
 I'm on a budget. It has to be reasonably price and $8,000 plus is not reasonable in my case. However after looking around for a couple of weeks all I was finding was eight, ten, to $12,000 schools. Finding a school I consider financially with in reach without having to take out a loan (which was often pushed by some school) seemed bleak.
@@ -58,7 +58,7 @@ Mine?
 
 
 
-Once I had everything filled in I clicked "Submit." This is where the 'apply' word comes in. I received a confirmation email which prompted me to schedule a time that would be best for a phone interview in the near future. It dawned on me that I was applying to be accepted (yeah it's obvious now). It has been about 10 years since I had to actually be considered and accepted first before I paid for something. I forgot that being considered for anything takes time and as of my 'submit' moment classes would start in less than 5 working days. Uh-oh.
+Once I had everything filled in I clicked "Submit." This is where the 'apply' word comes in. I received a confirmation email which prompted me to schedule a time that would be best for a phone interview in the near future. It dawned on me that I was applying to be accepted (yeah it's obvious now). It has been about 10 years since I had to actually be considered and accepted first before I paid for something. I forgot that being considered for anything takes time and as of my 'submit' moment {% if site.key != 'austin' '%} remote {% endif %} classes would start in less than 5 working days. Uh-oh.
 
 I received another confirmation email after scheduling my phone interview which detailed how to prepare for it. The last sentence also laid out that it would take about 2 weeks from assignment submission date to get word of being accepted. Eeeep! Yeah, I panicked a little bit. However there was this handy email for questions so I wrote to it:
 
