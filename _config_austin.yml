@@ -1,41 +1,11 @@
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.school }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-school: Austin Coding Academy
-acronym: ACA
 key: austin
-header: Austin's Best Value in Coding Education
-email: info@austincodingacademy.com
-baseurl: "" # the subpath of your site, e.g. /blog
-url: https://austincodingacademy.com # the base hostname & protocol for your site, e.g. http://example.com
-hostname: austincodingacademy.com
-twitterhandle: AustinCoding
-twitter: https://twitter.com/AustinCoding
-github:  https://github.com/AustinCodingAcademy
-facebook: https://www.facebook.com/AustinCodingAcademy
-instagram: https://www.instagram.com/austincodingacademy
-googleplus: https://plus.google.com/+AustinCodingAcademy
-linkedin: https://www.linkedin.com/company/austin-coding-academy
-google:
-yelp:
-coursereport:
-switchup:
-thinkful:
+logo: austin
 phone: (512) 827-8498
 location: Capital Factory, 701 Brazos St, 16th Floor, Austin, TX 78701
 location_url: https://goo.gl/maps/Kgtw4DtyH4n
 location_north: Extellent Professional Development Centers, 9420 Research Boulevard Echelon III STE 200, Austin, TX 78759
 location_north_url: https://goo.gl/maps/tnsy2QRGobn
 city: Austin
-course_amount: $2,990
-track_amount: $8,970
-stack: javascript
-google_tag_id: GTM-TBH7GK
-google_analytics: UA-68821515-1
-pixel_id: 656599271106549
-syllabus: https://student.austincodingacademy.com/austin-intro.html
 color: '#f8b232'
 map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3445.884375397476!2d-97.74275278487958!3d30.2688754818011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b4e31ad087bd%3A0xd6644ce54fe2531c!2sAustin+Coding+Academy!5e0!3m2!1sen!2sus!4v1488689585071
 eventbrite_organizer_id: 10937668459
@@ -49,26 +19,3 @@ courses:
   - 321_2
   - 231
   - 331
-tracks:
-  - JavaScript
-  - CSharp_2
-  - WebDesign
-classtimes: 6:30pm - 9:00pm
-# Build settings
-announcement: Classes begin <span class="start-date-only"></span>!
-markdown: kramdown
-permalink: :year/:month/:day/:slug/
-
-gems:
-  - jekyll-feed
-  - jekyll-redirect-from
-  - amp-jekyll
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - package.json
-  - vendor
-  - README.md
-  - faviconData.json
-  - npm-debug.log

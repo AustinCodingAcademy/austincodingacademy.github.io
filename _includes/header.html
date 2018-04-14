@@ -11,7 +11,7 @@
       {% endif %}
       <div id="top-right-banner" class="pull-right">
         <div>
-          <a href="mailto:{{ site.email }}" target="_blank" class="link-primary"><i class="fa fa-envelope-o"></i>&nbsp;&nbsp;{{site.email}}</a>&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="mailto:info@{{ site.key }}codingacademy.com" target="_blank" class="link-primary"><i class="fa fa-envelope-o"></i>&nbsp;&nbsp;info@{{ site.key }}codingacademy.com</a>&nbsp;&nbsp;&nbsp;&nbsp;
           <a href="tel:{{site.phone}}" class="link-primary nowrap"><i class="fa fa-phone"></i>&nbsp;&nbsp;{{ site.phone }}</a>
         </div>
       </div>
@@ -28,30 +28,19 @@
           <span class="icon-bar"></span>
         </button>
         <a class="navbar-brand" href="/">
-          <img src="/assets/images/{{site.key}}-logo-white.svg" alt="{{site.school}} Logo" />
+          <img src="/assets/images/{{site.logo}}-logo-white.svg" alt="{{ site.city }} Coding Academy Logo" />
         </a>
       </div>
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="/why">Why {{site.acronym}}</a></li>
+          <li><a href="/why">Why Us</a></li>
           <li><a href="/courses">Courses</a></li>
           <li><a href="/tuition">Tuition</a></li>
           <li><a href="/remote">Attend Online <span class="label label-success">New!</span></a></li>
-          <!-- <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Locations <span class="caret"></span></a>
-            <ul class="dropdown-menu" role="menu">
-              <li><a href="https://austincodingacademy.com">Austin</a></li>
-              <li><a href="https://sanantoniocodingacademy.com">San Antonio</a></li>
-              <li><a href="https://dallascodingacademy.com">Dallas</a></li>
-              <li><a href="https://houstontxcodingacademy.com">Houston</a></li>
-              <li><a href="/remote">Remote (Online) <span class="label label-success">New!</span></a></li>
-            </ul>
-          </li> -->
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">More <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
-              <li><a href="{% if site.hostname %}https://blog.{{site.hostname}}{% else %}/blog{% endif %}">Blog</a></li>
-              <!-- <li><a href="/calendar">Calendar</a></li> -->
+              <li><a href="https://blog.austincodingacademy.com">Blog</a></li>
               <li><a href="/faq">FAQ</a></li>
               <li><a href="/contact">Contact</a></li>
               <li><a href="/instructor-apply">Join the Team</a></li>

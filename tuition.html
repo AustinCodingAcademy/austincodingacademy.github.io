@@ -1,9 +1,9 @@
 ---
 layout: default
 permalink: /tuition/
-title: Tuition | {{ site.school }}
+title: Tuition | {{ site.city }} Coding Academy
 description: >
-  {{ site.school }} is a web development and coding school with locations in
+  {{ site.city }} Coding Academy is a web development and coding school with locations in
   {{ city }}. Visit us to learn more about our story.
 head: >
   <style media="screen">
@@ -55,7 +55,7 @@ talking_points:
     body: Currently there are thousands of unfilled developer jobs. Provide a secure future for your family. Work in your hometown or see the world.
   - icon: pencil
     title: Accessibility
-    body: 6:30pm - 9:00pm {% if site.key != 'austin' '%} remote {% endif %} classes, you don't have to quit working while you learn and prepare for your next career. Acceptance only takes 30 minutes.
+    body: 6:30pm - 9:00pm {% if site.key != 'austin' %} remote {% endif %} classes, you don't have to quit working while you learn and prepare for your next career. Acceptance only takes 30 minutes.
   - icon: wrench
     title: Relevant Content
     body: Curriculum designed by developers and professional teachers to suit the needs of tech departments across all kinds of companies.
@@ -99,7 +99,7 @@ lenders:
         <h2>
           <small class="lead">TUITION AND FINANCING</small>
           <br>
-          THE HIGHEST RETURN ON INVESTMENT AT {{site.acronym}}
+          THE HIGHEST RETURN ON INVESTMENT AT {{ site.city }} Coding Academy
           <br>
           <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
         </h2>
@@ -257,7 +257,7 @@ lenders:
           choose to pursue financing, we encourage you to explore all your
           options fully before working with any particular lender. While these
           loan programs may be available to you, there is no agreement in
-          place between {{site.school}} and these organizations.
+          place between {{ site.city }} Coding Academy and these organizations.
         </p>
         <ul class="list-unstyled justify-content-space-between flex-wrap">
           {% for lender in page.lenders %}

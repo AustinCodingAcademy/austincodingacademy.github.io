@@ -4,16 +4,16 @@
   <!-- TAG MANAGERS -->
   {% include google-tag-manager.html %}
   {% include facebook-pixel.html %}
-  {% include clickheat.html %}
+  {% comment %} {% include clickheat.html %} {% endcomment %}
   <!-- PAGE TITLE -->
   <title>{{ page.title | liquify }}</title>
   <!-- OPEN GRAPH TAGS -->
   <meta property="og:title" content="{{ page.title | liquify }}">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-  <meta property="og:image" content="{% if page.image %}{{ site.url }}/assets/images/{{page.image}}{% else %}{{ site.url }}/assets/images/{{site.key}}-logo-white-bg.png{% endif %}">
+  <meta property="og:url" content="https://{{ site.key }}codingacademy.com{{ page.url }}">
+  <meta property="og:image" content="{% if page.image %}https://{{ site.key }}codingacademy.com/assets/images/{{page.image}}{% else %}https://{{ site.key }}codingacademy.com/assets/images/{{site.logo}}-logo-white-bg.png{% endif %}">
   <meta property="og:description" content="{{ page.description | liquify }}">
-  <meta property="og:site_name" content="{{ site.school }}" />
+  <meta property="og:site_name" content="{{ site.city }} Coding Academy" />
   <meta property="og:locale" content="en_US" />
   <!-- TWITTER TAGS -->
   <meta name="twitter:card" content="summary_large_image">
@@ -21,14 +21,14 @@
   <meta name="twitter:creator" content="@{{ site.twitterhandle }}">
   <meta name="twitter:title" content="{{ page.title | liquify }}">
   <meta name="twitter:description" content="{{ page.description | liquify }}">
-  <meta name="twitter:image" content="{% if page.image %}{{ site.url }}/assets/images/{{page.image}}{% else %}{{ site.url }}/assets/images/{{site.key}}-logo-white-bg.png{% endif %}">
+  <meta name="twitter:image" content="{% if page.image %}https://{{ site.key }}codingacademy.com/assets/images/{{page.image}}{% else %}https://{{ site.key }}codingacademy.com/assets/images/{{site.logo}}-logo-white-bg.png{% endif %}">
   <!-- CANONICAL LINK -->
   
-  {% if page.path contains '_posts' %}
+  {% comment %} {% if page.path contains '_posts' %}
     {% unless page.skip_amp %}
       <link rel="amphtml" href="{{ page.id | prepend: '/amp' | prepend: site.baseurl | prepend: site.url }}">
     {% endunless %}
-  {% endif %}
+  {% endif %} {% endcomment %}
 
   {% include favicon.html %}
   {{ page.head | liquify }}
@@ -66,6 +66,5 @@
   <noscript><link rel="stylesheet" href="/assets/stylesheets/{{ site.key }}.css"></noscript>
   {% endif %}
   {{ page.scripts | liquify }}
-  {% include livechat.html %}
 </body>
 </html>

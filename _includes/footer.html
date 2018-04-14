@@ -3,7 +3,7 @@
     {% if site.key == 'austin' or site.key == 'sanantonio' %}
     <div id="footer-call-tour-grab" class="well text-white">
       <h2 class="text-center text-white jumbo text-shadow">
-        Want to come check out {% if site.key != 'austin' '%} remote {% endif %} classes or talk to a human?
+        Want to come check out {% if site.key != 'austin' %} remote {% endif %} classes or talk to a human?
       </h2>
       <br><br>
       <div class="row">
@@ -29,7 +29,7 @@
       <div class='row'>
         <div class="col-xs-12 col-md-3">
           <h4 class="text-white">
-            {{site.acronym}} Info
+            {{ site.city }} Coding Academy Info
             <br>
             {% if site.location %}
             <br>
@@ -72,18 +72,18 @@
           <br>
           <ul class="list-unstyled">
             <li class="styled"><h5><a href="/instructor-apply" class="link-white">Instructor Application</a></h5></li>
-            <li class="styled"><h5><a href="/why" class="link-white">Why {{site.acronym}}</a></h5></li>
+            <li class="styled"><h5><a href="/why" class="link-white">Why {{ site.city }} Coding Academy</a></h5></li>
             <li class="styled"><h5><a href="/courses" class="link-white">Courses</a></h5></li>
             <li class="styled"><h5><a href="/tuition" class="link-white">Tuition</a></h5></li>
             <!-- <li class="styled"><h5><a href="#" class="link-white">Calendar</a></h5></li> -->
             <li class="styled"><h5><a href="/faq" class="link-white">FAQ</a></h5></li>
             <li class="styled"><h5><a href="/contact" class="link-white">Contact</a></h5></li>
-            <li class="styled"><h5><a href="{% if site.hostname %}https://blog.{{site.hostname}}{% else %}/blog{% endif %}" class="link-white">Blog</a></h5></li>
+            <li class="styled"><h5><a href="{% if site.hostname %}https://blog.{{ site.key }}codingacademy.com{% else %}/blog{% endif %}" class="link-white">Blog</a></h5></li>
             <li class="styled"><h5><a href="/student-grievances" class="link-white">Student Grievance Policy</a></h5></li>
           </ul>
         </div>
         <div class="col-xs-12 col-md-3 align-items-center flex-column">
-          <img class="img-responsive" src="/assets/images/{{site.key}}-logo-white.svg" alt="{{site.school}} Logo">
+          <img class="img-responsive" src="/assets/images/{{site.logo}}-logo-white.svg" alt="{{ site.city }} Coding Academy Logo">
           <br>
           <br>
           <a href="/apply" class="btn btn-success btn-block">APPLY NOW</a>
