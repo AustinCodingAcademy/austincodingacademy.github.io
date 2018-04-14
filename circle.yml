@@ -7,7 +7,7 @@ general:
       - master
       - preview
 dependencies:
-  post:
+  pre:
     - node generateScripts.js
 deployment:
   master:

@@ -4,7 +4,6 @@
   <!-- TAG MANAGERS -->
   {% include google-tag-manager.html %}
   {% include facebook-pixel.html %}
-  {% comment %} {% include clickheat.html %} {% endcomment %}
   <!-- PAGE TITLE -->
   <title>{{ page.title | liquify }}</title>
   <!-- OPEN GRAPH TAGS -->
@@ -22,22 +21,15 @@
   <meta name="twitter:title" content="{{ page.title | liquify }}">
   <meta name="twitter:description" content="{{ page.description | liquify }}">
   <meta name="twitter:image" content="{% if page.image %}https://{{ site.key }}codingacademy.com/assets/images/{{page.image}}{% else %}https://{{ site.key }}codingacademy.com/assets/images/{{site.logo}}-logo-white-bg.png{% endif %}">
-  <!-- CANONICAL LINK -->
-  
-  {% comment %} {% if page.path contains '_posts' %}
-    {% unless page.skip_amp %}
-      <link rel="amphtml" href="{{ page.id | prepend: '/amp' | prepend: site.baseurl | prepend: site.url }}">
-    {% endunless %}
-  {% endif %} {% endcomment %}
 
   {% include favicon.html %}
   {{ page.head | liquify }}
   {% if page.permalink == '/' %}
   <style>
-    {% include stylesheets/{{ site.key }}.css %}
+    {% include stylesheets/{{ site.css }}.css %}
   </style>
   {% else %}
-  <link rel="stylesheet" href="/assets/stylesheets/{{ site.key }}.css">
+  <link rel="stylesheet" href="/assets/stylesheets/{{ site.css }}.css">
   {% endif %}
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -57,13 +49,13 @@
   <script type="text/javascript">
   $(document).ready(function() {
     if (document.createStyleSheet){
-      document.createStyleSheet('/assets/stylesheets/{{ site.key }}.css');
+      document.createStyleSheet('/assets/stylesheets/{{ site.css }}.css');
     } else {
-      $('head').append($('<link rel="stylesheet" href="/assets/stylesheets/{{ site.key }}.css" type="text/css" />'));
+      $('head').append($('<link rel="stylesheet" href="/assets/stylesheets/{{ site.css }}.css" type="text/css" />'));
     }
   });
   </script>
-  <noscript><link rel="stylesheet" href="/assets/stylesheets/{{ site.key }}.css"></noscript>
+  <noscript><link rel="stylesheet" href="/assets/stylesheets/{{ site.css }}.css"></noscript>
   {% endif %}
   {{ page.scripts | liquify }}
 </body>

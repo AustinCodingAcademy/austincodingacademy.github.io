@@ -22,6 +22,7 @@ courses:
 announcement: Classes begin <span class="start-date-only"></span>!
 phone: (512) 827-8498
 color: '#f8b232'
+css: austin
 logo: austin
 # Build settings
 markdown: kramdown
