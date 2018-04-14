@@ -15,9 +15,9 @@
     "no-robots": "touch robots.txt && echo 'User-agent: *' > robots.txt && echo 'Disallow: /' >> robots.txt",
     "watch": "npm-watch",
     "clear-cache": "rm -rf node_modules/gh-pages/.cache",
-    "deploy-remotes": "npm run clear-cache &&",
-    "deploy-classics": "npm run clear-cache &&",
-    "deploy-classics-preview": "npm run clear-cache &&"
+    "deploy-remotes": "npm run clear-cache",
+    "deploy-classics": "npm run clear-cache",
+    "deploy-classics-preview": "npm run clear-cache"
   },
   "watch": {
     "sass": {

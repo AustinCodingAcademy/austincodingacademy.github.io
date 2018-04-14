@@ -26,12 +26,12 @@ const remotes = [
 
 classics.forEach(key => {
   packageJson.scripts[`favicon-${key}`] = `real-favicon generate _favicon_${key}.json faviconData.json assets/favicons/ && npm run favicon-inject`;
-  packageJson.scripts['deploy-classics'] = `${packageJson.scripts['deploy-classics']} npm run favicon-${key} && npm run build-${key} && npm run sitemap-${key} && npm run deploy-${key}`;
-  packageJson.scripts['deploy-classics-preview'] = `${packageJson.scripts['deploy-classics-preview']} npm run favicon-${key} && npm run build-${key} && npm run sitemap-${key} && npm run deploy-${key}-preview`;
+  packageJson.scripts['deploy-classics'] = `${packageJson.scripts['deploy-classics']} && npm run favicon-${key} && npm run build-${key} && npm run sitemap-${key} && npm run deploy-${key} && npm run clear-cache`;
+  packageJson.scripts['deploy-classics-preview'] = `${packageJson.scripts['deploy-classics-preview']} && npm run favicon-${key} && npm run build-${key} && npm run sitemap-${key} && npm run deploy-${key}-preview && npm run clear-cache`;
 });
 
 remotes.forEach(key => {
-  packageJson.scripts['deploy-remotes'] = `${packageJson.scripts['deploy-remotes']} npm run build-${key} && npm run sitemap-${key} && npm run deploy-${key}`;
+  packageJson.scripts['deploy-remotes'] = `${packageJson.scripts['deploy-remotes']} && npm run build-${key} && npm run sitemap-${key} && npm run deploy-${key} && npm run clear-cache`;
 });
 
 classics.concat(remotes).forEach(key => {
