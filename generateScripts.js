@@ -1,0 +1,52 @@
+const fs = require('fs');
+const packageJson = require('./package.json');
+
+// austin must go last since the remotes use its favicon
+const classics = ['dallas', 'houstontx', 'sanantonio', 'austin'];
+const remotes = [
+  'boston',
+  // 'charlotte',
+  // 'chicago',
+  // 'cleveland',
+  // 'denver',
+  // 'detroit',
+  // 'kansascity',
+  // 'losangeles',
+  // 'minneapolis',
+  // 'newyork',
+  // 'orlando',
+  // 'phoenix',
+  // 'sandiego',
+  // 'sanfrancisco',
+  // 'seattle',
+  // 'stlouis',
+  // 'texas',
+  // 'vancouver'
+];
+
+classics.forEach(key => {
+  packageJson.scripts = {
+    ...packageJson.scripts,
+    [`favicon-${key}`]: `real-favicon generate _favicon_${key}.json faviconData.json assets/favicons/ && npm run favicon-inject`,
+    'deploy-classics': `${packageJson.scripts['deploy-classics']} && npm run clear-cache && npm run favicon-${key} && npm run build-${key} && npm run sitemap-${key} && npm run deploy-${key}`,
+    'deploy-classics-preview': `${packageJson.scripts['deploy-classics-preview']} && npm run clear-cache && npm run favicon-${key} && npm run build-${key} && npm run sitemap-${key} && npm run deploy-${key}-preview`
+  };
+})
+
+remotes.forEach(key => {
+  packageJson.scripts = {
+    ...packageJson.scripts,
+    'deploy-remotes': `${packageJson.scripts['deploy-remotes']} && npm run clear-cache && npm run build-${key} && npm run sitemap-${key} && npm run deploy-${key}`
+  };
+});
+
+classics.concat(remotes).forEach(key => {
+  packageJson.scripts = {
+    ...packageJson.scripts,
+    [`sass-${key}`]: `node-sass --output-style compressed -o assets/stylesheets/ _sass/${key}.scss`,
+    [`build-${key}`]: `bundle exec jekyll build --config _configs/_config_${key}.yml,_configs/_config.yml`,
+    [`sitemap-${key}`]: `npm run sitemap-generator && sed -i 's|http://127.0.0.1:8080|https://${key}codingacademy.com|g' _site/sitemap.xml`,
+  };
+})
+
+fs.writeFileSync('package.json', JSON.stringify(packageJson, null, 2));

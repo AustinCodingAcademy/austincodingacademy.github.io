@@ -22,10 +22,7 @@ window:
   * `npm run watch`
 1. To serve individual sites and update on a change, keep any one of these running
 in its own terminal window
-  * Austin `npm run serve-austin`
-  * San Antonio `npm run serve-sanantonio`
-  * Dallas `npm run serve-dallas`
-  * Houston `npm run serve-houstontx`
+  * `KEY=austin npm run serve`
 1. Navigate to http://127.0.0.1:4000
   * Every change you make will regenerate the site
 

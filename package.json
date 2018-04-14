@@ -10,13 +10,14 @@
     "postinstall": "npm run sass && npm run js && npm run images",
     "sass-include": "mkdir -p _includes/stylesheets && cp -R assets/stylesheets/. _includes/stylesheets",
     "sitemap-generator": "(http-server _site &) && (sitemap-generator http://127.0.0.1:8080 > _site/sitemap.xml)",
-    "serve-austin": "bundle exec jekyll serve --config _config_austin.yml,_config.yml",
-    "serve-houstontx": "bundle exec jekyll serve --config _config_houstontx.yml",
-    "serve-sanantonio": "bundle exec jekyll serve --config _config_sanantonio.yml",
-    "serve-dallas": "bundle exec jekyll serve --config _config_dallas.yml",
+    "serve": "bundle exec jekyll serve --config _configs/_config_$KEY.yml,_configs/_config.yml",
     "favicon-inject": "echo '' > _includes/favicon.html && real-favicon inject faviconData.json assets/favicons _includes/favicon.html && mv assets/favicons/favicon.html _includes/favicon.html",
     "no-robots": "touch robots.txt && echo 'User-agent: *' > robots.txt && echo 'Disallow: /' >> robots.txt",
-    "watch": "npm-watch"
+    "watch": "npm-watch",
+    "clear-cache": "rm -rf node_modules/gh-pages/.cache",
+    "deploy-remotes": "",
+    "deploy-classics": "",
+    "deploy-classics-preview": ""
   },
   "watch": {
     "sass": {
