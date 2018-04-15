@@ -4,15 +4,10 @@ $slick-font-family: "Quicksand" !default;
 $slick-loader-path: "/assets/images/" !default;
 
 @import
-  // url('https://fonts.googleapis.com/css?family=Lato'),
   url('https://fonts.googleapis.com/css?family=Quicksand'),
   '../node_modules/font-awesome/scss/font-awesome',
   '../node_modules/slick-carousel/slick/slick.scss',
   '../node_modules/slick-carousel/slick/slick-theme.scss',
-  '../node_modules/pygments-rouge-css/github',
-  '../node_modules/bootstrap-calendar/css/calendar',
-  '../node_modules/jquery-ui/themes/base/theme',
-  '../node_modules/jquery-ui/themes/base/datepicker',
   'colors',
   'variables',
   'bootstrap',
