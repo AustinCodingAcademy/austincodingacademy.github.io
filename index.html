@@ -105,6 +105,7 @@ head: >
     {% include reviews.html %}
   </div>
 </section>
+{% if site.key == 'austin' %}
 <section>
   <div class="container">
     <h2>
@@ -121,6 +122,7 @@ head: >
     {% include companies.html %}
   </div>
 </section>
+{% endif %}
 <script type="application/ld+json">
 {% assign comma = '' %}
   [

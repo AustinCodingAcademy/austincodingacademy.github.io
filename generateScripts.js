@@ -2,43 +2,32 @@ const fs = require('fs');
 const packageJson = require('./package.json');
 
 // austin must go last since the remotes use its favicon
-const classics = ['dallas', 'houstontx', 'sanantonio', 'austin'];
-const remotes = [
+['dallas', 'houstontx', 'sanantonio', 'austin'].forEach(key => {
+  packageJson.scripts['deploy-classics'] = `${packageJson.scripts['deploy-classics']} && KEY=${key} npm run favicon && KEY=${key} npm run build && KEY=${key} npm run sitemap && KEY=${key} npm run deploy && npm run clear-cache`;
+  packageJson.scripts['deploy-classics-preview'] = `${packageJson.scripts['deploy-classics-preview']} && KEY=${key} npm run favicon && KEY=${key} npm run build && KEY=${key} npm run sitemap && PREVIEW='preview.' KEY=${key} npm run deploy && npm run clear-cache`;
+});
+
+[
   'boston',
-  // 'charlotte',
-  // 'chicago',
-  // 'cleveland',
-  // 'denver',
-  // 'detroit',
-  // 'kansascity',
-  // 'losangeles',
-  // 'minneapolis',
-  // 'newyork',
-  // 'orlando',
-  // 'phoenix',
-  // 'sandiego',
-  // 'sanfrancisco',
-  // 'seattle',
-  // 'stlouis',
-  // 'texas',
-  // 'vancouver'
-];
-
-classics.forEach(key => {
-  packageJson.scripts[`favicon-${key}`] = `real-favicon generate _favicon_${key}.json faviconData.json assets/favicons/ && npm run favicon-inject`;
-  packageJson.scripts['deploy-classics'] = `${packageJson.scripts['deploy-classics']} && npm run favicon-${key} && npm run build-${key} && npm run sitemap-${key} && npm run deploy-${key} && npm run clear-cache`;
-  packageJson.scripts['deploy-classics-preview'] = `${packageJson.scripts['deploy-classics-preview']} && npm run favicon-${key} && npm run build-${key} && npm run sitemap-${key} && npm run deploy-${key}-preview && npm run clear-cache`;
-});
-
-remotes.forEach(key => {
-  packageJson.scripts['deploy-remotes'] = `${packageJson.scripts['deploy-remotes']} && npm run build-${key} && npm run sitemap-${key} && npm run deploy-${key} && npm run clear-cache`;
-});
-
-classics.concat(remotes).forEach(key => {
-  packageJson.scripts[`sass-${key}`] = `node-sass --output-style compressed -o assets/stylesheets/ _sass/${key}.scss`;
-  packageJson.scripts[`build-${key}`] = `bundle exec jekyll build --config _configs/_config_${key}.yml,_configs/_config.yml`;
-  packageJson.scripts[`sitemap-${key}`] = `npm run sitemap-generator && sed -i 's|http://127.0.0.1:8080|https://${key}codingacademy.com|g' _site/sitemap.xml`;
-  packageJson.scripts[`deploy-${key}`] = `echo '${key}codingacademy.com' >> _site/CNAME && gh-pages --repo 'git@github.com:AustinCodingAcademy/${key}codingacademy.com.git' -d ./_site`;
+  'charlotte',
+  'chicago',
+  'cleveland',
+  'denver',
+  'detroit',
+  'kansascity',
+  'losangeles',
+  'minneapolis',
+  'newyork',
+  'orlando',
+  'phoenix',
+  'sandiego',
+  'sanfrancisco',
+  'seattle',
+  'stlouis',
+  'texas',
+  'vancouver'
+].forEach(key => {
+  packageJson.scripts['deploy-remotes'] = `${packageJson.scripts['deploy-remotes']} && KEY=${key} npm run build && KEY=${key} npm run sitemap && KEY=${key} npm run deploy && npm run clear-cache`;
 });
 
 fs.writeFileSync('package.json', JSON.stringify(packageJson, null, 2));

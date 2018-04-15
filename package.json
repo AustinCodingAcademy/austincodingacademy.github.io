@@ -6,8 +6,7 @@
     "test": "echo \"Error: no test specified\"",
     "js": "mkdir -p assets/javascripts && browserify _javascripts/app.js --debug | exorcist assets/javascripts/app.js.map > assets/javascripts/app.js",
     "images": "imagemin _images/* --out-dir=assets/images",
-    "sass": "npm run sass-austin && npm run sass-sanantonio && npm run sass-dallas && npm run sass-houstontx && npm run sass-include",
-    "postinstall": "npm run sass && npm run js && npm run images",
+    "sass": "node-sass --output-style compressed -o assets/stylesheets/ _sass/$KEY.scss",
     "sass-include": "mkdir -p _includes/stylesheets && cp -R assets/stylesheets/. _includes/stylesheets",
     "sitemap-generator": "(http-server _site &) && (sitemap-generator http://127.0.0.1:8080 > _site/sitemap.xml)",
     "serve": "bundle exec jekyll serve --config _configs/_config_$KEY.yml,_configs/_config.yml",
@@ -17,7 +16,11 @@
     "clear-cache": "rm -rf node_modules/gh-pages/.cache",
     "deploy-remotes": "npm run clear-cache",
     "deploy-classics": "npm run clear-cache",
-    "deploy-classics-preview": "npm run clear-cache"
+    "deploy-classics-preview": "npm run clear-cache",
+    "favicon": "real-favicon generate _favicon_$KEY.json faviconData.json assets/favicons/ && npm run favicon-inject",
+    "build": "bundle exec jekyll build --config _configs/_config_$KEY.yml,_configs/_config.yml",
+    "sitemap": "npm run sitemap-generator && sed -i 's|http://127.0.0.1:8080|https://$KEYcodingacademy.com|g' _site/sitemap.xml",
+    "deploy": "echo '$KEYcodingacademy.com' >> _site/CNAME && gh-pages --repo 'git@github.com:AustinCodingAcademy/$PREVIEW$KEYcodingacademy.com.git' -d ./_site"
   },
   "watch": {
     "sass": {
@@ -54,26 +57,18 @@
   "homepage": "https://github.com/AustinCodingAcademy/austincodingacademy.com#readme",
   "dependencies": {
     "bootstrap-block-grid": "^1.1.7",
-    "bootstrap-calendar": "^0.2.4",
     "bootstrap-sass": "^3.3.7",
     "browserify": "^13.3.0",
     "exorcist": "^0.4.0",
     "font-awesome": "^4.7.0",
     "imagemin-cli": "^3.0.0",
-    "intl-tel-input": "^12.0.1",
-    "javascript-detect-element-resize": "^0.5.3",
     "jquery": "^3.1.1",
     "jquery-match-height": "^0.7.2",
     "jquery-ui": "^1.12.1",
-    "js-cookie": "^2.2.0",
     "moment": "^2.17.1",
     "node-sass": "^4.3.0",
-    "postcss-cli": "^4.1.0",
-    "pygments-rouge-css": "^0.1.0",
-    "sha.js": "^2.4.8",
     "slick-carousel": "^1.6.0",
-    "uglifyify": "^3.0.4",
-    "underscore": "^1.8.3"
+    "uglifyify": "^3.0.4"
   },
   "browser": {
     "bootstrap.affix": "./node_modules/bootstrap-sass/assets/javascripts/bootstrap/affix.js",

@@ -17,45 +17,13 @@ head: >
       text-shadow: black 1px 1px 5px;
     }
   </style>
-scripts: >
-  <script type="text/javascript">
-  $.ajax('https://www.eventbriteapi.com/v3/organizers/{{site.eventbrite_organizer_id}}/events/?token=EFX5TSXYKK76RPDJSNBW&only_public=true&order_by=start_asc&start_date.range_start=' + moment.utc().format(), {
-    success: function(response) {
-      var $upcomingEvents = $('<div></div>');
-      response.events.slice(0, 3).forEach(function(event) {
-        $upcomingEvents.append(`
-          <div class="media">
-            <div class="media-left">
-              <a href="${event.url}" target="_blank">
-                <img class="media-object" src="${(event.logo) ? event.logo.url : ''}" alt="event image" style="display:${(event.logo) ? 'inherit' : 'none'}; style="max-width: 80px;">
-              </a>
-            </div>
-            <div class="media-body">
-              <h4 class="media-heading">
-                <a href="${event.url}" target="_blank">${event.name.html}</a>
-                <br>
-                <small>
-                  <i class="fa fa-calendar"></i> ${moment.utc(event.start.local).format('ddd, MMM Do, YYYY h:mma')} - ${moment.utc(event.end.local).format('h:mma')}
-                </small>
-              </h4>
-              ${event.description.text.slice(0, 200)}...
-              <br>
-              <a href="${event.url}" target="_blank">Read More</a>
-            </div>
-          </div>
-        `)
-      });
-      $('#upcoming-events').html($upcomingEvents);
-    }
-  });
-  </script>
 talking_points:
   - icon: scissors
     title: Job Security
     body: Currently there are thousands of unfilled developer jobs. Provide a secure future for your family. Work in your hometown or see the world.
   - icon: pencil
     title: Accessibility
-    body: 6:30pm - 9:00pm {% if site.key != 'austin' %} remote {% endif %} classes, you don't have to quit working while you learn and prepare for your next career. Acceptance only takes 30 minutes.
+    body: Classes are 6:30pm - 9:00pm twice a week, you don't have to quit working while you learn and prepare for your next career. Acceptance only takes 30 minutes.
   - icon: wrench
     title: Relevant Content
     body: Curriculum designed by developers and professional teachers to suit the needs of tech departments across all kinds of companies.
@@ -160,18 +128,20 @@ lenders:
     </div>
   </div>
 </section>
+{% if site.key == 'austin' or site.key == 'sanantonio' %}
 <section id="scholarships_section" class="bg-primary text-white">
   <div class="container">
     <h2 id="scholarships">
-      AVAILABLE <span class="text-success">SCHOLARSHIPS</span> in Austin & San Antonio.
+      AVAILABLE <span class="text-success">SCHOLARSHIPS</span>
       <br>
       <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
     </h2>
     <div class="row text-center">
+      {% if site.key == 'sanantonio' %}
       <div class="col-xs-12 col-sm-6">
-        <i class="text-success fa fa-smile-o fa-3x"></i>
+        <i class="text-success fa fa-usd fa-3x"></i>
         <a target="_blank" href="http://questsa.org/">
-          <h3 style="text-decoration:underline;" class="text-white">PROJECT QUEST (San Antonio Only)</h3>
+          <h3 style="text-decoration:underline;" class="text-white">PROJECT QUEST</h3>
         </a>
         <div class="font_18">
           <p>Project Quest's mission is to strengthen the economy with highly qualified employees for in-demand, living wage careers. To see if you qualify,
@@ -180,8 +150,10 @@ lenders:
           </p>
         </div>
       </div>
+      {% endif %}
+      {% if site.key == 'austin' %}
       <div class="col-xs-12 col-sm-6">
-        <i class="text-success fa fa-file-text-o fa-3x"></i>
+        <i class="text-success fa fa-usd fa-3x"></i>
         <a target="_blank" href="http://www.code2040.org/">
           <h3 style="text-decoration:underline;" class="text-white">CODE 2040</h3>
         </a>
@@ -192,9 +164,11 @@ lenders:
           </p>
         </div>
       </div>
+      {% endif %}
     </div>
   </div>
 </section>
+{% endif %}
 <section>
   <div class="container">
     {% include learn.html %}
@@ -231,6 +205,7 @@ lenders:
     </div>
   </div>
 </section>
+{% if site.key == 'austin' %}
 <section>
   <div class="container">
     <div class="row">
@@ -268,6 +243,7 @@ lenders:
     </div>
   </div>
 </section>
+{% endif %}
 <section>
   <div class="container">
     {% include companies.html %}
