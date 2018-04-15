@@ -2,7 +2,7 @@
 ---
 <Response>
   <Say voice="alice">
-    For any assistance please call or text {{site.phone}} or email us at {{site.email}}
+    For any assistance please call or text {{site.phone}} or email us at info@{{site.key}}codingacademy.com
   </Say>
   <Pause length="1"/>
   <Say voice="alice">

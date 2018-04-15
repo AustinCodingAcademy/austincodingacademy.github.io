@@ -41,3 +41,8 @@ exclude:
   - README.md
   - faviconData.json
   - npm-debug.log
+  - circle.yml
+  - package-lock.json
+  - yarn.lock
+  - deploy.js
+  - dns.js
