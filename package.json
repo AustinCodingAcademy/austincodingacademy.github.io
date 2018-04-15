@@ -2,6 +2,7 @@
   "name": "austincodingacademy.com",
   "version": "1.0.0",
   "description": "",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\"",
     "js": "mkdir -p assets/javascripts && browserify _javascripts/app.js --debug | exorcist assets/javascripts/app.js.map > assets/javascripts/app.js",
@@ -15,7 +16,7 @@
     "watch": "npm-watch",
     "clear-cache": "rm -rf node_modules/gh-pages/.cache",
     "deploy-remotes": "npm run clear-cache",
-    "deploy-classics": "npm run clear-cache",
+    "deploy-classics": "npm run js && npm run images",
     "deploy-classics-preview": "npm run clear-cache",
     "favicon": "real-favicon generate _favicon_$KEY.json faviconData.json assets/favicons/ && npm run favicon-inject",
     "build": "bundle exec jekyll build --config _configs/_config_$KEY.yml,_configs/_config.yml",
