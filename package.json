@@ -21,7 +21,8 @@
     "favicon": "real-favicon generate _favicon_$KEY.json faviconData.json assets/favicons/ && npm run favicon-inject",
     "build": "bundle exec jekyll build --config _configs/_config.yml,_configs/_config_$KEY.yml",
     "sitemap": "npm run sitemap-generator && sed -i 's|http://127.0.0.1:8080|https://$KEYcodingacademy.com|g' _site/sitemap.xml",
-    "deploy": "echo '$KEYcodingacademy.com' >> _site/CNAME && gh-pages --repo 'git@github.com:AustinCodingAcademy/$(echo $PREVIEW)$(echo $KEY)codingacademy.com.git' -d ./_site"
+    "cname": "echo '$KEYcodingacademy.com' >> _site/CNAME",
+    "deploy": "gh-pages --repo 'git@github.com:AustinCodingAcademy/$(echo $PREVIEW)$(echo $KEY)codingacademy.com.git' -d ./_site"
   },
   "watch": {
     "sass": {
