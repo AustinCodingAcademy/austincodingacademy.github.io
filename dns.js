@@ -8,23 +8,23 @@ const headers = {
 
 [
   'boston',
-  // 'charlotte',
-  // 'chicago',
-  // 'cleveland',
-  // 'denver',
-  // 'detroit',
-  // 'kansascity',
-  // 'losangeles',
-  // 'minneapolis',
-  // 'newyork',
-  // 'orlando',
-  // 'phoenix',
-  // 'sandiego',
-  // 'sanfrancisco',
-  // 'seattle',
-  // 'stlouis',
-  // 'texas',
-  // 'vancouver'
+  'charlotte',
+  'chicago',
+  'cleveland',
+  'denver',
+  'detroit',
+  'kansascity',
+  'losangeles',
+  'minneapolis',
+  'newyork',
+  'orlando',
+  'phoenix',
+  'sandiego',
+  'sanfrancisco',
+  'seattle',
+  'stlouis',
+  'texas',
+  'vancouver'
 ].forEach(key => {
   fetch(`https://api.cloudflare.com/client/v4/zones?${
     querystring.stringify({ name: `${key}codingacademy.com` })
@@ -39,6 +39,17 @@ const headers = {
         type: 'CNAME',
         name: `${key}codingacademy.com`,
         content: 'austincodingacademy.github.io',
+      })
+    }).then(res => res.json()).then(json => {
+      console.log(JSON.stringify(json, null, 2));
+    });
+    fetch(`https://api.cloudflare.com/client/v4/zones/${id}/dns_records`, {
+      method: 'POST',
+      headers,
+      body: JSON.stringify({
+        type: 'CNAME',
+        name: `www`,
+        content: `${key}codingacademy.com`,
       })
     }).then(res => res.json()).then(json => {
       console.log(JSON.stringify(json, null, 2));

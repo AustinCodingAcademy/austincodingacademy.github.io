@@ -1,7 +1,2 @@
 User-agent: *
-Disallow: /application.html
-Disallow: /capture.html
-Disallow: /capture-syllabus.html
-Disallow: /capture-contact.html
-Disallow: /capture-footer.html
 Disallow: /student-grievances
