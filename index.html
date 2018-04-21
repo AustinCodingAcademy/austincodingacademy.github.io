@@ -28,10 +28,10 @@ head: >
         </div>
         <div class="row">
           <div class="col-xs-12 col-sm-offset-6 col-sm-3">
-            <a href="/courses" class="text-white btn btn-success btn-lg btn-block">Our Courses</a>
+            <a href="/apply" class="text-white btn btn-success btn-lg btn-block">Apply</a>
           </div>
           <div class="col-xs-12 col-sm-3">
-            <a href="/apply" class="btn btn-success btn-lg btn-block">Get Started</a>
+            <a href="https://acaappointment.acuityscheduling.com/schedule.php?appointmentType=1406673" class="btn btn-success btn-lg btn-block" target="_blank">Schedule Q&amp;A</a>
           </div>
         </div>
       </div>
@@ -45,18 +45,18 @@ head: >
         <h3>
           <small class="lead">{{ site.city | upcase }} CODING ACADEMY IS THE SCHOOL FOR YOU</small>
           <br>
-          FROM NOVICE TO NEW HIRE IN NINE MONTHS
+          FROM NOVICE TO NEW HIRE IN TEN MONTHS
           <br>
           <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
         </h3>
         <h4>
-          Here at {{ site.city }} Coding Academy, we believe anyone can learn how to code! That's why we offer the most affordable and accessible coding education for anyone looking to jumpstart their career in tech.
+          Here at {{ site.city }} Coding Academy, we believe anyone can learn how to code! That's why we offer the most affordable and accessible coding education for anyone looking to jump-start their career in tech.
           <br>
           <br>
-          {% if site.key != 'austin' %} Remote {% endif %} classes are taught by professional developers, two nights a week from 6:30 pm - 9:00 pm, allowing full time employment while you learn and prepare for your next career opportunity.
+          {% if site.key != 'austin' %} Remote classes {% else %} Classes {% endif %} are taught by professional developers, two nights a week from 6:30 pm - 9:00 pm, allowing full time employment while you learn and prepare for your next career opportunity.
           <br>
           <br>
-          With determination, our curriculum, and career readiness workshops, you'll be ready for a career you love in nine months.
+          With determination, our curriculum, and career readiness workshops, you'll be ready for a career you love in ten months.
         </h4>
       </div>
       <div class="col-xs-12 col-md-6">
@@ -73,15 +73,14 @@ head: >
     </div>
   </div>
 </section>
-<section id="important-dates" class="bg-info">
-  <div class="container">
-    {% include important-dates.html %}
-  </div>
-</section>
-{% include application-process.html %}
 <section class="bg-primary text-white">
   <div class="container">
     {% include syllabus-capture.html %}
+  </div>
+</section>
+<section id="important-dates" class="bg-info">
+  <div class="container">
+    {% include important-dates.html %}
   </div>
 </section>
 <section>
@@ -111,7 +110,6 @@ head: >
       <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
     </h2>
     <div id="upcoming-events"></div>
-      {% include faqs.html %}
   </div>
 </section>
 <section>

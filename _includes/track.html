@@ -1,0 +1,132 @@
+<section class="bg-gray-darker text-white text-center">
+  <div class="container">
+    <h1 class="jumbo">
+      {% if site.key != 'austin' %} Remote {% endif %} Coding Classes Designed by Developers to Help You Get a Career That You
+      Love.
+    </h1>
+  </div>
+</section>
+
+<section class="text-center" id="our-program">
+  <div class="container">
+    <div class="row">
+      {% include scrollspy.html %}
+      <div class="col-md-9 col-lg-10">
+        <h2>
+           {{ site.data.tracks[include.track].name }}
+        </h2>
+        <h3>
+          {% if site.key != 'austin' %} Remote classes {% else %} Classes {% endif %} Designed to Move at the Pace of Life
+        </h3>
+        <p>
+          Our {% if site.key != 'austin' %} remote {% endif %} tracks are broken up into 3 course levels. These {% if site.key != 'austin'
+          %} remote {% endif %} classes are designed to get you from beginner to job ready in a sustainable and accessible
+          manner, without having to quit your job or mortgage your future.
+        </p>
+        <p>
+          Each one of these courses is a 10 week session that meets twice a week in the evenings. These tracks are comprehensive and
+          every class will have homework, projects, and assessments to ensure comprehension, however you won’t be on your
+          own. We maintain a strict 10:1 student to teacher ratio, plenty of one-on-one time and office hours with instructors,
+          as well as a vibrant online community of current students and alumni that are all engaged in helping each other
+          succeed.
+        </p>
+        <div class="row row-eq">
+          <div class="col-xs-12 col-md-6 col-lg-3">
+            <div class="panel equalizer card">
+              <h3 class="bold">
+                Step 1:
+                <br /> Intro
+              </h3>
+              <p>
+                {{ site.data.tracks[include.track].steps.one }}
+              </p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-6 col-lg-3">
+            <div class="panel equalizer card">
+              <h3 class="bold">
+                Step 2:
+                <br /> Intermediate
+              </h3>
+              <p>
+                {{ site.data.tracks[include.track].steps.two }}
+              </p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-6 col-lg-3">
+            <div class="panel equalizer card">
+              <h3 class="bold">
+                Step 3:
+                <br /> Advanced
+              </h3>
+              <p>
+                {{ site.data.tracks[include.track].steps.three }}
+              </p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-6 col-lg-3">
+            <div class="panel equalizer card">
+              <h3 class="bold">
+                Step 4:
+                <br /> Job Search
+              </h3>
+              <p>
+                Throughout the three levels students are invited to participate in various career services events, from resume and interview
+                workshops to field trips and networking events at local tech companies. Once done with their program, students
+                begin searching for and applying to top organizations.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="courses-list">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-offset-3 col-md-9 col-lg-10 col-lg-offset-2">
+        {% include courses.html track=include.track %}
+      </div>
+    </div>
+  </div>
+</section>
+<section class="bg-primary text-white" id="syllabus">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-offset-3 col-md-9 col-lg-10 col-lg-offset-2">
+        {% include syllabus-capture.html %}
+      </div>
+    </div>
+  </div>
+</section>
+{% include skills-and-tools.html %} {% include student-resources.html %}
+<section class="bg-info" id="upcoming-courses">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-offset-3 col-md-9 col-lg-10 col-lg-offset-2">
+        {% include important-dates.html %}
+      </div>
+    </div>
+  </div>
+</section>
+{% include financing.html %}
+<section class="bg-jobs text-white" style="padding-top:0;padding-bottom:0">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-offset-3 col-md-9 col-lg-10 col-lg-offset-2">
+        {% include reviews.html %}
+      </div>
+    </div>
+  </div>
+</section>
+{% include interviews.html %}
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-offset-3 col-md-9 col-lg-10 col-lg-offset-2">
+        {% include companies.html %}
+      </div>
+    </div>
+  </div>
+</section>

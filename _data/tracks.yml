@@ -1,27 +1,65 @@
-JavaScript:
-  name: JavaScript Program
+javascript:
+  name: Full-Stack JavaScript
   courses:
     - 101
     - 211
     - 311
-
-CSharp:
-  name: CSharp Program
+  steps:
+    one: >
+      Our Intro level course is the starting point for all of
+      our tracks and designed for people who are starting with little
+      or no experience coding. By the end of this level students can
+      build functional and professional quality websites as well as
+      basic JavaScript apps and games.
+    two: >
+      In this level the difficulty ramps up and students start building more
+      complex apps and games. By the end of this level students have a basic
+      understanding of what's involved in building full-stack web apps.
+    three: >
+      The Advanced class is where
+      students complete their journey and have the technical skills to
+      be considered job ready. Students build full stack production-ready
+      applications complete ready to deploy.
+  
+csharp:
+  name: C#/.Net
   courses:
     - 101
     - 221
     - 321
+  steps:
+    1: >
+      Our Intro level course is the starting point for all of
+      our tracks and designed for people who are starting with little
+      or no experience coding. By the end of this level students can
+      build functional and professional quality websites as well as
+      basic JavaScript apps.
+    2: >
+      In this level the difficulty ramps up and students start building more
+      complex apps and games. By the end of this level students have a basic
+      understanding of what's involved in building full-stack web apps.
+    3: >
+      The Advanced class is where
+      students complete their journey and have the technical skills to
+      be considered job ready. Students build full stack production-ready
+      applications complete ready to deploy.
 
-CSharp_2:
-  name: CSharp Program (North Austin)
-  courses:
-    - 101_2
-    - 221_2
-    - 321_2
-
-WebDesign:
-  name: Web Design Program
+webdesign:
+  name: Web Design
   courses:
     - 101
     - 231
     - 331
+  steps:
+    1: >
+      Our Intro level course is the starting point for all of
+      our tracks and designed for people who are starting with little
+      or no experience coding. By the end of this level students can
+      build functional and professional quality websites as well as
+      basic JavaScript apps.
+    2: >
+      In this level the difficulty ramps up and students start
+      diving into UI/UX and iterative design.
+    3: >
+      The Advanced class is where students learn about site deployment,
+      testing and the process of building their business as a web designer.

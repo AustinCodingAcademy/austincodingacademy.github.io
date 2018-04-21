@@ -1,0 +1,34 @@
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-offset-3 col-md-9 col-lg-10 col-lg-offset-2">
+        <div class="panel card">
+          <h3>Meet an
+            <span class="text-success">{{ site.city }} Coding Academy Student</span>
+          </h3>
+          <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
+          <div class="slick-carousel" data-dots="true" data-autoplay="false" data-arrows="false">
+            {% for interview in site.data.interviews %}
+            <div class="row hidden">
+              <div class="col-sm-12 col-md-6">
+                <h3>
+                  {{interview.quote}}
+                  <br>
+                  <small>-
+                    <strong>{{interview.name}}</strong>
+                    <br>&nbsp;&nbsp;{{interview.current_role}}</small>
+                </h3>
+              </div>
+              <div class="col-sm-12 col-md-6">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="{{interview.embed}}" frameborder="0" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

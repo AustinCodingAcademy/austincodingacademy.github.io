@@ -1,0 +1,35 @@
+<section class="bg-gray-lighter" id="course-skills">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-offset-3 col-md-9 col-lg-10 col-lg-offset-2">
+        <h2>
+          OUR
+          <span class="text-success">SKILLS AND TOOLS</span>
+          <br>
+          <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
+        </h2>
+        <div class="row text-center row-eq">
+          {% for skill in site.data.skills %}
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="panel panel-default equalizer">
+              <div class="panel-body">
+                <div class="panel panel-inverse margin-0 align-items-center justify-content-center">
+                  <div class="panel-body" style="padding: 5px;">
+                    <i class="fa fa-{{skill.icon}} fa-3x fa-fw"></i>
+                    <h4>
+                      {{skill.title}}
+                    </h4>
+                  </div>
+                </div>
+                <h4>
+                  <small>{{skill.body}}</small>
+                </h4>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

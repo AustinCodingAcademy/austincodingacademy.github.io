@@ -11,7 +11,6 @@ coursereport:
 switchup:
 thinkful:
 course_amount: $2,990
-track_amount: $8,970
 google_tag_id: GTM-TBH7GK
 pixel_id: 656599271106549
 classtimes: 6:30pm - 9:00pm
@@ -19,6 +18,8 @@ courses:
   - 101
   - 221
   - 321
+tracks:
+  - csharp
 announcement: Classes begin <span class="start-date-only"></span>!
 phone: (512) 827-8498
 color: '#f8b232'
@@ -28,10 +29,6 @@ logo: austin
 markdown: kramdown
 permalink: :year/:month/:day/:slug/
 
-gems:
-  - jekyll-feed
-  - jekyll-redirect-from
-  # - amp-jekyll
 exclude:
   - Gemfile
   - Gemfile.lock
