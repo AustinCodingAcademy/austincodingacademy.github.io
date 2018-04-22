@@ -375,7 +375,27 @@ footer {
   }
 }
 
-.hbspt-form {
-  display: flex;
-  justify-content: center;
+.brand-hr {
+  width: 80px;
+  border-color: $brand-success;
+  text-align: left;
+  margin-left: 0;
+}
+
+.border-bottom-success {
+  border-bottom: 10px solid $brand-success;
+}
+
+.logo {
+  font-family: 'sans-serif';
+  g {
+    path {
+      &:first-child {
+        fill: $brand-success;
+      }
+      &:last-child {
+        fill: lighten($brand-success, 10%);
+      }
+    }
+  }
 }
