@@ -43,3 +43,4 @@ exclude:
   - yarn.lock
   - deploy.js
   - dns.js
+  - yarn-error.log

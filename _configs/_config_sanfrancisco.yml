@@ -1,2 +1,5 @@
 city: San Francisco
 key: sanfrancisco
+acronym: SFCA
+color: '#A6192E'
+lighter_color: '#e6596e' 

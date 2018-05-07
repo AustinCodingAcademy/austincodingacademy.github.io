@@ -59,7 +59,7 @@ head: >
       <div class="col-xs-12 col-md-9">
         {% for faq in site.data.faqs.school %}
         <h3 id="{{faq.question | replace_regex: ' ', '' | replace_regex: '\?', ''}}">{{faq.question}}</h3>
-        <hr style="border-color: {{site.color}}; text-align:left; margin-left:0">
+        <hr class="brand-hr">
         <p>{{faq.answer}}</p>
         <br>
         {% endfor %}

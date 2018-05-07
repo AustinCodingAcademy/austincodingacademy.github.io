@@ -14,7 +14,7 @@ head: >
     }
   </style>
 ---
-<section style="border-bottom: 10px solid {{site.color}}">
+<section class="border-bottom-success">
   <div class="container">
     <div class="row text-white text-right">
       <div class="col-xs-12" style="margin-top: 155px; margin-bottom: -55px;">
@@ -43,11 +43,11 @@ head: >
     <div class="row">
       <div class="col-xs-12 col-md-6">
         <h3>
-          <small class="lead">{{ site.city | upcase }} CODING ACADEMY IS THE SCHOOL FOR YOU</small>
+          <small class="lead">{{ site.acronym }} IS THE SCHOOL FOR YOU</small>
           <br>
           FROM NOVICE TO NEW HIRE IN TEN MONTHS
           <br>
-          <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
+          <hr class="brand-hr">
         </h3>
         <h4>
           Here at {{ site.city }} Coding Academy, we believe anyone can learn how to code! That's why we offer the most affordable and accessible coding education for anyone looking to jump-start their career in tech.
@@ -95,7 +95,7 @@ head: >
       <br>
       TESTIMONIALS<span class="text-success">.</span>
       <br>
-      <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
+      <hr class="brand-hr">
     </h2>
     <br />
     {% include reviews.html %}
@@ -107,7 +107,7 @@ head: >
     <h2>
       <i class="fa fa-calendar"></i> UPCOMING<span class="text-success"> EVENTS</span>
       <br>
-      <hr style="width: 40px; border-color: {{site.color}}; text-align:left; margin-left:0">
+      <hr class="brand-hr">
     </h2>
     <div id="upcoming-events"></div>
   </div>
@@ -118,7 +118,7 @@ head: >
   </div>
 </section>
 {% endif %}
-<script type="application/ld+json">
+{% comment %} <script type="application/ld+json">
 {% assign comma = '' %}
   [
   {% for course in site.data.courses %}
@@ -139,4 +139,4 @@ head: >
   {% endif %}
   {% endfor %}
 ]
-</script>
+</script> {% endcomment %}

@@ -55,13 +55,11 @@
           </ul>
         </div>
         <div class="col-xs-12 col-md-3">
-          <h4 class="text-white">Courses</h4>
+          <h4 class="text-white">Tracks</h4>
           <br>
           <ul class="list-unstyled">
-            {% for course in site.data.courses %}
-            {% if site.courses contains course[0] %}
-            <li class="styled"><h5><a href="{{course[1].href}}" class="link-white">{{course[1].name}}</a></h5></li>
-            {% endif %}
+            {% for track in site.tracks %}
+            <li class="styled"><h5><a href="/{{track}}" class="link-white">{{site.data.tracks[track].name}}</a></h5></li>
             {% endfor %}
           </ul>
         </div>
@@ -71,7 +69,7 @@
           <ul class="list-unstyled">
             <li class="styled"><h5><a href="/instructor-apply" class="link-white">Instructor Application</a></h5></li>
             <li class="styled"><h5><a href="/why" class="link-white">Why Us</a></h5></li>
-            <li class="styled"><h5><a href="/courses" class="link-white">Courses</a></h5></li>
+            <li class="styled"><h5><a href="/tracks" class="link-white">Tracks</a></h5></li>
             <li class="styled"><h5><a href="/tuition" class="link-white">Tuition</a></h5></li>
             <li class="styled"><h5><a href="/faq" class="link-white">FAQ</a></h5></li>
             <li class="styled"><h5><a href="/contact" class="link-white">Contact</a></h5></li>
@@ -80,7 +78,7 @@
           </ul>
         </div>
         <div class="col-xs-12 col-md-3 align-items-center flex-column">
-          <img class="img-responsive" src="/assets/images/{{site.logo}}-logo-white.svg" alt="{{ site.city }} Coding Academy Logo">
+          <object type="image/svg+xml" data="/logo.svg"></object>
           <br>
           <br>
           <a href="/apply" class="btn btn-success btn-block">APPLY NOW</a>
