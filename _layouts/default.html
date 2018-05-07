@@ -10,7 +10,7 @@
   <meta property="og:title" content="{{ page.title | liquify }}">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://{{ site.key }}codingacademy.com{{ page.url }}">
-  <meta property="og:image" content="{% if page.image %}https://{{ site.key }}codingacademy.com/assets/images/{{page.image}}{% else %}https://{{ site.key }}codingacademy.com/assets/images/austin-logo-white-bg.png{% endif %}">
+  <meta property="og:image" content="https://{{ site.key }}codingacademy.com/logo-white.png">
   <meta property="og:description" content="{{ page.description | liquify }}">
   <meta property="og:site_name" content="{{ site.city }} Coding Academy" />
   <meta property="og:locale" content="en_US" />
@@ -20,7 +20,7 @@
   <meta name="twitter:creator" content="@{{ site.twitterhandle }}">
   <meta name="twitter:title" content="{{ page.title | liquify }}">
   <meta name="twitter:description" content="{{ page.description | liquify }}">
-  <meta name="twitter:image" content="{% if page.image %}https://{{ site.key }}codingacademy.com/assets/images/{{page.image}}{% else %}https://{{ site.key }}codingacademy.com/assets/images/austin-logo-white-bg.png{% endif %}">
+  <meta name="twitter:image" content="https://{{ site.key }}codingacademy.com/logo-white.png">
 
   {% include favicon.html %}
   {{ page.head | liquify }}
