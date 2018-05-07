@@ -8,7 +8,7 @@ general:
       - preview
 dependencies:
   pre:
-    - sudo apt-get install rsvg-convert -y
+    - sudo apt-get install librsvg2-bin -y
   post:
     - node deploy.js
 deployment:
