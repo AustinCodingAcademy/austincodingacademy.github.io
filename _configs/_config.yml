@@ -13,6 +13,7 @@ course_amount: $2,990
 google_tag_id: GTM-TBH7GK
 pixel_id: 656599271106549
 classtimes: 6:30pm - 9:00pm
+tracks:
   - csharp
 announcement: Classes begin <span class="start-date-only"></span>!
 phone: (512) 827-8498
