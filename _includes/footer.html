@@ -55,13 +55,11 @@
           </ul>
         </div>
         <div class="col-xs-12 col-md-3">
-          <h4 class="text-white">Courses</h4>
+          <h4 class="text-white">Tracks</h4>
           <br>
           <ul class="list-unstyled">
-            {% for course in site.data.courses %}
-            {% if site.courses contains course[0] %}
-            <li class="styled"><h5><a href="{{course[1].href}}" class="link-white">{{course[1].name}}</a></h5></li>
-            {% endif %}
+            {% for track in site.tracks %}
+            <li class="styled"><h5><a href="/{{track}}" class="link-white">{{site.data.tracks[track].name}}</a></h5></li>
             {% endfor %}
           </ul>
         </div>

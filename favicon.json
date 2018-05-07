@@ -1,5 +1,7 @@
+---
+---
 {
-	"masterPicture": "_images/austin-logo-white-bg-square.png",
+	"masterPicture": "_site/logo-white.png",
 	"iconsPath": "/assets/favicons/",
 	"design": {
 		"ios": {
@@ -10,7 +12,7 @@
 				"precomposedIcons": false,
 				"declareOnlyDefaultIcon": true
 			},
-			"appName": "Austin Coding Academy"
+			"appName": "{{site.city}} Coding Academy"
 		},
 		"desktopBrowser": {},
 		"windows": {
@@ -26,13 +28,13 @@
 					"rectangle": false
 				}
 			},
-			"appName": "Austin Coding Academy"
+			"appName": "{{site.city}} Coding Academy"
 		},
 		"androidChrome": {
 			"pictureAspect": "noChange",
 			"themeColor": "#ffffff",
 			"manifest": {
-				"name": "Austin Coding Academy",
+				"name": "{{site.city}} Coding Academy",
 				"display": "standalone",
 				"orientation": "notSet",
 				"onConflict": "override",
