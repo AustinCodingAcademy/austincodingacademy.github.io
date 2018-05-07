@@ -26,10 +26,10 @@
   {{ page.head | liquify }}
   {% if page.permalink == '/' %}
   <style>
-    {% include stylesheets/{{ site.css }}.css %}
+    {% include stylesheets/{{ site.key }}.css %}
   </style>
   {% else %}
-  <link rel="stylesheet" href="/assets/stylesheets/{{ site.css }}.css">
+  <link rel="stylesheet" href="/assets/stylesheets/{{ site.key }}.css">
   {% endif %}
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -49,13 +49,13 @@
   <script type="text/javascript">
   $(document).ready(function() {
     if (document.createStyleSheet){
-      document.createStyleSheet('/assets/stylesheets/{{ site.css }}.css');
+      document.createStyleSheet('/assets/stylesheets/{{ site.key }}.css');
     } else {
-      $('head').append($('<link rel="stylesheet" href="/assets/stylesheets/{{ site.css }}.css" type="text/css" />'));
+      $('head').append($('<link rel="stylesheet" href="/assets/stylesheets/{{ site.key }}.css" type="text/css" />'));
     }
   });
   </script>
-  <noscript><link rel="stylesheet" href="/assets/stylesheets/{{ site.css }}.css"></noscript>
+  <noscript><link rel="stylesheet" href="/assets/stylesheets/{{ site.key }}.css"></noscript>
   {% endif %}
   {{ page.scripts | liquify }}
 </body>

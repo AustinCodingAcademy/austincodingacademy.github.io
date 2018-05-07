@@ -338,12 +338,29 @@ h1, .h1, h2, .h2, h3, .h3 {
 }
 
 header {
-  img {
-    max-width: 50px;
+  .well {
+    background-color: $brand-primary;
+    color: #ffffff;
+    margin: 0;
   }
-  .navbar-brand {
-    display: flex;
-    align-items: center;
+  .navbar {
+    margin-bottom: 0;
+    .navbar-brand {
+      padding: 0 15px;
+      display: flex;
+      align-items: center;
+    }
+    .btn-success {
+      color: #ffffff !important;
+      &:hover,
+      &:focus {
+        background-color: darken($brand-success, 15%)  !important;
+      }
+    }
+  }
+  img {
+    border: none;
+    max-width: 50px;
   }
   #top-right-banner {
     padding: 12px;

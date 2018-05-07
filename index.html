@@ -43,7 +43,7 @@ head: >
     <div class="row">
       <div class="col-xs-12 col-md-6">
         <h3>
-          <small class="lead">{{ site.city | upcase }} CODING ACADEMY IS THE SCHOOL FOR YOU</small>
+          <small class="lead">{{ site.acronym }} IS THE SCHOOL FOR YOU</small>
           <br>
           FROM NOVICE TO NEW HIRE IN TEN MONTHS
           <br>
@@ -118,7 +118,7 @@ head: >
   </div>
 </section>
 {% endif %}
-<script type="application/ld+json">
+{% comment %} <script type="application/ld+json">
 {% assign comma = '' %}
   [
   {% for course in site.data.courses %}
@@ -139,4 +139,4 @@ head: >
   {% endif %}
   {% endfor %}
 ]
-</script>
+</script> {% endcomment %}
