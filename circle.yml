@@ -9,9 +9,8 @@ general:
 dependencies:
   pre:
     - sudo apt-get install librsvg2-bin -y
-  override:
-    - yarn
   post:
+    - npm rebuild
     - node deploy.js
 deployment:
   master:
