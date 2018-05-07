@@ -7,6 +7,8 @@ general:
       - master
       - preview
 dependencies:
+  pre:
+    - sudo apt-get install rsvg-convert
   post:
     - node deploy.js
 deployment:
@@ -15,12 +17,11 @@ deployment:
     commands:
       - git config --global user.email "kevin@austincodingacademy.com"
       - git config --global user.name "Kevin Colten"
-      - npm run deploy-classics
-      - npm run deploy-remotes
-  preview:
-    branch: preview
-    commands:
-      - git config --global user.email "kevin@austincodingacademy.com"
-      - git config --global user.name "Kevin Colten"
-      - npm run no-robots
-      - npm run deploy-classics-preview
+      - yarn deploy
+  # preview:
+  #   branch: preview
+  #   commands:
+  #     - git config --global user.email "kevin@austincodingacademy.com"
+  #     - git config --global user.name "Kevin Colten"
+  #     - npm run no-robots
+  #     - npm run deploy-classics-preview
