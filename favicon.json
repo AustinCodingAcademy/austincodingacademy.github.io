@@ -1,7 +1,7 @@
 ---
 ---
 {
-	"masterPicture": "_site/logo-white.png",
+	"masterPicture": "logo-white.png",
 	"iconsPath": "/assets/favicons/",
 	"design": {
 		"ios": {
