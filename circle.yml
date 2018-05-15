@@ -1,13 +1,16 @@
 machine:
   node:
-    version: 7.2.1
+    version: 8.9.4
 general:
   branches:
     only:
       - master
       - preview
 dependencies:
+  pre:
+    - sudo apt-get install librsvg2-bin -y
   post:
+    - npm rebuild
     - node deploy.js
 deployment:
   master:
@@ -15,12 +18,11 @@ deployment:
     commands:
       - git config --global user.email "kevin@austincodingacademy.com"
       - git config --global user.name "Kevin Colten"
-      - npm run deploy-classics
-      - npm run deploy-remotes
-  preview:
-    branch: preview
-    commands:
-      - git config --global user.email "kevin@austincodingacademy.com"
-      - git config --global user.name "Kevin Colten"
-      - npm run no-robots
-      - npm run deploy-classics-preview
+      - yarn deploy
+  # preview:
+  #   branch: preview
+  #   commands:
+  #     - git config --global user.email "kevin@austincodingacademy.com"
+  #     - git config --global user.name "Kevin Colten"
+  #     - npm run no-robots
+  #     - npm run deploy-classics-preview

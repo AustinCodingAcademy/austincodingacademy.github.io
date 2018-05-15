@@ -8,10 +8,18 @@ assets/javascripts
 assets/stylesheets/*
 !assets/stylesheets/images
 
+_sass/*
+!_sass/app.scss
+!_sass/bootstrap.scss
+!_sass/colors.scss
+!_sass/custom.scss
+!_sass/variables.scss
+
 assets/favicons
 _includes/stylesheets
 _includes/favicon.html
 faviconData.json
+
 *.log
 *.orig
 
