@@ -1,2 +1,5 @@
 city: Seattle
 key: seattle
+acronym: SCA
+color: '#69BE28'
+lighter_color: '#ace481' 
