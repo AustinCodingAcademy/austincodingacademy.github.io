@@ -19,10 +19,9 @@ deployment:
       - git config --global user.email "kevin@austincodingacademy.com"
       - git config --global user.name "Kevin Colten"
       - yarn deploy
-  # preview:
-  #   branch: preview
-  #   commands:
-  #     - git config --global user.email "kevin@austincodingacademy.com"
-  #     - git config --global user.name "Kevin Colten"
-  #     - npm run no-robots
-  #     - npm run deploy-classics-preview
+  preview:
+    branch: preview
+    commands:
+      - git config --global user.email "kevin@austincodingacademy.com"
+      - git config --global user.name "Kevin Colten"
+      - yarn deploy-preview

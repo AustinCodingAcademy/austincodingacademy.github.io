@@ -24,7 +24,8 @@
     "sitemap": "npm run sitemap-generator && sed -i \"s|http://127.0.0.1:8080|https://$(echo $KEY)codingacademy.com|g\" _site/sitemap.xml",
     "cname": "echo \"$(echo $KEY)codingacademy.com\" >> _site/CNAME",
     "repo": "gh-pages --repo \"git@github.com:AustinCodingAcademy/$(echo $PREVIEW)$(echo $KEY)codingacademy.com.git\" -d ./_site",
-    "deploy": "yarn clear-cache"
+    "deploy": "yarn clear-cache",
+    "deploy-preview": "yarn clear-cache"
   },
   "watch": {
     "sass": {
