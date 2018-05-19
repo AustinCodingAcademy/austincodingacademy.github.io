@@ -3,12 +3,12 @@
   summary: >
     Use HTML, CSS, JavaScript, Git, Terminal, Atom, and the DevTool, to
     create sites and a professional Portfolio.
-  img: /assets/images/intro-js.png
+  img: /assets/images/101.png
   thumbnail: /assets/images/table-shot.jpg
   description: >
     <p>
-      This is our Intro course, designed to take true beginners to a level
-      of fluency with HTML and CSS that will allow them to build
+      Our Web 101 course is designed to take true beginners to a level
+      of fluency with HTML, CSS, and JavaScript that will allow them to build
       professional, well designed, responsive websites. You can use these
       skills to begin freelancing or to get started as a web designer.
     </p>
@@ -25,21 +25,21 @@
     - Responsive Web Design
     - Problem Solving
     - Developer Tools
+    - JavaScript
+    - jQuery
   projects:
     - Mobile Ready Websites
     - Beginner's Portfolio
     - Github Profile
   jobs:
     - Web Designer
-    - UX/UI Designer
-    - Junior Web Developer
 
 211:
   name: '211 JavaScript Full Stack'
   summary: >
     After the core 101 class, students begin creating small apps using
     Javascript, jQuery, Node, NPM, API's, and Terminal.
-  img: /assets/images/intermediate-js.png
+  img: /assets/images/211.png
   thumbnail: /assets/images/looking-up.jpg
   description: >
     <p>
@@ -62,6 +62,7 @@
     - Object Oriented Programming
     - Debugging
     - Testing
+    - React.js
   projects:
     - 6 JavaScript Apps
     - 4 jQuery Apps
@@ -112,7 +113,7 @@
     - Junior Web Developer
 
 221:
-  name: '221 C# & .NET Full Stack'
+  name: '221 C# .NET'
   summary: >
     After the core 101 class, students begin creating small apps using C#, SQL,
     and object oriented programming.
@@ -147,7 +148,7 @@
     - Junior Web Dev
 
 321:
-  name: '321 C# & .NET Full Stack'
+  name: '321 C# .NET MVC'
   summary: >
     Students construct 2 full web apps using Visual Studio, Razor, and the SQL database.
   img: /assets/images/advanced-csharp.png
@@ -185,11 +186,11 @@
     - Junior Web Developer
 
 231:
-  name: '231 Web Design'
+  name: '231 UX Development'
   summary: >
     Learn how to freelance, receive an introduction to writing copy and graphic design, static web page generation and templating.
   thumbnail: /assets/images/looking-glasses.jpg
-  img: /assets/images/web-design-image.jpg
+  img: /assets/images/231.png
   description: >
     <p>
       Learn graphic design, crafting User Experience and User Interface, CSS frameworks, as well as an arsenal of tools to enable a successful freelancing career.
@@ -200,11 +201,11 @@
   jobs: []
 
 331:
-  name: '331 Web Design'
+  name: '331 Wordpress Development'
   summary: >
     Optimize your portfolio for User Experience and User Interface. Manage your projects with the Agile framework, build marketing plans and contracts.
   thumbnail: /assets/images/around-table.jpg
-  img: /assets/images/web-design-image.jpg
+  img: /assets/images/331.png
   description: >
     <p>
       Complete the track by learning how to drive traffic to their websites utilizing A/B testing techniques, search engine optimization, google analytics, and attractive design.
