@@ -22,7 +22,7 @@ javascript:
       applications complete ready to deploy.
   
 csharp:
-  name: C#/.Net
+  name: C# .NET
   courses:
     - 101
     - 221
@@ -45,7 +45,7 @@ csharp:
       applications complete ready to deploy.
 
 webdesign:
-  name: Web Design
+  name: UX/Freelance
   courses:
     - 101
     - 231
