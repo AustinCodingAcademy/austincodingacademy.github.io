@@ -25,3 +25,5 @@ faviconData.json
 
 .vscode
 tmp
+
+.DS_Store
