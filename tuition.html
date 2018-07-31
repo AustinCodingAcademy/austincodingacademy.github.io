@@ -16,6 +16,9 @@ head: >
     section:first-child h1 {
       text-shadow: black 1px 1px 5px;
     }
+    .panel-body~.panel-body {
+      padding: 5px;
+    }
   </style>
 talking_points:
   - icon: scissors
@@ -108,7 +111,7 @@ lenders:
             <div class="media">
               <div class="media-left">
                 <div class="panel panel-inverse margin-0 equalizer align-items-center">
-                  <div class="panel-body" style="padding: 5px;">
+                  <div class="panel-body">
                     <i class="fa fa-{{talking_point.icon}} fa-3x fa-fw"></i>
                   </div>
                 </div>
