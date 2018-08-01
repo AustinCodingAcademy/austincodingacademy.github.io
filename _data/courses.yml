@@ -194,7 +194,7 @@
   description: >
     <p>
       Learn graphic design, crafting User Experience and User Interface, CSS frameworks, as well as an arsenal of tools to enable a successful freelancing career.
-      <a href="https://freelanceatx.austincodingacademy.com" target="_blank">Click here for more info</a>
+      <a href="https://freelanceatx.austincodingacademy.com" rel="noopener noreferrer" target="_blank">Click here for more info</a>
     </p>
   skills: []
   projects: []
@@ -209,7 +209,7 @@
   description: >
     <p>
       Complete the track by learning how to drive traffic to their websites utilizing A/B testing techniques, search engine optimization, google analytics, and attractive design.
-      <a href="https://freelanceatx.austincodingacademy.com" target="_blank">Click here for more info</a>
+      <a href="https://freelanceatx.austincodingacademy.com"  rel="noopener noreferrer" target="_blank">Click here for more info</a>
     </p>
   skills: []
   projects: []
