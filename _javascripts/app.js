@@ -73,11 +73,11 @@ $(function() {
                   ${moment.utc(event.start.local).format('ddd, MMM Do, YYYY h:mma')} - ${moment.utc(event.end.local).format('h:mma')}
                   <div class="media-body">
                     <h4 class="media-heading">
-                      <a href="${event.url}" target="_blank">${event.name.html}</a>
+                      <a href="${event.url}" rel="noopener noreferrer" target="_blank">${event.name.html}</a>
                     </h4>
                     ${event.description.text.slice(0, 200)}...
                     <br>
-                    <a href="${event.url}" target="_blank">Read More</a>
+                    <a href="${event.url}" rel="noopener noreferrer" target="_blank">Read More</a>
                   </div>
                 </div>
               </div>
