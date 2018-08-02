@@ -16,6 +16,15 @@ head: >
     section:first-child h1 {
       text-shadow: black 1px 1px 5px;
     }
+    .panel-body~.panel-body {
+      padding: 5px;
+    }
+    .underline {
+      text-decoration: underline;
+    }
+    .list-styled {
+      min-width: 200px;
+    }
   </style>
 talking_points:
   - icon: scissors
@@ -108,8 +117,8 @@ lenders:
             <div class="media">
               <div class="media-left">
                 <div class="panel panel-inverse margin-0 equalizer align-items-center">
-                  <div class="panel-body" style="padding: 5px;">
-                    <i class="fa fa-{{talking_point.icon}} fa-3x fa-fw"></i>
+                  <div class="panel-body">
+                    <i class="fa fa-{{talking_point.icon}} fa-3x fa-fw" aria-hidden></i>
                   </div>
                 </div>
               </div>
@@ -139,14 +148,14 @@ lenders:
     <div class="row text-center">
       {% if site.key == 'sanantonio' %}
       <div class="col-xs-12 col-sm-6">
-        <i class="text-success fa fa-usd fa-3x"></i>
+        <i class="text-success fa fa-usd fa-3x" aria-hidden></i>
         <a target="_blank" href="http://questsa.org/">
-          <h3 style="text-decoration:underline;" class="text-white">PROJECT QUEST</h3>
+          <h3 class="text-white underline">PROJECT QUEST</h3>
         </a>
         <div class="font_18">
           <p>Project Quest's mission is to strengthen the economy with highly qualified employees for in-demand, living wage careers. To see if you qualify,
           <br>
-          <a target="_blank" class="text-success" style="text-decoration:underline;" href="mailto:ruby@questsa.org">Contact Ruby Siddle</a>
+          <a rel="noopener noreferrer" target="_blank" class="text-success a-styled-underline" href="mailto:ruby@questsa.org">Contact Ruby Siddle</a>
           </p>
         </div>
       </div>
@@ -169,23 +178,23 @@ lenders:
     </h2>
     <div class="row text-center">
       <div class="col-xs-12 col-sm-6">
-        <i class="text-success fa fa-smile-o fa-3x"></i>
+        <i class="text-success fa fa-smile-o fa-3x" aria-hidden></i>
         <h3>WEFINANCE</h3>
         <p class="font_17">
           Friends and family are important to every one of us and many of them
           might be willing to support, and assist, if given an accessible, online resource.
-          Some of our students have had success using <a style="text-decoration:underline;" href="https://www.wefinance.co/">WeFinance</a>.
+          Some of our students have had success using <a class="underline" href="https://www.wefinance.co/">WeFinance</a>.
         </p>
       </div>
       <div class="col-xs-12 col-sm-6">
-        <i class="text-success fa fa-smile-o fa-3x"></i>
+        <i class="text-success fa fa-smile-o fa-3x" aria-hidden></i>
         <h3>CORPORATE FUNDING</h3>
         <p class="font_17">
           Funding from current employers is quickly becoming the fastest-growing source of financing for
           code school students. It’s a great way for your company to invest in your future and increase
           your team’s value.
           <br>
-          <a style="text-decoration:underline;" href="#talking_points">Here are some talking points</a>.
+          <a class="underline" href="#talking_points">Here are some talking points</a>.
         </p>
       </div>
     </div>
@@ -197,7 +206,7 @@ lenders:
     <div class="row">
       <div class="col-xs-12">
         <h2>
-          <i class="fa fa-calendar"></i> UPCOMING<span class="text-success"> EVENTS</span>
+          <i class="fa fa-calendar" aria-hidden></i> UPCOMING<span class="text-success"> EVENTS</span>
           <br>
           <hr class="brand-hr">
         </h2>
@@ -222,7 +231,7 @@ lenders:
         </p>
         <ul class="list-unstyled justify-content-space-between flex-wrap">
           {% for lender in page.lenders %}
-          <li style="min-width: 200px"><h4><a href="{{lender.href}}">{{lender.name}}</a></h4></li>
+          <li class="list-styled"><h4><a href="{{lender.href}}">{{lender.name}}</a></h4></li>
           {% endfor %}
         </ul>
       </div>

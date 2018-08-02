@@ -1,7 +1,13 @@
+<style media="screen">
+  .styled {
+    margin-top: 30px;
+  }
+</style>
+
 <div class="row row-eq">
   <div class="col-xs-12 col-md-3 text-center equalizer">
     {% if include.left != "false" %}
-    <i class="fa fa-calendar fa-3x"></i>
+    <i class="fa fa-calendar fa-3x" aria-hidden></i>
     <h4>Register by</h4>
     <h3 class="start-date"></h3>
     {% endif %}
@@ -10,7 +16,7 @@
     <h3>
       Attend 2 nights a week, {{site.classtimes}}
     </h3>
-    <h4 style="margin-top: 30px;">
+    <h4 class="styled">
       Unable to meet the deadline to enroll?
       <br>
       <br>
@@ -21,7 +27,7 @@
     </h4>
   </div>
   <div class="col-xs-12 col-md-3 text-center equalizer">
-    <i class="fa fa-calendar fa-3x"></i>
+    <i class="fa fa-calendar fa-3x" aria-hidden></i>
     <h4>{% if site.key != 'austin' %} Remote {% endif %} classes Start</h4>
     <h3 class="start-date"></h3>
   </div>

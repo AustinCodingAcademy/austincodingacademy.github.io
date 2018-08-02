@@ -8,17 +8,17 @@
       <div class="row">
         {% if site.key == 'austin' %}
         <div class="phone-margin-bottom text-center col-md-4 col-sm-12">
-          <a class="btn btn-lg btn-success" href="https://acaappointment.acuityscheduling.com/schedule.php?appointmentType=1406673"><i class="fa fa-phone"></i>&nbsp;&nbsp;Schedule a call</a>
+          <a class="btn btn-lg btn-success" href="https://acaappointment.acuityscheduling.com/schedule.php?appointmentType=1406673"><i class="fa fa-phone" aria-hidden></i>&nbsp;&nbsp;Schedule a call</a>
         </div>
         <div class="phone-margin-bottom text-center col-md-4 col-sm-12">
-          <a class="btn btn-lg btn-success" href="https://acaappointment.acuityscheduling.com/schedule.php?appointmentType=2958006"><i class="fa fa-building-o" aria-hidden="true"></i>&nbsp;&nbsp;Central Campus Tour</a>
+          <a class="btn btn-lg btn-success" href="https://acaappointment.acuityscheduling.com/schedule.php?appointmentType=2958006"><i class="fa fa-building-o" aria-hidden></i>&nbsp;&nbsp;Central Campus Tour</a>
         </div>
         <div class="phone-margin-bottom text-center col-md-4 col-sm-12">
-          <a class="btn btn-lg btn-success" href="https://acaappointment.acuityscheduling.com/schedule.php?appointmentType=3254226"><i class="fa fa-building-o" aria-hidden="true"></i>&nbsp;&nbsp;North Campus Tour</a>
+          <a class="btn btn-lg btn-success" href="https://acaappointment.acuityscheduling.com/schedule.php?appointmentType=3254226"><i class="fa fa-building-o" aria-hidden></i>&nbsp;&nbsp;North Campus Tour</a>
         </div>
         {% else %}
           <div class="phone-margin-bottom text-center col-sm-12">
-            <a class="btn btn-lg btn-success" href="https://acaappointment.acuityscheduling.com/schedule.php?appointmentType=4004268"><i class="fa fa-phone"></i>&nbsp;&nbsp;Schedule a call</a>
+            <a class="btn btn-lg btn-success" href="https://acaappointment.acuityscheduling.com/schedule.php?appointmentType=4004268"><i class="fa fa-phone" aria-hidden></i>&nbsp;&nbsp;Schedule a call</a>
           </div>
         {% endif %}
       </div>
@@ -32,11 +32,11 @@
             {% if site.location %}
             <br>
             <br>
-            <a href="{{site.location_url}}" class="link-white"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;{{ site.location }}</a>
+            <a href="{{site.location_url}}" class="link-white"><i class="fa fa-map-marker" aria-hidden></i>&nbsp;&nbsp;{{ site.location }}</a>
             {% endif %}
             {% if site.location_north %}
             <br><br>
-            <a href="{{site.location_north_url}}" class="link-white"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;{{ site.location_north }}</a>
+            <a href="{{site.location_north_url}}" class="link-white"><i class="fa fa-map-marker" aria-hidden></i>&nbsp;&nbsp;{{ site.location_north }}</a>
             {% endif %}
             <br><br>
             <small class="text-white">
@@ -48,11 +48,11 @@
           </h4>
           <br>
           <ul class="list-inline justify-content-space-between">
-            <li><a href="{{site.googleplus}}" class="link-clear-dark"><i class="fa fa-google-plus fa-fw"></i></a></li>
-            <li><a href="{{site.twitter}}" class="link-clear-dark"><i class="fa fa-twitter fa-fw"></i></a></li>
-            <li><a href="{{site.facebook}}" class="link-clear-dark"><i class="fa fa-facebook fa-fw"></i></a></li>
-            <li><a href="{{site.linkedin}}" class="link-clear-dark"><i class="fa fa-linkedin fa-fw"></i></a></li>
-            <li><a href="{{site.instagram}}" class="link-clear-dark"><i class="fa fa-instagram fa-fw"></i></a></li>
+            <li><a href="{{site.googleplus}}" class="link-clear-dark"><i class="fa fa-google-plus fa-fw" aria-hidden></i></a></li>
+            <li><a href="{{site.twitter}}" class="link-clear-dark"><i class="fa fa-twitter fa-fw" aria-hidden></i></a></li>
+            <li><a href="{{site.facebook}}" class="link-clear-dark"><i class="fa fa-facebook fa-fw" aria-hidden></i></a></li>
+            <li><a href="{{site.linkedin}}" class="link-clear-dark"><i class="fa fa-linkedin fa-fw" aria-hidden></i></a></li>
+            <li><a href="{{site.instagram}}" class="link-clear-dark"><i class="fa fa-instagram fa-fw" aria-hidden></i></a></li>
           </ul>
         </div>
         <div class="col-xs-12 col-md-3">
@@ -78,7 +78,7 @@
           </ul>
         </div>
         <div class="col-xs-12 col-md-3 align-items-center flex-column">
-          <object type="image/svg+xml" data="/logo.svg"></object>
+          <object type="image/svg+xml" data="/logo.svg" aria-hidden="true"></object>
           <br>
           <br>
           <a href="/apply" class="btn btn-success btn-block">APPLY NOW</a>

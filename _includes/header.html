@@ -11,8 +11,8 @@
       {% endif %}
       <div id="top-right-banner" class="pull-right">
         <div>
-          <a href="mailto:info@{{ site.key }}codingacademy.com" target="_blank" class="link-primary"><i class="fa fa-envelope-o"></i>&nbsp;&nbsp;info@{{ site.key }}codingacademy.com</a>&nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="tel:{{site.phone}}" class="link-primary nowrap"><i class="fa fa-phone"></i>&nbsp;&nbsp;{{ site.phone }}</a>
+          <a href="mailto:info@{{ site.key }}codingacademy.com" rel="noopener noreferrer" target="_blank" class="link-primary"><i class="fa fa-envelope-o" aria-hidden></i>&nbsp;&nbsp;info@{{ site.key }}codingacademy.com</a>&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="tel:{{site.phone}}" class="link-primary nowrap"><i class="fa fa-phone" aria-hidden></i>&nbsp;&nbsp;{{ site.phone }}</a>
         </div>
       </div>
     </div>
@@ -28,7 +28,7 @@
           <span class="icon-bar"></span>
         </button>
         <a class="navbar-brand" href="/">
-          <object type="image/svg+xml" data="/logo.svg"></object>
+          <object type="image/svg+xml" data="/logo.svg" alt="company logo" aria-hidden="true"></object>
         </a>
       </div>
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -36,7 +36,7 @@
           <li><a href="/why">Why Us</a></li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Tracks
-              <span class="caret"></span>
+              <span class="caret" aria-hidden></span>
             </a>
             <ul class="dropdown-menu" role="menu">
               {% for track in site.tracks %}
@@ -52,7 +52,7 @@
           {% endif %}
           <li><a href="/faq">FAQ</a></li>
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">More <span class="caret"></span></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">More <span class="caret" aria-hidden></span></a>
             <ul class="dropdown-menu" role="menu">
               <li><a href="https://blog.austincodingacademy.com">Blog</a></li>
               <li><a href="/contact">Contact</a></li>
@@ -60,7 +60,7 @@
             </ul>
           </li>
           <li><a href="/apply" class="btn btn-success">APPLY</a></li>
-          <li><a target="_blank" href="https://campus.austincodingacademy.com/login">Student Portal</a></li>
+          <li><a rel="noopener noreferrer" target="_blank" href="https://campus.austincodingacademy.com/login">Student Portal</a></li>
         </ul>
       </div>
     </div>

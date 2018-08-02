@@ -12,13 +12,21 @@ head: >
       background-size: cover;
       background-position: center;
     }
+    h1:first-of-type {
+      font-size: 63px;
+      text-shadow: 1px 1px 5px black;
+    }
+    div .margin {
+      margin-top: 155px;
+      margin-bottom: -55px;
+    }
   </style>
 ---
 <section class="border-bottom-success">
   <div class="container">
     <div class="row text-white text-right">
-      <div class="col-xs-12" style="margin-top: 155px; margin-bottom: -55px;">
-        <h1 style="font-size: 63px; text-shadow: 1px 1px 5px black;">{{ site.city }} Coding Academy</h1>
+      <div class="col-xs-12 margin">
+        <h1>{{ site.city }} Coding Academy</h1>
         {% if site.key != 'austin' %}
         <small>Powered by Austin Coding Academy</small>
         <br/>
@@ -31,7 +39,7 @@ head: >
             <a href="/apply" class="text-white btn btn-success btn-lg btn-block">Apply</a>
           </div>
           <div class="col-xs-12 col-sm-3">
-            <a href="https://acaappointment.acuityscheduling.com/schedule.php?appointmentType=1406673" class="btn btn-success btn-lg btn-block" target="_blank">Schedule Q&amp;A</a>
+            <a href="https://acaappointment.acuityscheduling.com/schedule.php?appointmentType=1406673" class="btn btn-success btn-lg btn-block" rel="noopener noreferrer" target="_blank">Schedule Q&amp;A</a>
           </div>
         </div>
       </div>

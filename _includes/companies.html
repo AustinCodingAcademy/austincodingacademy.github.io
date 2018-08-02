@@ -1,9 +1,17 @@
+<style media="screen">
+  .logos {
+    max-height:70px;
+    width:auto;
+  }
+</style>
+
+
 <h3 class="text-center"><span class="text-success">Our Students</span> Work at Amazing Companies</h3>
 <br><br>
 <div class="block-grid-xs-2 block-grid-sm-2 block-grid-md-3">
   {% for company in site.data.companies %}
   <div class="justify-content-center">
-    <img class="img-responsive" src="{{company.logo}}" alt="{{company.name}}" style="max-height:70px;width:auto;"/>
+    <img class="img-responsive logos" src="{{company.logo}}" alt="{{company.name}}" />
   </div>
   {% endfor %}
 </div>
