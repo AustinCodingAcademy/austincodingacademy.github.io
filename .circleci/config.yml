@@ -22,41 +22,41 @@ jobs:
     #         . $BASH_ENV
     #         nvm install 8.9.4 && nvm alias default 8.9.4
     
-    - restore_cache:
-        working_directory: ~/AustinCodingAcademy/austincodingacademy.com
-        keys:
-        # This branch if available
-        - v1-dep-{{ .Branch }}-
-        # Default branch if not
-        - v1-dep-preview-
-        # Any branch if there are none on the default branch - this should be unnecessary if you have your default branch configured correctly
-        - v1-dep-
+    # - restore_cache:
+    #     working_directory: ~/AustinCodingAcademy/austincodingacademy.com
+    #     keys:
+    #     # This branch if available
+    #     - v1-dep-{{ .Branch }}-
+    #     # Default branch if not
+    #     - v1-dep-preview-
+    #     # Any branch if there are none on the default branch - this should be unnecessary if you have your default branch configured correctly
+    #     - v1-dep-
     - run: sudo apt-get install librsvg2-bin -y
-    - run: if [ -z "${NODE_ENV:-}" ]; then export NODE_ENV=test; fi
+    # - run: if [ -z "${NODE_ENV:-}" ]; then export NODE_ENV=test; fi
     - run: export PATH="~/AustinCodingAcademy/austincodingacademy.com/node_modules/.bin:$PATH"
     - run: yarn
-    - run: echo -e "export RAILS_ENV=test\nexport RACK_ENV=test" >> $BASH_ENV
+    # - run: echo -e "export RAILS_ENV=test\nexport RACK_ENV=test" >> $BASH_ENV
     - run: 'bundle check --path=vendor/bundle || bundle install --path=vendor/bundle
         --jobs=4 --retry=3 '
     - run: yarn rebuild
     - run: node deploy.js
-    - save_cache:
-        key: v1-dep-{{ .Branch }}-{{ epoch }}
-        paths:
-        # This is a broad list of cache paths to include many possible development environments
-        # You can probably delete some of these entries
-        - vendor/bundle
-        - ./node_modules
+    # - save_cache:
+    #     key: v1-dep-{{ .Branch }}-{{ epoch }}
+    #     paths:
+    #     # This is a broad list of cache paths to include many possible development environments
+    #     # You can probably delete some of these entries
+    #     - vendor/bundle
+    #     - ./node_modules
     
     # - run: yarn test
 
-    - store_test_results:
-        path: /tmp/circleci-test-results
-    # Save artifacts
-    - store_artifacts:
-        path: /tmp/circleci-artifacts
-    - store_artifacts:
-        path: /tmp/circleci-test-results
+    # - store_test_results:
+    #     path: /tmp/circleci-test-results
+    # # Save artifacts
+    # - store_artifacts:
+    #     path: /tmp/circleci-artifacts
+    # - store_artifacts:
+    #     path: /tmp/circleci-test-results
     
     - deploy:
         name: Deploy
