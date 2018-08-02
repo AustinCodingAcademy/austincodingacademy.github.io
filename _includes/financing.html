@@ -1,3 +1,12 @@
+<style>
+    .finance-a {
+      color: #a56a00 !important;
+    }
+    .finance-a:hover {
+      color: #f8a919 !important;
+    }
+</style>
+
 <section id="financing-options">
   <div class="container">
     <div class="row">
@@ -24,11 +33,11 @@
               </div>
               <div class="media-body">
                 <h4 class="media-heading">
-                  <a href="{{option.href}}">{{option.title}}</a>
+                  <a class="finance-a" href="{{option.href}}">{{option.title}}</a>
                 </h4>
                 {{option.body}}
                 <br>
-                <a href="{{option.href}}">Read More</a>
+                <a class="finance-a" href="{{option.href}}">Read More</a>
               </div>
             </div>
             {% endfor %}
