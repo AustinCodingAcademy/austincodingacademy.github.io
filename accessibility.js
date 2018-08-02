@@ -24,14 +24,14 @@ async function runPa11y() {
   try {
       await Promise.all(routes.map(async route => {
         results.push(await pa11y(`${base}${route}`, { standard: 'WCAG2AA' }));
-        // console.log(JSON.stringify(results, null, 2));
+        console.log(JSON.stringify(results, null, 2));
       }));
-      const combinedResults = {}
-      htmlReporter.results(results).then(html => {
-        const path = './tmp/accessibility.html';
-        fs.writeFileSync(path, html);
-        open(path);
-      });
+      // const combinedResults = {}
+      // htmlReporter.results(results).then(html => {
+      //   const path = './tmp/accessibility.html';
+      //   fs.writeFileSync(path, html);
+      //   open(path);
+      // });
   } catch (error) {
       console.error(error)
   }
