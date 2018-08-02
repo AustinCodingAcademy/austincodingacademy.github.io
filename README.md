@@ -58,12 +58,7 @@ in its own terminal window
 
 ## Accessibility
 1. make sure to have local site running at `http://localhost:4000`
-2. run `npx pa11y http://localhost:4000/` or whatever page you want to test
-3. You can also have a nice HTML page to view:
-    1. `mkdir tmp`
-    1. `npx pa11y --reporter html http://localhost:4000/ >> tmp/accessibility.html`
-    2. `open tmp/accessibility.html` You can just refresh the page after every run
-4. To run all pages at once: `yarn test`
+2. run `yarn test`
 
 ## Deploying
 ### Preview
