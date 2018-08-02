@@ -16,7 +16,10 @@ jobs:
 
     - run:
         working_directory: ~/AustinCodingAcademy/austincodingacademy.com
-        command: nvm install 8.9.4 && nvm alias default 8.9.4
+        command: |
+            echo 'export NVM_DIR=$HOME/.nvm' >> $BASH_ENV
+            echo 'source $NVM_DIR/nvm.sh' >> $BASH_ENV
+            nvm install 8.9.4 && nvm alias default 8.9.4
     
     - restore_cache:
         keys:
