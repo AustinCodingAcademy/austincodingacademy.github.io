@@ -23,6 +23,7 @@ jobs:
     #         nvm install 8.9.4 && nvm alias default 8.9.4
     
     - restore_cache:
+        working_directory: ~/AustinCodingAcademy/austincodingacademy.com
         keys:
         # This branch if available
         - v1-dep-{{ .Branch }}-
