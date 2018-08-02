@@ -57,13 +57,13 @@ jobs:
     - deploy:
         name: Deploy
         command: |
-        if [ "${CIRCLE_BRANCH}" == "preview" ]; then
-          git config --global user.email "kevin@austincodingacademy.com"
-          git config --global user.name "Kevin Colten"
-          yarn deploy-preview
-        fi
-        if [ "${CIRCLE_BRANCH}" == "master" ]; then
-          git config --global user.email "kevin@austincodingacademy.com"
-          git config --global user.name "Kevin Colten"
-          yarn deploy
-        fi
+            if [ "${CIRCLE_BRANCH}" == "preview" ]; then
+            git config --global user.email "kevin@austincodingacademy.com"
+            git config --global user.name "Kevin Colten"
+            yarn deploy-preview
+            fi
+            if [ "${CIRCLE_BRANCH}" == "master" ]; then
+            git config --global user.email "kevin@austincodingacademy.com"
+            git config --global user.name "Kevin Colten"
+            yarn deploy
+            fi
