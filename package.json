@@ -7,14 +7,14 @@
     "node": "8.9.4"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\"",
+    "test": "node accessibility.js",
     "js": "mkdir -p assets/javascripts && browserify _javascripts/app.js --debug | exorcist assets/javascripts/app.js.map > assets/javascripts/app.js",
     "images": "imagemin _images/* --out-dir=assets/images",
     "postinstall": "npm rebuild && npm run js && npm run images",
     "sass": "node-sass --output-style compressed -o assets/stylesheets/ _sass/$KEY.scss",
     "sass-include": "mkdir -p _includes/stylesheets && cp -R assets/stylesheets/. _includes/stylesheets",
     "sitemap-generator": "(http-server _site &) && (sitemap-generator http://127.0.0.1:8080 > _site/sitemap.xml)",
-    "serve": "bundle exec jekyll serve --config _configs/_config.yml,_configs/_config_$KEY.yml",
+    "serve": "yarn sass && yarn sass-include && bundle exec jekyll serve --config _configs/_config.yml,_configs/_config_$KEY.yml",
     "favicon-inject": "echo '' > _includes/favicon.html && real-favicon inject faviconData.json assets/favicons _includes/favicon.html && mv assets/favicons/favicon.html _includes/favicon.html",
     "no-robots": "touch robots.txt && echo 'User-agent: *' > robots.txt && echo 'Disallow: /' >> robots.txt",
     "watch": "npm-watch",
@@ -74,6 +74,9 @@
     "moment": "^2.17.1",
     "node-fetch": "^2.1.2",
     "node-sass": "^4.3.0",
+    "open": "^0.0.5",
+    "pa11y": "^5.0.4",
+    "pa11y-reporter-html": "^1.0.0",
     "slick-carousel": "^1.6.0",
     "uglifyify": "^3.0.4"
   },

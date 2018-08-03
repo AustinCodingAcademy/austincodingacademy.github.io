@@ -5,14 +5,29 @@ title: Contact Us | {{ site.city }} Coding Academy
 description: >
   Contact us for information about our locations, tours, courses, career tracks, financing, and other information.
 ---
-<section>
+
+<style media="screen">
+  .panel-styled {
+    padding: 10px;
+  }
+  .h2-contact-styled {
+    margin-top: 0;
+  }
+  .contact small {
+    color: #767676;
+  }
+  .hs-form-required {
+    color: rgb(189, 3, 3) !important;
+  }
+</style>
+<section class="contact">
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-md-4">
-        <div class="panel panel-default bg-gray-lighter" style="padding: 10px">
+        <div class="panel panel-default bg-gray-lighter panel-styled">
           <div class="media">
             <div class="media-left">
-              <i class="fa fa-map-o fa-3x fa-fw"></i>
+              <i class="fa fa-map-o fa-3x fa-fw" aria-hidden></i>
             </div>
             <div class="media-body">
               <h4 class="media-heading equalizer">
@@ -23,21 +38,21 @@ description: >
             </div>
           </div>
         </div>
-        <div class="panel panel-default bg-gray-lighter" style="padding: 10px">
+        <div class="panel panel-default bg-gray-lighter panel-styled">
           <div class="media">
             <div class="media-left">
-              <i class="fa fa-phone fa-3x fa-fw"></i>
+              <i class="fa fa-phone fa-3x fa-fw" aria-hidden></i>
             </div>
             <div class="media-body">
               <h4 class="media-heading equalizer">OUR CONTACT NUMBER</h4>
-              <h4><a href="tel:{{site.phone}}">{{site.phone}}</a></h4>
+              <a class="text-ada" href="tel:{{site.phone}}">{{site.phone}}</a>
             </div>
           </div>
         </div>
-        <div class="panel panel-default bg-gray-lighter" style="padding: 10px">
+        <div class="panel panel-default bg-gray-lighter panel-styled">
           <div class="media">
             <div class="media-left">
-              <i class="fa fa-envelope fa-3x fa-fw"></i>
+              <i class="fa fa-envelope fa-3x fa-fw" aria-hidden></i>
             </div>
             <div class="media-body">
               <h4 class="media-heading equalizer">
@@ -52,11 +67,11 @@ description: >
             </div>
           </div>
           <br>
-          <a href="{{site.eventbrite}}" target="_blank" class="btn btn-block btn-success">SCHEDULE AN INFO SESSION</a>
+          <a href="{{site.eventbrite}}" rel="noopener noreferrer" target="_blank" class="btn btn-block btn-success">SCHEDULE AN INFO SESSION</a>
         </div>
       </div>
       <div class="col-xs-12 col-md-8">
-        <h2 style="margin-top: 0;">
+        <h2 class="h2-contact-styled">
           HOW CAN WE <span class="text-success">HELP?</span>
           <br>
           <small>
@@ -76,6 +91,6 @@ description: >
         </script>
       </div>
     </div>
-    <iframe src="{{site.map}}" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <iframe title="google maps" src="{{site.map}}" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
   </div>
 </section>

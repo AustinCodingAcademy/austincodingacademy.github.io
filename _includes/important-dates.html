@@ -1,7 +1,22 @@
-<div class="row row-eq">
+<style media="screen">
+  .h4-styled {
+    margin-top: 30px;
+  }
+  .important-dates small {
+   color: #020202 
+  }
+  .important-dates a {
+    color: #060400;
+  } 
+  .important-dates a:hover {
+    color: #f1b24d;
+  } 
+</style>
+
+<div class="row row-eq important-dates">
   <div class="col-xs-12 col-md-3 text-center equalizer">
     {% if include.left != "false" %}
-    <i class="fa fa-calendar fa-3x"></i>
+    <i class="fa fa-calendar fa-3x" aria-hidden></i>
     <h4>Register by</h4>
     <h3 class="start-date"></h3>
     {% endif %}
@@ -10,18 +25,18 @@
     <h3>
       Attend 2 nights a week, {{site.classtimes}}
     </h3>
-    <h4 style="margin-top: 30px;">
+    <h4 class="h4-styled">
       Unable to meet the deadline to enroll?
       <br>
       <br>
       Give us a call for information about our future sessions.
     </h4>
     <h4>
-      <a href="tel:{{site.phone}}">{{site.phone}}</a>
+      <a class="text-ada-bold" href="tel:{{site.phone}}">{{site.phone}}</a>
     </h4>
   </div>
   <div class="col-xs-12 col-md-3 text-center equalizer">
-    <i class="fa fa-calendar fa-3x"></i>
+    <i class="fa fa-calendar fa-3x" aria-hidden></i>
     <h4>{% if site.key != 'austin' %} Remote {% endif %} classes Start</h4>
     <h3 class="start-date"></h3>
   </div>

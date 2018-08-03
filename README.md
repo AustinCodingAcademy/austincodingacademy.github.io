@@ -5,16 +5,17 @@
 * Mac OSX
  1. Install [RVM/Ruby](https://rvm.io/)
    1. `\curl -sSL https://get.rvm.io | bash`
-   1. `rvm install 2.2.6`
-   1. `rvm use 2.2.6 --default`
+   1. `rvm install 2.5.1`
+   1. `rvm use 2.5.1 --default`
    1. `gem install bundler`
  2. Install [Node.js](https://nodejs.org)
+ 3. `npm install -g yarn` or `sudo npm install -g yarn`
 
 ## Project Setup
 1. Clone repo and navigate into directory
 1. Install dependencies
-  1. `bundle install`
-  1. `npm install`
+  1. `bundle`
+  1. `yarn`
 
 ## Development
 1. To build and rebuild assets on any change, keep this running in a terminal
@@ -55,24 +56,9 @@ in its own terminal window
     1. review, merge
     1. check [Production Sites](#Production)
 
-#After making a change
-  1. In Github, at austincodingacademy repo,
-    1. Click on green "compare and merge" button
-    1. Make sure to enter any relevant notes
-    1. Click green "Merge" button
-    1. Click green "Confirm" button
-    1. Click blue "Delete branch" button
-  1. In Terminal,
-    1. In bash window,
-      1. `git checkout preview` to get off deleted branch and back onto preview branch
-      1. `git pull origin preview` to receive most updated code base of preview branch
-    1. In node window,
-      1. `control + c` to stop
-      1. `npm run watch` to restart
-    1. In fsevent_watch window,
-      1. `control + c` to stop
-      1. `npm run serve-austin` to restart
-
+## Accessibility
+1. make sure to have local site running at `http://localhost:4000`
+2. run `yarn test`
 
 ## Deploying
 ### Preview
