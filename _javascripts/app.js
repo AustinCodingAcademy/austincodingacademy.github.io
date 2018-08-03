@@ -42,7 +42,7 @@ $(function() {
       // GRAB EVERY CAMPUS' NEXT START DATE FROM CAMPUSDOT
       if (campusKey === 'austin') {
         $('.start-date').html(`
-          <small>Downtown</small>
+          <small class="imp-dates-location-text">Downtown</small>
           <br/>
           ${moment.utc(dates['Austin']).format('ddd, MMM Do, YYYY')}
           <br/>

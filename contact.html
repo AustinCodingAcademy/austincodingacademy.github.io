@@ -13,8 +13,14 @@ description: >
   .h2-contact-styled {
     margin-top: 0;
   }
+  .contact small {
+    color: #767676;
+  }
+  .hs-form-required {
+    color: rgb(189, 3, 3) !important;
+  }
 </style>
-<section>
+<section class="contact">
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-md-4">
@@ -39,7 +45,7 @@ description: >
             </div>
             <div class="media-body">
               <h4 class="media-heading equalizer">OUR CONTACT NUMBER</h4>
-              <h4><a href="tel:{{site.phone}}">{{site.phone}}</a></h4>
+              <a class="text-ada" href="tel:{{site.phone}}">{{site.phone}}</a>
             </div>
           </div>
         </div>
@@ -85,6 +91,6 @@ description: >
         </script>
       </div>
     </div>
-    <iframe src="{{site.map}}" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <iframe title="google maps" src="{{site.map}}" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
   </div>
 </section>

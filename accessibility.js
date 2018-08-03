@@ -23,7 +23,7 @@ const routes = [
 function runPa11y(idx) {
   if (idx === routes.length) return open(path);
   const route = routes[idx];
-  pa11y(`${base}${route}`, { standard: 'WCAG2AAA' })
+  pa11y(`${base}${route}`, { standard: 'WCAG2AA' })
   .then(results => htmlReporter.results(results))
   .then(html => {
     appendFileSync(path, html);

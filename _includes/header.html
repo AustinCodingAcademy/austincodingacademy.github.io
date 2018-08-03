@@ -1,3 +1,10 @@
+<style media="screen">
+  .apply-btn-header {
+    background-color: #a56a00;
+    border-color: #a56a00;
+  }
+</style>
+
 <header>
   <nav class="navbar navbar-default navbar-static-top navbar-inverse">
   <!-- TOPMOST NAV - LOCATIONS, EMAIL LINK, PHONE LINK   -->
@@ -11,8 +18,10 @@
       {% endif %}
       <div id="top-right-banner" class="pull-right">
         <div>
+          <li>
           <a href="mailto:info@{{ site.key }}codingacademy.com" rel="noopener noreferrer" target="_blank" class="link-primary"><i class="fa fa-envelope-o" aria-hidden></i>&nbsp;&nbsp;info@{{ site.key }}codingacademy.com</a>&nbsp;&nbsp;&nbsp;&nbsp;
           <a href="tel:{{site.phone}}" class="link-primary nowrap"><i class="fa fa-phone" aria-hidden></i>&nbsp;&nbsp;{{ site.phone }}</a>
+          </li>
         </div>
       </div>
     </div>
@@ -27,7 +36,8 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand" href="/" >
+          <span class="hide-link-text">ACA logo as link to homepage</span>
           <object type="image/svg+xml" data="/logo.svg" alt="company logo" aria-hidden="true"></object>
         </a>
       </div>
@@ -59,7 +69,7 @@
               <li><a href="/instructor-apply">Join the Team</a></li>
             </ul>
           </li>
-          <li><a href="/apply" class="btn btn-success">APPLY</a></li>
+          <li><a href="/apply" class="btn btn-success apply-btn-header">APPLY</a></li>
           <li><a rel="noopener noreferrer" target="_blank" href="https://campus.austincodingacademy.com/login">Student Portal</a></li>
         </ul>
       </div>

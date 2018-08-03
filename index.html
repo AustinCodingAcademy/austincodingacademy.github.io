@@ -20,6 +20,9 @@ head: >
       margin-top: 155px;
       margin-bottom: -55px;
     }
+    .span-events {
+      color: #cc8505 !important;
+    } 
   </style>
 ---
 <section class="border-bottom-success">
@@ -36,10 +39,10 @@ head: >
         </div>
         <div class="row">
           <div class="col-xs-12 col-sm-offset-6 col-sm-3">
-            <a href="/apply" class="text-white btn btn-success btn-lg btn-block">Apply</a>
+            <a href="/apply" class="text-white btn btn-success btn-lg btn-block btn-index">Apply</a>
           </div>
           <div class="col-xs-12 col-sm-3">
-            <a href="https://acaappointment.acuityscheduling.com/schedule.php?appointmentType=1406673" class="btn btn-success btn-lg btn-block" rel="noopener noreferrer" target="_blank">Schedule Q&amp;A</a>
+            <a href="https://acaappointment.acuityscheduling.com/schedule.php?appointmentType=1406673" class="btn btn-success btn-lg btn-block btn-index" rel="noopener noreferrer" target="_blank">Schedule Q&amp;A</a>
           </div>
         </div>
       </div>
@@ -72,7 +75,7 @@ head: >
           <div>
             <div class="embed-responsive embed-responsive-16by9">
               <!--<iframe class="embed-responsive-item" src="{{ interview.embed }}" frameborder="0" allowfullscreen></iframe>-->
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/AVMkl06b5IE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              <iframe title="video of a graduate review" width="560" height="315" src="https://www.youtube.com/embed/AVMkl06b5IE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
           </div>
           {% endfor %}
@@ -82,7 +85,7 @@ head: >
   </div>
 </section>
 <section class="bg-primary text-white">
-  <div class="container">
+  <div class="container ada-text">
     {% include syllabus-capture.html %}
   </div>
 </section>
@@ -113,7 +116,7 @@ head: >
 <section>
   <div class="container">
     <h2>
-      <i class="fa fa-calendar"></i> UPCOMING<span class="text-success"> EVENTS</span>
+      <i class="fa fa-calendar"></i> UPCOMING<span class="text-success span-events"> EVENTS</span>
       <br>
       <hr class="brand-hr">
     </h2>

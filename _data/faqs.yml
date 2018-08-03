@@ -26,7 +26,7 @@ school:
 
   - question: How much is tuition?
     answer: >
-      To view the tuition, please see our <a href="/tuition">Tuition</a> page. Outside of
+      To view the tuition, please see our <a class="color-me" href="/tuition">Tuition</a> page. Outside of
       this tuition there may be other books, software, prep tests, etc. that you need to pay
       for, and you must bring your own computer. We keep our tuition costs low
       and pass the saving on to you. Our goal is to provide the most affordable
