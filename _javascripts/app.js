@@ -11,6 +11,7 @@ require('bootstrap.transition');
 require('slick-carousel');
 require('jquery-match-height');
 window.moment = require('moment');
+window.Cookies = require('js-cookie');
 
 $(function() {
   var campusKey = $('meta[name="campuskey"]').attr('content');
