@@ -47,7 +47,9 @@ jobs:
     #     - ./node_modules
     
     - run:
+        name: Testing Accessibility
         command: |
+            KEY=austin yarn build
             npx http-server site &
             yarn test
             npx kill-port 8080
