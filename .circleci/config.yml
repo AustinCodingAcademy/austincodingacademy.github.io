@@ -13,7 +13,7 @@ jobs:
     - checkout
 
     - run: mkdir -p $CIRCLE_ARTIFACTS $CIRCLE_TEST_REPORTS
-    - run: mkdir vendor
+    - run: mkdir -p vendor/bundle
     
     - restore_cache:
         working_directory: ~/AustinCodingAcademy/austincodingacademy.com
