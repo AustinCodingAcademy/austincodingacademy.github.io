@@ -49,7 +49,7 @@ jobs:
     - run:
         name: Testing Accessibility
         command: |
-            KEY=austin yarn build
+            KEY=austin yarn sass && yarn sass-include && KEY=austin yarn build
             npx http-server site &
             yarn test
             npx kill-port 8080
