@@ -13,27 +13,27 @@ jobs:
     - checkout
 
     - run: mkdir -p $CIRCLE_ARTIFACTS $CIRCLE_TEST_REPORTS
-    - run: mkdir -p vendor/bundle
+    # - run: mkdir -p vendor/bundle
     
-    - restore_cache:
-        working_directory: ~/AustinCodingAcademy/austincodingacademy.com
-        keys:
-        # This branch if available
-        - v1-dep-{{ .Branch }}-
-        # Default branch if not
-        - v1-dep-preview-
-        # Any branch if there are none on the default branch - this should be unnecessary if you have your default branch configured correctly
-        - v1-dep-
+    # - restore_cache:
+    #     working_directory: ~/AustinCodingAcademy/austincodingacademy.com
+    #     keys:
+    #     # This branch if available
+    #     - v1-dep-{{ .Branch }}-
+    #     # Default branch if not
+    #     - v1-dep-preview-
+    #     # Any branch if there are none on the default branch - this should be unnecessary if you have your default branch configured correctly
+    #     - v1-dep-
     - run: sudo apt-get install librsvg2-bin -y
     - run: if [ -z "${NODE_ENV:-}" ]; then export NODE_ENV=test; fi
     - run: export PATH="~/AustinCodingAcademy/austincodingacademy.com/node_modules/.bin:$PATH"
     - run: yarn
     - run: 'bundle check --path=vendor/bundle || bundle install --path=vendor/bundle --jobs=4 --retry=3'
-    - save_cache:
-        key: v1-dep-{{ .Branch }}-{{ epoch }}
-        paths:
-        - vendor/bundle
-        - ./node_modules
+    # - save_cache:
+    #     key: v1-dep-{{ .Branch }}-{{ epoch }}
+    #     paths:
+    #     - vendor/bundle
+    #     - ./node_modules
         
     - run:
         name: Build deploy scripts
