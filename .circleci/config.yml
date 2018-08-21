@@ -13,6 +13,7 @@ jobs:
     - checkout
 
     - run: mkdir -p $CIRCLE_ARTIFACTS $CIRCLE_TEST_REPORTS
+    - run: mkdir vendor
     
     - restore_cache:
         working_directory: ~/AustinCodingAcademy/austincodingacademy.com
@@ -27,7 +28,7 @@ jobs:
     - run: if [ -z "${NODE_ENV:-}" ]; then export NODE_ENV=test; fi
     - run: export PATH="~/AustinCodingAcademy/austincodingacademy.com/node_modules/.bin:$PATH"
     - run: yarn
-    - run: 'mkdir vendor/bundle && bundle check --path=vendor/bundle || bundle install --path=vendor/bundle --jobs=4 --retry=3'
+    - run: 'bundle check --path=vendor/bundle || bundle install --path=vendor/bundle --jobs=4 --retry=3'
     - save_cache:
         key: v1-dep-{{ .Branch }}-{{ epoch }}
         paths:
