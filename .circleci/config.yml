@@ -39,13 +39,13 @@ jobs:
         name: Build deploy scripts
         command: node deploy.js
     
-    # - run:
-    #     name: Testing Accessibility
-    #     command: |
-    #         KEY=austin yarn sass && yarn sass-include && KEY=austin yarn build
-    #         npx http-server site &
-    #         yarn test
-    #         npx kill-port 8080
+    - run:
+        name: Testing Accessibility
+        command: |
+            KEY=austin yarn sass && yarn sass-include && KEY=austin yarn build
+            npx http-server site &
+            yarn test
+            npx kill-port 8080
     
     - deploy:
         name: Deploy
