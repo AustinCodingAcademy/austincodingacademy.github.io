@@ -1,0 +1,14 @@
+{
+  "urls": [
+    "http://localhost:8080/",
+    "http://localhost:8080/why/",
+    "http://localhost:8080/javascript/",
+    "http://localhost:8080/csharp/",
+    "http://localhost:8080/webdesign/",
+    "http://localhost:8080/tuition/",
+    "http://localhost:8080/faq/",
+    "http://localhost:8080/contact/",
+    "http://localhost:8080/instructor-apply/",
+    "http://localhost:8080/apply/"
+  ]
+}

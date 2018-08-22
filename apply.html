@@ -22,12 +22,11 @@ head: >
   }
   </style>
 ---
-{% include application-process.html %}
 <section>
   <div class="container text-center apply">
     <div class="row">
       <div class="col-xs-12">
-        <h1>
+        <h1 id="apply">
           Ready to apply?
           <br />
           <small>
@@ -38,15 +37,8 @@ head: >
         </h1>
       </div>
     </div>
-    <!--[if lte IE 8]>
-      <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
-    <![endif]-->
-    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
-    <script>
-      hbspt.forms.create({
-        portalId: '4009818',
-        formId: '9d476e09-2737-4394-b7db-f0395a2d26d5'
-      });
-    </script>
+    {% include application-iframe.html form="application.html" id="application" %}
   </div>
 </section>
+{% include application-process.html %}
+

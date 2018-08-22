@@ -3,11 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "private": true,
-  "engines": {
-    "node": "8.9.4"
-  },
   "scripts": {
-    "test": "node accessibility.js",
+    "test": "pa11y-ci",
     "js": "mkdir -p assets/javascripts && browserify _javascripts/app.js --debug | exorcist assets/javascripts/app.js.map > assets/javascripts/app.js",
     "images": "imagemin _images/* --out-dir=assets/images",
     "postinstall": "npm rebuild && npm run js && npm run images",
@@ -66,16 +63,21 @@
     "browserify": "^13.3.0",
     "exorcist": "^0.4.0",
     "font-awesome": "^4.7.0",
+    "iframe-resizer": "^3.6.1",
     "imagemin-cli": "^3.0.0",
+    "javascript-detect-element-resize": "^0.5.3",
     "jquery": "^3.1.1",
     "jquery-match-height": "^0.7.2",
     "jquery-ui": "^1.12.1",
+    "js-cookie": "^2.2.0",
     "js-yaml": "^3.11.0",
+    "kill-port": "^1.3.1",
     "moment": "^2.17.1",
     "node-fetch": "^2.1.2",
     "node-sass": "^4.3.0",
     "open": "^0.0.5",
     "pa11y": "^5.0.4",
+    "pa11y-ci": "^2.1.1",
     "pa11y-reporter-html": "^1.0.0",
     "slick-carousel": "^1.6.0",
     "uglifyify": "^3.0.4"
@@ -99,7 +101,7 @@
   "devDependencies": {
     "cli-real-favicon": "0.0.6",
     "gh-pages": "^0.12.0",
-    "http-server": "^0.9.0",
+    "http-server": "^0.11.1",
     "npm-watch": "^0.1.8",
     "sitemap-generator-cli": "^5.0.1"
   }

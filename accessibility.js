@@ -23,12 +23,7 @@ const routes = [
 function runPa11y(idx) {
   if (idx === routes.length) return open(path);
   const route = routes[idx];
-  pa11y(`${base}${route}`, {
-    ignore: [
-      'WCAG2AA.Principle2.Guideline2_4.2_4_1.H64.1',
-      'WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Fieldset.Name'
-    ]
-  })
+  pa11y(`${base}${route}`, {})
   .then(results => htmlReporter.results(results))
   .then(html => {
     appendFileSync(path, html);
