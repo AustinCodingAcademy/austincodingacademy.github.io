@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-    {% include google-tag-manager.html %}
     {% include facebook-pixel.html %}
     <meta charset="utf-8">
     <title>{{ page.title | liquify }}</title>
@@ -10,7 +9,6 @@
     <meta name="campuskey" content="{{ site.key }}">
   </head>
   <body>
-    {% include google-tag-manager-noscript.html %}
     {{ content }}
     <script type="text/javascript" src="/assets/javascripts/app.js"></script>
     <script>
