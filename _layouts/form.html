@@ -41,15 +41,15 @@
         e.preventDefault();
         var form = $(this).attr('id');
         var $this = $(this);
-        var em = $this.find('#insightly_Email').val();
-        var ph = $this.find('#insightly_Phone').val();
-        var fn = $this.find('#insightly_firstName').val();
-        var ln = $this.find('#insightly_lastName').val();
-        var ct = $this.find('#insightly_AddressCity').val();
-        var st = $this.find('#insightly_AddressState').val();
-        var zp = $this.find('#insightly_AddressPostalCode').val();
-        var db = $this.find('#insightly_LEAD_FIELD_54').val();
-        var ge = $this.find('#insightly_LEAD_FIELD_41').val();
+        var em = $this.find('#email').val();
+        var ph = $this.find('#phone').val();
+        var fn = $this.find('#firstname').val();
+        var ln = $this.find('#lastname').val();
+        var ct = $this.find('#city').val();
+        var st = $this.find('#state').val();
+        var zp = $this.find('#zip').val();
+        var db = $this.find('#date_of_birth1').val();
+        var ge = $this.find('#gender_optional_').val();
         var newUserData = {
           em: em ? em.toLowerCase() : '',
           ph: ph ? `1${ph.split('').filter(char => !isNaN(char)).join('')}` : '',
