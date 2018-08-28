@@ -10,6 +10,7 @@ require('bootstrap.tooltip');
 require('bootstrap.transition');
 require('slick-carousel');
 require('jquery-match-height');
+window.shajs = require('sha.js');
 window.moment = require('moment');
 window.Cookies = require('js-cookie');
 require('javascript-detect-element-resize/jquery.resize.js');
