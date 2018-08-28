@@ -104,7 +104,7 @@
           that.submit();
         }, 1500);
       });
-      $('form input[required]').each(function() {
+      $('form [required]').each(function() {
         $(this).parent().find('label').text($(this).parent().find('label').text() + '*');
       })
     </script>
