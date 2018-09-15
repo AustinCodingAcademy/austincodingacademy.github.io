@@ -37,3 +37,6 @@ exclude:
   - deploy.js
   - dns.js
   - yarn-error.log
+
+gems:
+  - liquid-md5

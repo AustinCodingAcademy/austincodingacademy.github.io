@@ -1,0 +1,66 @@
+---
+layout: new
+permalink: /tutors/
+title: Tutors | {{ site.city }} Coding Academy
+description: Schedule a time to meet with a tutor to keep yourself on track!
+head: >
+body: >
+icons:
+  - rocketchat: fab fa-rocketchat
+  - email: fas fa-envelope
+  - discourse: fab fa-discourse
+  - linkedin: fab fa-linkedin
+  - website: fas fa-globe
+  - github: fab fa-github
+---
+<div class="container">
+  <div class="card-deck d-block d-md-flex mt-5">
+    <!-- Tutors -->
+    {% for tutor in site.data.tutors %}
+      <div class="card mb-3 mb-5">
+        <div class="card-body text-center p-0">
+          <div class="py-4 px-6">
+            <!-- Team -->
+            <div class="mb-4">
+              <div class="position-relative u-lg-avatar mx-auto mb-3">
+                <a href="http://gravatar.com/avatar/{{ tutor.email | downcase | md5 }}?s=2048" target="_blank">
+                  <img class="u-lg-avatar rounded-circle" src="http://gravatar.com/avatar/{{ tutor.email | downcase | md5 }}?s=144" alt="{{tutor.name}}">
+                </a>
+              </div>
+              <h2 class="h6 mb-0">{{tutor.name}}</h2>
+              <p class="small">{{tutor.skills}}</p>
+            </div>
+            <!-- End Team -->
+  
+            <!-- Social Networks -->
+            <ul class="list-inline mb-0">
+              {% for icon_hash in page.icons %}
+                {% for icon in icon_hash %}
+                  {% assign key = icon[0] %}
+                  {% if tutor[key] %}
+                    <li class="list-inline-item">
+                      <a class="u-icon u-icon--sm u-icon-secondary--air rounded-circle" href="{% if key == 'email' %}mailto:{% endif %}{{ tutor[key] }}" target="_blank">
+                        <span class="{{ icon[1] }} u-icon__inner"></span>
+                      </a>
+                    </li>
+                  {% endif %}
+                {% endfor %}
+              {% endfor %}
+            </ul>
+            <!-- End Social Networks -->
+          </div>
+  
+          <hr class="my-0">
+  
+          <div class="py-4">
+            <a class="btn btn-sm u-btn-primary--air transition-3d-hover" href="{{tutor.calendar}}" target="_blank">
+              <span class="far fa-calendar-alt mr-2"></span>
+              Schedule Tutoring
+            </a>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+    <!-- End Tutors -->
+  </div>
+</div>

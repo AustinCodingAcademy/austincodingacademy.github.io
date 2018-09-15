@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Title -->
+  <title>{{ page.title | liquify }}</title>
+  {% include favicon.html %}
+  <!-- Required Meta Tags Always Come First -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Favicon -->
+  {% include favicon.html %}
+  <!-- Google Fonts -->
+  <link href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600" rel="stylesheet">
+
+  <!-- CSS Global Compulsory -->
+  <link rel="stylesheet" href="https://austincodingacademy.github.io/front/assets/vendor/bootstrap/css/bootstrap.css">
+
+  <!-- CSS Implementing Plugins -->
+  <link rel="stylesheet" href="https://austincodingacademy.github.io/front/assets/vendor/font-awesome/css/fontawesome-all.min.css">
+  <link rel="stylesheet" href="https://austincodingacademy.github.io/front/assets/vendor/animate.css/animate.min.css">
+  <link rel="stylesheet" href="https://austincodingacademy.github.io/front/assets/vendor/hs-megamenu/src/hs.megamenu.css">
+
+  <!-- CSS Front Template -->
+  <link rel="stylesheet" href="https://austincodingacademy.github.io/front/assets/css/front.css">
+  {{ page.head | liquify }}
+</head>
+
+<body>
+  <!-- Skippy -->
+  <a id="skippy" class="sr-only sr-only-focusable u-skippy" href="#content">
+    <div class="container">
+      <span class="u-skiplink-text">Skip to main content</span>
+    </div>
+  </a>
+  <!-- End Skippy -->
+
+  {% include new-header.html %}
+
+  <!-- ========== MAIN CONTENT ========== -->
+  <main id="content" role="main">
+    <!-- Content -->
+    {{content}}
+    <!-- End Content -->
+  </main>
+  <!-- ========== END MAIN CONTENT ========== -->
+
+  <!-- Go to Top -->
+  <a class="js-go-to u-go-to" href="#"
+    data-position='{"bottom": 15, "right": 15 }'
+    data-type="fixed"
+    data-offset-top="400"
+    data-compensation="#header"
+    data-show-effect="slideInUp"
+    data-hide-effect="slideOutDown">
+    <span class="fa fa-arrow-up u-go-to__inner"></span>
+  </a>
+  <!-- End Go to Top -->
+
+  <!-- JS Global Compulsory -->
+  <script src="https://austincodingacademy.github.io/front/assets/vendor/jquery/dist/jquery.min.js"></script>
+  <script src="https://austincodingacademy.github.io/front/assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
+  <script src="https://austincodingacademy.github.io/front/assets/vendor/popper.js/dist/umd/popper.min.js"></script>
+  <script src="https://austincodingacademy.github.io/front/assets/vendor/bootstrap/bootstrap.min.js"></script>
+
+  <!-- JS Implementing Plugins -->
+  <script src="https://austincodingacademy.github.io/front/assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
+
+  <!-- JS Front -->
+  <script src="https://austincodingacademy.github.io/front/assets/js/hs.core.js"></script>
+  <script src="https://austincodingacademy.github.io/front/assets/js/components/hs.header.js"></script>
+  <script src="https://austincodingacademy.github.io/front/assets/js/components/hs.unfold.js"></script>
+  <script src="https://austincodingacademy.github.io/front/assets/js/components/hs.go-to.js"></script>
+
+  <!-- JS Plugins Init. -->
+  <script>
+    $(window).on('load', function () {
+      // initialization of HSMegaMenu component
+      $('.js-mega-menu').HSMegaMenu({
+        event: 'hover',
+        pageContainer: $('.container'),
+        breakpoint: 767,
+        hideTimeOut: 0
+      });
+    });
+
+    $(document).on('ready', function () {
+      // initialization of header
+      $.HSCore.components.HSHeader.init($('#header'));
+
+      // initialization of go to
+      $.HSCore.components.HSGoTo.init('.js-go-to');
+    });
+  </script>
+  {{ page.body | liquify }}
+</body>
+</html>

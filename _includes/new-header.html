@@ -1,0 +1,135 @@
+<!-- ========== HEADER ========== -->
+<header id="header" class="u-header">
+  <div class="u-header__section">
+    <div id="logoAndNav" class="container">
+      <!-- Nav -->
+      <nav class="js-mega-menu navbar navbar-expand-md u-header__navbar">
+        <!-- Logo -->
+        <a class="navbar-brand u-header__navbar-brand" href="https://austincodingacademy.github.io/front/html/home/index.html"
+          aria-label="Front">
+          <img src="/assets/images/logo.svg" alt="Logo">
+        </a>
+        <!-- End Logo -->
+
+        <!-- Responsive Toggle Button -->
+        <button type="button" class="navbar-toggler btn u-hamburger" aria-label="Toggle navigation" aria-expanded="false"
+          aria-controls="navBar" data-toggle="collapse" data-target="#navBar">
+          <span id="hamburgerTrigger" class="u-hamburger__box">
+            <span class="u-hamburger__inner"></span>
+          </span>
+        </button>
+        <!-- End Responsive Toggle Button -->
+
+        <!-- Navigation -->
+        <div id="navBar" class="collapse navbar-collapse py-0">
+          <ul class="navbar-nav u-header__navbar-nav ml-lg-auto">
+            <!-- Why Us - Link -->
+            <li class="nav-item">
+              <a class="nav-link u-header__nav-link" href="/why">
+                Why Us
+              </a>
+            </li>
+            <!-- End Why Us - Link -->
+
+            <!-- Tracks -->
+            <li class="nav-item hs-has-sub-menu u-header__nav-item"
+                data-event="hover"
+                data-animation-in="slideInUp"
+                data-animation-out="fadeOut">
+              <a id="tracksMegaMenu" class="nav-link u-header__nav-link" href="javascript:;"
+                aria-haspopup="true"
+                aria-expanded="false"
+                aria-labelledby="tracksSubMenu">
+                Tracks
+                <span class="fa fa-angle-down u-header__nav-link-icon"></span>
+              </a>
+
+              <!-- Tracks - Submenu -->
+              <ul id="tracksSubMenu" class="list-inline hs-sub-menu u-header__sub-menu py-1 mb-0" aria-labelledby="tracksMegaMenu">
+                {% for track in site.tracks %}
+                <li class="dropdown-item hs-has-sub-menu">
+                  <a class="nav-link" href="/{{track}}">
+                    {{site.data.tracks[track].name}}
+                  </a>
+                </li>
+                {% endfor %}
+              </ul>
+              <!-- End Tracks - Submenu -->
+            </li>
+            <!-- End Tracks -->
+
+            <!-- Tuition - Link -->
+            <li class="nav-item">
+              <a class="nav-link u-header__nav-link" href="/tuition.html">
+                Tuition
+              </a>
+            </li>
+            <!-- End Tuition - Link -->
+
+            <!-- FAQ - Link -->
+            <li class="nav-item">
+              <a class="nav-link u-header__nav-link" href="/faq.html">
+                FAQ
+              </a>
+            </li>
+            <!-- End FAQ - Link -->
+
+            <!-- More -->
+            <li class="nav-item hs-has-sub-menu u-header__nav-item"
+                data-event="hover"
+                data-animation-in="slideInUp"
+                data-animation-out="fadeOut">
+              <a id="moreMegaMenu" class="nav-link u-header__nav-link" href="javascript:;"
+                aria-haspopup="true"
+                aria-expanded="false"
+                aria-labelledby="moreSubMenu">
+                More
+                <span class="fa fa-angle-down u-header__nav-link-icon"></span>
+              </a>
+
+              <!-- More - Submenu -->
+              <ul id="moreSubMenu" class="list-inline hs-sub-menu u-header__sub-menu py-1 mb-0" aria-labelledby="moreMegaMenu">
+                <li class="dropdown-item hs-has-sub-menu">
+                  <a class="nav-link" href="https://blog.austincodingacademy.com/">
+                    Blog
+                  </a>
+                </li>
+                <li class="dropdown-item hs-has-sub-menu">
+                  <a class="nav-link" href="/contact">
+                    Contact
+                  </a>
+                </li>
+                <li class="dropdown-item hs-has-sub-menu">
+                  <a class="nav-link" href="/instructor-apply">
+                    Join the Team
+                  </a>
+                </li>
+              </ul>
+              <!-- End More - Submenu -->
+            </li>
+            <!-- End More -->
+
+            <!-- Apply Button -->
+            <li class="nav-item d-none d-md-inline-block pl-3 pr-0">
+              <a class="btn btn-sm btn-primary u-btn-primary transition-3d-hover" href="/apply" target="_blank">
+                Apply
+              </a>
+            </li>
+            <!-- End Apply Button -->
+
+            <!-- Campus Manager - Link -->
+            <li class="nav-item">
+              <a class="nav-link u-header__nav-link" href="https://campus.austincodingacademy.com">
+                Student Portal
+              </a>
+            </li>
+            <!-- End Campus Manager - Link -->
+          </ul>
+        </div>
+        <!-- End Navigation -->
+      </nav>
+      <!-- End Nav -->
+    </div>
+  </div>
+</header>
+<!-- ========== END HEADER ========== -->
