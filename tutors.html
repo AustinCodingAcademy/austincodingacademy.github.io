@@ -4,6 +4,12 @@ permalink: /tutors/
 title: Tutors | {{ site.city }} Coding Academy
 description: Schedule a time to meet with a tutor to keep yourself on track!
 head: >
+  <style>
+    .card-deck .card {
+      min-width: 260px;
+      max-width: 345px;
+    }
+  </style>
 body: >
 icons:
   - rocketchat: fab fa-rocketchat
@@ -13,21 +19,20 @@ icons:
   - website: fas fa-globe
   - github: fab fa-github
 ---
-<div class="container">
-  <div class="card-deck d-block d-md-flex mt-5">
+<div class="container d-flex justify-content-center">
+  <div class="card-deck d-block d-md-flex mt-5 row-eq">
     <!-- Tutors -->
     {% for tutor in site.data.tutors %}
       <div class="card mb-3 mb-5">
         <div class="card-body text-center p-0">
-          <div class="py-4 px-6">
+          <div class="py-4 px-6 equalizer d-flex flex-column justify-content-between">
             <!-- Team -->
             <div class="mb-4">
               <div class="position-relative u-lg-avatar mx-auto mb-3">
-                <a href="http://gravatar.com/avatar/{{ tutor.email | downcase | md5 }}?s=2048" target="_blank">
-                  <img class="u-lg-avatar rounded-circle" src="http://gravatar.com/avatar/{{ tutor.email | downcase | md5 }}?s=144" alt="{{tutor.name}}">
-                </a>
+                <img class="u-lg-avatar rounded-circle" src="http://gravatar.com/avatar/{{ tutor.email | downcase | md5 }}?s=144" alt="{{tutor.name}}">
               </div>
               <h2 class="h6 mb-0">{{tutor.name}}</h2>
+              <p class="small">{{tutor.location}}</p>
               <p class="small">{{tutor.skills}}</p>
             </div>
             <!-- End Team -->
@@ -53,7 +58,7 @@ icons:
           <hr class="my-0">
   
           <div class="py-4">
-            <a class="btn btn-sm u-btn-primary--air transition-3d-hover" href="{{tutor.calendar}}" target="_blank">
+            <a class="{% unless tutor.calendar %} disabled {% endunless %} btn btn-sm u-btn-primary--air transition-3d-hover" href="{{tutor.calendar}}" target="_blank">
               <span class="far fa-calendar-alt mr-2"></span>
               Schedule Tutoring
             </a>

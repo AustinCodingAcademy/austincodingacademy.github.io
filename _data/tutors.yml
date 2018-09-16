@@ -1,4 +1,82 @@
+- name: Justin Lyle
+  location: North Austin
+  skills: HTML, CSS, C#
+  rocketchat: https://chat.austincodingacademy.com/direct/justinlyle-814
+  discourse: https://discourse.austincodingacademy.com/u/justinlyle-814
+  linkedin: https://www.linkedin.com/in/justinlyle/
+  website: https://justinmlyle.com
+  email: justin.m.lyle@gmail.com
+  github: 
+  calendar: https://calendly.com/justin-m-lyle/
+
+- name: Peter Slavin
+  location: North Austin
+  skills: HTML, CSS, C#
+  rocketchat: https://chat.austincodingacademy.com/direct/peterslavin-889
+  discourse: https://discourse.austincodingacademy.com/u/peterslavin-889
+  linkedin: https://www.linkedin.com/in/peter-slavin-46824790/
+  website:
+  email: pbslavin@gmail.com
+  github: https://github.com/pbslavin
+  calendar: https://calendly.com/pbslavin/
+
+- name: Todd Frederking
+  location: Central Austin
+  skills: HTML, CSS, JS
+  rocketchat: https://chat.austincodingacademy.com/direct/toddfrederking-797
+  discourse: https://discourse.austincodingacademy.com/u/toddfrederking-797
+  linkedin: https://www.linkedin.com/in/toddfrederking/
+  website:
+  email: toddfrederking@gmail.com
+  github: https://github.com/toddfrederking
+  calendar: https://calendly.com/toddfrederking/
+
+- name: Eric Barrs
+  location: Central Austin
+  skills: HTML, CSS, JS
+  rocketchat: https://chat.austincodingacademy.com/direct/ericbarrs-913
+  discourse: https://discourse.austincodingacademy.com/u/ericbarrs-913
+  linkedin: https://linkedin.com/in/ericbarrs/
+  website: https://www.ericbarrs.com/
+  email: yellastar42@yahoo.com
+  github: https://github.com/ericbarrs
+  calendar: https://calendly.com/ericbarrs23/
+
+- name: Joel Gilbert
+  location: San Antonio
+  skills: HTML, CSS, C#
+  rocketchat: https://chat.austincodingacademy.com/direct/jgilbert
+  discourse:
+  linkedin:
+  website:
+  email: gilbert.279@gmail.com
+  github: https://github.com/Paxman23l
+  calendar:
+
+- name: Matthew Cameron
+  location:
+  skills: Professional Mentorship (.Net)
+  rocketchat: https://chat.austincodingacademy.com/direct/matthewcameron-917
+  discourse: https://discourse.austincodingacademy.com/u/matthewcameron-917
+  linkedin: https://www.linkedin.com/in/mcameron/
+  website:
+  email: cameron.matt@gmail.com
+  github: https://github.com/mattcam3r0n
+  calendar:
+
+- name: Matthew Cameron
+  location:
+  skills: Professional Mentorship (JavaScript)
+  rocketchat: https://chat.austincodingacademy.com/direct/matt
+  discourse:
+  linkedin: https://linkedin.com/in/mxviteri
+  website:
+  email: matt@austincodingacademy.com
+  github:
+  calendar:
+
 - name: Kevin Colten
+  location: Austin, Remote
   skills: HTML, CSS, C#, JavaScript, Node.js, Terminal, Git/GitHub, React, Express, MongoDB, SQL, Heroku
   rocketchat: https://chat.austincodingacademy.com/direct/kevincolten
   discourse: https://discourse.austincodingacademy.com/users/kevincolten
@@ -6,4 +84,4 @@
   website: https://kevincolten.com
   email: kevin@austincodingacademy.com
   github: https://github.com/kevincolten
-  calendar: https://calendly.com/kevincolten-aca
+  calendar:

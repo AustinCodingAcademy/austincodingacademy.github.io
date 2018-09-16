@@ -71,6 +71,7 @@
   <script src="https://austincodingacademy.github.io/front/assets/js/components/hs.header.js"></script>
   <script src="https://austincodingacademy.github.io/front/assets/js/components/hs.unfold.js"></script>
   <script src="https://austincodingacademy.github.io/front/assets/js/components/hs.go-to.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.2/jquery.matchHeight-min.js"></script>
 
   <!-- JS Plugins Init. -->
   <script>
@@ -91,6 +92,12 @@
       // initialization of go to
       $.HSCore.components.HSGoTo.init('.js-go-to');
     });
+
+    if ($('.equalizer').length) {
+      $('.row-eq').each(function() {
+        $(this).find('.equalizer').matchHeight();
+      });
+    }
   </script>
   {{ page.body | liquify }}
 </body>
