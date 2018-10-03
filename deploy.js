@@ -4,30 +4,10 @@ const packageJson = require('./package.json');
 
 [
   'austin',
-  'boston',
-  'charlotte',
-  'chicago',
-  'cleveland',
-  'dallas',
-  'denver',
-  'detroit',
-  'houstontx',
-  'kansascity',
-  'losangeles',
-  'minneapolis',
-  'newyork',
-  'orlando',
-  'phoenix',
-  'sanantonio',
-  'sandiego',
-  'sanfrancisco',
-  'seattle',
-  'stlouis',
-  'texas',
-  'vancouver'
+  'lubbock'
 ].forEach(key => buildScript(key, 'deploy'));
 
-['austin', 'dallas', 'houstontx','sanantonio'].forEach(key => buildScript(key, 'deploy-preview'));
+['austin'].forEach(key => buildScript(key, 'deploy-preview'));
 
 function buildScript(key, deployScript) {
   const preview = deployScript.includes('preview') ? 'preview.' : '';
