@@ -1,37 +1,37 @@
 - name: Eric Barrs
   skills: Web 101, JS 211, JS 311
   email: eric@austincodingacademy.com
-  schedule a time with him: https://acaappointment.as.me/?appointmentType=8069545
+  calendar: https://acaappointment.as.me/?appointmentType=8069545
   
 - name: Justin Lyle
   skills: Web 101, C#, .NET
   email: justin@austincodingacademy.com
-  schedule a time with him: https://acaappointment.as.me/?appointmentType=8181434
+  calendar: https://acaappointment.as.me/?appointmentType=8181434
  
 - name: Michael Samara
   skills: Web 101, JS 211, JS 311
   email: michael@austincodingacademy.com
-  schedule a time with him: https://acaappointment.as.me/?appointmentType=8181465
+  calendar: https://acaappointment.as.me/?appointmentType=8181465
   
 - name: Peter Slavin
   classes: Web 101, C#, .NET
   email: peter@austincodingacademy.com
-  schedule a time with him: https://acaappointment.as.me/?appointmentType=8181457
+  calendar: https://acaappointment.as.me/?appointmentType=8181457
  
 - name: Lillian Situ
   classes: JS 311 or Graduates ONLY
   email: lillian@austincodingacademy.com
-  schedule a time with her: https://acaappointment.as.me/?appointmentType=8181455
+  calendar: https://acaappointment.as.me/?appointmentType=8181455
   
 - name: Matt Viteri
   skills: Full Stack JavaScript Graduates ONLY
   email: matt@austincodingacademy.com
-  schedule a time with him: https://acaappointment.as.me/?appointmentType=8181474
+  calendar: https://acaappointment.as.me/?appointmentType=8181474
   
 - name: Matt Cameron
   skills: .NET students or .NET Graduates ONLY
   email: mattcameron@austincodingacademy.com
-  schedule a time with him: https://acaappointment.as.me/?appointmentType=8181476
+  calendar: https://acaappointment.as.me/?appointmentType=8181476
 
 # - name: Justin Lyle
 #   location: North Austin
