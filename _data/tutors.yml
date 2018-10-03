@@ -1,15 +1,15 @@
 - name: Eric Barrs
-  classes: Web 101, JS 211, JS 311
+  skills: Web 101, JS 211, JS 311
   email: eric@austincodingacademy.com
   schedule a time with him: https://acaappointment.as.me/?appointmentType=8069545
   
 - name: Justin Lyle
-  classes: Web 101, C#, .NET
+  skills: Web 101, C#, .NET
   email: justin@austincodingacademy.com
   schedule a time with him: https://acaappointment.as.me/?appointmentType=8181434
  
 - name: Michael Samara
-  classes: Web 101, JS 211, JS 311
+  skills: Web 101, JS 211, JS 311
   email: michael@austincodingacademy.com
   schedule a time with him: https://acaappointment.as.me/?appointmentType=8181465
   
@@ -24,12 +24,12 @@
   schedule a time with her: https://acaappointment.as.me/?appointmentType=8181455
   
 - name: Matt Viteri
-  classes: Full Stack JavaScript Graduates ONLY
+  skills: Full Stack JavaScript Graduates ONLY
   email: matt@austincodingacademy.com
   schedule a time with him: https://acaappointment.as.me/?appointmentType=8181474
   
 - name: Matt Cameron
-  classes: .NET students or .NET Graduates ONLY
+  skills: .NET students or .NET Graduates ONLY
   email: mattcameron@austincodingacademy.com
   schedule a time with him: https://acaappointment.as.me/?appointmentType=8181476
 
