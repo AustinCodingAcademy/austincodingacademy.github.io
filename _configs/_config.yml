@@ -38,5 +38,5 @@ exclude:
   - dns.js
   - yarn-error.log
 
-gems:
+plugins:
   - liquid-md5
