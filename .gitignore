@@ -27,3 +27,4 @@ faviconData.json
 tmp
 
 .DS_Store
+.env
