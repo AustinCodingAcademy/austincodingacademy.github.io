@@ -19,9 +19,9 @@
   calendar: https://acaappointment.as.me/?appointmentType=8181457
  
 - name: Lillian Situ
-  skills: JS 311 or Graduates ONLY
+  skills: JS211, JS 311 or Graduates ONLY
   email: lillian@austincodingacademy.com
-  calendar: https://acaappointment.as.me/?appointmentType=8181455
+  calendar: https://acaappointment.as.me/?appointmentType=8182184
   
 - name: Matt Viteri
   skills: Full Stack JavaScript Graduates ONLY
@@ -32,6 +32,14 @@
   skills: .NET students or .NET Graduates ONLY
   email: mattcameron@austincodingacademy.com
   calendar: https://acaappointment.as.me/?appointmentType=8181476
+  
+# - name: Joel Gilbert
+#    location: San Antonio
+#    skills: HTML, CSS, C#
+#    rocketchat: https://chat.austincodingacademy.com/direct/jgilbert
+#    email: gilbert.279@gmail.com
+#    github: https://github.com/Paxman23l
+#    calendar: Email Joel to set up a time to meet in San Antonio.
 
 # - name: Justin Lyle
 #   location: North Austin
