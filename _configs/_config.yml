@@ -1,7 +1,7 @@
-twitter: https://twitter.com/AustinCoding
+twitter: https://twitter.com/LubbockCoding
 github:  https://github.com/AustinCodingAcademy
 facebook: https://www.facebook.com/AustinCodingAcademy
-instagram: https://www.instagram.com/austincodingacademy
+instagram: https://www.instagram.com/lubbockcodingacademy
 googleplus: https://plus.google.com/+AustinCodingAcademy
 linkedin: https://www.linkedin.com/company/austin-coding-academy
 google:
@@ -9,13 +9,13 @@ yelp:
 coursereport:
 switchup:
 thinkful:
-course_amount: $2,990
+course_amount: $8,990
 google_tag_id: GTM-TBH7GK
 pixel_id: 656599271106549
 classtimes: 6:30pm - 9:00pm
 tracks:
   - csharp
-announcement: Classes begin <span class="start-date-only">.</span>!
+announcement: Classes begin in January!
 phone: (512) 827-8498
 
 # Build settings
