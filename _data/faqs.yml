@@ -11,18 +11,17 @@ course:
   - question: Who will I be sitting next to in class?
     answer: >
       Our students are engineers, artists, writers, entrepreneurs, financial analysts, and folks fresh from college. People who are looking to start a new career and web development, and are just as passionate about web development as you are.
-  - question: Is there anything I should do before class starts?
-    answer: >
-      Attend one of our Prep for Success workshops. You'll learn how to use your computer like an extension of yourself. Additionally, you'll get insights into how you learn best, building your vocabulary quickly, and how to focus your efforts on process and consistency to achieve success.
-
+  
 school:
   - question: Will I be ready for a job after this?
     answer: >
       Absolutely! A lot of students want to get their feet wet first before
       deciding whether this path is for them. Check out one of our intro courses and
       then figure out what's next. Here are some of the jobs that our students get
-      with they graduate: QA Engineer, Full Stack Developer, Entry Level Web
-      Developer, JavaScript Developer, Project Manager, Technical Project Manager
+      when they graduate: QA Engineer, Full Stack Developer, Entry Level Web
+      Developer, JavaScript Developer, Project Manager, Technical Project Manager. Additionally
+      offer a 4-week job placement class for all of our graduates to teach them how to interview,
+       write resumes, and find great jobs.
 
   - question: How much is tuition?
     answer: >
@@ -37,29 +36,17 @@ school:
 
   - question: Do you offer financing?
     answer: >
-      No. We don't offer financing in house but we recommend that
-      students who are in need of financing options reach out to a local bank or
-      credit union about a personal loan.
+      Yes, we offer financing in partnership with Skills Fund: <a href="https://austincodingacademy.skills.fund/">Apply Here</a>
 
   - question: What are your class dates?
     answer: >
       For all upcoming class dates, check out our Courses page.
 
-  - question: Can I take just the intro course?
+  - question: Can I take just the Web 101 course?
     answer: >
       Absolutely! A lot of students want to get their feet wet first before
       deciding whether this path is for them. Check out one of our intro courses
       and then figure out what's next.
-
-  - question: What happens when I complete a course?
-    answer: >
-      Two things: At the end of each course, students who completed the
-      curriculum will receive a certificate showing they passed the course and
-      detailing that level of proficiency; additionally, we have an exit
-      consultation with each and every student to help them figure out the next
-      step, whether that is moving forward on a track with us, continuing their
-      education on their own, launching a project, or finding employment. We're
-      here to help!
 
   - question: Do I have to take the Intro course to get into the Intermediate etc?
     answer: >
@@ -72,13 +59,6 @@ school:
       taking classes consecutively one after the other, as the continuity in
       education and practice is paramount; as with learning a spoken language,
       if you don't use it you lose it.
-
-  - question: What is the schedule of classes?
-    answer: >
-      Each course (Intro, Intermediate, Advanced) is 10 weeks long and
-      meets twice a week in the evenings, from 6:30-9:00 pm. Depending on the
-      class you're taking you would meet either Monday and Wednesday or Tuesday
-      and Thursday. We run on a quarter system and have four sessions each year.
 
   - question: What kind of computer do I need?
     answer: >
