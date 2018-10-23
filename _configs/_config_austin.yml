@@ -14,6 +14,8 @@ eventbrite_organizer_id: 10937668459
 eventbrite: https://www.eventbrite.com/o/austin-coding-academy-10937668459
 start_date: Mon, Nov 5th, 2018
 announcement: Classes Begin Mon, Nov 5th!
+course_amount: $2,990
+track_amount: $8,990
 tracks:
   - javascript
   - csharp

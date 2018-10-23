@@ -12,22 +12,31 @@
       <small>
         We'll help you find a great job!
         <br>
-        Austin Coding Academy is locally owned and operated and offers evening classes to empower 
-        working adults to launch careers in technology. We offer research-based curriculum delivered by 
-        professional developers working in the industry. Our mission is to make careers in technology 
-        accessible to everyone.       
+        Austin Coding Academy is locally owned and operated and offers evening classes to empower
+        working adults to launch careers in technology. We offer research-based curriculum delivered by
+        professional developers working in the industry. Our mission is to make careers in technology
+        accessible to everyone.
       </small>
     </h2>
   </div>
   <div class="col-xs-12 col-md-6 border-left">
+
     <h2>
+      {% if site.course_amount %}
       {{site.course_amount}} for your first 10-week class.
       <br>
       <small>
-        $8,970 for the entire program.
+        {{ site.track_amount }} for the entire program.
         <br>
         <em>Achieve your dream job!</em>
       </small>
+      {% else if site.track_amount %}
+        {{ site.track_amount }} for the entire program.
+        <br>
+        <small>
+          <em>Achieve your dream job!</em>
+        </small>
+      {% endif %}
     </h2>
   </div>
 </div>

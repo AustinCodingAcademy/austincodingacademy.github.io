@@ -1,8 +1,8 @@
 <style media="screen">
   .hr-courses-styled {
-    width: 40px; 
-    text-align:left; 
-    margin-left:0; 
+    width: 40px;
+    text-align:left;
+    margin-left:0;
     border-color:#777;
   }
 </style>
@@ -26,7 +26,7 @@
   </div>
   <div class="col-xs-12 col-md-8">
     <div class="tab-content">
-      {% for course in site.data.tracks[include.track].courses %} 
+      {% for course in site.data.tracks[include.track].courses %}
       <div role="tabpanel" class="tab-pane {% if forloop.index == 1 %} active {% endif %}" id="img-{{forloop.index}}">
         {% if site.data.courses[course].img %}
         <img src="{{site.data.courses[course].img}}" alt="{{site.data.courses[course].name}}" class="img-responsive">
@@ -39,6 +39,7 @@
 <div class="row">
   <div class="col-xs-12 col-md-4">
     <div class="tab-content">
+      {% if site.course_amount %}
       <h3>
         Course <span class="text-success">Details</span>
         <br>
@@ -51,6 +52,7 @@
         </ul>
       </div>
       {% endfor %}
+      {% endif %}
     </div>
   </div>
   <div class="col-xs-12 col-md-8">
