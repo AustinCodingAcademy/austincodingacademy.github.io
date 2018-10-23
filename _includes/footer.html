@@ -2,7 +2,7 @@
   <nav class="navbar navbar-inverse navbar-static-bottom">
     <div id="footer-call-tour-grab" class="well text-white">
       <h2 class="text-center text-white jumbo text-shadow">
-        Want to come check out {% if site.key != 'austin' %} remote {% endif %} classes or talk to a human?
+        Want to come check out classes or talk to a human?
       </h2>
       <br><br>
       <div class="row">
@@ -29,21 +29,18 @@
           <h4 class="text-white">
             {{ site.city }} Coding Academy Info
             <br>
-            {% if site.location %}
+            {% for location in site.locations %}
             <br>
             <br>
-            <a href="{{site.location_url}}" class="link-white"><i class="fa fa-map-marker" aria-hidden></i>&nbsp;&nbsp;{{ site.location }}</a>
-            {% endif %}
-            {% if site.location_north %}
-            <br><br>
-            <a href="{{site.location_north_url}}" class="link-white"><i class="fa fa-map-marker" aria-hidden></i>&nbsp;&nbsp;{{ site.location_north }}</a>
-            {% endif %}
+            <a href="{{location.url}}" class="link-white"><i class="fa fa-map-marker" aria-hidden></i>&nbsp;&nbsp;{{location.address}}</a>
+            <br>
+            {% endfor %}
             <br><br>
             <small class="text-white">
-              Austin Coding Academy is locally owned and operated and offers evening classes to empower 
-              working adults to launch careers in technology. We offer research-based curriculum delivered by 
-              professional developers working in the industry. Our mission is to make careers in technology 
-              accessible to everyone.  
+              Austin Coding Academy is locally owned and operated and offers evening classes to empower
+              working adults to launch careers in technology. We offer research-based curriculum delivered by
+              professional developers working in the industry. Our mission is to make careers in technology
+              accessible to everyone.
             </small>
           </h4>
           <br>

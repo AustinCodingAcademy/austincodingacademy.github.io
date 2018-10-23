@@ -3,3 +3,10 @@ key: lubbock
 acronym: LCA
 color: '#990000'
 lighter_color: '#cc0000'
+start_date: January
+locations:
+  # - address:
+  #   url:
+  # - address:
+  #   url:
+announcement: Classes Begin in January!

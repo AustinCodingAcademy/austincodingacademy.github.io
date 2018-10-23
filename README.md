@@ -20,10 +20,10 @@
 ## Development
 1. To build and rebuild assets on any change, keep this running in a terminal
 window:
-  * `npm run watch`
+  * `yarn watch`
 1. To serve individual sites and update on a change, keep any one of these running
 in its own terminal window
-  * `KEY=austin npm run serve`
+  * `KEY=austin yarn serve`
 1. Navigate to http://127.0.0.1:4000
   * Every change you make will regenerate the site
 
@@ -81,7 +81,7 @@ Every change to the _master_ branch will be deployed to
     1. Create a new file using the format of the previous posts
     1. Make sure to include and update the front-matter
     1. Blog posts are done in markdown, so those rules apple, as well as Bootstrap columns for images
-    1. Regular text should be done with H4's - 4 hashmarks - for legibility. H4's also have line-height assigned to them. 
+    1. Regular text should be done with H4's - 4 hashmarks - for legibility. H4's also have line-height assigned to them.
     1. Break up the text with H2's - 2 hashmarks
     1. [Here is an ACA post as an example](https://austincodingacademy.com/blog/austin_coding_academy_opening_north_campus)
     1. [Here is an Iron Yard example](http://blog.theironyard.com/2015/07/02/the-iron-yard-strategic-investment-from-apollo-education-group/)

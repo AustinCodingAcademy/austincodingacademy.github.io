@@ -40,28 +40,28 @@ $(function() {
     });
   }
 
-  $.ajax('https://campus.austincodingacademy.com/api/terms/dates/56f368f58085ad1100f2ad77', {
-    success: function(dates) {
-      // GRAB EVERY CAMPUS' NEXT START DATE FROM CAMPUSDOT
-      if (campusKey === 'austin') {
-        $('.start-date').html(`
-          <small class="imp-dates-location-text">Downtown</small>
-          <br/>
-          ${moment.utc(dates['Austin']).format('ddd, MMM Do, YYYY')}
-          <br/>
-          <small>North</small>
-          <br />
-          ${moment.utc(dates['North Austin']).format('ddd, MMM Do, YYYY')}
-        `);
-        var first = moment.utc(dates['Austin']) < moment.utc(dates['North Austin']) ? moment.utc(dates['Austin']) : moment.utc(dates['North Austin']);
-        $('.start-date-only').text(first.format('ddd, MMM Do'));
-      } else {
-        $('.start-date-only').text(moment.utc(dates['North Austin']).format('ddd, MMM Do'));
-        $('.start-date').text(moment.utc(dates['North Austin']).format('ddd, MMM Do, YYYY'));
-      }
-    }
-  });
-  
+  // $.ajax('https://campus.austincodingacademy.com/api/terms/dates/56f368f58085ad1100f2ad77', {
+  //   success: function(dates) {
+  //     // GRAB EVERY CAMPUS' NEXT START DATE FROM CAMPUSDOT
+  //     if (campusKey === 'austin') {
+  //       $('.start-date').html(`
+  //         <small class="imp-dates-location-text">Downtown</small>
+  //         <br/>
+  //         ${moment.utc(dates['Austin']).format('ddd, MMM Do, YYYY')}
+  //         <br/>
+  //         <small>North</small>
+  //         <br />
+  //         ${moment.utc(dates['North Austin']).format('ddd, MMM Do, YYYY')}
+  //       `);
+  //       var first = moment.utc(dates['Austin']) < moment.utc(dates['North Austin']) ? moment.utc(dates['Austin']) : moment.utc(dates['North Austin']);
+  //       $('.start-date-only').text(first.format('ddd, MMM Do'));
+  //     } else {
+  //       $('.start-date-only').text(moment.utc(dates['North Austin']).format('ddd, MMM Do'));
+  //       $('.start-date').text(moment.utc(dates['North Austin']).format('ddd, MMM Do, YYYY'));
+  //     }
+  //   }
+  // });
+
   if (campusKey === 'austin') {
     $.ajax('https://www.eventbriteapi.com/v3/organizers/10937668459/events/?token=EFX5TSXYKK76RPDJSNBW&only_public=true&order_by=start_asc&start_date.range_start=' + moment.utc().subtract(1, 'day').format(), {
       success: function (response) {
