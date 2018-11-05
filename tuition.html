@@ -156,12 +156,23 @@ talking_points:
     <div class="row text-center">
       <div class="col-xs-12 col-sm-6">
         <i class="text-success-light fa fa-smile-o fa-3x" aria-hidden></i>
+        {% if site.key == 'austin' %}
+        <h3>Skills Fund</h3>
+        <p class="font_17">
+          Finance The Full Cost Of Tuition
+          <br><br>
+          Affordable Monthly Payments
+          <br><br>
+          <a class="underline link-success-light text-ada" href="https://austincodingacademy.skills.fund/" target="_blank">Check it out!</a>.
+        </p>
+        {% else %}
         <h3>Let's talk!</h3>
         <p class="font_17">
           Schedule a time to chat with us about financing options:
           <br>
-          <a class="underline link-success-light text-ada" href="https://acaappointment.acuityscheduling.com/schedule.php?appointmentType=1406673">Schedule a Q&A</a>.
+          <a class="underline link-success-light text-ada" href="https://acaappointment.acuityscheduling.com/schedule.php?appointmentType=1406673" target="_blank">Schedule a Q&A</a>.
         </p>
+        {% endif %}
       </div>
       <div class="col-xs-12 col-sm-6">
         <i class="text-success-light fa fa-smile-o fa-3x" aria-hidden></i>
