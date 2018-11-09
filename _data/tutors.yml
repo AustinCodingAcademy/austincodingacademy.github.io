@@ -4,6 +4,18 @@
   calendar: https://acaappointment.as.me/?appointmentType=8069545
   virtual: https://meet.google.com/enj-jjez-zcw
   
+- name: Cynthia Williams
+  skills: Web 101, JS 211
+  email: cynthia@austincodingacademy.com
+  calendar: https://acaappointment.as.me/?appointmentType=8473481
+  virtual: 
+ 
+- name: Andrew Lee
+  skills: Web 101, JS 211, JS 311
+  email: andrew@austincodingacademy.com
+  calendar: https://acaappointment.as.me/?appointmentType=8473508
+  virtual: 
+  
 - name: Justin Lyle
   skills: Web 101, C#, .NET
   email: justin@austincodingacademy.com
