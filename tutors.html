@@ -63,6 +63,13 @@ icons:
               Schedule Tutoring
             </a>
           </div>
+          <br>
+          <div class="py-4">
+            <a class="{% unless tutor.virtual %} disabled {% endunless %} btn btn-sm u-btn-primary--air transition-3d-hover" href="{{tutor.virtual}}" target="_blank">
+              <span class="far fa-calendar-alt mr-2"></span>
+              Virtual Tutoring
+            </a>
+          </div>
         </div>
       </div>
     {% endfor %}
