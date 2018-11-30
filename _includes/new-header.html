@@ -7,7 +7,11 @@
         <!-- Logo -->
         <a class="navbar-brand u-header__navbar-brand" href="https://austincodingacademy.com"
           aria-label="Front">
-          <img src="/assets/images/logo.svg" alt="Logo">
+          {% if site.key == 'austin' %}
+            <object type="image/svg+xml" data="/aca-logo.svg" aria-hidden="true" style="height: 45px"></object>
+          {% else %}
+            <object type="image/svg+xml" data="/logo.svg" aria-hidden="true" style="height: 45px"></object>
+          {% endif %}
         </a>
         <!-- End Logo -->
 
