@@ -2,36 +2,61 @@
   skills: Web 101, JS 211, JS 311
   email: eric@austincodingacademy.com
   calendar: https://acaappointment.as.me/?appointmentType=8069545
+  virtual: https://meet.google.com/enj-jjez-zcw
+  
+- name: Cynthia Williams
+  skills: Web 101, JS 211
+  email: cynthia@austincodingacademy.com
+  calendar: https://acaappointment.as.me/?appointmentType=8473481
+  virtual: https://meet.google.com/qio-pvbk-dfx
+ 
+- name: Andrew Lee
+  skills: Web 101, JS 211, JS 311
+  email: andrew@austincodingacademy.com
+  calendar: https://acaappointment.as.me/?appointmentType=8473508
+  virtual: https://meet.google.com/cqc-qach-mwk
   
 - name: Justin Lyle
   skills: Web 101, C#, .NET
   email: justin@austincodingacademy.com
   calendar: https://acaappointment.as.me/?appointmentType=8181434
+  virtual: https://meet.google.com/fce-bbqd-buo
  
 - name: Michael Samara
   skills: Web 101, JS 211, JS 311
   email: michael@austincodingacademy.com
   calendar: https://acaappointment.as.me/?appointmentType=8181465
+  virtual: https://meet.google.com/sug-ocqd-zdd
   
 - name: Peter Slavin
   skills: C#, .NET
   email: peter@austincodingacademy.com
   calendar: https://acaappointment.as.me/?appointmentType=8181457
+  virtual: https://meet.google.com/fua-iopp-amt
  
 - name: Lillian Situ
   skills: JS211, JS 311 or Graduates ONLY
   email: lillian@austincodingacademy.com
   calendar: https://acaappointment.as.me/?appointmentType=8182184
+  virtual: https://meet.google.com/zhe-ixfg-snm
   
 - name: Matt Viteri
   skills: Full Stack JavaScript Graduates ONLY
   email: matt@austincodingacademy.com
   calendar: https://acaappointment.as.me/?appointmentType=8181474
+  virtual: https://meet.google.com/nbk-vphc-xmk
   
 - name: Matt Cameron
   skills: .NET students or .NET Graduates ONLY
   email: mattcameron@austincodingacademy.com
   calendar: https://acaappointment.as.me/?appointmentType=8181476
+  virtual: https://meet.google.com/zxc-hkry-ckr
+  
+- name: Matt Germeyer
+  skills: DELL Cohorts Only
+  email: mgermeyer@austincodingacademy.com
+  calendar: https://acaappointment.as.me/schedule.php?appointmentType=8523233
+  virtual: https://meet.google.com/qag-mcmj-ahx
   
 # - name: Joel Gilbert
 #    location: San Antonio

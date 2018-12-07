@@ -3,3 +3,12 @@ key: lubbock
 acronym: LCA
 color: '#990000'
 lighter_color: '#cc0000'
+start_date: January
+phone: (806) 905-5021
+locations:
+ - address: South Plain College Lubbock Center
+  # url:
+  # - address:
+  #   url:
+announcement: Classes Begin in January!
+track_amount: $5,960

@@ -24,13 +24,13 @@ $link-hover-decoration: none !default;
 //
 //## Font, line-height, and color for body text, headings, and more.
 
-$font-family-sans-serif:     "Quicksand", sans-serif !default;
-$font-family-serif:          "Quicksand", serif !default;
+$font-family-sans-serif:     'Open Sans', sans-serif !default;
+$font-family-serif:          'Open Sans', serif !default;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 // $font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
 // $font-family-base:        $font-family-sans-serif !default;
 
-// $font-size-base:          14px !default;
+$font-size-base:          16px !default;
 // $font-size-large:         ceil(($font-size-base * 1.25)) !default; // ~18px
 // $font-size-small:         ceil(($font-size-base * 0.85)) !default; // ~12px
 
@@ -343,7 +343,7 @@ $grid-float-breakpoint:     $screen-md-min !default;
 //##
 
 // Basics of a navbar
-// $navbar-height:                    50px !default;
+$navbar-height:                    70px !default;
 // $navbar-margin-bottom:             $line-height-computed !default;
 // $navbar-border-radius:             $border-radius-base !default;
 // $navbar-padding-horizontal:        floor(($grid-gutter-width / 2)) !default;

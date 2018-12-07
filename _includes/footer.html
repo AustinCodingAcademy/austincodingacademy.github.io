@@ -2,7 +2,7 @@
   <nav class="navbar navbar-inverse navbar-static-bottom">
     <div id="footer-call-tour-grab" class="well text-white">
       <h2 class="text-center text-white jumbo text-shadow">
-        Want to come check out {% if site.key != 'austin' %} remote {% endif %} classes or talk to a human?
+        Want to come check out classes or talk to a human?
       </h2>
       <br><br>
       <div class="row">
@@ -29,21 +29,18 @@
           <h4 class="text-white">
             {{ site.city }} Coding Academy Info
             <br>
-            {% if site.location %}
+            {% for location in site.locations %}
             <br>
             <br>
-            <a href="{{site.location_url}}" class="link-white"><i class="fa fa-map-marker" aria-hidden></i>&nbsp;&nbsp;{{ site.location }}</a>
-            {% endif %}
-            {% if site.location_north %}
-            <br><br>
-            <a href="{{site.location_north_url}}" class="link-white"><i class="fa fa-map-marker" aria-hidden></i>&nbsp;&nbsp;{{ site.location_north }}</a>
-            {% endif %}
+            <a href="{{location.url}}" class="link-white"><i class="fa fa-map-marker" aria-hidden></i>&nbsp;&nbsp;{{location.address}}</a>
+            <br>
+            {% endfor %}
             <br><br>
             <small class="text-white">
-              Austin Coding Academy is locally owned and operated and offers evening classes to empower 
-              working adults to launch careers in technology. We offer research-based curriculum delivered by 
-              professional developers working in the industry. Our mission is to make careers in technology 
-              accessible to everyone.  
+              {{site.city}} Coding Academy is locally owned and operated and offers evening classes to empower
+              working adults to launch careers in technology. We offer research-based curriculum delivered by
+              professional developers working in the industry. Our mission is to make careers in technology
+              accessible to everyone.
             </small>
           </h4>
           <br>
@@ -68,6 +65,7 @@
           <h4 class="text-white">Pages</h4>
           <br>
           <ul class="list-unstyled">
+            <li class="styled"><h5><a href="https://info.austincodingacademy.com/new-student-referral" class="link-white">New Student Referral</a></h5></li>
             <li class="styled"><h5><a href="/instructor-apply" class="link-white">Instructor Application</a></h5></li>
             <li class="styled"><h5><a href="/why" class="link-white">Why Us</a></h5></li>
             <li class="styled"><h5><a href="/tuition" class="link-white">Tuition</a></h5></li>
@@ -78,7 +76,11 @@
           </ul>
         </div>
         <div class="col-xs-12 col-md-3 align-items-center flex-column">
-          <object type="image/svg+xml" data="/logo.svg" aria-hidden="true"></object>
+          {% if site.key == 'austin' %}
+            <object type="image/svg+xml" data="/aca-logo.svg" aria-hidden="true" style="width: 100%"></object>
+          {% else %}
+            <object type="image/svg+xml" data="/logo.svg" aria-hidden="true" style="width: 100%"></object>
+          {% endif %}
           <br>
           <br>
           <a href="/apply" class="btn btn-success btn-block">APPLY NOW</a>
@@ -87,5 +89,5 @@
       </div>
     </div>
   </nav>
-  <h6 class="text-center">&copy; 2018 Austin Coding Academy</h6>
+  <h6 class="text-center">&copy; 2018 {{site.city}} Coding Academy</h6>
 </footer>

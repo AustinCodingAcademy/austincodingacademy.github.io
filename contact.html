@@ -31,9 +31,11 @@ description: >
             </div>
             <div class="media-body">
               <h4 class="media-heading equalizer">
-                OUR OFFICE LOCATION
-                <br>
-                <small>{{site.location}}</small>
+                OUR LOCATION(S)
+                {% for location in site.locations %}
+                  <br><br>
+                  <small><a href="{{location.url}}" target="_blank">{{location.address}}</a></small>
+                {% endfor %}
               </h4>
             </div>
           </div>
@@ -82,6 +84,8 @@ description: >
         {% include capture-iframe.html form="capture-contact.html" id="capture-contact" %}
       </div>
     </div>
+    {% if site.map %}
     <iframe title="google maps" src="{{site.map}}" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+    {% endif %}
   </div>
 </section>

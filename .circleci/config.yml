@@ -1,62 +1,51 @@
-
 version: 2
 jobs:
   build:
-    working_directory: ~/AustinCodingAcademy/austincodingacademy.com
-    parallelism: 1
-    environment:
-      CIRCLE_ARTIFACTS: /tmp/circleci-artifacts
-      CIRCLE_TEST_REPORTS: /tmp/circleci-test-results
+    branches:
+      ignore: gh-pages
     docker:
-    - image: circleci/ruby:2.5-stretch-node-browsers
-    steps:
-    - checkout
+      - image: circleci/ruby:2.5.1-node-browsers
 
-    - run: mkdir -p $CIRCLE_ARTIFACTS $CIRCLE_TEST_REPORTS
-    # - run: mkdir -p vendor/bundle
-    
-    # - restore_cache:
-    #     working_directory: ~/AustinCodingAcademy/austincodingacademy.com
-    #     keys:
-    #     # This branch if available
-    #     - v1-dep-{{ .Branch }}-
-    #     # Default branch if not
-    #     - v1-dep-preview-
-    #     # Any branch if there are none on the default branch - this should be unnecessary if you have your default branch configured correctly
-    #     - v1-dep-
-    - run: sudo apt-get install librsvg2-bin -y
-    - run: if [ -z "${NODE_ENV:-}" ]; then export NODE_ENV=test; fi
-    - run: export PATH="~/AustinCodingAcademy/austincodingacademy.com/node_modules/.bin:$PATH"
-    - run: yarn
-    - run: 'bundle check --path=vendor/bundle || bundle install --path=vendor/bundle --jobs=4 --retry=3'
-    # - save_cache:
-    #     key: v1-dep-{{ .Branch }}-{{ epoch }}
-    #     paths:
-    #     - vendor/bundle
-    #     - ./node_modules
-        
-    - run:
-        name: Build deploy scripts
-        command: node deploy.js
-    
-    # - run:
-    #     name: Testing Accessibility
-    #     command: |
-    #         KEY=austin yarn sass && yarn sass-include && KEY=austin yarn build
-    #         npx http-server site &
-    #         yarn test
-    #         npx kill-port 8080
-    
-    - deploy:
-        name: Deploy
-        command: |
-            if [ "${CIRCLE_BRANCH}" == "preview" ]; then
-            git config --global user.email "kevin@austincodingacademy.com"
-            git config --global user.name "Kevin Colten"
-            yarn deploy-preview
-            fi
-            if [ "${CIRCLE_BRANCH}" == "master" ]; then
-            git config --global user.email "kevin@austincodingacademy.com"
-            git config --global user.name "Kevin Colten"
-            yarn deploy
-            fi
+    working_directory: ~/repo
+
+    steps:
+      - checkout
+
+      - restore_cache:
+          keys:
+            - v1-gem-cache-{{ arch }}-{{ .Branch }}-{{ checksum "Gemfile.lock" }}
+            - v1-gem-cache-{{ arch }}-{{ .Branch }}-
+            - v1-gem-cache-{{ arch }}-
+      - run: bundle install --path ~/.bundle && bundle clean
+      - save_cache:
+          paths:
+            - ~/.bundle
+          key: v1-gem-cache-{{ arch }}-{{ .Branch }}-{{ checksum "Gemfile.lock" }}
+
+      - restore_cache:
+          keys:
+            - yarn-packages-v1-{{ .Branch }}-{{ checksum "yarn.lock" }}
+            - yarn-packages-v1-{{ .Branch }}-
+            - yarn-packages-v1-
+      - run: yarn install
+      - save_cache:
+          paths:
+            - node_modules
+          key: yarn-packages-v2-{{ .Branch }}-{{ checksum "yarn.lock" }}
+      - run: sudo apt-get install librsvg2-bin -y
+      - run:
+          name: Build deploy scripts
+          command: node deploy.js
+      - deploy:
+          name: Deploy
+          command: |
+              if [ "${CIRCLE_BRANCH}" == "preview" ]; then
+              git config --global user.email "kevin@austincodingacademy.com"
+              git config --global user.name "Kevin Colten"
+              yarn deploy-preview
+              fi
+              if [ "${CIRCLE_BRANCH}" == "master" ]; then
+              git config --global user.email "kevin@austincodingacademy.com"
+              git config --global user.name "Kevin Colten"
+              yarn deploy
+              fi

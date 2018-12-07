@@ -31,11 +31,18 @@
         </button>
         <a class="navbar-brand" href="/" >
           <span class="hide-link-text">ACA logo as link to homepage</span>
-          <object type="image/svg+xml" data="/logo.svg" alt="company logo" aria-hidden="true"></object>
+          {% if site.key == 'austin' %}
+            <object type="image/svg+xml" data="/aca-logo.svg" aria-hidden="true" style="height: 100%"></object>
+          {% else %}
+            <object type="image/svg+xml" data="/logo.svg" aria-hidden="true" style="height: 100%"></object>
+          {% endif %}
         </a>
       </div>
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
+          {% if site.key == 'austin' %}
+          <li><a href="https://info.austincodingacademy.com/aca-diversity-scholarship">Diversity Scholarship</a></li>
+          {% endif %}
           <li><a href="/why">Why Us</a></li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Tracks
@@ -50,9 +57,7 @@
             </ul>
           </li>
           <li><a href="/tuition">Tuition</a></li>
-          {% if site.key != 'austin' %}
-            <li><a href="/remote">Attend Online</a></li>
-          {% endif %}
+          <!-- <li><a href="/remote">Attend Online</a></li> -->
           <li><a href="/faq">FAQ</a></li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">More <span class="caret" aria-hidden></span></a>
