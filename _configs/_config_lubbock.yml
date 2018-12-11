@@ -2,13 +2,13 @@ city: Lubbock
 key: lubbock
 acronym: LCA
 color: '#990000'
-lighter_color: '#cc0000'
-start_date: January
+lighter_color: '#00b3d1'
+start_date: February 4th
 phone: (806) 905-5021
 locations:
  - address: South Plain College Lubbock Center
-  # url:
-  # - address:
-  #   url:
-announcement: Classes Begin in January!
+   url:https://www.google.com/maps/place/South+Plains+College+Lubbock+Center/@33.5577634,-101.8559531,17z/data=!3m1!4b1!4m5!3m4!1s0x86fe6d1839084583:0x8bdaa2a3477f2bc8!8m2!3d33.5577634!4d-101.8537644
+   - address: 3907 Avenue Q, Lubbock, TX 79412
+  #   url: 
+announcement: Classes Begin on February 4th!
 track_amount: $5,960
