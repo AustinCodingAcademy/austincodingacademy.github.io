@@ -53,6 +53,7 @@
           </ul>
         </div>
         <div class="col-xs-12 col-md-3">
+          {% if site.tracks.length %}
           <h4 class="text-white">Tracks</h4>
           <br>
           <ul class="list-unstyled">
@@ -60,6 +61,7 @@
             <li class="styled"><h5><a href="/{{track}}" class="link-white">{{site.data.tracks[track].name}}</a></h5></li>
             {% endfor %}
           </ul>
+          {% endif %}
         </div>
         <div class="col-xs-12 col-md-3">
           <h4 class="text-white">Pages</h4>

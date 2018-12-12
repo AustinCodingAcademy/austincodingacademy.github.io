@@ -2,17 +2,31 @@
 layout: default
 permalink: /assignment/
 title: New Student Assignment
+head: >
+  <style>
+    .form-columns-2, .form-columns-1, .hs-input {
+      max-width: 100% !important;
+    }
+    .hs-input {
+      width: 100% !important;
+    }
+    .hs-form-field:nth-child(2) {
+      padding-left: 10px;
+    }
+  </style>
 ---
-<h1 style="text-align: center">New Student Assignment</h1>
-<br />
-<div style="display: flex; justify-content: center"
-<!--[if lte IE 8]>
-<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
-<![endif]-->
-<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
-<script>
-  hbspt.forms.create({
-	portalId: "4009818",
-	formId: "12a277a2-d645-48b6-9e9a-11aa43e33da4"
-});
-</script>
+<div class="container">
+  <h1 style="text-align: center">New Student Assignment</h1>
+  <br />
+  <div style="display: flex; justify-content: center"
+  <!--[if lte IE 8]>
+  <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+  <![endif]-->
+  <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+  <script>
+    hbspt.forms.create({
+    portalId: "4009818",
+    formId: "12a277a2-d645-48b6-9e9a-11aa43e33da4"
+  });
+  </script>
+</div>
