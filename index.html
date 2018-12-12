@@ -27,8 +27,8 @@ head: >
     <div class="row text-white text-right">
       <div class="col-xs-12 margin">
         <h1>{{ site.city }} Coding Academy</h1>
-        {% if site.key != 'austin' %}
-        <small>Powered by Austin Coding Academy</small>
+        {% if site.subheader %}
+        <small>{{ site.subheader }}</small>
         <br/>
         {% endif %}
         <div class="panel panel-success panel-inverse margin-0 display-inline-block">

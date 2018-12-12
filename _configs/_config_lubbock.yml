@@ -1,7 +1,7 @@
 city: Lubbock
 key: lubbock
 acronym: LCA
-color: '#990000'
+color: '#00b3d1'
 lighter_color: '#00b3d1'
 start_date: February 4th
 phone: (806) 905-5021
@@ -11,3 +11,5 @@ locations:
 announcement: Classes Begin on February 4th!
 track_amount: $5,960
 tracks:
+subheader: In Partnership with South Plains College
+classtimes: 6:00pm - 9:00pm
