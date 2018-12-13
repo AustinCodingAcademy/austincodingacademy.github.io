@@ -32,7 +32,6 @@ jobs:
           paths:
             - node_modules
           key: yarn-packages-v2-{{ .Branch }}-{{ checksum "yarn.lock" }}
-      - run: sudo apt-get install librsvg2-bin -y
       - run:
           name: Build deploy scripts
           command: node deploy.js

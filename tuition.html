@@ -88,7 +88,7 @@ talking_points:
           There are three sessions in our Full Stack program.
           <br>
           <small class="text-ada-bold tf-small">
-            The tuition price covers one 10 week session. Although you pay
+            The tuition price covers one {{ site.length }} session. Although you pay
             upfront, the cost is amortized over the course of the program. If
             you must withdraw from the program for any reason, your tuition will
             be refunded at a prorated rate.
@@ -101,15 +101,17 @@ talking_points:
     </div>
   </div>
 </section>
+{% if site.key == 'austin' %}
 <section class="bg-primary">
   <div class="container">
     {% include reviews.html %}
   </div>
 </section>
+{% endif %}
 <section id="talking_points" class="bg-gray-lighter">
   <div class="container">
     <h2>
-      OUR <span class="text-success text-ada-bold">TALKING POINTS</span>
+      The <span class="text-success text-ada-bold">{{site.acronym}} Advantage</span>
       <br>
       <hr class="brand-hr">
     </h2>

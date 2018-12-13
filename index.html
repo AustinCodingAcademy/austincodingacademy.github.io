@@ -52,21 +52,24 @@ head: >
       <div class="col-xs-12 col-md-6">
         <h3>
           <br>
-          Our graduates are developers at IBM, Verizon, Frost Bank, Dell, Oracle, WP Engine, and many Austin Startups.
+          At {{ site.city }} Coding Academy, we believe everyone deserves the chance to work in the career they love.
           <br>
           <hr class="brand-hr">
         </h3>
         <h4>
-          At {{ site.city }} Coding Academy, we believe everyone deserves the chance to work in the career they love.
-          <br>
-          <br>
           Our evening classes are taught by professional developers who earn their living doing what they teach you.
           <br>
           <br>
           Our job placement program will guide you into your new career.
+          {% if site.key == 'austin' %}
+          <br/>
+          <br/>
+          Our graduates are developers at IBM, Verizon, Frost Bank, Dell, Oracle, WP Engine, and many Austin Startups.
+          {% endif %}
         </h4>
       </div>
       <div class="col-xs-12 col-md-6">
+        {% if site.key == 'austin' %}
         <div class="slick-carousel" data-dots="true" data-autoplay="false" data-arrows="false">
           {% for interview in site.data.interviews %}
           <div>
@@ -74,6 +77,9 @@ head: >
           </div>
           {% endfor %}
         </div>
+        {% else %}
+        <img src="/assets/images/table-shot.jpg" alt="table shot" />
+        {% endif %}
       </div>
     </div>
   </div>
