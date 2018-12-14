@@ -10,7 +10,7 @@
 
 <div class="slick-carousel" data-dots="false" data-arrows="false">
   {% for review in site.data.reviews %}
-  {% if site.key == 'austin' or foreach.index < 2 %}
+  {% if site.key == 'austin' or forloop.first == true %}
   <div class="row hidden row-eq">
     <div class="col-xs-12 col-md-3 justify-content-center equalizer align-items-center">
       <img src="{{review.img}}" alt="{{review.name}}" class="img-responsive img-reviews">
