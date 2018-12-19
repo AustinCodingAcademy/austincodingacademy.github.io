@@ -15,19 +15,10 @@ head: >
     }
   </style>
 ---
-<div class="container">
-  <h1 style="text-align: center">New Student Assignment</h1>
-  <br />
-  <div style="display: flex; justify-content: center">
-    <!--[if lte IE 8]>
-    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
-    <![endif]-->
-    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
-    <script>
-      hbspt.forms.create({
-      portalId: "4009818",
-      formId: "{{ site.assignment_form_id }}"
-    });
-    </script>
+<section>
+  <div class="container">
+    <h1 style="text-align: center">New Student Assignment</h1>
+    <br />
+    {% include hubspot-form.html form_id=site.assignment_form_id %}
   </div>
-</div>
+</section>

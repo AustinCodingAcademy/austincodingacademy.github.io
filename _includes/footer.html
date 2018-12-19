@@ -6,20 +6,16 @@
       </h2>
       <br><br>
       <div class="row">
-        {% if site.key == 'austin' %}
-        <div class="phone-margin-bottom text-center col-md-4 col-sm-12">
-          <a class="btn btn-lg btn-success" href="https://acaappointment.acuityscheduling.com/schedule.php?appointmentType=1406673"><i class="fa fa-phone" aria-hidden></i>&nbsp;&nbsp;Schedule a call</a>
+        <div class="phone-margin-bottom text-center {% if site.key == 'austin' %} col-md-4 {% endif %} col-sm-12">
+          <a class="btn btn-lg btn-success" href="{{site.schedule_qa_url}}"><i class="fa fa-phone" aria-hidden></i>&nbsp;&nbsp;Schedule a call</a>
         </div>
+        {% if site.key == 'austin' %}
         <div class="phone-margin-bottom text-center col-md-4 col-sm-12">
           <a class="btn btn-lg btn-success" href="https://acaappointment.acuityscheduling.com/schedule.php?appointmentType=2958006"><i class="fa fa-building-o" aria-hidden></i>&nbsp;&nbsp;Central Campus Tour</a>
         </div>
         <div class="phone-margin-bottom text-center col-md-4 col-sm-12">
           <a class="btn btn-lg btn-success" href="https://acaappointment.acuityscheduling.com/schedule.php?appointmentType=3254226"><i class="fa fa-building-o" aria-hidden></i>&nbsp;&nbsp;North Campus Tour</a>
         </div>
-        {% else %}
-          <div class="phone-margin-bottom text-center col-sm-12">
-            <a class="btn btn-lg btn-success" href="https://acaappointment.acuityscheduling.com/schedule.php?appointmentType=4004268"><i class="fa fa-phone" aria-hidden></i>&nbsp;&nbsp;Schedule a call</a>
-          </div>
         {% endif %}
       </div>
     </div>
