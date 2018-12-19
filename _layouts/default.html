@@ -17,6 +17,29 @@
   <meta name="description" content="{{ page.description | liquify }}">
   <meta name="keywords" content="">
   <meta name="campuskey" content="{{ site.key }}">
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "CollegeOrUniversity",
+      "name": "{{site.city}} Coding Academy",
+      "url": "https://{{site.key}}codingacademy.com",
+      "logo": "https://{{site.key}}codingacademy.com/assets/images/{{site.key}}-logo.png",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1{{site.phone}}",
+        "contactType": "customer service",
+        "areaServed": "US",
+        "availableLanguage": "English"
+      },
+      "sameAs": [
+        {% if site.facebook %}"https://www.facebook.com/AustinCodingAcademy"{%endif%},
+        {% if site.twitter %}"https://twitter.com/AustinCoding"{%endif%},
+        {% if site.googleplis %}"https://plus.google.com/+AustinCodingAcademy"{%endif%},
+        {% if site.instagram %}"https://www.instagram.com/austincodingacademy"{%endif%},
+        {% if site.linkedin %}"https://www.linkedin.com/company/austin-coding-academy"{%endif%},
+      ]
+    }
+    </script>
 </head>
 <body>
   {% include google-tag-manager-noscript.html %}
