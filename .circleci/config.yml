@@ -31,7 +31,8 @@ jobs:
       - save_cache:
           paths:
             - node_modules
-          key: yarn-packages-v2-{{ .Branch }}-{{ checksum "yarn.lock" }}
+          key: yarn-packages-v1-{{ .Branch }}-{{ checksum "yarn.lock" }}
+      - run: yarn build-assets
       - run:
           name: Build deploy scripts
           command: node deploy.js
