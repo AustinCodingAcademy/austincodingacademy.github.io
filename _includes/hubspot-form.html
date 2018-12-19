@@ -1,0 +1,23 @@
+<style>
+  .form-columns-2, .form-columns-1, .form-columns-3, .hs-input {
+    max-width: 100% !important;
+  }
+  [type='text'],  {
+    width: 100% !important;
+  }
+  .hs-form-field:nth-child(2), .hs-form-field:nth-child(3) {
+    padding-left: 10px;
+  }
+</style>
+<div style="display: flex; justify-content: center">
+  <!--[if lte IE 8]>
+  <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+  <![endif]-->
+  <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+  <script>
+    hbspt.forms.create({
+    portalId: "4009818",
+    formId: "{{include.form_id}}"
+  });
+  </script>
+</div>

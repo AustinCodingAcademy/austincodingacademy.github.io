@@ -31,11 +31,7 @@
         </button>
         <a class="navbar-brand" href="/" >
           <span class="hide-link-text">ACA logo as link to homepage</span>
-          {% if site.key == 'austin' %}
-            <object type="image/svg+xml" data="/aca-logo.svg" aria-hidden="true" style="height: 100%"></object>
-          {% else %}
-            <object type="image/svg+xml" data="/logo.svg" aria-hidden="true" style="height: 100%"></object>
-          {% endif %}
+          <object type="image/svg+xml" data="/assets/images/{{site.key}}-logo.svg" aria-hidden="true" style="height: 100%"></object>
         </a>
       </div>
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
