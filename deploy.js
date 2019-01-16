@@ -3,7 +3,6 @@ const yaml = require('js-yaml');
 const packageJson = require('./package.json');
 
 [
-  'austin',
   'lubbock'
 ].forEach(key => buildScript(key, 'deploy'));
 
