@@ -2,11 +2,9 @@ const fs = require('fs');
 const yaml = require('js-yaml');
 const packageJson = require('./package.json');
 
-[
-  'lubbock'
-].forEach(key => buildScript(key, 'deploy'));
+['lubbock'].forEach(key => buildScript(key, 'deploy'));
 
-['austin'].forEach(key => buildScript(key, 'deploy-preview'));
+['lubbock'].forEach(key => buildScript(key, 'deploy-preview'));
 
 function buildScript(key, deployScript) {
   const preview = deployScript.includes('preview') ? 'preview.' : '';
