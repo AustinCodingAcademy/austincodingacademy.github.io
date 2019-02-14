@@ -11,7 +11,7 @@ course:
   - question: Who will I be sitting next to in class?
     answer: >
       Our students are engineers, artists, writers, entrepreneurs, financial analysts, and folks fresh from college. People who are looking to start a new career and web development, and are just as passionate about web development as you are.
-  
+
 school:
   - question: Will I be ready for a job after this?
     answer: >
@@ -37,6 +37,8 @@ school:
   - question: Do you offer financing?
     answer: >
       Yes, we offer financing in partnership with Skills Fund: <a href="https://austincodingacademy.skills.fund/">Apply Here</a>
+    lubbock: >
+      Yes, we are able to offer financial assistance, set up a meeting with our Campus Director, <a href="mailto:jake@lubbockcodingacademy.com">jake@lubbockcodingacademy.com</a>, to learn more.
 
   - question: What are your class dates?
     answer: >

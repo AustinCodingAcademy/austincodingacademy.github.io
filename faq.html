@@ -62,7 +62,13 @@ head: >
         {% for faq in site.data.faqs.school %}
         <h3 id="{{faq.question | replace_regex: ' ', '' | replace_regex: '\?', ''}}">{{faq.question}}</h3>
         <hr class="brand-hr">
-        <p>{{faq.answer}}</p>
+        <p>
+          {% if faq[site.key] %}
+            {{ faq[site.key] }}
+          {% else %}
+            {{ faq.answer }}
+          {% endif %}
+        </p>
         <br>
         {% endfor %}
       </div>

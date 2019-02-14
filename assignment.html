@@ -1,0 +1,24 @@
+---
+layout: default
+permalink: /assignment/
+title: New Student Assignment
+head: >
+  <style>
+    .form-columns-2, .form-columns-1, .hs-input {
+      max-width: 100% !important;
+    }
+    .hs-input {
+      width: 100% !important;
+    }
+    .hs-form-field:nth-child(2) {
+      padding-left: 10px;
+    }
+  </style>
+---
+<section>
+  <div class="container">
+    <h1 style="text-align: center">New Student Assignment</h1>
+    <br />
+    {% include hubspot-form.html form_id=site.assignment_form_id %}
+  </div>
+</section>

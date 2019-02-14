@@ -5,40 +5,20 @@ title: Apply Now | Learn How To Code At {{ site.city }} Coding Academy
 description: >
   Apply now. Complete and submit your {{ site.city }} Coding Academy application. Take the first step toward a new career in web development.
 head: >
-  <style>
-    .hbspt-form {
-      display: flex;
-      justify-content: center;
-    }
-    .strong-apply-styled {
-      color: black;
-      font-weight: bolder;
-    }
-    .apply small {
-      color: #767676;
-    }
-    .hs-form-required {
-    color: rgb(189, 3, 3) !important;
-  }
-  </style>
 ---
-{% include application-process.html %}
 <section>
   <div class="container text-center apply">
-    <div class="row">
-      <div class="col-xs-12">
-        <h1 id="apply">
-          Ready to apply?
-          <br />
-          <small>
-            After you complete the application, you will be prompted to
-            schedule a <strong class="strong-apply-styled">15 minute Admissions Phone Interview.</strong> Congrats on taking the first
-            step to a new career in web development!
-          </small>
-        </h1>
-      </div>
-    </div>
-    {% include application-iframe.html form="application.html" id="application" %}
+    {% include application-process.html %}
+    <h1 id="apply">
+      Ready to apply?
+      <br />
+      <small>
+        After you complete the application, you will be prompted to
+        schedule a <strong class="strong-apply-styled">15 minute Admissions Phone Interview.</strong> Congrats on taking the first
+        step to a new career in web development!
+      </small>
+    </h1>
+    {% include hubspot-form.html form_id=site.application_form_id %}
   </div>
 </section>
 

@@ -1,3 +1,17 @@
+- name: Christa Clark
+  img: /assets/images/christa.jpg
+  current_role: Lead UX/UI Designer at SkunkworxLab
+  review: >
+    "The people who run it are awesome and are very motivated to help
+    people learn, hence the low prices. I loved the front-end beginner class
+    (HTML, CSS, and some JavaScript). I had no prior experience with front-end or
+    coding at all, and am now building websites on my own and making a great
+    income from freelance work full-time. It required a lot of learning outside of
+    class and working on things every day is crucial. I loved the productive
+    environment and the teachers are very knowledgable. They gave me the right
+    amount of structure, answered all of my questions, and set up a good
+    foundation."
+
 - name: Luke Stenis
   img: /assets/images/luke-stenis-testimonial.png
   current_role: Implementation Engineer at Invodo Inc.
@@ -57,20 +71,6 @@
     teachers and staff of ACA. Everyone down to the owners are very involved in
     your education and are more than willing to help you understand anything you
     may be struggling with."
-
-- name: Christa Clark
-  img: /assets/images/christa.jpg
-  current_role: Lead UX/UI Designer at SkunkworxLab
-  review: >
-    "The people who run it are awesome and are very motivated to help
-    people learn, hence the low prices. I loved the front-end beginner class
-    (HTML, CSS, and some JavaScript). I had no prior experience with front-end or
-    coding at all, and am now building websites on my own and making a great
-    income from freelance work full-time. It required a lot of learning outside of
-    class and working on things every day is crucial. I loved the productive
-    environment and the teachers are very knowledgable. ACA gave me the right
-    amount of structure, answered all of my questions, and set up a good
-    foundation."
 
 - name: Natalie Doucet
   img: /assets/images/natalie.jpg

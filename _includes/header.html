@@ -31,18 +31,14 @@
         </button>
         <a class="navbar-brand" href="/" >
           <span class="hide-link-text">ACA logo as link to homepage</span>
-          {% if site.key == 'austin' %}
-            <object type="image/svg+xml" data="/aca-logo.svg" aria-hidden="true" style="height: 100%"></object>
-          {% else %}
-            <object type="image/svg+xml" data="/logo.svg" aria-hidden="true" style="height: 100%"></object>
-          {% endif %}
+          <object type="image/svg+xml" data="/assets/images/{{site.key}}-logo.svg" aria-hidden="true" style="height: 100%"></object>
         </a>
       </div>
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
 
           <li><a href="/why">Why Us</a></li>
-          {% if site.tracks.length %}
+          {% if site.tracks.size > 0 %}
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Tracks
               <span class="caret" aria-hidden></span>
@@ -62,7 +58,9 @@
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">More <span class="caret" aria-hidden></span></a>
             <ul class="dropdown-menu" role="menu">
+              {% if site.key == 'austin' %}
               <li><a href="https://blog.austincodingacademy.com">Blog</a></li>
+              {% endif %}
               <li><a href="/contact">Contact</a></li>
               <li><a href="/instructor-apply">Join the Team</a></li>
             </ul>
