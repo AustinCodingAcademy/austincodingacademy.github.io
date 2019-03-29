@@ -87,6 +87,16 @@ head: >
     {% include syllabus-capture.html %}
   </div>
 </section>
+<section>
+  <div class="container">
+    <h2>
+      <i class="fa fa-calendar"></i> UPCOMING<span class="text-success"> EVENTS</span>
+      <br>
+      <hr class="brand-hr">
+    </h2>
+    <div class="row-eq" id="upcoming-events"></div>
+  </div>
+</section>
 <section id="important-dates" class="bg-info">
   <div class="container">
     {% include important-dates.html %}
@@ -111,16 +121,6 @@ head: >
   </div>
 </section>
 {% if site.key == 'austin' %}
-<section>
-  <div class="container">
-    <h2>
-      <i class="fa fa-calendar"></i> UPCOMING<span class="text-success"> EVENTS</span>
-      <br>
-      <hr class="brand-hr">
-    </h2>
-    <div class="row-eq" id="upcoming-events"></div>
-  </div>
-</section>
 <section>
   <div class="container">
     {% include companies.html %}

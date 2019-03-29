@@ -44,8 +44,8 @@ $(function() {
 
   equalize();
 
-  if (campusKey === 'austin') {
-    $.ajax('https://www.eventbriteapi.com/v3/organizers/10937668459/events/?token=EFX5TSXYKK76RPDJSNBW&only_public=true&order_by=start_asc&start_date.range_start=' + moment.utc().subtract(1, 'day').format(), {
+  if (campusKey === 'lubbock') {
+    $.ajax('https://www.eventbriteapi.com/v3/organizers/18046524539/events/?token=EFX5TSXYKK76RPDJSNBW&only_public=true&order_by=start_asc&start_date.range_start=' + moment.utc().subtract(1, 'day').format(), {
       success: function (response) {
         var $upcomingEvents = $('<div class="row"></div>');
         response.events.slice(0, 7).forEach(function (event) {
