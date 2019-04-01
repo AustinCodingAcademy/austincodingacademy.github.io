@@ -50,3 +50,22 @@ jobs:
               node events.js
               yarn deploy
               fi
+
+workflows:
+  version: 2
+  commit:
+    jobs:
+     - build:
+        filters:
+          branches:
+            ignore: gh-pages
+  hourly:
+    triggers:
+      - schedule:
+          cron: "0 * * * *"
+          filters:
+            branches:
+              only:
+                - master
+    jobs:
+      - build
