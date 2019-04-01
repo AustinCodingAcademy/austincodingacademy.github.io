@@ -1,17 +1,16 @@
-<div class="d-flex flex-wrap justify-content-around justify-content-sm-center">
+<div class="row">
   {% for event in site.data.events %}
-    <div class="card card-frame text-center m-2 mw-22">
+    <div class="col-4 card card-frame text-center m-2">
       <!-- Card -->
       <div class="card-body p-6">
         <div class="mx-auto mb-4">
-          <amp-img
+          <img
             width="{{ event.width | default: 400 }}"
             height="{{ event.height | default: 200 }}"
-            layout="responsive"
             class="img-fluid rounded"
             src="{{event.img}}"
             alt="{{event.name}}"
-          ></amp-img
+          ></img>
         </div>
         <div class="mb-4">
           <h5 class="mb-1">{{event.name}}</h5>
