@@ -40,6 +40,7 @@ jobs:
               if [ "${CIRCLE_BRANCH}" == "preview" ]; then
               git config --global user.email "kevin@austincodingacademy.com"
               git config --global user.name "Kevin Colten"
+              node events.js
               yarn deploy-preview
               fi
               if [ "${CIRCLE_BRANCH}" == "master" ]; then
