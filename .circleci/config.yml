@@ -1,8 +1,6 @@
 version: 2
 jobs:
   build:
-    branches:
-      ignore: gh-pages
     docker:
       - image: circleci/ruby:2.5.1-node-browsers
 
@@ -42,10 +40,31 @@ jobs:
               if [ "${CIRCLE_BRANCH}" == "preview" ]; then
               git config --global user.email "kevin@austincodingacademy.com"
               git config --global user.name "Kevin Colten"
+              node events.js
               yarn deploy-preview
               fi
               if [ "${CIRCLE_BRANCH}" == "master" ]; then
               git config --global user.email "kevin@austincodingacademy.com"
               git config --global user.name "Kevin Colten"
+              node events.js
               yarn deploy
               fi
+
+workflows:
+  version: 2
+  commit:
+    jobs:
+     - build:
+        filters:
+          branches:
+            ignore: gh-pages
+  hourly:
+    triggers:
+      - schedule:
+          cron: "0 * * * *"
+          filters:
+            branches:
+              only:
+                - master
+    jobs:
+      - build

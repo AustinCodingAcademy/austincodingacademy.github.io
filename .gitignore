@@ -19,6 +19,7 @@ assets/favicons
 _includes/stylesheets
 _includes/favicon.html
 faviconData.json
+_data/events.yml
 
 *.log
 *.orig
