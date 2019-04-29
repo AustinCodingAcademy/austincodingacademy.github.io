@@ -1,5 +1,5 @@
 {
-  "name": "austincodingacademy.com",
+  "name": "lubbockcodingacademy.com",
   "version": "1.0.0",
   "description": "",
   "private": true,
@@ -10,7 +10,7 @@
     "sass": "node-sass --output-style compressed -o assets/stylesheets/ _sass/$KEY.scss",
     "sass-include": "mkdir -p _includes/stylesheets && cp -R assets/stylesheets/. _includes/stylesheets",
     "sitemap-generator": "(http-server _site &) && (sitemap-generator http://127.0.0.1:8080 > _site/sitemap.xml)",
-    "serve": "yarn sass && yarn sass-include && bundle exec jekyll serve --config _configs/_config.yml,_configs/_config_$KEY.yml",
+    "serve": "yarn sass && yarn sass-include && bundle exec jekyll serve --config _configs/_config_lubbock.yml,_configs/_config_$KEY.yml",
     "favicon-inject": "echo '' > _includes/favicon.html && real-favicon inject faviconData.json assets/favicons _includes/favicon.html && mv assets/favicons/favicon.html _includes/favicon.html",
     "no-robots": "touch robots.txt && echo 'User-agent: *' > robots.txt && echo 'Disallow: /' >> robots.txt",
     "watch": "npm-watch",
@@ -20,8 +20,8 @@
     "sitemap": "npm run sitemap-generator && sed -i \"s|http://127.0.0.1:8080|https://$(echo $KEY)codingacademy.com|g\" _site/sitemap.xml",
     "cname": "echo \"$(echo $PREVIEW)$(echo $KEY)codingacademy.com\" >> _site/CNAME",
     "repo": "cp -R .circleci/ _site/.circleci/ && gh-pages --repo \"git@github.com:AustinCodingAcademy/$(echo $PREVIEW)$(echo $KEY)codingacademy.com.git\" --dotfiles -d ./_site",
-    "deploy": "yarn clear-cache",
-    "deploy-preview": "yarn clear-cache",
+    "deploy": "yarn clear-cache && KEY=lubbock yarn sass && yarn sass-include && KEY=lubbock yarn build && KEY=lubbock yarn favicon && KEY=lubbock yarn build && KEY=lubbock yarn sitemap && PREVIEW= KEY=lubbock yarn cname && PREVIEW= KEY=lubbock yarn repo && yarn clear-cache",
+    "deploy-preview": "yarn clear-cache && KEY=lubbock yarn sass && yarn sass-include && KEY=lubbock yarn build && KEY=lubbock yarn favicon && KEY=lubbock yarn build && yarn no-robots && PREVIEW=preview. KEY=lubbock yarn cname && PREVIEW=preview. KEY=lubbock yarn repo && yarn clear-cache",
     "build-assets": "npm rebuild && npm run js && npm run images"
   },
   "watch": {

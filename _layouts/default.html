@@ -31,10 +31,12 @@
         "availableLanguage": "English"
       },
       "sameAs": [
-        {% if site.facebook %}"https://www.facebook.com/LubbockCodingAcademy/"{%endif%}
-        {% if site.twitter %},"https://twitter.com/LubbockCoding"{%endif%}
-        {% if site.instagram %},"https://www.instagram.com/lubbockcodingacademy/"{%endif%}
-      ]
+        {% if site.facebook %}{{site.facebook}}{%endif%}
+        {% if site.twitter %}{{site.twitter}}{%endif%}
+        {% if site.instagram %}{{site.instagram}}{%endif%}
+        {% if site.linkedin %}{{site.linkedin}}{%endif%}
+        {% if site.googleplus %}{{site.googleplus}}{%endif%}
+        ]
     }
     </script>
 </head>
