@@ -20,8 +20,8 @@
     "sitemap": "npm run sitemap-generator && sed -i \"s|http://127.0.0.1:8080|https://$(echo $KEY)codingacademy.com|g\" _site/sitemap.xml",
     "cname": "echo \"$(echo $PREVIEW)$(echo $KEY)codingacademy.com\" >> _site/CNAME",
     "repo": "cp -R .circleci/ _site/.circleci/ && gh-pages --repo \"git@github.com:AustinCodingAcademy/$(echo $PREVIEW)$(echo $KEY)codingacademy.com.git\" --dotfiles -d ./_site",
-    "deploy": "yarn clear-cache && KEY=lubbock yarn sass && yarn sass-include && KEY=lubbock yarn build && KEY=lubbock yarn favicon && KEY=lubbock yarn build && KEY=lubbock yarn sitemap && PREVIEW= KEY=lubbock yarn cname && PREVIEW= KEY=lubbock yarn repo && yarn clear-cache",
-    "deploy-preview": "yarn clear-cache && KEY=lubbock yarn sass && yarn sass-include && KEY=lubbock yarn build && KEY=lubbock yarn favicon && KEY=lubbock yarn build && yarn no-robots && PREVIEW=preview. KEY=lubbock yarn cname && PREVIEW=preview. KEY=lubbock yarn repo && yarn clear-cache",
+    "deploy": "yarn clear-cache",
+    "deploy-preview": "yarn clear-cache",
     "build-assets": "npm rebuild && npm run js && npm run images"
   },
   "watch": {
