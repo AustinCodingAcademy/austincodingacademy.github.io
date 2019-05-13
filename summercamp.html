@@ -1,0 +1,103 @@
+---
+layout: default
+permalink: /summercamp/
+title: Lubbock Coding Academy Summer Camp at Frenship Independent School District
+description: >
+  Coding classes for beginners: Learn to code responsive websites, build interactive apps, and become a job-ready web developer at {{ site.city }} Coding Academy in just ten months.
+head: >
+  <style media="screen">
+    section:first-child {
+      background-image: url('/assets/images/laptop-arms.jpg');
+      padding: 50px 0;
+      background-size: cover;
+      background-position: center top;
+    }
+    section:first-child h1 {
+      text-shadow: black 1px 1px 5px;
+    }
+  </style>
+---
+<section class="bg-gray-darker">
+  <div class="container">
+    <h1 class="text-white">
+      Lubbock Coding Academy Summer Camp at Frenship ISD
+      <br>
+      <small class="text-white">
+        {{ site.city }} Coding Academy benefits and supports students every step of their
+        journey to a new career
+      </small>
+    </h1>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 hidden-xs">
+        <img src="/assets/images/kids-coding.jpg" alt="Table Shot" class="img-responsive">
+      </div>
+      <div class="col-xs-12 col-sm-6">
+        <h3>
+          KIDS BENEFIT FROM A CODING EDUCATION AT <span class="uppercase">{{ site.city }} Coding Academy</span> EVERY STEP OF THE WAY -
+          <br>
+          <hr class="brand-hr">
+          <small>
+            <ul class="list-unstyled">
+              <li><h4>New, secure career</h4></li>
+              <li><h4>Positive culture fit</h4></li>
+              <li><h4>Challenging, enjoyable work</h4></li>
+              <li><h4>High Compensation</h4></li>
+              <li><h4>Continued career growth</h4></li>
+              <!-- <li><h4>Giving back</h4></li> -->
+            </ul>
+          </small>
+        </h3>
+      </div>
+    </div>
+
+    <div class="row ">
+      <div class="col-xs-12 col-sm-6">
+        <h3>
+          AGE GROUPS
+          <small>
+            <ul class="list-unstyled">
+              <li><h4>Part time, {{site.classtimes}}</h4></li>
+              <li><h4>2 nights a week</h4></li>
+            </ul>
+          </small>
+        </h3>
+      </div>
+      <div class="col-xs-12 col-sm-6 hidden-xs">
+        <img src="/assets/images/kids-coding2.jpg" alt="Table Shot" class="img-responsive">
+      </div>
+    </div>
+
+    </div>
+    <div class="row">
+      <div class="text-center">
+        <h3>
+          SCHEDULE
+          <br>
+          <small>
+            <ul class="list-unstyled">
+              <li><h4>Assigned study groups</h4></li>
+              <li><h4>Student Success Advocate</h4></li>
+              <li><h4>Instructors, TA's, Alumni, Mentors</h4></li>
+              <li><h4>Learning Management System</h4></li>
+              <li><h4>Assigned study groups</h4></li>
+              <li><h4>Student Success Advocate</h4></li>
+              <li><h4>Instructors, TA's, Alumni, Mentors</h4></li>
+              <li><h4>Learning Management System</h4></li>
+            </ul>
+          </small>
+        </h3>
+      </div>
+    </div>
+    <section>
+      <div class="container">
+        <h3 style="text-align: center">REGISTER YOUR CHILD HERE</h3>
+        <br />
+        {% include hubspot-form.html form_id=site.assignment_form_id %}
+      </div>
+    </section>
+  </div>
+</section>
