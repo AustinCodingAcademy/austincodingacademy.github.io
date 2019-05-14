@@ -31,12 +31,11 @@
         "availableLanguage": "English"
       },
       "sameAs": [
-        {% if site.facebook %}"https://www.facebook.com/AustinCodingAcademy"{%endif%}
-        {% if site.twitter %},"https://twitter.com/AustinCoding"{%endif%}
-        {% if site.googleplus %},"https://plus.google.com/+AustinCodingAcademy"{%endif%}
-        {% if site.instagram %},"https://www.instagram.com/austincodingacademy"{%endif%}
-        {% if site.linkedin %},"https://www.linkedin.com/company/austin-coding-academy"{%endif%}
-      ]
+        {% if site.facebook %}{{site.facebook}}{%endif%}
+        {% if site.twitter %},{{site.twitter}}{%endif%}
+        {% if site.instagram %},{{site.instagram}}{%endif%}
+        {% if site.linkedin %},{{site.linkedin}}{%endif%}
+        ]
     }
     </script>
 </head>
