@@ -1,5 +1,5 @@
 {
-  "name": "austincodingacademy.com",
+  "name": "lubbockcodingacademy.com",
   "version": "1.0.0",
   "description": "",
   "private": true,
@@ -10,7 +10,7 @@
     "sass": "node-sass --output-style compressed -o assets/stylesheets/ _sass/$KEY.scss",
     "sass-include": "mkdir -p _includes/stylesheets && cp -R assets/stylesheets/. _includes/stylesheets",
     "sitemap-generator": "(http-server _site &) && (sitemap-generator http://127.0.0.1:8080 > _site/sitemap.xml)",
-    "serve": "yarn sass && yarn sass-include && bundle exec jekyll serve --config _configs/_config.yml,_configs/_config_$KEY.yml",
+    "serve": "yarn sass && yarn sass-include && bundle exec jekyll serve --config _configs/_config_lubbock.yml,_configs/_config_$KEY.yml",
     "favicon-inject": "echo '' > _includes/favicon.html && real-favicon inject faviconData.json assets/favicons _includes/favicon.html && mv assets/favicons/favicon.html _includes/favicon.html",
     "no-robots": "touch robots.txt && echo 'User-agent: *' > robots.txt && echo 'Disallow: /' >> robots.txt",
     "watch": "npm-watch",
