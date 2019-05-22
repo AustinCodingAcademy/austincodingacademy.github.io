@@ -3,11 +3,11 @@
   <div class="u-header__section">
     <div id="logoAndNav" class="container">
       <!-- Nav -->
-      <nav class="js-mega-menu navbar navbar-expand-md u-header__navbar">
+      <nav class="js-mega-menu navbar navbar-expand-md navbar-inverse u-header__navbar">
         <!-- Logo -->
-        <a class="navbar-brand u-header__navbar-brand" href="https://lubbockcodingacademy.com"
-          aria-label="Front">
-          <object type="image/svg+xml" data="/assets/images/{{site.key}}-logo.svg" aria-hidden="true" style="height: 45px"></object>
+        <a class="navbar-brand" href="https://lubbockcodingacademy.com">
+          <span class="d-none position-relative">ACA logo as link to homepage</span>
+          <object type="image/svg+xml" data="/assets/images/{{site.key}}-logo.svg" aria-hidden="true" style="height: 50px; position: relative; z-index: -10000;"></object>
         </a>
         <!-- End Logo -->
 
@@ -32,7 +32,7 @@
             <!-- End Why Us - Link -->
 
             <!-- Tracks -->
-            <li class="nav-item hs-has-sub-menu u-header__nav-item"
+            <!-- <li class="nav-item hs-has-sub-menu u-header__nav-item"
                 data-event="hover"
                 data-animation-in="slideInUp"
                 data-animation-out="fadeOut">
@@ -42,7 +42,7 @@
                 aria-labelledby="tracksSubMenu">
                 Tracks
                 <span class="fa fa-angle-down u-header__nav-link-icon"></span>
-              </a>
+              </a> -->
 
               <!-- Tracks - Submenu -->
               <ul id="tracksSubMenu" class="list-inline hs-sub-menu u-header__sub-menu py-1 mb-0" aria-labelledby="tracksMegaMenu">
@@ -60,7 +60,7 @@
 
             <!-- Tuition - Link -->
             <li class="nav-item">
-              <a class="nav-link u-header__nav-link" href="/tuition.html">
+              <a class="nav-link u-header__nav-link" href="/tuition">
                 Tuition
               </a>
             </li>
@@ -68,7 +68,7 @@
 
             <!-- FAQ - Link -->
             <li class="nav-item">
-              <a class="nav-link u-header__nav-link" href="/faq.html">
+              <a class="nav-link u-header__nav-link" href="/faq">
                 FAQ
               </a>
             </li>
