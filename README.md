@@ -18,12 +18,7 @@
   1. `yarn`
 
 ## Development
-1. To build and rebuild assets on any change, keep this running in a terminal
-window:
-  * `KEY=lubbock yarn watch`
-1. To serve individual sites and update on a change, keep any one of these running
-in its own terminal window
-  * `KEY=lubbock yarn serve`
+1. `yarn start`
 1. Navigate to http://127.0.0.1:4000
   * Every change you make will regenerate the site
 
