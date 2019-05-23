@@ -16,7 +16,7 @@
     "watch": "npm-watch",
     "clear-cache": "rm -rf node_modules/gh-pages/.cache",
     "favicon": "real-favicon generate _site/favicon.json faviconData.json assets/favicons/ && npm run favicon-inject",
-    "build": "bundle exec jekyll build --config _configs/_config.yml,_configs/_config_$KEY.yml",
+    "build": "bundle exec jekyll build --config _configs/_config.yml,_configs/_config$KEY.yml",
     "sitemap": "npm run sitemap-generator && sed -i \"s|http://127.0.0.1:8080|https://$(echo $KEY)codingacademy.com|g\" _site/sitemap.xml",
     "cname": "echo \"$(echo $PREVIEW)$(echo $KEY)codingacademy.com\" >> _site/CNAME",
     "repo": "cp -R .circleci/ _site/.circleci/ && gh-pages --repo \"git@github.com:AustinCodingAcademy/$(echo $PREVIEW)$(echo $KEY)codingacademy.com.git\" --dotfiles -d ./_site",
