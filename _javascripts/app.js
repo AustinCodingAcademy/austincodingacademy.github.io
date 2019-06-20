@@ -52,7 +52,7 @@ $(function() {
           $upcomingEvents.append(`
           <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="panel">
-              <div class="panel-body equalizer">
+              <div class="panel-body" style="height: 480px">
                 <img src="${(event.logo) ? event.logo.url : ''}" class="img-responsive" style="width:100% !important;" alt="event image">
                 <div class="media">
                   ${moment.utc(event.start.local).format('ddd, MMM Do, YYYY h:mma')} - ${moment.utc(event.end.local).format('h:mma')}
