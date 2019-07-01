@@ -8,6 +8,7 @@
     "http://localhost:8080/tuition/",
     "http://localhost:8080/faq/",
     "http://localhost:8080/contact/",
+    "http://localhost:8080/referral/",
     "http://localhost:8080/instructor-apply/",
     "http://localhost:8080/apply/"
   ]
