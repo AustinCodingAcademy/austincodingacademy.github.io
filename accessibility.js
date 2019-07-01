@@ -16,6 +16,7 @@ const routes = [
   '/tuition/',
   '/faq/',
   '/contact/',
+  '/referral/',
   '/instructor-apply/',
   '/apply/'
 ];
