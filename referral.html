@@ -1,0 +1,151 @@
+---
+layout: default
+permalink: /referral/
+application_form_id: 416c7536-e431-4d6a-9ea4-c7b4c5c80962
+title: Referral Program | {{ site.city }} Coding Academy
+description: >
+  {{ site.city }} Coding Academy is a web development and coding school with locations in
+  {{ city }}. Visit us to learn more about our story.
+head: >
+  <style media="screen">
+    section:first-child {
+      background-image: url('/assets/images/new-student-referral.jpg');
+      padding: 50px 0;
+      background-size: cover;
+      background-position: center top;
+    }
+    section:first-child h1 {
+      text-shadow: black 1px 1px 5px;
+    }
+    .panel-body~.panel-body {
+      padding: 5px;
+    }
+    .underline {
+      text-decoration: underline;
+    }
+    .list-styled {
+      min-width: 200px;
+    }
+    .descript {
+      font-size: 2rem;
+      color: #767676;
+    }
+    .margin-bottom {
+      margin-bottom: 2rem;
+    }
+
+  </style>
+bullets:
+- Rewards for referrals apply to students who enroll in the Lubbock Coding Academy Full Stack Web Development Track
+- Referred students must complete at least 3 weeks of class for referral benefits to be awarded – at that point, a
+  member of the LCA team will reach out to both parties.
+- You can refer as many students as you like to sign up for our classes
+- The $50 referral credits will be awarded in the form of a Visa/Amazon gift card
+
+---
+<section class="bg-gray-darker">
+  <div class="container">
+    <h1 class="text-white">
+      Lubbock Coding Academy New Student Referrals
+      <br>
+      <small class="text-white">
+        Earn $50 each for you and a friend when they become a student of Lubbock Coding Academy
+      </small>
+    </h1>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="row row-eq">
+      <div class="w-75">
+        <p class="descript text-center">
+          Students at Lubbock Coding Academy come from all walks of life, but they each share one common trait;
+          every LCA student is committed to learning and improving, whether they’re hoping to launch a more rewarding
+          career, adding a new skill to their repertoire, or transforming a great idea into a new company. The best
+          way to grow Lubbock Coding Academy and continue to make sure that people have access to an affordable and
+          practical web development education is by spreading the word.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="container margin-bottom">
+  <h2>
+    <span class="text-success text-ada-bold">How Does It Work?</span>
+    <br>
+    <hr class="brand-hr">
+  </h2>
+  <p class="descript ml-2">
+    Lubbock Coding Academy’s referral process is simple. Current students, graduates, and instructors who want to share the
+    benefits of learning with LCA will be rewarded for growing the community. LCA will be awarding referral bonuses to both
+    current students, grads, and instructors who refer new students, and to referred students who enroll in classes. Both
+    the new student and the referring student, graduate, or instructor will receive a $50 Amazon gift card for helping build
+    our community. Simply enter your information at the bottom of this page and document which current Lubbock Coding Academy
+    student, staff, or instructor referred you to the program. Once you apply, make sure to mention that you are taking advantage
+    of the student referral program.
+  </p>
+</div>
+
+<div class="container margin-bottom">
+  <h2>
+    <span class="text-success text-ada-bold">Who Should I Refer?</span>
+    <br>
+    <hr class="brand-hr">
+  </h2>
+  <p class="descript ml-2">
+    Know someone else who is committed to improvement? Maybe a friend, family member, or coworker who is looking for a career
+    change or to add a new set of skills to their current job? Don’t be shy, let them know about our program. Lubbock Coding Academy
+    is here to help people who are looking to improve their lives. We’re proud of how strong our community is, so adding someone who
+    shares our values makes all of us better.
+  </p>
+</div>
+
+<div class="container margin-bottom">
+  <h2>
+    <span class="text-success text-ada-bold">Why Should I Refer Someone?</span>
+    <br>
+    <hr class="brand-hr">
+  </h2>
+  <p class="descript ml-2">
+    Referrals help keep the LCA community growing, and it’s always extra rewarding to help someone you care about succeed. By
+    referring someone to LCA, you’re giving that person the opportunity to improve their lives by gaining a valuable and in-demand
+    skill. It’s exciting to see friends and family members work together in our program and strive towards making meaningful changes
+    in their careers, together. Let’s keep that up!
+  </p>
+</div>
+
+<div class="container margin-bottom">
+  <h2>
+    <span class="text-success text-ada-bold">What Are The Rules?</span>
+    <br>
+    <hr class="brand-hr">
+  </h2>
+  <p class="descript ml-2">
+    Here are the key things you need to know about how our referral program works:
+  </p>
+  <ul>
+    {% for bullet in page.bullets %}
+      <li>
+        {{ bullet }}
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<div class="container margin-bottom">
+  <h2>
+    <span class="text-success text-ada-bold">Questions?</span>
+    <br>
+    <hr class="brand-hr">
+  </h2>
+  <p class="descript ml-2">
+    Have additional questions about the Referral Program? Email info@lubbockcodingacademy.com
+    with the subject line “Referral Program” with your question, and a member of the LCA team will
+    get back to you with an answer!
+  </p>
+</div>
+
+<section>
+  {% include hubspot-form.html form_id=page.application_form_id %}
+</section>
